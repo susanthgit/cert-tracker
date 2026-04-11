@@ -19,6 +19,7 @@ import sys
 
 SITE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site")
 CURRENT_STATE = os.path.join(SITE_DIR, "current_state.json")
+RELATED_EXAMS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "related_exams.json")
 HUGO_CONTENT_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     "..", "aguidetocloud-revamp", "content", "cert-tracker"
@@ -134,7 +135,7 @@ def get_domain_description(domain_name, exam_category):
     return f"This domain covers the skills needed to work with the topics described below. Study each objective carefully and use the linked resources to deepen your understanding."
 
 
-def generate_page(exam):
+def generate_page(exam, related_map=None, all_exams=None):
     """Generate an enhanced study guide page for an exam."""
     code = exam["code"]
     title = exam["title"]
@@ -290,6 +291,35 @@ def generate_page(exam):
         lines.append("Skills measured have not been published yet for this beta exam. Check the [official exam page](https://learn.microsoft.com/en-us/credentials/certifications/exams/" + code_lower + "/) for updates.")
         lines.append("")
 
+    # What to Study Next (related exams)
+    if related_map and all_exams and code in related_map:
+        related_codes = related_map[code]
+        related_items = []
+        for rc in related_codes:
+            if rc in all_exams:
+                re_exam = all_exams[rc]
+                re_level = LEVEL_LABELS.get(re_exam.get("level", ""), "")
+                re_status = re_exam.get("status", "active")
+                status_tag = ""
+                if re_status == "retiring":
+                    status_tag = " ⚠️ Retiring"
+                elif re_status == "beta":
+                    status_tag = " 🧪 Beta"
+                elif re_status == "retired":
+                    status_tag = " 🚫 Retired"
+                related_items.append(
+                    f"- [{rc}: {re_exam.get('title', '')}](/cert-tracker/{rc.lower()}/) — {re_level}{status_tag}"
+                )
+        if related_items:
+            lines.append("---")
+            lines.append("")
+            lines.append("## What to Study Next")
+            lines.append("")
+            lines.append("Based on this exam, here are related certifications to consider:")
+            lines.append("")
+            lines.extend(related_items)
+            lines.append("")
+
     # Quick Links
     lines.append("---")
     lines.append("")
@@ -312,6 +342,16 @@ def main():
     with open(CURRENT_STATE, "r", encoding="utf-8") as f:
         state = json.load(f)
 
+    # Load related exams mapping
+    related_map = {}
+    if os.path.exists(RELATED_EXAMS_PATH):
+        with open(RELATED_EXAMS_PATH, "r", encoding="utf-8") as f:
+            related_map = json.load(f)
+        print(f"Loaded related exams: {len(related_map)} mappings")
+
+    # Build lookup of all exams by code
+    all_exams = {e["code"]: e for e in state.get("exams", [])}
+
     output_dir = os.path.abspath(HUGO_CONTENT_DIR)
     generated = 0
     skipped = 0
@@ -325,7 +365,7 @@ def main():
 
         slug = code.lower()
         filepath = os.path.join(output_dir, f"{slug}.md")
-        content = generate_page(exam)
+        content = generate_page(exam, related_map=related_map, all_exams=all_exams)
 
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(content)

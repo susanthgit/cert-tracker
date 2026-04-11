@@ -87,7 +87,7 @@ def generate_index(state: dict, changelog: dict) -> dict:
     }
 
 
-def generate_exam_detail(exam: dict, changelog: dict) -> dict:
+def generate_exam_detail(exam: dict, changelog: dict, related_map: dict = None, all_exams: dict = None) -> dict:
     """Generate per-exam detail JSON."""
     # Get change history for this exam
     exam_changes = [
@@ -96,19 +96,36 @@ def generate_exam_detail(exam: dict, changelog: dict) -> dict:
     ]
     exam_changes.sort(key=lambda x: x.get("detected_at", ""), reverse=True)
 
+    # Build related exams list
+    related = []
+    code = exam["code"]
+    if related_map and all_exams and code in related_map:
+        for rc in related_map[code]:
+            if rc in all_exams:
+                re = all_exams[rc]
+                related.append({
+                    "code": rc,
+                    "title": re.get("title", ""),
+                    "level": re.get("level", ""),
+                    "status": re.get("status", "active"),
+                    "category": re.get("category", "")
+                })
+
     return {
-        "code": exam["code"],
+        "code": code,
         "title": exam["title"],
         "level": exam["level"],
         "roles": exam["roles"],
         "products": exam["products"],
         "category": exam["category"],
+        "status": exam.get("status", "active"),
         "updated_at": exam.get("updated_at", ""),
         "skills_date": exam.get("skills_date", ""),
         "skills_at_a_glance": exam.get("skills_at_a_glance", []),
         "skills_detailed": exam.get("skills_detailed", {}),
         "change_log_official": exam.get("change_log", []),
         "change_history": exam_changes,
+        "related_exams": related,
         "exam_url": exam.get("exam_url", ""),
         "study_guide_url": exam.get("study_guide_url", ""),
         "practice_assessment_url": exam.get("practice_assessment_url", "")
@@ -183,10 +200,17 @@ def main():
     save_json(index_path, index)
     print(f"✅ Index: {index['exam_count']} exams → {index_path}")
 
+    # Load related exams mapping
+    related_path = os.path.join(os.path.dirname(os.path.dirname(SITE_DIR)), "cert-tracker", "scripts", "related_exams.json")
+    related_map = {}
+    if os.path.exists(related_path):
+        related_map = load_json(related_path)
+    all_exams = {e["code"]: e for e in state.get("exams", [])}
+
     # Generate per-exam details
     os.makedirs(EXAMS_DIR, exist_ok=True)
     for exam in state.get("exams", []):
-        detail = generate_exam_detail(exam, changelog)
+        detail = generate_exam_detail(exam, changelog, related_map=related_map, all_exams=all_exams)
         detail_path = os.path.join(EXAMS_DIR, f"{exam['code'].lower()}.json")
         save_json(detail_path, detail)
     print(f"✅ Exam details: {len(state.get('exams', []))} files → {EXAMS_DIR}")
