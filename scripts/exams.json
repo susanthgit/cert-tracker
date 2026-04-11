@@ -1,0 +1,358 @@
+{
+  "_comment": "Curated list of all active Microsoft certification exams. Update manually when exams are added/retired.",
+  "_last_reviewed": "2026-04-11",
+  "exams": [
+    {
+      "code": "AZ-900",
+      "title": "Microsoft Azure Fundamentals",
+      "level": "beginner",
+      "roles": ["administrator", "developer", "solution-architect"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-104",
+      "title": "Microsoft Azure Administrator",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-120",
+      "title": "Planning and Administering Microsoft Azure for SAP Workloads",
+      "level": "advanced",
+      "roles": ["administrator", "solution-architect"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-140",
+      "title": "Configuring and Operating Microsoft Azure Virtual Desktop",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["azure", "azure-virtual-desktop"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-204",
+      "title": "Developing Solutions for Microsoft Azure",
+      "level": "intermediate",
+      "roles": ["developer"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-305",
+      "title": "Designing Microsoft Azure Infrastructure Solutions",
+      "level": "advanced",
+      "roles": ["solution-architect"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-400",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "level": "advanced",
+      "roles": ["devops-engineer"],
+      "products": ["azure", "azure-devops"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-500",
+      "title": "Microsoft Azure Security Technologies",
+      "level": "intermediate",
+      "roles": ["security-engineer"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-700",
+      "title": "Designing and Implementing Microsoft Azure Networking Solutions",
+      "level": "intermediate",
+      "roles": ["network-engineer"],
+      "products": ["azure"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-800",
+      "title": "Administering Windows Server Hybrid Core Infrastructure",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["azure", "windows-server"],
+      "category": "Azure"
+    },
+    {
+      "code": "AZ-801",
+      "title": "Configuring Windows Server Hybrid Advanced Services",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["azure", "windows-server"],
+      "category": "Azure"
+    },
+    {
+      "code": "AI-900",
+      "title": "Microsoft Azure AI Fundamentals",
+      "level": "beginner",
+      "roles": ["ai-engineer", "data-scientist"],
+      "products": ["azure"],
+      "category": "AI"
+    },
+    {
+      "code": "AI-102",
+      "title": "Designing and Implementing a Microsoft Azure AI Solution",
+      "level": "intermediate",
+      "roles": ["ai-engineer"],
+      "products": ["azure"],
+      "category": "AI"
+    },
+    {
+      "code": "DP-900",
+      "title": "Microsoft Azure Data Fundamentals",
+      "level": "beginner",
+      "roles": ["data-engineer", "database-administrator"],
+      "products": ["azure"],
+      "category": "Data"
+    },
+    {
+      "code": "DP-100",
+      "title": "Designing and Implementing a Data Science Solution on Azure",
+      "level": "intermediate",
+      "roles": ["data-scientist"],
+      "products": ["azure"],
+      "category": "Data"
+    },
+    {
+      "code": "DP-300",
+      "title": "Administering Microsoft Azure SQL Solutions",
+      "level": "intermediate",
+      "roles": ["database-administrator"],
+      "products": ["azure"],
+      "category": "Data"
+    },
+    {
+      "code": "DP-420",
+      "title": "Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB",
+      "level": "intermediate",
+      "roles": ["developer"],
+      "products": ["azure", "azure-cosmos-db"],
+      "category": "Data"
+    },
+    {
+      "code": "DP-600",
+      "title": "Implementing Analytics Solutions Using Microsoft Fabric",
+      "level": "intermediate",
+      "roles": ["data-analyst", "data-engineer"],
+      "products": ["fabric"],
+      "category": "Data"
+    },
+    {
+      "code": "DP-700",
+      "title": "Implementing Data Engineering Solutions Using Microsoft Fabric",
+      "level": "intermediate",
+      "roles": ["data-engineer"],
+      "products": ["fabric"],
+      "category": "Data"
+    },
+    {
+      "code": "SC-900",
+      "title": "Microsoft Security, Compliance, and Identity Fundamentals",
+      "level": "beginner",
+      "roles": ["administrator"],
+      "products": ["azure", "m365", "entra-id"],
+      "category": "Security"
+    },
+    {
+      "code": "SC-100",
+      "title": "Microsoft Cybersecurity Architect",
+      "level": "advanced",
+      "roles": ["security-engineer", "solution-architect"],
+      "products": ["azure", "m365"],
+      "category": "Security"
+    },
+    {
+      "code": "SC-200",
+      "title": "Microsoft Security Operations Analyst",
+      "level": "intermediate",
+      "roles": ["security-engineer"],
+      "products": ["azure", "m365"],
+      "category": "Security"
+    },
+    {
+      "code": "SC-300",
+      "title": "Microsoft Identity and Access Administrator",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["azure", "entra-id"],
+      "category": "Security"
+    },
+    {
+      "code": "SC-400",
+      "title": "Administering Information Protection and Compliance in Microsoft 365",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["m365"],
+      "category": "Security"
+    },
+    {
+      "code": "MS-102",
+      "title": "Microsoft 365 Administrator",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["m365"],
+      "category": "Microsoft 365"
+    },
+    {
+      "code": "MS-700",
+      "title": "Managing Microsoft Teams",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["m365", "teams"],
+      "category": "Microsoft 365"
+    },
+    {
+      "code": "MS-721",
+      "title": "Collaboration Communications Systems Engineer",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["m365", "teams"],
+      "category": "Microsoft 365"
+    },
+    {
+      "code": "MS-900",
+      "title": "Microsoft 365 Fundamentals",
+      "level": "beginner",
+      "roles": ["administrator"],
+      "products": ["m365"],
+      "category": "Microsoft 365"
+    },
+    {
+      "code": "MD-102",
+      "title": "Microsoft 365 Endpoint Administrator",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["m365", "intune"],
+      "category": "Microsoft 365"
+    },
+    {
+      "code": "PL-900",
+      "title": "Microsoft Power Platform Fundamentals",
+      "level": "beginner",
+      "roles": ["functional-consultant"],
+      "products": ["power-platform"],
+      "category": "Power Platform"
+    },
+    {
+      "code": "PL-200",
+      "title": "Microsoft Power Platform Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["power-platform"],
+      "category": "Power Platform"
+    },
+    {
+      "code": "PL-300",
+      "title": "Microsoft Power BI Data Analyst",
+      "level": "intermediate",
+      "roles": ["data-analyst"],
+      "products": ["power-bi"],
+      "category": "Power Platform"
+    },
+    {
+      "code": "PL-400",
+      "title": "Microsoft Power Platform Developer",
+      "level": "intermediate",
+      "roles": ["developer"],
+      "products": ["power-platform"],
+      "category": "Power Platform"
+    },
+    {
+      "code": "PL-500",
+      "title": "Microsoft Power Automate RPA Developer",
+      "level": "intermediate",
+      "roles": ["developer"],
+      "products": ["power-automate"],
+      "category": "Power Platform"
+    },
+    {
+      "code": "PL-600",
+      "title": "Microsoft Power Platform Solution Architect",
+      "level": "advanced",
+      "roles": ["solution-architect"],
+      "products": ["power-platform"],
+      "category": "Power Platform"
+    },
+    {
+      "code": "MB-210",
+      "title": "Microsoft Dynamics 365 Sales Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-220",
+      "title": "Microsoft Dynamics 365 Customer Insights (Journeys) Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-230",
+      "title": "Microsoft Dynamics 365 Customer Service Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-240",
+      "title": "Microsoft Dynamics 365 Field Service Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-310",
+      "title": "Microsoft Dynamics 365 Finance Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-330",
+      "title": "Microsoft Dynamics 365 Supply Chain Management Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-500",
+      "title": "Microsoft Dynamics 365 Finance and Operations Apps Developer",
+      "level": "intermediate",
+      "roles": ["developer"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-800",
+      "title": "Microsoft Dynamics 365 Business Central Functional Consultant",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    },
+    {
+      "code": "MB-820",
+      "title": "Microsoft Dynamics 365 Business Central Developer",
+      "level": "intermediate",
+      "roles": ["developer"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365"
+    }
+  ]
+}

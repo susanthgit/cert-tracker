@@ -1,0 +1,87 @@
+name: 📊 Weekly Cert Tracker
+
+on:
+  schedule:
+    # Weekly on Sundays at 5:00 UTC (6 PM NZT)
+    - cron: '0 5 * * 0'
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+  id-token: write  # For Azure OIDC login
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies
+        run: pip install -r requirements.txt --quiet
+
+      - name: 📡 Fetch exam data
+        run: python scripts/fetch_exams.py
+
+      - name: 🔍 Run diff engine
+        run: python scripts/diff_engine.py
+
+      - name: 📊 Generate data files
+        run: python scripts/generate_data.py
+
+      - name: 💾 Commit generated files
+        run: |
+          git config user.name "Cert Tracker Bot"
+          git config user.email "cert-tracker-bot@aguidetocloud.com"
+          git add site/
+          git diff --cached --quiet || git commit -m "📊 Cert tracker update — $(date -u +%Y-%m-%d)" --author="Cert Tracker Bot <cert-tracker-bot@aguidetocloud.com>"
+          git pull --rebase --strategy-option=theirs || (git rebase --abort && git pull --no-rebase -X theirs)
+          git push || true
+
+      - name: 🔄 Update main website with latest data
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_PAT }}
+        run: |
+          git clone https://x-access-token:${GH_TOKEN}@github.com/susanthgit/aguidetocloud-revamp.git /tmp/main-site
+          mkdir -p /tmp/main-site/static/data/cert-tracker/exams
+          cp site/latest.json /tmp/main-site/static/data/cert-tracker/latest.json
+          cp site/rss.xml /tmp/main-site/static/data/cert-tracker/rss.xml
+          cp site/exams/*.json /tmp/main-site/static/data/cert-tracker/exams/
+          cd /tmp/main-site
+          git config user.name "Cert Tracker Bot"
+          git config user.email "cert-tracker-bot@aguidetocloud.com"
+          git add static/data/cert-tracker/
+          git diff --cached --quiet || git commit -m "📊 Cert tracker data update — $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: 🚀 Deploy main website
+        run: |
+          wget -q https://github.com/gohugoio/hugo/releases/download/v0.159.1/hugo_extended_0.159.1_linux-amd64.tar.gz -O /tmp/hugo.tar.gz
+          tar -xzf /tmp/hugo.tar.gz -C /tmp hugo
+          cd /tmp/main-site
+          /tmp/hugo --minify
+          npm install -g @azure/static-web-apps-cli --quiet 2>/dev/null
+          swa deploy /tmp/main-site/public --deployment-token ${{ secrets.MAIN_SITE_SWA_TOKEN }} --env production
+
+  notify-on-failure:
+    runs-on: ubuntu-latest
+    needs: fetch-and-deploy
+    if: failure()
+    steps:
+      - name: 🚨 Create failure issue
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_PAT }}
+        run: |
+          gh issue create \
+            --repo susanthgit/cert-tracker \
+            --title "🚨 Cert tracker pipeline failed — $(date -u +%Y-%m-%d)" \
+            --body "The weekly Cert Tracker workflow failed. Check the [workflow run](https://github.com/susanthgit/cert-tracker/actions) for details." \
+            --label "bug"
