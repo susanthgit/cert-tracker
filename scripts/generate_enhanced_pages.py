@@ -147,16 +147,16 @@ def generate_page(exam, related_map=None, all_exams=None):
 
     lines = []
 
-    # Front matter
-    desc_status = ""
+    # Front matter — descriptions MUST be under 155 chars (Google truncation)
+    desc_tag = ""
     if status == "retiring":
-        desc_status = f" Retiring {exam.get('retirement_date', 'soon')}."
+        desc_tag = " Retiring soon."
     elif status == "retired":
-        desc_status = " This exam has been retired."
+        desc_tag = " Retired."
     elif status == "beta":
-        desc_status = " Currently in beta."
+        desc_tag = " Beta exam."
 
-    description = f"Free {code} study guide — {title}. Skills measured with weights, practice assessment, and Microsoft Learn resources.{desc_status}"
+    description = f"Free {code} study guide — exam objectives, skills measured, and Learn resources.{desc_tag}"
 
     lines.append("---")
     lines.append(f'title: "{code}: {title} — Study Guide & Exam Objectives"')
