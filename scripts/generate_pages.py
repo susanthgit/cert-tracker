@@ -192,10 +192,19 @@ def main():
     print()
 
     generated = 0
+    skipped = 0
     for exam in exams:
         code = exam["code"]
         slug = code.lower()
         filepath = os.path.join(output_dir, f"{slug}.md")
+
+        # Skip pages that have been manually enhanced (manual: true in front matter)
+        if os.path.exists(filepath):
+            with open(filepath, "r", encoding="utf-8") as f:
+                existing = f.read(500)
+            if "manual: true" in existing:
+                skipped += 1
+                continue
 
         content = generate_exam_page(exam)
         with open(filepath, "w", encoding="utf-8") as f:
@@ -207,7 +216,7 @@ def main():
         generated += 1
 
     print(f"\n{'=' * 60}")
-    print(f"✅ Generated {generated} study guide pages")
+    print(f"✅ Generated {generated} study guide pages (skipped {skipped} manual pages)")
 
 
 if __name__ == "__main__":

@@ -37,6 +37,13 @@ jobs:
       - name: 📊 Generate data files
         run: python scripts/generate_data.py
 
+      - name: 📄 Generate study guide pages
+        run: |
+          export HUGO_CONTENT_DIR=/tmp/cert-pages
+          mkdir -p /tmp/cert-pages
+          python scripts/generate_pages.py
+          python scripts/generate_enhanced_pages.py
+
       - name: 💾 Commit generated files
         run: |
           git config user.name "Cert Tracker Bot"
@@ -55,11 +62,24 @@ jobs:
           cp site/latest.json /tmp/main-site/static/data/cert-tracker/latest.json
           cp site/rss.xml /tmp/main-site/static/data/cert-tracker/rss.xml
           cp site/exams/*.json /tmp/main-site/static/data/cert-tracker/exams/
+          # Copy generated content pages (only non-manual pages — manual pages already in repo)
+          for f in /tmp/cert-pages/*.md; do
+            if [ -f "$f" ]; then
+              basename=$(basename "$f")
+              target="/tmp/main-site/content/cert-tracker/$basename"
+              # Only copy if target doesn't have manual: true
+              if [ -f "$target" ] && grep -q "manual: true" "$target"; then
+                echo "Skipping manual page: $basename"
+              else
+                cp "$f" "$target"
+              fi
+            fi
+          done
           cd /tmp/main-site
           git config user.name "Cert Tracker Bot"
           git config user.email "cert-tracker-bot@aguidetocloud.com"
-          git add static/data/cert-tracker/
-          git diff --cached --quiet || git commit -m "📊 Cert tracker data update — $(date -u +%Y-%m-%d)"
+          git add static/data/cert-tracker/ content/cert-tracker/
+          git diff --cached --quiet || git commit -m "📊 Cert tracker data + pages update — $(date -u +%Y-%m-%d)"
           git push
 
       - name: 🚀 Deploy main website
