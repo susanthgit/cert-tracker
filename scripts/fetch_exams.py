@@ -239,13 +239,79 @@ def main():
 
     for i, exam in enumerate(exams_config):
         code = exam["code"]
-        print(f"\n[{i+1}/{len(exams_config)}] {code}: {exam['title']}")
+        status = exam.get("status", "active")
+        print(f"\n[{i+1}/{len(exams_config)}] {code}: {exam['title']} [{status}]")
 
-        # Fetch study guide markdown
+        # Beta/upcoming exams won't have study guide pages — create stub record
+        if status in ("beta", "upcoming"):
+            print(f"  ℹ️ {status.upper()} exam — no study guide expected")
+            record = {
+                "code": code,
+                "title": exam["title"],
+                "level": exam["level"],
+                "roles": exam["roles"],
+                "products": exam["products"],
+                "category": exam["category"],
+                "status": status,
+                "beta_since": exam.get("beta_since", ""),
+                "replaces": exam.get("replaces", ""),
+                "replacement": exam.get("replacement", ""),
+                "retirement_date": exam.get("retirement_date", ""),
+                "updated_at": "",
+                "git_commit_id": "",
+                "content_hash": "",
+                "skills_date": None,
+                "skills_at_a_glance": [],
+                "skills_detailed": {},
+                "change_log": [],
+                "exam_url": EXAM_PAGE_URL.format(code_lower=code.lower()),
+                "study_guide_url": "",
+                "practice_assessment_url": ""
+            }
+            # Try fetching anyway — some beta exams may have study guides
+            md = fetch_study_guide_markdown(code)
+            if md:
+                metadata, body = parse_front_matter(md)
+                skills = parse_skills_measured(body)
+                if skills["skills_detailed"]:
+                    record["updated_at"] = str(metadata.get("updated_at", ""))
+                    record["skills_date"] = skills["skills_date"]
+                    record["skills_at_a_glance"] = skills["skills_at_a_glance"]
+                    record["skills_detailed"] = skills["skills_detailed"]
+                    record["content_hash"] = compute_content_hash(skills)
+                    record["study_guide_url"] = STUDY_GUIDE_URL.format(code=code.lower())
+                    total = sum(len(b) for a in skills["skills_detailed"].values() for b in a.values())
+                    print(f"  ✅ Found study guide! {len(skills['skills_detailed'])} areas, {total} objectives")
+            results.append(record)
+            if i < len(exams_config) - 1:
+                time.sleep(REQUEST_DELAY)
+            continue
+
+        # Fetch study guide markdown for active/retiring/retired exams
         md = fetch_study_guide_markdown(code)
         if not md:
-            errors.append(code)
-            print(f"  ⚠️ Skipping — no study guide found")
+            # Still create a record for retired exams without study guides
+            if status == "retired":
+                print(f"  ℹ️ Retired exam — creating stub record")
+                results.append({
+                    "code": code, "title": exam["title"], "level": exam["level"],
+                    "roles": exam["roles"], "products": exam["products"],
+                    "category": exam["category"], "status": status,
+                    "retirement_date": exam.get("retirement_date", ""),
+                    "replacement": exam.get("replacement", ""),
+                    "replaces": exam.get("replaces", ""),
+                    "beta_since": "",
+                    "updated_at": "", "git_commit_id": "", "content_hash": "",
+                    "skills_date": None, "skills_at_a_glance": [],
+                    "skills_detailed": {}, "change_log": [],
+                    "exam_url": EXAM_PAGE_URL.format(code_lower=code.lower()),
+                    "study_guide_url": "", "practice_assessment_url": ""
+                })
+            else:
+                errors.append(code)
+                print(f"  ⚠️ Skipping — no study guide found")
+            if i < len(exams_config) - 1:
+                time.sleep(REQUEST_DELAY)
             continue
 
         # Parse front matter
@@ -279,6 +345,11 @@ def main():
             "roles": exam["roles"],
             "products": exam["products"],
             "category": exam["category"],
+            "status": status,
+            "retirement_date": exam.get("retirement_date", ""),
+            "replacement": exam.get("replacement", ""),
+            "replaces": exam.get("replaces", ""),
+            "beta_since": exam.get("beta_since", ""),
             "updated_at": str(updated_at) if updated_at else "",
             "git_commit_id": git_commit,
             "content_hash": content_hash,

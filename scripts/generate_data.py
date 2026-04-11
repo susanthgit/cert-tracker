@@ -54,6 +54,11 @@ def generate_index(state: dict, changelog: dict) -> dict:
             "roles": e["roles"],
             "products": e["products"],
             "category": e["category"],
+            "status": e.get("status", "active"),
+            "retirement_date": e.get("retirement_date", ""),
+            "replacement": e.get("replacement", ""),
+            "replaces": e.get("replaces", ""),
+            "beta_since": e.get("beta_since", ""),
             "updated_at": e.get("updated_at", ""),
             "skills_date": e.get("skills_date", ""),
             "skill_areas": len(e.get("skills_at_a_glance", [])),
@@ -67,9 +72,10 @@ def generate_index(state: dict, changelog: dict) -> dict:
             "study_guide_url": e.get("study_guide_url", "")
         })
 
-    # Sort: fundamentals first, then by category
+    # Sort: active first, then retiring, beta, retired. Within each: by category then code.
+    status_order = {"active": 0, "retiring": 1, "beta": 2, "upcoming": 3, "retired": 4}
     level_order = {"beginner": 0, "intermediate": 1, "advanced": 2}
-    exams.sort(key=lambda x: (x["category"], level_order.get(x["level"], 1), x["code"]))
+    exams.sort(key=lambda x: (status_order.get(x.get("status", "active"), 5), x["category"], level_order.get(x["level"], 1), x["code"]))
 
     return {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

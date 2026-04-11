@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated list of all active Microsoft certification exams. Update manually when exams are added/retired.",
+  "_comment": "All Microsoft certification exams — active, retiring, beta, upcoming, and recently retired.",
   "_last_reviewed": "2026-04-11",
   "exams": [
     {
@@ -8,7 +8,8 @@
       "level": "beginner",
       "roles": ["administrator", "developer", "solution-architect"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-104",
@@ -16,7 +17,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-120",
@@ -24,7 +26,8 @@
       "level": "advanced",
       "roles": ["administrator", "solution-architect"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-140",
@@ -32,7 +35,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["azure", "azure-virtual-desktop"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-204",
@@ -40,7 +44,10 @@
       "level": "intermediate",
       "roles": ["developer"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-07-31",
+      "replacement": "New Azure AI-enabled developer certs"
     },
     {
       "code": "AZ-305",
@@ -48,7 +55,8 @@
       "level": "advanced",
       "roles": ["solution-architect"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-400",
@@ -56,7 +64,8 @@
       "level": "advanced",
       "roles": ["devops-engineer"],
       "products": ["azure", "azure-devops"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-500",
@@ -64,7 +73,10 @@
       "level": "intermediate",
       "roles": ["security-engineer"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-09-30",
+      "replacement": "SC-500"
     },
     {
       "code": "AZ-700",
@@ -72,7 +84,8 @@
       "level": "intermediate",
       "roles": ["network-engineer"],
       "products": ["azure"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "active"
     },
     {
       "code": "AZ-800",
@@ -80,7 +93,10 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["azure", "windows-server"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-09-30",
+      "replacement": "AZ-802"
     },
     {
       "code": "AZ-801",
@@ -88,7 +104,21 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["azure", "windows-server"],
-      "category": "Azure"
+      "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-09-30",
+      "replacement": "AZ-802"
+    },
+    {
+      "code": "AZ-802",
+      "title": "Windows Server Hybrid Administrator",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["azure", "windows-server"],
+      "category": "Azure",
+      "status": "beta",
+      "beta_since": "2026-06",
+      "replaces": "AZ-800 + AZ-801"
     },
     {
       "code": "AI-900",
@@ -96,7 +126,10 @@
       "level": "beginner",
       "roles": ["ai-engineer", "data-scientist"],
       "products": ["azure"],
-      "category": "AI"
+      "category": "AI",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "AI-901"
     },
     {
       "code": "AI-102",
@@ -104,7 +137,53 @@
       "level": "intermediate",
       "roles": ["ai-engineer"],
       "products": ["azure"],
-      "category": "AI"
+      "category": "AI",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "AI-103"
+    },
+    {
+      "code": "AI-901",
+      "title": "Microsoft Azure AI Fundamentals (Updated)",
+      "level": "beginner",
+      "roles": ["ai-engineer", "data-scientist"],
+      "products": ["azure"],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-04",
+      "replaces": "AI-900"
+    },
+    {
+      "code": "AI-103",
+      "title": "Azure AI App and Agent Developer Associate",
+      "level": "intermediate",
+      "roles": ["ai-engineer", "developer"],
+      "products": ["azure"],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-04",
+      "replaces": "AI-102"
+    },
+    {
+      "code": "AI-200",
+      "title": "Azure AI Cloud Developer Associate",
+      "level": "intermediate",
+      "roles": ["developer", "ai-engineer"],
+      "products": ["azure"],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-05"
+    },
+    {
+      "code": "AI-300",
+      "title": "Machine Learning Operations (MLOps) Engineer Associate",
+      "level": "intermediate",
+      "roles": ["ai-engineer", "devops-engineer"],
+      "products": ["azure"],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-03",
+      "replaces": "DP-100"
     },
     {
       "code": "DP-900",
@@ -112,7 +191,8 @@
       "level": "beginner",
       "roles": ["data-engineer", "database-administrator"],
       "products": ["azure"],
-      "category": "Data"
+      "category": "Data",
+      "status": "active"
     },
     {
       "code": "DP-100",
@@ -120,7 +200,10 @@
       "level": "intermediate",
       "roles": ["data-scientist"],
       "products": ["azure"],
-      "category": "Data"
+      "category": "Data",
+      "status": "retiring",
+      "retirement_date": "2026-06-01",
+      "replacement": "AI-300"
     },
     {
       "code": "DP-300",
@@ -128,7 +211,8 @@
       "level": "intermediate",
       "roles": ["database-administrator"],
       "products": ["azure"],
-      "category": "Data"
+      "category": "Data",
+      "status": "active"
     },
     {
       "code": "DP-420",
@@ -136,7 +220,8 @@
       "level": "intermediate",
       "roles": ["developer"],
       "products": ["azure", "azure-cosmos-db"],
-      "category": "Data"
+      "category": "Data",
+      "status": "active"
     },
     {
       "code": "DP-600",
@@ -144,7 +229,8 @@
       "level": "intermediate",
       "roles": ["data-analyst", "data-engineer"],
       "products": ["fabric"],
-      "category": "Data"
+      "category": "Data",
+      "status": "active"
     },
     {
       "code": "DP-700",
@@ -152,7 +238,28 @@
       "level": "intermediate",
       "roles": ["data-engineer"],
       "products": ["fabric"],
-      "category": "Data"
+      "category": "Data",
+      "status": "active"
+    },
+    {
+      "code": "DP-750",
+      "title": "Azure Databricks Data Engineer Associate",
+      "level": "intermediate",
+      "roles": ["data-engineer"],
+      "products": ["azure"],
+      "category": "Data",
+      "status": "beta",
+      "beta_since": "2026-03"
+    },
+    {
+      "code": "DP-800",
+      "title": "SQL AI Developer Associate",
+      "level": "intermediate",
+      "roles": ["developer", "database-administrator"],
+      "products": ["azure"],
+      "category": "Data",
+      "status": "beta",
+      "beta_since": "2026-03"
     },
     {
       "code": "SC-900",
@@ -160,7 +267,8 @@
       "level": "beginner",
       "roles": ["administrator"],
       "products": ["azure", "m365", "entra-id"],
-      "category": "Security"
+      "category": "Security",
+      "status": "active"
     },
     {
       "code": "SC-100",
@@ -168,7 +276,8 @@
       "level": "advanced",
       "roles": ["security-engineer", "solution-architect"],
       "products": ["azure", "m365"],
-      "category": "Security"
+      "category": "Security",
+      "status": "active"
     },
     {
       "code": "SC-200",
@@ -176,7 +285,8 @@
       "level": "intermediate",
       "roles": ["security-engineer"],
       "products": ["azure", "m365"],
-      "category": "Security"
+      "category": "Security",
+      "status": "active"
     },
     {
       "code": "SC-300",
@@ -184,7 +294,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["azure", "entra-id"],
-      "category": "Security"
+      "category": "Security",
+      "status": "active"
     },
     {
       "code": "SC-400",
@@ -192,7 +303,29 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["m365"],
-      "category": "Security"
+      "category": "Security",
+      "status": "active"
+    },
+    {
+      "code": "SC-500",
+      "title": "Cloud and AI Security Engineer Associate",
+      "level": "intermediate",
+      "roles": ["security-engineer"],
+      "products": ["azure", "m365"],
+      "category": "Security",
+      "status": "beta",
+      "beta_since": "2026-05",
+      "replaces": "AZ-500"
+    },
+    {
+      "code": "SC-730",
+      "title": "Cybersecurity Business Professional",
+      "level": "beginner",
+      "roles": ["administrator"],
+      "products": ["m365"],
+      "category": "Security",
+      "status": "beta",
+      "beta_since": "2026-04"
     },
     {
       "code": "MS-102",
@@ -200,7 +333,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["m365"],
-      "category": "Microsoft 365"
+      "category": "Microsoft 365",
+      "status": "active"
     },
     {
       "code": "MS-700",
@@ -208,7 +342,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["m365", "teams"],
-      "category": "Microsoft 365"
+      "category": "Microsoft 365",
+      "status": "active"
     },
     {
       "code": "MS-721",
@@ -216,7 +351,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["m365", "teams"],
-      "category": "Microsoft 365"
+      "category": "Microsoft 365",
+      "status": "active"
     },
     {
       "code": "MS-900",
@@ -224,7 +360,10 @@
       "level": "beginner",
       "roles": ["administrator"],
       "products": ["m365"],
-      "category": "Microsoft 365"
+      "category": "Microsoft 365",
+      "status": "retired",
+      "retirement_date": "2026-03-31",
+      "replacement": "New AI/cloud fundamentals certs"
     },
     {
       "code": "MD-102",
@@ -232,7 +371,8 @@
       "level": "intermediate",
       "roles": ["administrator"],
       "products": ["m365", "intune"],
-      "category": "Microsoft 365"
+      "category": "Microsoft 365",
+      "status": "active"
     },
     {
       "code": "PL-900",
@@ -240,7 +380,8 @@
       "level": "beginner",
       "roles": ["functional-consultant"],
       "products": ["power-platform"],
-      "category": "Power Platform"
+      "category": "Power Platform",
+      "status": "active"
     },
     {
       "code": "PL-200",
@@ -248,7 +389,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["power-platform"],
-      "category": "Power Platform"
+      "category": "Power Platform",
+      "status": "active"
     },
     {
       "code": "PL-300",
@@ -256,7 +398,8 @@
       "level": "intermediate",
       "roles": ["data-analyst"],
       "products": ["power-bi"],
-      "category": "Power Platform"
+      "category": "Power Platform",
+      "status": "active"
     },
     {
       "code": "PL-400",
@@ -264,7 +407,8 @@
       "level": "intermediate",
       "roles": ["developer"],
       "products": ["power-platform"],
-      "category": "Power Platform"
+      "category": "Power Platform",
+      "status": "active"
     },
     {
       "code": "PL-500",
@@ -272,7 +416,10 @@
       "level": "intermediate",
       "roles": ["developer"],
       "products": ["power-automate"],
-      "category": "Power Platform"
+      "category": "Power Platform",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "New Power Platform AI/Copilot certs"
     },
     {
       "code": "PL-600",
@@ -280,7 +427,10 @@
       "level": "advanced",
       "roles": ["solution-architect"],
       "products": ["power-platform"],
-      "category": "Power Platform"
+      "category": "Power Platform",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "New Power Platform architect certs"
     },
     {
       "code": "MB-210",
@@ -288,7 +438,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-220",
@@ -296,7 +447,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-230",
@@ -304,7 +456,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-240",
@@ -312,7 +465,10 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "Refreshed Dynamics 365 AI certs"
     },
     {
       "code": "MB-310",
@@ -320,7 +476,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-330",
@@ -328,7 +485,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-500",
@@ -336,7 +494,8 @@
       "level": "intermediate",
       "roles": ["developer"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-800",
@@ -344,7 +503,8 @@
       "level": "intermediate",
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
     },
     {
       "code": "MB-820",
@@ -352,7 +512,30 @@
       "level": "intermediate",
       "roles": ["developer"],
       "products": ["dynamics-365"],
-      "category": "Dynamics 365"
+      "category": "Dynamics 365",
+      "status": "active"
+    },
+    {
+      "code": "MB-910",
+      "title": "Microsoft Dynamics 365 Fundamentals (CRM)",
+      "level": "beginner",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365",
+      "status": "retired",
+      "retirement_date": "2025-12-31",
+      "replacement": "Role-based D365 certs"
+    },
+    {
+      "code": "MB-920",
+      "title": "Microsoft Dynamics 365 Fundamentals (ERP)",
+      "level": "beginner",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365",
+      "status": "retired",
+      "retirement_date": "2025-12-31",
+      "replacement": "Role-based D365 certs"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-11T03:21:23Z",
-  "exam_count": 41,
+  "fetched_at": "2026-04-11T03:50:46Z",
+  "exam_count": 52,
   "errors": [
     "DP-600",
     "DP-700",
@@ -20,6 +20,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-16 17:07:00+00:00",
       "git_commit_id": "ede20e142b118205c09e271b0edbd9843cbfc00f",
       "content_hash": "d1a8549ba505c742",
@@ -141,6 +146,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-19 18:11:00+00:00",
       "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
       "content_hash": "04485d1aeb4c794c",
@@ -308,6 +318,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-19 18:11:00+00:00",
       "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
       "content_hash": "9240af551cc8f7e9",
@@ -455,6 +470,11 @@
         "azure-virtual-desktop"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-19 18:11:00+00:00",
       "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
       "content_hash": "f0a7176c01e653b5",
@@ -605,6 +625,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-07-31",
+      "replacement": "New Azure AI-enabled developer certs",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-16 02:02:00+00:00",
       "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
       "content_hash": "27f570b239502e53",
@@ -718,6 +743,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-19 18:11:00+00:00",
       "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
       "content_hash": "17efd80ffd2a02b3",
@@ -840,6 +870,11 @@
         "azure-devops"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-26 06:04:00+00:00",
       "git_commit_id": "812c74c495627a042098ff05b4a5a4c1d695c7d5",
       "content_hash": "9eec0edf800b999d",
@@ -1012,6 +1047,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-09-30",
+      "replacement": "SC-500",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-16 02:02:00+00:00",
       "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
       "content_hash": "64376cb5e1960822",
@@ -1162,6 +1202,11 @@
         "azure"
       ],
       "category": "Azure",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-26 06:04:00+00:00",
       "git_commit_id": "812c74c495627a042098ff05b4a5a4c1d695c7d5",
       "content_hash": "4eb06a911760f6af",
@@ -1385,6 +1430,11 @@
         "windows-server"
       ],
       "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-09-30",
+      "replacement": "AZ-802",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-04-02 15:58:00+00:00",
       "git_commit_id": "7f65140654bfa353bfe77431661a62899e16d223",
       "content_hash": "3d09a61e449ca6d5",
@@ -1573,6 +1623,11 @@
         "windows-server"
       ],
       "category": "Azure",
+      "status": "retiring",
+      "retirement_date": "2026-09-30",
+      "replacement": "AZ-802",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-04-02 15:58:00+00:00",
       "git_commit_id": "7f65140654bfa353bfe77431661a62899e16d223",
       "content_hash": "6316bb393cbbdc24",
@@ -1770,6 +1825,34 @@
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-801/practice/assessment?assessment-type=practice"
     },
     {
+      "code": "AZ-802",
+      "title": "Windows Server Hybrid Administrator",
+      "level": "intermediate",
+      "roles": [
+        "administrator"
+      ],
+      "products": [
+        "azure",
+        "windows-server"
+      ],
+      "category": "Azure",
+      "status": "beta",
+      "beta_since": "2026-06",
+      "replaces": "AZ-800 + AZ-801",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-802/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
       "code": "AI-900",
       "title": "Microsoft Azure AI Fundamentals",
       "level": "beginner",
@@ -1781,6 +1864,11 @@
         "azure"
       ],
       "category": "AI",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "AI-901",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-16 02:02:00+00:00",
       "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
       "content_hash": "4e55d5516569080d",
@@ -1897,6 +1985,11 @@
         "azure"
       ],
       "category": "AI",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "AI-103",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-16 02:02:00+00:00",
       "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
       "content_hash": "1f3d79e6574d1ecb",
@@ -2087,6 +2180,118 @@
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/practice/assessment?assessment-type=practice"
     },
     {
+      "code": "AI-901",
+      "title": "Microsoft Azure AI Fundamentals (Updated)",
+      "level": "beginner",
+      "roles": [
+        "ai-engineer",
+        "data-scientist"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-04",
+      "replaces": "AI-900",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "AI-103",
+      "title": "Azure AI App and Agent Developer Associate",
+      "level": "intermediate",
+      "roles": [
+        "ai-engineer",
+        "developer"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-04",
+      "replaces": "AI-102",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "AI-200",
+      "title": "Azure AI Cloud Developer Associate",
+      "level": "intermediate",
+      "roles": [
+        "developer",
+        "ai-engineer"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-05",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "AI-300",
+      "title": "Machine Learning Operations (MLOps) Engineer Associate",
+      "level": "intermediate",
+      "roles": [
+        "ai-engineer",
+        "devops-engineer"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-03",
+      "replaces": "DP-100",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
       "code": "DP-900",
       "title": "Microsoft Azure Data Fundamentals",
       "level": "beginner",
@@ -2098,6 +2303,11 @@
         "azure"
       ],
       "category": "Data",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-05 03:46:00+00:00",
       "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
       "content_hash": "bf240c6a711f903e",
@@ -2197,6 +2407,11 @@
         "azure"
       ],
       "category": "Data",
+      "status": "retiring",
+      "retirement_date": "2026-06-01",
+      "replacement": "AI-300",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-16 07:23:00+00:00",
       "git_commit_id": "10c1fa6cdd7961b75bd7d447a6674dcb9516b18b",
       "content_hash": "8ccabe6ea5e0aab1",
@@ -2337,6 +2552,11 @@
         "azure"
       ],
       "category": "Data",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-26 06:04:00+00:00",
       "git_commit_id": "812c74c495627a042098ff05b4a5a4c1d695c7d5",
       "content_hash": "d311586ab47e123c",
@@ -2516,6 +2736,11 @@
         "azure-cosmos-db"
       ],
       "category": "Data",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-20 17:49:00+00:00",
       "git_commit_id": "99da86cb624284f69b90ab9806e12b0957fbae80",
       "content_hash": "cb43e77112d60758",
@@ -2730,6 +2955,61 @@
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-420/practice/assessment?assessment-type=practice"
     },
     {
+      "code": "DP-750",
+      "title": "Azure Databricks Data Engineer Associate",
+      "level": "intermediate",
+      "roles": [
+        "data-engineer"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "Data",
+      "status": "beta",
+      "beta_since": "2026-03",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-750/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "DP-800",
+      "title": "SQL AI Developer Associate",
+      "level": "intermediate",
+      "roles": [
+        "developer",
+        "database-administrator"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "Data",
+      "status": "beta",
+      "beta_since": "2026-03",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-800/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
       "code": "SC-900",
       "title": "Microsoft Security, Compliance, and Identity Fundamentals",
       "level": "beginner",
@@ -2742,6 +3022,11 @@
         "entra-id"
       ],
       "category": "Security",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-05 03:46:00+00:00",
       "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
       "content_hash": "c0e4002ac18d5ed3",
@@ -2879,6 +3164,11 @@
         "m365"
       ],
       "category": "Security",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-27 23:35:00+00:00",
       "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
       "content_hash": "b76c24165bfaeb68",
@@ -3034,6 +3324,11 @@
         "m365"
       ],
       "category": "Security",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-19 18:11:00+00:00",
       "git_commit_id": "97d8da29cdf89b55298972ad1c916572872e8a6b",
       "content_hash": "6aa2b31f58d87189",
@@ -3149,6 +3444,11 @@
         "entra-id"
       ],
       "category": "Security",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-27 23:35:00+00:00",
       "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
       "content_hash": "c84dae548d1c51ac",
@@ -3327,6 +3627,11 @@
         "m365"
       ],
       "category": "Security",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-08-08 14:53:00+00:00",
       "git_commit_id": "360b9dea4fe2c9d95e594327b64eca3c74618fbf",
       "content_hash": "decf9160881439bf",
@@ -3571,6 +3876,61 @@
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-400/practice/assessment?assessment-type=practice"
     },
     {
+      "code": "SC-500",
+      "title": "Cloud and AI Security Engineer Associate",
+      "level": "intermediate",
+      "roles": [
+        "security-engineer"
+      ],
+      "products": [
+        "azure",
+        "m365"
+      ],
+      "category": "Security",
+      "status": "beta",
+      "beta_since": "2026-05",
+      "replaces": "AZ-500",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "SC-730",
+      "title": "Cybersecurity Business Professional",
+      "level": "beginner",
+      "roles": [
+        "administrator"
+      ],
+      "products": [
+        "m365"
+      ],
+      "category": "Security",
+      "status": "beta",
+      "beta_since": "2026-04",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "",
+      "git_commit_id": "",
+      "content_hash": "",
+      "skills_date": null,
+      "skills_at_a_glance": [],
+      "skills_detailed": {},
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-730/",
+      "study_guide_url": "",
+      "practice_assessment_url": ""
+    },
+    {
       "code": "MS-102",
       "title": "Microsoft 365 Administrator",
       "level": "intermediate",
@@ -3581,6 +3941,11 @@
         "m365"
       ],
       "category": "Microsoft 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-27 23:35:00+00:00",
       "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
       "content_hash": "d67302414001563d",
@@ -3708,6 +4073,11 @@
         "teams"
       ],
       "category": "Microsoft 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-27 23:35:00+00:00",
       "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
       "content_hash": "1394f963c9e23a25",
@@ -3878,6 +4248,11 @@
         "teams"
       ],
       "category": "Microsoft 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-27 23:35:00+00:00",
       "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
       "content_hash": "ec03f27a96626a87",
@@ -4137,6 +4512,11 @@
         "m365"
       ],
       "category": "Microsoft 365",
+      "status": "retired",
+      "retirement_date": "2026-03-31",
+      "replacement": "New AI/cloud fundamentals certs",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-31 22:46:00+00:00",
       "git_commit_id": "86595dcb87766853ddd1491f73a633ad74396418",
       "content_hash": "df5794950eda0f5a",
@@ -4251,6 +4631,11 @@
         "intune"
       ],
       "category": "Microsoft 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-27 23:35:00+00:00",
       "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
       "content_hash": "69ca16998f560938",
@@ -4382,6 +4767,11 @@
         "power-platform"
       ],
       "category": "Power Platform",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-05 03:46:00+00:00",
       "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
       "content_hash": "71263523ee1cd41e",
@@ -4510,6 +4900,11 @@
         "power-platform"
       ],
       "category": "Power Platform",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-31 22:46:00+00:00",
       "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
       "content_hash": "50b50525eb1b69fd",
@@ -4638,6 +5033,11 @@
         "power-bi"
       ],
       "category": "Power Platform",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-20 17:49:00+00:00",
       "git_commit_id": "99da86cb624284f69b90ab9806e12b0957fbae80",
       "content_hash": "a1e056ff4ec769ff",
@@ -4785,6 +5185,11 @@
         "power-platform"
       ],
       "category": "Power Platform",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-02 19:59:00+00:00",
       "git_commit_id": "473e0d367a1dc61613e9ef703a4a4d7019caf8f8",
       "content_hash": "b0e828ac6c74a8ac",
@@ -4951,6 +5356,11 @@
         "power-automate"
       ],
       "category": "Power Platform",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "New Power Platform AI/Copilot certs",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-31 22:46:00+00:00",
       "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
       "content_hash": "5eecc3ce8533b4d1",
@@ -5213,6 +5623,11 @@
         "power-platform"
       ],
       "category": "Power Platform",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "New Power Platform architect certs",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-31 22:46:00+00:00",
       "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
       "content_hash": "9338a598a974ec01",
@@ -5423,6 +5838,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2024-09-30 17:14:00+00:00",
       "git_commit_id": "493aee1f09ee102d426f5beade172d74176394f0",
       "content_hash": "bfaa880dbfe8e869",
@@ -5662,6 +6082,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2024-09-30 17:14:00+00:00",
       "git_commit_id": "493aee1f09ee102d426f5beade172d74176394f0",
       "content_hash": "7df5d5c1a0af1018",
@@ -6054,6 +6479,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-02-09 23:06:00+00:00",
       "git_commit_id": "fda10a6309160662a12df7aba1ed32c26ebb9494",
       "content_hash": "3e2faf7ddd8c3bd9",
@@ -6166,6 +6596,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "retiring",
+      "retirement_date": "2026-06-30",
+      "replacement": "Refreshed Dynamics 365 AI certs",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-03-31 22:46:00+00:00",
       "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
       "content_hash": "b4962feaa7fe633d",
@@ -6365,6 +6800,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-05 03:46:00+00:00",
       "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
       "content_hash": "19f6c0cc9f5c5279",
@@ -6559,6 +6999,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-05 03:46:00+00:00",
       "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
       "content_hash": "d8769014dbd80e74",
@@ -6748,6 +7193,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-31 16:52:00+00:00",
       "git_commit_id": "c8775e614b225ff244f0ca306c3ee126fb6de908",
       "content_hash": "9075558972919feb",
@@ -6945,6 +7395,11 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2025-12-05 03:46:00+00:00",
       "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
       "content_hash": "8b847dc3531b05be",
@@ -7144,6 +7599,266 @@
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-800/",
       "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-800",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-800/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "MB-910",
+      "title": "Microsoft Dynamics 365 Fundamentals (CRM)",
+      "level": "beginner",
+      "roles": [
+        "functional-consultant"
+      ],
+      "products": [
+        "dynamics-365"
+      ],
+      "category": "Dynamics 365",
+      "status": "retired",
+      "retirement_date": "2025-12-31",
+      "replacement": "Role-based D365 certs",
+      "replaces": "",
+      "beta_since": "",
+      "updated_at": "2025-12-31 16:52:00+00:00",
+      "git_commit_id": "4f77a45353f8b3325f23806d453767696473dbd6",
+      "content_hash": "2834ca8cdc6f01b7",
+      "skills_date": "December 17, 2024",
+      "skills_at_a_glance": [
+        {
+          "area": "Describe Dynamics 365 Customer Insights",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Describe Dynamics 365 Sales",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Describe Dynamics 365 Customer Service",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Describe Dynamics 365 Field Service",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Explore the core capabilities of customer engagement apps in Dynamics 365",
+          "weight": "15-20%"
+        }
+      ],
+      "skills_detailed": {
+        "Describe Dynamics 365 Customer Insights (15–20%)": {
+          "Explore Customer Insights - Journeys": [
+            "Describe use cases for Customer Insights - Journeys",
+            "Describe lead generation and qualification",
+            "Describe use cases for marketing forms",
+            "Describe how to target customers by using segments",
+            "Describe email marketing",
+            "Describe customer journeys",
+            "Describe event management features and capabilities",
+            "Describe how to use Microsoft 365 Copilot with Customer Insights - Journeys"
+          ],
+          "Describe Customer Insights - Data": [
+            "Describe use cases of and capabilities for Customer Insights – Data",
+            "Describe unified customer profiles",
+            "Describe measures, segments, and predictions"
+          ]
+        },
+        "Describe Dynamics 365 Sales (20–25%)": {
+          "Explore Sales": [
+            "Describe use cases for Sales",
+            "Describe leads and the process for qualifying leads",
+            "Describe the opportunity management process",
+            "Describe the quote lifecycle",
+            "Describe the order management and invoice management processes",
+            "Describe use cases for guided selling including business process flows",
+            "Describe the product catalog, prices list, and unit groups",
+            "Describe Microsoft 365 Copilot in Sales",
+            "Describe the Sales accelerator"
+          ],
+          "Describe Sales capabilities and related apps": [
+            "Describe sales pipeline and forecasting concepts",
+            "Describe use cases for and capabilities of Sales Insights features",
+            "Describe use cases for and capabilities of LinkedIn Sales Insights",
+            "Describe use cases for the Dynamics 365 Sales mobile app",
+            "Describe Microsoft 365 Copilot for Sales"
+          ]
+        },
+        "Describe Dynamics 365 Customer Service (20–25%)": {
+          "Explore Customer Service": [
+            "Describe use cases for Customer Service",
+            "Describe the functionality for workload management, including cases, basic routing rulesets (basic queues), Unified Routing, and the inbox for agents",
+            "Describe knowledge management in Customer Service",
+            "Describe the case lifecycle including service-level agreements (SLAs) and entitlements",
+            "Describe use cases for Copilot in Customer Service"
+          ],
+          "Describe Customer Service capabilities and related apps": [
+            "Describe Omnichannel for Customer Service",
+            "Describe reporting and data visualization options in Customer Service",
+            "Describe use cases for agent productivity tools"
+          ]
+        },
+        "Describe Dynamics 365 Field Service (15–20%)": {
+          "Explore Field Service": [
+            "Describe use cases for Field Service",
+            "Describe the work order lifecycle",
+            "Describe inspections in Field Service",
+            "Describe the Field Service mobile app",
+            "Describe use cases of Copilot in Field Service"
+          ],
+          "Describe capabilities related to Field Service": [
+            "Describe resource management and scheduling processes",
+            "Describe asset management and customer assets",
+            "Describe Connected Field Service for Dynamics 365"
+          ]
+        },
+        "Explore the core capabilities of customer engagement apps in Dynamics 365 (15–20%)": {
+          "Describe the foundations of customer engagement apps": [
+            "Describe customer engagement apps",
+            "Describe Microsoft Power Platform as it relates to customer engagement apps",
+            "Describe Microsoft Dataverse as the foundation for customer engagement apps",
+            "Navigate to and within customer engagement apps",
+            "Describe capabilities of Microsoft 365 Copilot in the Dynamics 365 customer engagement apps"
+          ],
+          "Describe shared activities and integration options in customer engagement apps": [
+            "Describe customers and activities",
+            "Describe search options and filter criteria",
+            "Describe reporting capabilities including dashboards, charts, and views",
+            "Describe Microsoft Teams integration",
+            "Describe Microsoft Outlook integration",
+            "Describe Microsoft Excel and Word integration",
+            "Describe Microsoft SharePoint integration"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-910/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-910",
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-910/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "MB-920",
+      "title": "Microsoft Dynamics 365 Fundamentals (ERP)",
+      "level": "beginner",
+      "roles": [
+        "functional-consultant"
+      ],
+      "products": [
+        "dynamics-365"
+      ],
+      "category": "Dynamics 365",
+      "status": "retired",
+      "retirement_date": "2025-12-31",
+      "replacement": "Role-based D365 certs",
+      "replaces": "",
+      "beta_since": "",
+      "updated_at": "2025-12-31 16:52:00+00:00",
+      "git_commit_id": "4f77a45353f8b3325f23806d453767696473dbd6",
+      "content_hash": "7e4232c97b960c52",
+      "skills_date": "December 23, 2024",
+      "skills_at_a_glance": [
+        {
+          "area": "Describe Dynamics 365 Supply Chain Management",
+          "weight": "35-40%"
+        },
+        {
+          "area": "Describe Dynamics 365 Finance",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Describe the core capabilities of the finance and operations apps",
+          "weight": "25-30%"
+        }
+      ],
+      "skills_detailed": {
+        "Describe Dynamics 365 Supply Chain Management (35–40%)": {
+          "Describe Supply Chain Management core capabilities": [
+            "Describe use cases of Supply Chain Management",
+            "Describe products and released products",
+            "Describe product master records, product variants, and product dimensions",
+            "Describe pricing and discounts in relation to trade agreements",
+            "Describe intercompany capabilities"
+          ],
+          "Describe the manufacturing process": [
+            "Describe lean, discrete, and process manufacturing",
+            "Describe manufacturing strategies",
+            "Describe bills of materials (BOMs), formulas, routes, and operations as they relate to production orders",
+            "Identify the production lifecycle stages",
+            "Describe shop floor management",
+            "Describe master planning and planning optimization"
+          ],
+          "Describe inventory and warehousing capabilities": [
+            "Describe costing methods",
+            "Describe on-hand inventory capabilities",
+            "Identify types of inventory journals",
+            "Describe quality management capabilities",
+            "Describe use cases for Warehouse Management Systems (WMS)",
+            "Describe use cases for Transportation Management Systems (TMS)",
+            "Describe use cases for landed cost"
+          ],
+          "Describe the sales and procurement processes": [
+            "Describe the order-to-cash process",
+            "Describe the sales order creation process",
+            "Describe the fulfillment process, including inventory reservations and picking and packing",
+            "Describe the procure-to-pay process",
+            "Describe purchase requisitions",
+            "Describe the purchase order creation process",
+            "Describe purchase order receipts"
+          ]
+        },
+        "Describe Dynamics 365 Finance (30–35%)": {
+          "Describe Finance core capabilities": [
+            "Describe use cases of Finance",
+            "Describe organization and legal entities",
+            "Describe reporting currency and accounting currency",
+            "Describe tax capabilities",
+            "Describe cost accounting concepts"
+          ],
+          "Describe general ledgers": [
+            "Describe charts of accounts, including main accounts",
+            "Describe the concept of a fiscal calendar",
+            "Describe financial dimensions and dimension sets concepts",
+            "Describe the accounting structure",
+            "Describe financial journal concepts",
+            "Describe periodic financial processes"
+          ],
+          "Describe accounts payables and accounts receivables": [
+            "Describe core accounts payable components, including vendors, purchase orders, and vendor invoices",
+            "Describe vendor payments and settlements, including three-way matching concepts",
+            "Describe core accounts receivable components, including customers, customer invoices, and free text invoices",
+            "Describe credit management processes",
+            "Describe the collection process",
+            "Describe the concept of subscription billing"
+          ],
+          "Describe expense management, fixed asset management, and budgeting": [
+            "Describe cash and bank management concepts",
+            "Describe expense management capabilities",
+            "Describe fixed asset management capabilities",
+            "Describe budgeting capabilities"
+          ]
+        },
+        "Describe the core capabilities of the finance and operations apps (25–30%)": {
+          "Describe the finance and operations apps": [
+            "Describe enterprise resource planning (ERP)",
+            "Describe the business value of Commerce",
+            "Describe the business value of Human Resources",
+            "Describe the business value of Project Operations",
+            "Describe finance and operations apps use cases",
+            "Explore the finance and operations user interface"
+          ],
+          "Describe reporting and integration capabilities": [
+            "Describe built-in reporting capabilities, including workspaces",
+            "Describe options for analyzing data by using Power BI",
+            "Describe Microsoft Office 365 integration capabilities, including Microsoft Excel, SharePoint, and Teams",
+            "Describe Microsoft Power Platform integration options"
+          ],
+          "Describe common features": [
+            "Describe security capabilities",
+            "Describe workflow capabilities",
+            "Describe the concept of batch jobs"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-920/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-920",
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-920/practice/assessment?assessment-type=practice"
     }
   ]
 }
