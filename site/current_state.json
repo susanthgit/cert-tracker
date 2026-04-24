@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-13T09:43:23Z",
+  "fetched_at": "2026-04-24T22:15:39Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -1869,8 +1869,8 @@
       "replacement": "AI-901",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-16 02:02:00+00:00",
-      "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
+      "updated_at": "2026-04-15 17:18:00+00:00",
+      "git_commit_id": "b4c69786822ecee31a86ba03d900960f26084e30",
       "content_hash": "4e55d5516569080d",
       "skills_date": "May 2, 2025",
       "skills_at_a_glance": [
