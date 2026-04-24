@@ -20,10 +20,10 @@ import sys
 SITE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "site")
 CURRENT_STATE = os.path.join(SITE_DIR, "current_state.json")
 RELATED_EXAMS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "related_exams.json")
-HUGO_CONTENT_DIR = os.path.join(
+HUGO_CONTENT_DIR = os.environ.get('HUGO_CONTENT_DIR', os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     "..", "aguidetocloud-revamp", "content", "cert-tracker"
-)
+))
 
 # Exams already manually enhanced — skip these
 SKIP_EXAMS = {
@@ -353,6 +353,7 @@ def main():
     all_exams = {e["code"]: e for e in state.get("exams", [])}
 
     output_dir = os.path.abspath(HUGO_CONTENT_DIR)
+    os.makedirs(output_dir, exist_ok=True)
     generated = 0
     skipped = 0
 
