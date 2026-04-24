@@ -55,8 +55,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PERSONAL_PAT }}
         run: |
-          git clone https://github.com/susanthgit/aguidetocloud-revamp.git /tmp/main-site
-          git -C /tmp/main-site config http.https://github.com/.extraheader "Authorization: bearer ${GH_TOKEN}"
+          git clone https://x-access-token:${GH_TOKEN}@github.com/susanthgit/aguidetocloud-revamp.git /tmp/main-site
           mkdir -p /tmp/main-site/static/data/cert-tracker/exams
           cp site/latest.json /tmp/main-site/static/data/cert-tracker/latest.json
           cp site/rss.xml /tmp/main-site/static/data/cert-tracker/rss.xml
@@ -98,4 +97,3 @@ jobs:
             --repo susanthgit/cert-tracker \
             --title "🚨 Cert tracker pipeline failed — $(date -u +%Y-%m-%d)" \
             --body "The weekly Cert Tracker workflow failed. Check the [workflow run](https://github.com/susanthgit/cert-tracker/actions) for details." \
-            --label "bug"
