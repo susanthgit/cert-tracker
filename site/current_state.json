@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-14T08:43:06Z",
+  "fetched_at": "2026-06-21T08:59:09Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -475,10 +475,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-19 18:11:00+00:00",
-      "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
-      "content_hash": "f0a7176c01e653b5",
-      "skills_date": "April 17, 2026",
+      "updated_at": "2026-06-19 17:18:00+00:00",
+      "git_commit_id": "64333bfbd1e8cf4b3fc47cf2e30683b254b6f04a",
+      "content_hash": "e67ccdf4957d8a12",
+      "skills_date": "July 20, 2026",
       "skills_at_a_glance": [
         {
           "area": "Plan and implement an Azure Virtual Desktop infrastructure",
@@ -545,7 +545,7 @@
             "Plan and implement Microsoft Entra Conditional Access policies for connections to Azure Virtual Desktop",
             "Plan and implement authentication options in Azure Virtual Desktop, including passwordless, smart card, and multifactor authentication",
             "Manage roles, groups, and rights assignments on Azure Virtual Desktop session hosts",
-            "Configure single sign-on"
+            "Configure Microsoft Entra single sign-on"
           ],
           "Plan and implement security": [
             "Plan, implement, and manage security for Azure Virtual Desktop session hosts by using Microsoft Defender for Cloud",
@@ -553,7 +553,7 @@
             "Configure session host protection by using Microsoft Defender for Endpoint, including onboarding and scanning options",
             "Implement and manage network security for connections to Azure Virtual Desktop, including user defined routes (UDRs), network security groups (NSGs), and Azure Firewall",
             "Configure Azure Bastion or just-in-time (JIT) VM access for administrative access to session hosts",
-            "Plan and implement Windows threat protection features on Azure Virtual Desktop session hosts, including Windows Defender Application Control and Controlled Folder Access",
+            "Plan and implement Windows threat protection features on Azure Virtual Desktop session hosts, including App Control for Business and Controlled Folder Access",
             "Plan for and implement Azure confidential VMs and Trusted Launch security features for Azure Virtual Desktop session hosts"
           ]
         },
@@ -561,7 +561,7 @@
           "Plan and implement FSLogix": [
             "Recommend FSLogix configuration",
             "Configure FSLogix Profile Containers",
-            "Configure FSLogix Office Profile Containers (ODFC)",
+            "Configure FSLogix ODFC containers",
             "Configure FSLogix Cloud Cache",
             "Implement FSLogix application masking"
           ],
@@ -575,7 +575,7 @@
             "Configure user settings through Microsoft Intune policies or Group Policy",
             "Configure Remote Desktop Protocol (RDP) properties on a host pool",
             "Configure session timeout properties",
-            "Implement the Start Virtual Machine on Connect feature",
+            "Implement the Start VM on Connect feature",
             "Assign and unassign personal desktops to users"
           ],
           "Install and configure apps on a session host": [
@@ -583,12 +583,12 @@
             "Create and configure an application group",
             "Assign users to application groups",
             "Publish an application as a RemoteApp",
-            "Implement and manage Microsoft 365 apps on Azure Virtual Desktop session hosts",
+            "Implement and manage Microsoft 365 Apps on Azure Virtual Desktop session hosts",
             "Implement and manage OneDrive, including multisession environments",
             "Implement and manage Microsoft Teams, including the Remote Desktop WebRTC Redirector Service",
             "Implement and manage browsers for Azure Virtual Desktop sessions",
-            "Configure dynamic application delivery by using app attach",
-            "Create an application package for app attach"
+            "Configure dynamic application delivery by using App attach",
+            "Create an application package for App attach"
           ]
         },
         "Monitor and maintain an Azure Virtual Desktop infrastructure (10–15%)": {
