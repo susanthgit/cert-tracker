@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T08:59:09Z",
+  "fetched_at": "2026-06-28T08:23:11Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -25,10 +25,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-16 17:07:00+00:00",
-      "git_commit_id": "ede20e142b118205c09e271b0edbd9843cbfc00f",
-      "content_hash": "d1a8549ba505c742",
-      "skills_date": "January 14, 2026",
+      "updated_at": "2026-06-22 23:35:00+00:00",
+      "git_commit_id": "9b0f4baff8f80d235ab219ff0951130be7d848cd",
+      "content_hash": "bc935e3224e1867c",
+      "skills_date": "July 20, 2026",
       "skills_at_a_glance": [
         {
           "area": "Describe cloud concepts",
@@ -82,7 +82,7 @@
             "Describe virtual machine options, including Azure virtual machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop",
             "Describe the resources required for virtual machines",
             "Describe application hosting options, including web apps, containers, and virtual machines",
-            "Describe virtual networking, including the purpose of Azure virtual networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and ExpressRoute",
+            "Describe virtual networking, including the purpose of Azure virtual networks, subnets, peering, Azure DNS, Azure VPN Gateway, and ExpressRoute",
             "Define public and private endpoints"
           ],
           "Describe Azure storage services": [
@@ -118,7 +118,7 @@
           ],
           "Describe features and tools for managing and deploying Azure resources": [
             "Describe the Azure portal",
-            "Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell",
+            "Describe Azure Cloud Shell, Azure CLI, and Azure PowerShell",
             "Describe the purpose of Azure Arc",
             "Describe infrastructure as code (IaC)",
             "Describe Azure Resource Manager (ARM) and ARM templates"
@@ -126,7 +126,7 @@
           "Describe monitoring tools in Azure": [
             "Describe the purpose of Azure Advisor",
             "Describe Azure Service Health",
-            "Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights"
+            "Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Azure Monitor Application Insights"
           ]
         }
       },
@@ -875,10 +875,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-26 06:04:00+00:00",
-      "git_commit_id": "812c74c495627a042098ff05b4a5a4c1d695c7d5",
-      "content_hash": "9eec0edf800b999d",
-      "skills_date": "April 24, 2026",
+      "updated_at": "2026-06-26 19:26:00+00:00",
+      "git_commit_id": "c9bf397dd57a8921046818266f784cb53c9c88d3",
+      "content_hash": "f9f8e40754f670b8",
+      "skills_date": "July 27, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design and implement processes and communications",
@@ -905,7 +905,7 @@
         "Design and implement processes and communications (10–15%)": {
           "Design and implement traceability and flow of work": [
             "Design and implement a structure for the flow of work, including GitHub Flow",
-            "Design and implement a strategy for feedback cycles, including notifications and GitHub issues",
+            "Design and implement a strategy for feedback cycles, including notifications and GitHub Issues",
             "Design and implement integration for tracking work, including GitHub projects, Azure Boards, and repositories",
             "Design and implement source, bug, and quality traceability"
           ],
@@ -1010,23 +1010,23 @@
           "Automate security and compliance scanning": [
             "Design a strategy for security and compliance scanning, including dependency, code, secret, and licensing scanning",
             "Configure Microsoft Defender for Cloud DevOps Security",
-            "Configure GitHub Advanced Security for both GitHub and Azure DevOps",
+            "Configure GitHub Advanced Security for GitHub and GitHub Advanced Security for Azure DevOps",
             "Integrate GitHub Advanced Security with Microsoft Defender for Cloud",
             "Automate container scanning, including scanning container images and configuring an action to run CodeQL analysis in a container",
-            "Automate analysis of licensing, vulnerabilities, and versioning of open-source components by using Dependabot alerts"
+            "Automate analysis of vulnerabilities of open-source components by using Dependabot alerts"
           ]
         },
         "Implement an instrumentation strategy (5–10%)": {
           "Configure monitoring for a DevOps environment": [
             "Configure Azure Monitor and Azure Monitor Logs to integrate with DevOps tools",
-            "Configure collection of telemetry by using Application Insights, VM Insights, Container Insights, Azure Monitor for Storage, and Azure Monitor for Networks",
+            "Configure collection of telemetry by using Azure Monitor Application Insights, Azure VM Insights, Azure Container Insights, Azure Monitor for Storage, and Azure Monitor for Networks",
             "Configure monitoring in GitHub, including enabling insights and creating and configuring charts",
             "Configure alerts for events in GitHub Actions and Azure Pipelines"
           ],
           "Analyze metrics from instrumentation": [
             "Inspect infrastructure performance indicators, including CPU, memory, disk, and network",
             "Analyze metrics by using collected telemetry, including usage and application performance",
-            "Inspect distributed tracing by using Application Insights",
+            "Inspect distributed tracing by using Azure Monitor Application Insights",
             "Interrogate logs using basic Kusto Query Language (KQL) queries"
           ]
         }
@@ -2308,10 +2308,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-05 03:46:00+00:00",
-      "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
-      "content_hash": "bf240c6a711f903e",
-      "skills_date": "November 1, 2024",
+      "updated_at": "2026-06-23 18:41:00+00:00",
+      "git_commit_id": "bce821454a66e496b7f79818018569e778447b3f",
+      "content_hash": "a8083bf2eba6428b",
+      "skills_date": "July 21, 2026",
       "skills_at_a_glance": [
         {
           "area": "Describe core data concepts",
@@ -2333,13 +2333,14 @@
       "skills_detailed": {
         "Describe core data concepts (25–30%)": {
           "Describe ways to represent data": [
-            "Describe features of structured data",
-            "Describe features of semi-structured",
-            "Describe features of unstructured data"
+            "Describe the features of structured data",
+            "Describe the features of semi-structured data",
+            "Describe the features of unstructured data"
           ],
           "Identify options for data storage": [
             "Describe common formats for data files",
-            "Describe types of databases"
+            "Describe features of common data stores including databases",
+            "Identify Azure datastores for common use cases"
           ],
           "Describe common data workloads": [
             "Describe features of transactional workloads",
@@ -2359,17 +2360,17 @@
             "Identify common database objects"
           ],
           "Describe relational Azure data services": [
-            "Describe the Azure SQL family of products including Azure SQL Database, Azure SQL Managed Instance, and SQL Server on Azure Virtual Machines",
+            "Describe the Azure SQL family of products, including Azure SQL Database, Azure SQL Managed Instance, and SQL Server on Azure Virtual Machines",
             "Identify Azure database services for open-source database systems"
           ]
         },
         "Describe considerations for working with non-relational data on Azure (15–20%)": {
-          "Describe capabilities of Azure storage": [
-            "Describe Azure Blob storage",
-            "Describe Azure File storage",
-            "Describe Azure Table storage"
+          "Describe the capabilities of Azure storage": [
+            "Describe features of Azure Blob storage",
+            "Describe features of Azure Files",
+            "Describe features of Azure Table storage"
           ],
-          "Describe capabilities and features of Azure Cosmos DB": [
+          "Describe the capabilities and features of Azure Cosmos DB": [
             "Identify use cases for Azure Cosmos DB",
             "Describe Azure Cosmos DB APIs"
           ]
@@ -2380,12 +2381,12 @@
             "Describe options for analytical data stores",
             "Describe Microsoft cloud services for large-scale analytics, including Azure Databricks and Microsoft Fabric"
           ],
-          "Describe consideration for real-time data analytics": [
+          "Describe considerations for real-time data analytics": [
             "Describe the difference between batch and streaming data",
             "Identify Microsoft cloud services for real-time analytics"
           ],
           "Describe data visualization in Microsoft Power BI": [
-            "Identify capabilities of Power BI",
+            "Identify the capabilities of Power BI",
             "Describe features of data models in Power BI",
             "Identify appropriate visualizations for data"
           ]
@@ -3027,10 +3028,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-05 03:46:00+00:00",
-      "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
-      "content_hash": "c0e4002ac18d5ed3",
-      "skills_date": "November 7, 2025",
+      "updated_at": "2026-06-26 19:26:00+00:00",
+      "git_commit_id": "c9bf397dd57a8921046818266f784cb53c9c88d3",
+      "content_hash": "cdeec39a1922042f",
+      "skills_date": "July 28, 2026",
       "skills_at_a_glance": [
         {
           "area": "Describe the concepts of security, compliance, and identity",
@@ -3070,7 +3071,7 @@
         "Describe the capabilities of Microsoft Entra (25–30%)": {
           "Describe function and identity types of Microsoft Entra ID": [
             "Describe Microsoft Entra ID",
-            "Describe types of identities",
+            "Describe types of identities, including agent ID",
             "Describe hybrid identity"
           ],
           "Describe authentication capabilities of Microsoft Entra ID": [
@@ -3079,7 +3080,7 @@
             "Describe password protection and management capabilities"
           ],
           "Describe access management capabilities of Microsoft Entra ID": [
-            "Describe Conditional Access",
+            "Describe Microsoft Entra Conditional Access",
             "Describe Microsoft Entra roles and role-based access control (RBAC)"
           ],
           "Describe identity protection and governance capabilities of Microsoft Entra": [
@@ -3091,9 +3092,9 @@
         },
         "Describe the capabilities of Microsoft security solutions (35–40%)": {
           "Describe core infrastructure security services in Azure": [
-            "Describe Azure distributed denial-of-service (DDoS) Protection",
+            "Describe Azure DDoS Protection",
             "Describe Azure Firewall",
-            "Describe Web Application Firewall (WAF)",
+            "Describe Azure Web Application Firewall (WAF)",
             "Describe network segmentation with Azure virtual networks",
             "Describe network security groups (NSGs)",
             "Describe Azure Bastion",
@@ -3123,8 +3124,7 @@
         "Describe the capabilities of Microsoft compliance solutions (20–25%)": {
           "Describe Microsoft Service Trust Portal and privacy principles": [
             "Describe the Service Trust Portal offerings",
-            "Describe the privacy principles of Microsoft",
-            "Describe Microsoft Priva"
+            "Describe the privacy principles of Microsoft"
           ],
           "Describe compliance management capabilities of Microsoft Purview": [
             "Describe the Microsoft Purview portal",
@@ -3329,10 +3329,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-19 18:11:00+00:00",
-      "git_commit_id": "97d8da29cdf89b55298972ad1c916572872e8a6b",
-      "content_hash": "6aa2b31f58d87189",
-      "skills_date": "April 16, 2026",
+      "updated_at": "2026-06-26 19:26:00+00:00",
+      "git_commit_id": "c9bf397dd57a8921046818266f784cb53c9c88d3",
+      "content_hash": "fcbc2d7fb4a16a1f",
+      "skills_date": "July 28, 2026",
       "skills_at_a_glance": [
         {
           "area": "Manage a security operations environment",
@@ -3394,7 +3394,7 @@
             "Investigate and remediate compromised identities that are identified by Microsoft Entra ID",
             "Investigate and remediate security alerts from Microsoft Defender for Identity",
             "Investigate and remediate alerts and incidents identified by Microsoft Sentinel",
-            "Investigate incidents by using agentic AI, including embedded Copilot for Security",
+            "Investigate incidents by using agentic AI, including embedded Microsoft Security Copilot",
             "Investigate complex attacks, such as multi-stage, multi-domain, and lateral movement",
             "Manage security incidents by using case management"
           ],
@@ -3405,8 +3405,8 @@
             "Investigate and remediate incidents identified by automatic attack disruption"
           ],
           "Investigate Microsoft 365 activities to identify threats": [
-            "Investigate threats by using Audit from Microsoft Purview",
-            "Investigate threats by using Content Search in Microsoft Purview",
+            "Investigate threats by using Microsoft Purview Audit",
+            "Investigate threats by using Content search in Microsoft Purview eDiscovery",
             "Investigate threats by using Microsoft Graph activity logs"
           ]
         },
@@ -4636,118 +4636,150 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-27 23:35:00+00:00",
-      "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
-      "content_hash": "69ca16998f560938",
-      "skills_date": "April 28, 2026",
+      "updated_at": "2026-06-24 17:54:00+00:00",
+      "git_commit_id": "e2de9b24b75b55f3abb33dbc93f46f74c82b7953",
+      "content_hash": "4c665157c0f35c11",
+      "skills_date": "July 24, 2026",
       "skills_at_a_glance": [
         {
           "area": "Prepare infrastructure for devices",
-          "weight": "25-30%"
+          "weight": "20-25%"
         },
         {
           "area": "Manage and maintain devices",
-          "weight": "30-35%"
-        },
-        {
-          "area": "Manage applications",
-          "weight": "15-20%"
+          "weight": "25-30%"
         },
         {
           "area": "Protect devices",
           "weight": "15-20%"
+        },
+        {
+          "area": "Manage and secure applications",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Optimize endpoint operations by using automation, monitoring, and reporting",
+          "weight": "10-15%"
         }
       ],
       "skills_detailed": {
-        "Prepare infrastructure for devices (25–30%)": {
+        "Prepare infrastructure for devices (20–25%)": {
           "Add devices to Microsoft Entra ID": [
-            "Choose an appropriate device join type",
+            "Choose an appropriate device join type, including considerations such as device registration and Microsoft Entra join",
             "Join devices to Microsoft Entra ID",
             "Register devices to Microsoft Entra ID",
-            "Plan and implement groups for devices in Microsoft Entra ID"
+            "Plan and implement groups for devices in Microsoft Entra ID, including dynamic group membership rules"
           ],
           "Enroll devices to Microsoft Intune": [
-            "Configure enrollment settings",
-            "Configure automatic enrollment for Windows and bulk enrollment for iOS/iPadOS and Android",
-            "Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate owned, and work profile"
+            "Configure enrollment settings in Microsoft Intune",
+            "Configure automatic enrollment for Windows",
+            "Configure personal enrollment for macOS, iOS, iPadOS",
+            "Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate owned, work profile, enrollment restrictions and troubleshooting enrollment failures",
+            "Configure corporate enrollment for macOS and iOS devices by integrating Intune with Apple Business Manager",
+            "Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google Zero Touch"
           ],
           "Implement identity and compliance": [
-            "Manage roles in Intune",
+            "Manage built-in and custom roles for Intune and Windows 365, including role assignments",
+            "Configure scope tags and scoped administration for multi-admin environments",
+            "Implement and manage multi-admin approval",
             "Implement compliance policies for all supported device platforms by using Intune",
             "Implement Microsoft Entra Conditional Access policies that require a compliance status",
-            "Configure Windows Hello for Business",
-            "Implement and manage Windows Local Administrator Password Solution (Windows LAPS)",
+            "Configure Windows Hello for Business by using Intune",
+            "Implement and manage Windows Local Administrator Password Solution (Windows LAPS) by using Microsoft Intune and Microsoft Entra ID",
             "Manage the membership of local groups on Windows devices by using Intune"
           ]
         },
-        "Manage and maintain devices (30–35%)": {
+        "Manage and maintain devices (25–30%)": {
           "Deploy and upgrade Windows clients by using cloud-based tools": [
-            "Choose between Windows Autopilot and provisioning packages",
-            "Choose a Windows Autopilot deployment mode",
-            "Apply a device name template",
+            "Choose between Windows Autopilot deployment profiles and device preparation policies",
+            "Choose between Windows Autopilot deployment modes, including user-driven, pre-provisioning, and self-deploying",
+            "Apply a device name template by using Windows Autopilot",
             "Implement Windows client deployment by using Windows Autopilot",
             "Create an Enrollment Status Page (ESP)",
-            "Plan and implement provisioning packages",
-            "Plan and implement device upgrades for Windows 11",
-            "Implement a Windows 365 Cloud PC deployment"
+            "Plan and implement device upgrades for Windows 11 by using Intune",
+            "Provision and configure Windows 365 Cloud PCs by using Intune, including provisioning policies, network connections, and image management",
+            "Implement Windows Backup and Restore by using Intune"
           ],
           "Plan and implement device configuration profiles": [
-            "Create device configuration profiles for Windows devices, including importing ADMX files",
+            "Create device configuration profiles for Windows devices, including importing ADMX files and using Group Policy analytics",
             "Create device configuration profiles for Android devices",
             "Create device configuration profiles for iOS/iPadOS devices",
             "Create device configuration profiles for macOS devices",
-            "Create device configuration profiles for Windows 11 Enterprise multi-session devices",
-            "Target a profile by using filters"
+            "Create device configuration profiles for specialty devices, including Teams Rooms, HoloLens 2, and Zebra",
+            "Target a profile by using assignment filters and enrollment time grouping"
           ],
           "Implement Intune Suite add-on capabilities": [
-            "Configure Endpoint Privilege Management",
+            "Configure Endpoint Privilege Management including configuring elevation policies, monitoring elevated actions, and adjusting EPM settings",
             "Manage applications by using the Enterprise App Catalog",
-            "Implement Microsoft Intune Advanced Analytics",
             "Configure Microsoft Intune Remote Help",
-            "Identify use cases for Microsoft Cloud PKI",
-            "Implement Microsoft Tunnel for Mobile Application Management"
+            "Plan and implement Microsoft Cloud PKI, including setting up cloud-based PKI, automating certificate issuance, and monitoring certificate health",
+            "Implement Microsoft Tunnel for Mobile Application Management, including configuring Tunnel Gateway, extending support to MAM devices, and monitoring tunnel connections",
+            "Implement Microsoft Intune Advanced Analytics, including anomaly detection, proactive insights, and risk-based policy recommendations"
           ],
           "Perform remote actions on devices": [
             "Sync, restart, retire, or wipe devices",
             "Perform bulk remote actions",
             "Update Microsoft Defender Antivirus security intelligence",
             "Rotate BitLocker recovery keys",
-            "Run a device query by using KQL"
-          ]
-        },
-        "Manage applications (15–20%)": {
-          "Deploy and update apps": [
-            "Prepare applications for deployment by using Intune",
-            "Deploy apps by using Intune",
-            "Deploy Microsoft 365 Apps by using Intune",
-            "Configure policies for Office apps",
-            "Deploy Microsoft 365 Apps as part of a Windows Autopilot deployment by using the Office Deployment Tool (ODT) or Office Customization Tool (OCT)",
-            "Manage Microsoft 365 Apps by using the Microsoft 365 Apps admin center",
-            "Deploy apps from platform-specific app stores by using Intune"
-          ],
-          "Plan and implement app protection and app configuration policies": [
-            "Plan and implement app protection policies",
-            "Implement Microsoft Entra Conditional Access policies for app protection policies",
-            "Plan and implement app configuration policies for managed apps and managed devices"
+            "Rotate locate administrator passwords",
+            "Run a device query by using KQL",
+            "Collect device diagnostics and logs by using Microsoft Intune, including using the Troubleshooting blade for user-based diagnostics"
           ]
         },
         "Protect devices (15–20%)": {
           "Configure endpoint security": [
-            "Create antivirus policies",
-            "Create disk encryption policies",
-            "Create firewall policies",
-            "Configure Attack surface reduction policies",
-            "Plan and implement security baselines",
-            "Integrate Intune with Microsoft Defender for Endpoint",
-            "Onboard devices into Microsoft Defender for Endpoint"
+            "Create antivirus policies by using Microsoft Intune",
+            "Create and manage disk encryption policies by using Microsoft Intune, including managing BitLocker recovery keys, configuring user self-service recovery, and monitoring encryption compliance status",
+            "Create firewall policies by using Microsoft Intune",
+            "Configure Attack surface reduction policies by using Microsoft Intune, including applying Zero Trust principles for endpoint protection",
+            "Plan and implement security baselines by using Microsoft Intune",
+            "Integrate Intune with Microsoft Defender for Endpoint, including configuring Endpoint Detection and Response (EDR) policies, investigating endpoint threats, and triaging incidents",
+            "Onboard devices into Microsoft Defender for Endpoint",
+            "Configure App Control for Business policies by using Microsoft Intune"
           ],
-          "Manage device updates by using Intune": [
-            "Plan for device updates",
-            "Create and manage update rings by using Intune",
-            "Create and manage update policies by using Intune, including iOS/iPadOS and macOS",
+          "Manage device updates": [
+            "Plan for device updates by using Intune",
+            "Create and manage update rings, feature updates, and quality updates for Windows devices by using Intune",
+            "Implement Windows Autopatch and configure Hotpatch policies",
+            "Create and manage update policies for iOS/iPadOS and macOS devices by using the Settings Catalog in Microsoft Intune",
             "Manage Android updates by using configuration profiles or firmware-over-the-air (FOTA) deployments",
             "Configure Windows client Delivery Optimization by using Intune",
-            "Monitor updates"
+            "Monitor device updates by using Intune"
+          ]
+        },
+        "Manage and secure applications (15–20%)": {
+          "Deploy and update apps": [
+            "Prepare applications for deployment by using Intune",
+            "Deploy apps by using Intune, including Win32 apps, line-of-business (LOB) apps, and Microsoft Store apps",
+            "Configure Quiet Time policies for Android and iOS apps",
+            "Deploy Microsoft 365 Apps by using Intune",
+            "Configure policies for Office apps by using Microsoft Intune or the Microsoft 365 Apps admin center",
+            "Deploy Microsoft 365 Apps as part of a Windows Autopilot deployment, including using the Office Deployment Tool (ODT) or Microsoft Intune",
+            "Manage Microsoft 365 Apps by using the Microsoft 365 Apps admin center",
+            "Deploy apps from platform-specific app stores by using Intune, including Apple Volume Purchase Program and Google Play",
+            "Monitor app deployment status and troubleshoot installation failures by using Microsoft Intune"
+          ],
+          "Plan and implement app protection and app configuration policies": [
+            "Plan and implement app protection policies for managed and unmanaged (BYOD) devices by using Microsoft Intune",
+            "Implement Microsoft Entra Conditional Access policies for app protection policies",
+            "Plan and implement app configuration policies for managed apps and managed devices"
+          ]
+        },
+        "Optimize endpoint operations by using automation, monitoring, and reporting (10–15%)": {
+          "Automate management tasks": [
+            "Automate Intune management tasks by using PowerShell and Microsoft Graph",
+            "Investigate threats identified by Security Copilot agents in Intune",
+            "Analyze device performance by using Security Copilot agents in Intune",
+            "Review and respond to Security Copilot agent recommendations to make management decisions",
+            "Extend device compliance by using PowerShell"
+          ],
+          "Monitor and optimize health": [
+            "Implement reporting and data visibility in Microsoft Intune, including customizing reports and filters, using workbooks and dashboards, and exporting reporting data",
+            "Monitor endpoint performance by using Endpoint Analytics, including proactive remediations, device health scores, and app startup performance",
+            "Configure and manage proactive remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs",
+            "Analyze endpoint reliability and user experience scores, including startup performance, restart frequency, and application reliability metrics",
+            "Monitor tenant health and Intune service communications, including reviewing service health dashboards, message center notifications, and establishing operational baselines",
+            "Configure alerts and notifications for policy and compliance changes, including setting up alert rules for compliance drift, enrollment failures, and configuration conflicts"
           ]
         }
       },
@@ -4772,115 +4804,96 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-05 03:46:00+00:00",
-      "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
-      "content_hash": "71263523ee1cd41e",
-      "skills_date": "June 20, 2025",
+      "updated_at": "2026-06-24 17:54:00+00:00",
+      "git_commit_id": "e2de9b24b75b55f3abb33dbc93f46f74c82b7953",
+      "content_hash": "416ca8e63b5891d5",
+      "skills_date": "July 24, 2026",
       "skills_at_a_glance": [
         {
           "area": "Describe the business value of Microsoft Power Platform",
-          "weight": "15-20%"
+          "weight": "5-10%"
         },
         {
           "area": "Manage the Microsoft Power Platform environment",
-          "weight": "15-20%"
+          "weight": "20-25%"
         },
         {
           "area": "Demonstrate the capabilities of Power Apps",
-          "weight": "25-30%"
+          "weight": "20-25%"
         },
         {
           "area": "Demonstrate the capabilities of Power Automate",
-          "weight": "15-20%"
+          "weight": "20-25%"
         },
         {
-          "area": "Demonstrate the capabilities of Power Pages",
-          "weight": "10-15%"
+          "area": "Describe features and capabilities of agents in Microsoft Copilot Studio",
+          "weight": "20-25%"
         }
       ],
       "skills_detailed": {
-        "Describe the business value of Microsoft Power Platform (15–20%)": {
+        "Describe the business value of Microsoft Power Platform (5–10%)": {
           "Describe the business value of Microsoft Power Platform services": [
             "Describe the value of Microsoft Power Apps to build applications",
             "Describe the value of Microsoft Power Automate to automate processes",
-            "Describe the value of Microsoft Power Pages to build websites",
-            "Describe the value of connectors to integrate services and data",
             "Describe the value of Microsoft Dataverse to organize business data",
-            "Describe the value of Copilots and generative AI features in Microsoft Power Platform",
-            "Describe the value of Copilot Studio",
-            "Describe the value of Power FX as a low-code solution"
-          ],
-          "Describe the business value of extending business solutions by using Microsoft Power Platform": [
-            "Describe how Microsoft Power Platform business solutions work together with Microsoft 365 apps and services, including Microsoft Teams",
-            "Describe how Microsoft Power Platform services work together"
+            "Describe the value of connectors to integrate services and data for apps and flows",
+            "Describe the value of Microsoft Power Pages to build websites",
+            "Describe the value of generative AI features in Microsoft Power Platform",
+            "Describe the value of Copilot Studio to create agents"
           ]
         },
-        "Manage the Microsoft Power Platform environment (15–20%)": {
+        "Manage the Microsoft Power Platform environment (20–25%)": {
           "Describe Microsoft Dataverse": [
             "Describe differences between traditional databases and Dataverse",
-            "Describe tables, columns, and relationships in Dataverse",
-            "Describe the options for business logic in Dataverse",
-            "Create and modify tables and columns through conversations",
-            "Describe options for importing and exporting data"
+            "Describe tables, columns, and relationships",
+            "Describe table forms and views",
+            "Describe the options for business logic in Dataverse, including Power Fx",
+            "Describe how to use AI to create and edit tables, columns, and relationships"
           ],
           "Describe Microsoft Power Platform administration and governance": [
-            "Describe the Microsoft Power Platform security model",
             "Describe environments",
-            "Describe the different Microsoft Power Platform admin centers and portals",
-            "Describe how Microsoft Power Platform supports data privacy and accessibility guidelines"
+            "Describe the Microsoft Power Platform security model",
+            "Describe how Microsoft Power Platform supports data privacy and accessibility guidelines",
+            "Describe the monitoring and analytics capabilities of the Microsoft Power Platform",
+            "Describe application lifecycle management (ALM) with Microsoft Power Platform pipelines"
           ]
         },
-        "Demonstrate the capabilities of Power Apps (25–30%)": {
-          "Identify Power Apps capabilities": [
+        "Demonstrate the capabilities of Power Apps (20–25%)": {
+          "Describe Power Apps capabilities and use cases": [
             "Describe use cases for and capabilities of canvas apps",
             "Describe use cases for and capabilities of model-driven apps",
-            "Explore model-driven app features"
+            "Describe use cases for and capabilities of Plan designer",
+            "Describe use cases for and capabilities of code apps"
           ],
-          "Build a canvas app": [
-            "Connect to data sources by using connectors",
-            "Describe common controls",
-            "Build responsive pages by using containers",
-            "Describe the capabilities of Copilot controls",
-            "Share a canvas app"
-          ],
-          "Build a model-driven app": [
-            "Create a model-driven app from tables",
-            "Modify forms",
-            "Create and modify views",
-            "Share a model-driven app"
+          "Describe how to build basic apps by using Power Apps": [
+            "Describe how to use AI to create a canvas app",
+            "Describe how to use AI to create a model-driven app",
+            "Describe creating AI-powered apps by using the vibe experience"
           ]
         },
-        "Demonstrate the capabilities of Power Automate (15–20%)": {
-          "Identify Power Automate components": [
+        "Demonstrate the capabilities of Power Automate (20–25%)": {
+          "Describe Power Automate use cases and capabilities": [
             "Describe use cases for cloud and desktop flows",
-            "Describe use cases for cloud flow templates",
-            "Describe how Power Automate cloud flows use connector triggers and actions",
-            "Describe Power Automate use cases for approvals, Microsoft Teams, Outlook, SharePoint, Forms, and document automation",
-            "Describe the Power Automate apps including Power Automate for Desktop, Power Automate mobile, and the Power Automate maker portal",
-            "Describe actions for Power Automate desktop flows",
-            "Describe Process Mining",
-            "Describe loops and branching in cloud flows"
+            "Describe Power Automate use cases for approvals, Microsoft Teams, Outlook, SharePoint, Forms, and document automation"
           ],
-          "Build a Power Automate flow": [
-            "Create a cloud flow by using an instant, automated, or scheduled trigger",
-            "Create and modify cloud flows through conversations",
-            "Run and monitor cloud flows",
-            "Test a cloud flow",
-            "Share a cloud flow"
+          "Describe how to build basic flows by using Power Automate": [
+            "Describe connector triggers and actions for cloud flows",
+            "Describe how to use AI to create and modify cloud flows",
+            "Describe how to use AI to create and modify desktop flows"
           ]
         },
-        "Demonstrate the capabilities of Power Pages (10–15%)": {
-          "Describe the capabilities of Power Pages": [
-            "Describe use cases for Power Pages",
-            "Describe methods for creating sites",
-            "Describe Power Pages security concepts"
+        "Describe features and capabilities of agents in Microsoft Copilot Studio (20–25%)": {
+          "Describe how to build agents in Copilot Studio": [
+            "Describe use cases for agents",
+            "Describe how to build agent conversation paths by using topics",
+            "Describe how to use knowledge sources in agents",
+            "Describe how tools, including MCP servers and agent flows, are used in agents",
+            "Describe how to publish agents by using channels"
           ],
-          "Create a Power Pages site": [
-            "Create and modify Power Pages sites by using Copilot",
-            "Describe design studio workspaces",
-            "Create and modify pages",
-            "Configure Power Pages components",
-            "Modify a Power Pages theme"
+          "Describe how to manage agents in Copilot Studio": [
+            "Describe use cases and capabilities for Microsoft Agent 365",
+            "Describe how to monitor Copilot Studio agent usage and adoption",
+            "Describe agent evaluations"
           ]
         }
       },
