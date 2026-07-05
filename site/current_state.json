@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T08:23:11Z",
+  "fetched_at": "2026-07-05T07:58:45Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -1207,10 +1207,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-26 06:04:00+00:00",
-      "git_commit_id": "812c74c495627a042098ff05b4a5a4c1d695c7d5",
-      "content_hash": "4eb06a911760f6af",
-      "skills_date": "April 24, 2026",
+      "updated_at": "2026-06-29 23:01:00+00:00",
+      "git_commit_id": "259b665e1e98ebe7648567d318741c9566aad64f",
+      "content_hash": "bdd1fc320f8de68a",
+      "skills_date": "July 27, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design and implement core networking infrastructure",
@@ -1241,9 +1241,9 @@
             "Plan and configure subnetting for services, including virtual network gateways, private endpoints, service endpoints, firewalls, application gateways, VNet-integrated platform services, and Azure Bastion",
             "Plan and configure subnet delegation",
             "Plan and configure shared or dedicated subnets",
-            "Create a prefix for public IP addresses",
+            "Create a Public IP Prefix",
             "Choose when to use a public IP address prefix",
-            "Plan and implement a custom public IP address prefix (bring your own IP)",
+            "Plan and implement a Custom IP address prefix (bring your own IP)",
             "Create a public IP address",
             "Associate public IP addresses to resources"
           ],
@@ -1274,8 +1274,8 @@
             "Monitor and troubleshoot networks by using Azure Monitor for Networks",
             "Activate and monitor distributed denial-of-service (DDoS) protection",
             "Evaluate network security recommendations identified by Microsoft Defender for Cloud Secure Score",
-            "Evaluate network security recommendations identified by Microsoft Defender for Cloud attack oaths",
-            "Identify network resources by using Microsoft Defender for Cloud Security Explorer"
+            "Evaluate network security recommendations identified by Microsoft Defender for Cloud attack path analysis",
+            "Identify network resources by using Cloud Security Explorer in Microsoft Defender for Cloud"
           ]
         },
         "Design, implement, and manage connectivity services (20–25%)": {
@@ -1383,7 +1383,7 @@
         "Design and implement Azure network security services (15–20%)": {
           "Implement and manage network security groups": [
             "Create a network security group (NSG)",
-            "Associate a NSG to a resource",
+            "Associate a NSG to a subnet or network interface",
             "Create an application security group (ASG)",
             "Associate an ASG to a network interface",
             "Create and configure NSG inbound and outbound security rules",
@@ -1869,8 +1869,8 @@
       "replacement": "AI-901",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-04-15 17:18:00+00:00",
-      "git_commit_id": "b4c69786822ecee31a86ba03d900960f26084e30",
+      "updated_at": "2026-06-30 23:44:00+00:00",
+      "git_commit_id": "c7493c1281e913467ff24fe114613d1438876995",
       "content_hash": "4e55d5516569080d",
       "skills_date": "May 2, 2025",
       "skills_at_a_glance": [
@@ -1990,8 +1990,8 @@
       "replacement": "AI-103",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-16 02:02:00+00:00",
-      "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
+      "updated_at": "2026-06-30 23:44:00+00:00",
+      "git_commit_id": "c7493c1281e913467ff24fe114613d1438876995",
       "content_hash": "1f3d79e6574d1ecb",
       "skills_date": "December 23, 2025",
       "skills_at_a_glance": [
@@ -3169,10 +3169,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-27 23:35:00+00:00",
-      "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
-      "content_hash": "b76c24165bfaeb68",
-      "skills_date": "April 27, 2026",
+      "updated_at": "2026-06-29 23:01:00+00:00",
+      "git_commit_id": "259b665e1e98ebe7648567d318741c9566aad64f",
+      "content_hash": "b02072d3c2d8b395",
+      "skills_date": "July 28, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design solutions that align with security best practices and priorities",
@@ -3199,14 +3199,16 @@
             "Design solutions for mitigating ransomware attacks, including prioritization of BCDR and privileged access",
             "Evaluate solutions for security updates"
           ],
-          "Design solutions that align with the Microsoft Cybersecurity Reference Architectures (MCRA) and Microsoft cloud security benchmark (MCSB)": [
+          "Design solutions that align with the Microsoft Cybersecurity Reference Architectures (MCRA) and Microsoft Cloud Security Benchmark (MCSB)": [
             "Design solutions that align with best practices for cybersecurity capabilities and controls",
             "Design solutions that align with best practices for protecting against insider, external, and supply chain attacks",
-            "Design solutions that align with best practices for Zero Trust security, including A Rapid modernization plan for Zero Trust (RaMP)"
+            "Design AI solutions that align to the Microsoft Cloud Security Benchmark.",
+            "Design solutions that align with the Zero Trust adoption framework"
           ],
-          "Design solutions that align with the Microsoft Cloud Adoption Framework for Azure and the Microsoft Azure Well-Architected Framework": [
+          "Design solutions that align with the Microsoft Cloud Adoption Framework for Azure (CAF) and the Azure Well-Architected Framework": [
+            "Design a strategy for secure AI adoption",
             "Design a new or evaluate an existing strategy for security and governance based on the Microsoft Cloud Adoption Framework for Azure (CAF) and the Azure Well-Architected Framework (WAF)",
-            "Recommend solutions for security and governance based on the Microsoft Cloud Adoption Framework for Azure (CAF) and the Microsoft Azure Well-Architected Framework",
+            "Recommend solutions for security and governance based on the Microsoft Cloud Adoption Framework for Azure (CAF) and the Azure Well-Architected Framework",
             "Design solutions for implementing and governing security by using Azure landing zones",
             "Design a DevSecOps process that aligns with best practices in the Microsoft Cloud Adoption Framework for Azure (CAF)"
           ]
@@ -3221,6 +3223,7 @@
             "Design and evaluate threat detection coverage by using MITRE ATT&CK matrices, including Enterprise, Mobile, and industrial control systems (ICS)"
           ],
           "Design solutions for identity and access management": [
+            "Design a solution for agent identities using Microsoft Entra Agent ID and conditional access policies",
             "Design a solution for access to software as a service (SaaS), platform as a service (PaaS), infrastructure as a service (IaaS), hybrid/on-premises, and multicloud resources, including identity, networking, and application controls",
             "Design a solution for Microsoft Entra ID, including hybrid and multi-cloud environments",
             "Design a solution for external identities, including business-to-business (B2B) and decentralized identity",
@@ -3241,14 +3244,13 @@
           "Design solutions for regulatory compliance": [
             "Translate compliance requirements into security controls",
             "Design a solution to address compliance requirements by using Microsoft Purview",
-            "Design a solution to address privacy requirements, including Microsoft Priva",
             "Design Azure Policy solutions to address security and compliance requirements",
             "Evaluate and validate alignment with regulatory standards and benchmarks by using Microsoft Defender for Cloud"
           ]
         },
         "Design security solutions for infrastructure (25–30%)": {
           "Design solutions for security posture management in hybrid and multicloud environments": [
-            "Evaluate security posture by using Microsoft Defender for Cloud, including the Microsoft cloud security benchmark (MCSB)",
+            "Evaluate security posture by using Microsoft Defender for Cloud, including the Microsoft Cloud Security Benchmark (MCSB)",
             "Evaluate security posture by using Microsoft Secure Score",
             "Design integrated security posture management solutions that include Microsoft Defender for Cloud in hybrid and multi-cloud environments",
             "Select cloud workload protection solutions in Microsoft Defender for Cloud",
@@ -3301,6 +3303,7 @@
             "Evaluate solutions for data discovery and classification",
             "Specify priorities for mitigating threats to data",
             "Evaluate solutions for encryption of data at rest and in transit, including Azure Key Vault and infrastructure encryption",
+            "Design security for data used in AI workloads",
             "Design a security solution for data in Azure workloads, including Azure SQL, Azure Synapse Analytics, and Azure Cosmos DB",
             "Design a security solution for data in Azure Storage",
             "Design a security solution that includes Microsoft Defender for Storage and Microsoft Defender for Databases"
@@ -4078,10 +4081,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-27 23:35:00+00:00",
-      "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
-      "content_hash": "1394f963c9e23a25",
-      "skills_date": "April 28, 2026",
+      "updated_at": "2026-06-29 18:17:00+00:00",
+      "git_commit_id": "e86d396bf99842652342797a730cf39ece5ce134",
+      "content_hash": "ada5d9d80867486c",
+      "skills_date": "July 29, 2026",
       "skills_at_a_glance": [
         {
           "area": "Configure and manage a Teams environment",
@@ -4112,13 +4115,13 @@
             "Identify licensing requirements for security and compliance features",
             "Specify security and compliance alert policies for Teams",
             "Choose appropriate Teams administrator roles",
-            "Plan and configure threat policies in Microsoft Defender XDR",
+            "Plan and configure threat policies in Microsoft Defender for Office 365",
             "Specify retention policies",
-            "Specify sensitivity labels and publishing policies, including Teams meeting policies",
-            "Specify data loss prevention (DLP) policies",
+            "Specify sensitivity labels and publishing policies, including for Teams meetings",
+            "Specify Microsoft Purview Data Loss Prevention (DLP) policies",
             "Specify Microsoft Entra Conditional Access policies for Teams",
-            "Specify information barrier (IB) policies",
-            "Identify appropriate use cases for communication compliance and insider risk management"
+            "Specify Microsoft Purview Information Barriers policies",
+            "Identify appropriate use cases for Microsoft Purview Communication Compliance and Microsoft Purview Insider Risk Management"
           ],
           "Plan and implement governance for Teams": [
             "Identify licensing requirements for lifecycle management of teams",
@@ -4191,7 +4194,7 @@
         },
         "Manage meetings and calling (15–20%)": {
           "Manage meetings and events": [
-            "Recommend meeting types based on business requirements, including Virtual appointments, Webinars, Teams town halls, and meetings",
+            "Recommend meeting types based on business requirements, including Appointments with Microsoft Teams, webinars, Teams town halls, and meetings",
             "Configure meeting settings, including for Microsoft 365 Copilot",
             "Create and manage meeting templates and template policies",
             "Create and manage meeting policies",
@@ -5374,8 +5377,8 @@
       "replacement": "New Power Platform AI/Copilot certs",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-31 22:46:00+00:00",
-      "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
+      "updated_at": "2026-06-30 23:44:00+00:00",
+      "git_commit_id": "e571e7c11284a3f674b144f8e67930539048ada3",
       "content_hash": "5eecc3ce8533b4d1",
       "skills_date": "July 8, 2024",
       "skills_at_a_glance": [
@@ -5641,8 +5644,8 @@
       "replacement": "New Power Platform architect certs",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-31 22:46:00+00:00",
-      "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
+      "updated_at": "2026-06-30 23:44:00+00:00",
+      "git_commit_id": "e571e7c11284a3f674b144f8e67930539048ada3",
       "content_hash": "9338a598a974ec01",
       "skills_date": "September 23, 2024",
       "skills_at_a_glance": [
@@ -6614,8 +6617,8 @@
       "replacement": "Refreshed Dynamics 365 AI certs",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-31 22:46:00+00:00",
-      "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
+      "updated_at": "2026-06-30 23:44:00+00:00",
+      "git_commit_id": "e571e7c11284a3f674b144f8e67930539048ada3",
       "content_hash": "b4962feaa7fe633d",
       "skills_date": "September 18, 2025",
       "skills_at_a_glance": [
