@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T07:28:40Z",
+  "fetched_at": "2026-07-26T07:37:13Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -2742,10 +2742,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-20 17:49:00+00:00",
-      "git_commit_id": "99da86cb624284f69b90ab9806e12b0957fbae80",
-      "content_hash": "cb43e77112d60758",
-      "skills_date": "April 20, 2026",
+      "updated_at": "2026-07-21 17:15:00+00:00",
+      "git_commit_id": "9a86b29e64abc3e5302732de942380c84cb837c1",
+      "content_hash": "75735de08f9c684c",
+      "skills_date": "July 21, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design and implement data models",
@@ -2794,7 +2794,7 @@
           ],
           "Plan and implement sizing and scaling for a database created with Azure Cosmos DB": [
             "Evaluate the throughput and data storage requirements for a specific workload",
-            "Choose between serverless, provisioned and free tier",
+            "Choose between serverless and provisioned throughput; determine when free tier is applicable",
             "Choose when to use database-level provisioned throughput",
             "Design for granular scale units and resource governance",
             "Evaluate the cost of the global distribution of data",
@@ -2844,7 +2844,7 @@
           "Design and implement a replication strategy for Azure Cosmos DB": [
             "Choose when to distribute data",
             "Define automatic failover policies for regional failure for Azure Cosmos DB for NoSQL",
-            "Perform manual failovers to move single master write regions",
+            "Perform manual failovers to move single-write regions",
             "Choose a consistency model",
             "Identify use cases for different consistency models",
             "Evaluate the impact of consistency model choices on availability and associated request unit (RU) cost",
@@ -2862,7 +2862,7 @@
             "Configure Azure Cosmos DB Mirroring for Microsoft Fabric",
             "Choose between Azure Cosmos DB Mirroring and the Azure Cosmos DB Spark connector",
             "Enable the analytical store on a container",
-            "Enable a connection to an analytical store and query from Azure Synapse Spark or Azure Synapse SQL",
+            "Enable a connection to an analytical store and query from Azure Synapse Spark or Azure Synapse SQL serverless",
             "Perform a query against the transactional store from Spark",
             "Write data back to the transactional store from Spark",
             "Implement Change Data Capture in the Azure Cosmos DB analytical store",
@@ -2921,7 +2921,7 @@
             "Restore a database or container from a restore point"
           ],
           "Implement security for an Azure Cosmos DB solution": [
-            "Choose between service-managed and customer-managed encryption keys",
+            "Choose between platform-managed and customer-managed encryption keys",
             "Configure network-level access control for Azure Cosmos DB",
             "Configure data encryption for Azure Cosmos DB",
             "Manage control plane access to Azure Cosmos DB by using Azure role-based access control (RBAC)",
@@ -4807,8 +4807,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-24 17:54:00+00:00",
-      "git_commit_id": "e2de9b24b75b55f3abb33dbc93f46f74c82b7953",
+      "updated_at": "2026-07-24 20:27:00+00:00",
+      "git_commit_id": "9975aaa647f8c62cd6d63bfc599562723018958a",
       "content_hash": "416ca8e63b5891d5",
       "skills_date": "July 24, 2026",
       "skills_at_a_glance": [
