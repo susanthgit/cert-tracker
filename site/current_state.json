@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T05:48:24Z",
+  "fetched_at": "2026-08-16T05:29:53Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -3949,8 +3949,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-07-27 21:34:00+00:00",
-      "git_commit_id": "c756771e79e24330edcdd4b3f1b1803b62b24e9e",
+      "updated_at": "2026-08-14 19:42:00+00:00",
+      "git_commit_id": "dd3b05dfc9122af4eac06cf40248063711720b06",
       "content_hash": "d67302414001563d",
       "skills_date": "April 28, 2026",
       "skills_at_a_glance": [
