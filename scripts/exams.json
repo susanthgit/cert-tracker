@@ -45,7 +45,7 @@
       "roles": ["developer"],
       "products": ["azure"],
       "category": "Azure",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-07-31",
       "replacement": "New Azure AI-enabled developer certs"
     },
@@ -127,7 +127,7 @@
       "roles": ["ai-engineer", "data-scientist"],
       "products": ["azure"],
       "category": "AI",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "AI-901"
     },
@@ -138,7 +138,7 @@
       "roles": ["ai-engineer"],
       "products": ["azure"],
       "category": "AI",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "AI-103"
     },
@@ -201,7 +201,7 @@
       "roles": ["data-scientist"],
       "products": ["azure"],
       "category": "Data",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-01",
       "replacement": "AI-300"
     },
@@ -417,7 +417,7 @@
       "roles": ["developer"],
       "products": ["power-automate"],
       "category": "Power Platform",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "New Power Platform AI/Copilot certs"
     },
@@ -428,7 +428,7 @@
       "roles": ["solution-architect"],
       "products": ["power-platform"],
       "category": "Power Platform",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "New Power Platform architect certs"
     },
@@ -466,7 +466,7 @@
       "roles": ["functional-consultant"],
       "products": ["dynamics-365"],
       "category": "Dynamics 365",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "Refreshed Dynamics 365 AI certs"
     },
