@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-23T05:31:26Z",
+  "fetched_at": "2026-08-30T03:42:48Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -625,7 +625,7 @@
         "azure"
       ],
       "category": "Azure",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-07-31",
       "replacement": "New Azure AI-enabled developer certs",
       "replaces": "",
@@ -1864,7 +1864,7 @@
         "azure"
       ],
       "category": "AI",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "AI-901",
       "replaces": "",
@@ -1985,7 +1985,7 @@
         "azure"
       ],
       "category": "AI",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "AI-103",
       "replaces": "",
@@ -2408,7 +2408,7 @@
         "azure"
       ],
       "category": "Data",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-01",
       "replacement": "AI-300",
       "replaces": "",
@@ -5372,7 +5372,7 @@
         "power-automate"
       ],
       "category": "Power Platform",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "New Power Platform AI/Copilot certs",
       "replaces": "",
@@ -5639,7 +5639,7 @@
         "power-platform"
       ],
       "category": "Power Platform",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "New Power Platform architect certs",
       "replaces": "",
@@ -6612,7 +6612,7 @@
         "dynamics-365"
       ],
       "category": "Dynamics 365",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-06-30",
       "replacement": "Refreshed Dynamics 365 AI certs",
       "replaces": "",
@@ -6821,9 +6821,9 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-07-31 18:27:00+00:00",
-      "git_commit_id": "3307913dd9cedfabfcc98fefd477a43ce197644a",
-      "content_hash": "98ee4c8414658b56",
+      "updated_at": "2026-08-26 22:01:00+00:00",
+      "git_commit_id": "66abbf6b1fe394b9518881ea360080533e30b1b2",
+      "content_hash": "20887790997a4d74",
       "skills_date": "August 14, 2026",
       "skills_at_a_glance": [
         {
@@ -6940,7 +6940,6 @@
             "Configure invoice validation policies and invoice matching setup",
             "Configure vendor groups, vendors, and vendor posting profiles, including configuring shared vendors",
             "Process invoices and credit memos, with and without associated purchase orders, including prepayments",
-            "Process intercompany vendor invoices",
             "Configure vendor payment methods",
             "Configure accounts payable charges, and apply changes to an invoice",
             "Configure vendor bank accounts",
