@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T10:19:16Z",
+  "fetched_at": "2026-09-06T09:12:22Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -1052,8 +1052,8 @@
       "replacement": "SC-500",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-16 02:02:00+00:00",
-      "git_commit_id": "8d8a7e813ed4f0f3d9facb11e707fcb959b59fed",
+      "updated_at": "2026-08-31 19:51:00+00:00",
+      "git_commit_id": "13921066ee5c16271db679f1a3dd98f7c04e1561",
       "content_hash": "64376cb5e1960822",
       "skills_date": "January 22, 2026",
       "skills_at_a_glance": [
@@ -4921,8 +4921,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-31 22:46:00+00:00",
-      "git_commit_id": "f94614c08d02a7089a9042152a44b31fa9c1e8b5",
+      "updated_at": "2026-08-31 19:51:00+00:00",
+      "git_commit_id": "13921066ee5c16271db679f1a3dd98f7c04e1561",
       "content_hash": "50b50525eb1b69fd",
       "skills_date": "December 26, 2024",
       "skills_at_a_glance": [
