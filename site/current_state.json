@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T09:12:22Z",
+  "fetched_at": "2026-09-13T10:03:16Z",
   "exam_count": 52,
   "errors": [
     "DP-600",
@@ -2742,211 +2742,109 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-07-21 17:15:00+00:00",
-      "git_commit_id": "9a86b29e64abc3e5302732de942380c84cb837c1",
-      "content_hash": "75735de08f9c684c",
-      "skills_date": "July 21, 2026",
+      "updated_at": "2026-09-09 21:48:00+00:00",
+      "git_commit_id": "774aab2c85882724bfd21714aa871b5af260f1ae",
+      "content_hash": "dfed46882cb4e446",
+      "skills_date": "October 6, 2026",
       "skills_at_a_glance": [
         {
-          "area": "Design and implement data models",
-          "weight": "35-40%"
+          "area": "Design and develop database solutions",
+          "weight": "40-45%"
         },
         {
-          "area": "Design and implement data distribution",
-          "weight": "5-10%"
+          "area": "Secure, optimize, and deploy database solutions",
+          "weight": "30-35%"
         },
         {
-          "area": "Integrate an Azure Cosmos DB solution",
-          "weight": "5-10%"
-        },
-        {
-          "area": "Optimize an Azure Cosmos DB solution",
-          "weight": "15-20%"
-        },
-        {
-          "area": "Maintain an Azure Cosmos DB solution",
-          "weight": "25-30%"
+          "area": "Implement AI and Analytics capabilities in database solutions",
+          "weight": "20-25%"
         }
       ],
       "skills_detailed": {
-        "Design and implement data models (35–40%)": {
-          "Design and implement a non-relational data model for Azure Cosmos DB for NoSQL": [
-            "Develop a design by storing multiple entity types in the same container",
-            "Develop a design by storing multiple related entities in the same document",
-            "Develop a model that denormalizes data across documents",
-            "Develop a design by referencing between documents",
-            "Identify partition key, id, and unique keys",
-            "Identify data and associated access patterns",
-            "Specify a default time to live (TTL) on a container for a transactional store",
-            "Develop a design for versioning documents",
-            "Develop a design for document schema versioning"
+        "Design and develop database solutions (40–45%)": {
+          "Evaluate resource models and SDK solutions": [
+            "Evaluate consistency levels",
+            "Evaluate Request Unit (RU) consumption requirements",
+            "Evaluating and configuring appropriate throughput",
+            "Configure account-level and container-level settings",
+            "Create and manage database and containers",
+            "Initialize SDK clients and connections"
           ],
-          "Design a data partitioning strategy for Azure Cosmos DB for NoSQL": [
-            "Choose a partitioning strategy based on a specific workload",
-            "Choose a partition key",
-            "Plan for transactions when choosing a partition key",
-            "Evaluate the cost of using a cross-partition query",
-            "Calculate and evaluate data distribution based on partition key selection",
-            "Calculate and evaluate throughput distribution based on partition key selection",
-            "Construct and implement a synthetic partition key",
-            "Design and implement a hierarchical partition key",
-            "Design partitioning for workloads that require multiple partition keys"
+          "Implement database operations": [
+            "Implement queries, parameterized queries, paging, and continuation tokens",
+            "Implement point read operations",
+            "Implement create, replace, update, patch and delete operations",
+            "Implement bulk, batch, and transactional operations",
+            "Configure Time to Live (TTL)",
+            "Implement concurrency control mechanisms"
           ],
-          "Plan and implement sizing and scaling for a database created with Azure Cosmos DB": [
-            "Evaluate the throughput and data storage requirements for a specific workload",
-            "Choose between serverless and provisioned throughput; determine when free tier is applicable",
-            "Choose when to use database-level provisioned throughput",
-            "Design for granular scale units and resource governance",
-            "Evaluate the cost of the global distribution of data",
-            "Configure throughput for Azure Cosmos DB by using the Azure portal"
+          "Design and implement data models and partitioning strategies": [
+            "Design data models for access patterns and operational requirements",
+            "Design and select partition keys based on cardinality, access patterns, and write distribution requirements",
+            "Determine when to embed or reference related data",
+            "Evaluate the impact of partition key selection on scalability and performance",
+            "Implement hierarchical partition keys (HPKs) and multi-tenant partitioning strategies",
+            "Implement synthetic partition keys",
+            "Identify partitioning anti-patterns and partitioning issues during solution reviews",
+            "Estimate workload cost requirements"
           ],
-          "Implement client connectivity options in the Azure Cosmos DB SDK": [
-            "Choose a connectivity mode (gateway versus direct)",
-            "Implement a connectivity mode",
-            "Create a connection to a database",
-            "Enable offline development by using the Azure Cosmos DB emulator",
-            "Handle connection errors",
-            "Implement a singleton for the client",
-            "Specify a region for global distribution",
-            "Configure client-side threading and parallelism options",
-            "Enable SDK logging"
+          "Implement change feed": [
+            "Implement change feed operations",
+            "Differentiate between change feed processor and pull mode models",
+            "Configure lease containers",
+            "Implement change feed processing using latest mode or all versions and delete",
+            "Implement copy container jobs"
           ],
-          "Implement data access by using the SQL language for Azure Cosmos DB for NoSQL": [
-            "Implement queries that use arrays, nested objects, aggregation, and ordering",
-            "Implement a correlated subquery",
-            "Implement queries that use array and type-checking functions",
-            "Implement queries that use mathematical, string, and date functions",
-            "Implement queries based on variable data"
-          ],
-          "Implement data access by using Azure Cosmos DB for NoSQL SDKs": [
-            "Choose when to use a point operation versus a query operation",
-            "Implement a point operation that creates, updates, and deletes items",
-            "Implement an update by using a patch operation",
-            "Manage multi-item transactions using SDK Transactional Batch",
-            "Perform a multi-item load using Bulk Support in the SDK",
-            "Implement optimistic concurrency control using ETags",
-            "Override default consistency by using query request options",
-            "Implement session consistency by using session tokens",
-            "Implement a query operation that includes pagination",
-            "Implement a query operation by using a continuation token",
-            "Handle transient errors and 429s",
-            "Specify TTL for an item",
-            "Retrieve and use query metrics"
-          ],
-          "Implement server-side programming in Azure Cosmos DB for NoSQL by using JavaScript": [
-            "Write, deploy, and call a stored procedure",
-            "Design stored procedures to work with multiple items within the same logical partition transactionally",
-            "Implement and call triggers",
-            "Implement a user-defined function"
+          "Design and implement Azure Cosmos DB solutions by using AI-assisted tools": [
+            "Implement Agent Kit to follow Azure Cosmos DB development recommended solutions",
+            "Implement Agent Kit to accelerate AI application development"
           ]
         },
-        "Design and implement data distribution (5–10%)": {
-          "Design and implement a replication strategy for Azure Cosmos DB": [
-            "Choose when to distribute data",
-            "Define automatic failover policies for regional failure for Azure Cosmos DB for NoSQL",
-            "Perform manual failovers to move single-write regions",
-            "Choose a consistency model",
-            "Identify use cases for different consistency models",
-            "Evaluate the impact of consistency model choices on availability and associated request unit (RU) cost",
-            "Evaluate the impact of consistency model choices on performance and latency",
-            "Specify application connections to replicated data"
+        "Secure, optimize, and deploy database solutions (30–35%)": {
+          "Implement database security controls": [
+            "Configure authentication mechanisms",
+            "Configure authorization controls",
+            "Configure network security",
+            "Configure dynamic data masking"
           ],
-          "Design and implement multi-region writes": [
-            "Choose when to use multi-region writes",
-            "Implement multi-region writes",
-            "Implement a custom conflict resolution policy for Azure Cosmos DB for NoSQL"
+          "Implement availability and recovery solutions": [
+            "Configure backup and restore solutions",
+            "Implement multi-region read and write configurations",
+            "Configure partition failover solutions"
+          ],
+          "Optimize and remediate database performance": [
+            "Optimize query performance",
+            "Analyze query performance metrics",
+            "Analyze index performance metrics",
+            "Monitor end-to-end latency against service objectives",
+            "Configure Azure Monitor alerts",
+            "Analyze diagnostic logs in Log Analytics"
+          ],
+          "Implement Fleet management and monitoring across multiple accounts and subscriptions": [
+            "Configure Fleet level throughput management",
+            "Configure Fleet monitoring with fleet analytics"
           ]
         },
-        "Integrate an Azure Cosmos DB solution (5–10%)": {
-          "Enable Azure Cosmos DB analytical workloads": [
-            "Configure Azure Cosmos DB Mirroring for Microsoft Fabric",
-            "Choose between Azure Cosmos DB Mirroring and the Azure Cosmos DB Spark connector",
-            "Enable the analytical store on a container",
-            "Enable a connection to an analytical store and query from Azure Synapse Spark or Azure Synapse SQL serverless",
-            "Perform a query against the transactional store from Spark",
-            "Write data back to the transactional store from Spark",
-            "Implement Change Data Capture in the Azure Cosmos DB analytical store",
-            "Implement time travel in Warehouse in Microsoft Fabric"
+        "Implement AI and analytics capabilities in database solutions (20–25%)": {
+          "Design and implement AI retrieval": [
+            "Design and implement full-text search",
+            "Design for vector data, including vector data type, vector indexes, and size",
+            "Design and implement vector partitioning and sharded DiskANN implementations",
+            "Implement vector search",
+            "Design and implement hybrid search",
+            "Optimize full-text and vector performance",
+            "Design and implement Retrieval-Augmented Generation (RAG)"
           ],
-          "Implement solutions across services": [
-            "Integrate events with other applications by using Azure Functions and Azure Event Hubs",
-            "Denormalize data by using Change Feed and Azure Functions",
-            "Enforce referential integrity by using Change Feed and Azure Functions",
-            "Aggregate data by using Change Feed and Azure Functions, including reporting",
-            "Archive data by using Change Feed and Azure Functions",
-            "Implement Azure AI Search for an Azure Cosmos DB solution"
-          ]
-        },
-        "Optimize an Azure Cosmos DB solution (15–20%)": {
-          "Optimize query performance when using the API for Azure Cosmos DB for NoSQL": [
-            "Adjust indexes on the database",
-            "Calculate the cost of the query",
-            "Retrieve request unit cost of a point operation or query",
-            "Implement Azure Cosmos DB integrated cache"
+          "Design and implement agent memory stores": [
+            "Design durable memory stores",
+            "Implement conversation state",
+            "Implement semantic memory"
           ],
-          "Design and implement change feeds for Azure Cosmos DB for NoSQL": [
-            "Develop an Azure Functions trigger to process a change feed",
-            "Consume a change feed from within an application by using the SDK",
-            "Manage the number of change feed instances by using the change feed estimator",
-            "Implement denormalization by using a change feed",
-            "Implement referential enforcement by using a change feed",
-            "Implement aggregation persistence by using a change feed",
-            "Implement data archiving by using a change feed"
-          ],
-          "Define and implement an indexing strategy for Azure Cosmos DB for NoSQL": [
-            "Choose when to use a read-heavy versus write-heavy index strategy",
-            "Choose an appropriate index type",
-            "Configure a custom indexing policy by using the Azure portal",
-            "Implement a composite index",
-            "Optimize index performance"
-          ]
-        },
-        "Maintain an Azure Cosmos DB solution (25–30%)": {
-          "Monitor and troubleshoot an Azure Cosmos DB solution": [
-            "Evaluate response status code and failure metrics",
-            "Monitor the Normalized RU Consumption metric by using Azure Monitor",
-            "Monitor server-side latency metrics by using Azure Monitor",
-            "Monitor data replication in relation to latency and availability",
-            "Configure Azure Monitor alerts for Azure Cosmos DB",
-            "Implement and query Azure Monitor resource logs for Azure Cosmos DB",
-            "Monitor throughput across partitions",
-            "Monitor distribution of data across partitions",
-            "Monitor security by using logging and auditing"
-          ],
-          "Implement backup and restore for an Azure Cosmos DB solution": [
-            "Choose between periodic and continuous backup",
-            "Configure periodic backup",
-            "Configure continuous backup and point-in-time restore",
-            "Locate a restore point for a point-in-time restore",
-            "Restore a database or container from a restore point"
-          ],
-          "Implement security for an Azure Cosmos DB solution": [
-            "Choose between platform-managed and customer-managed encryption keys",
-            "Configure network-level access control for Azure Cosmos DB",
-            "Configure data encryption for Azure Cosmos DB",
-            "Manage control plane access to Azure Cosmos DB by using Azure role-based access control (RBAC)",
-            "Manage control plane access to Azure Cosmos DB Data Explorer by using Azure role-based access control (RBAC)",
-            "Manage data plane access to Azure Cosmos DB by using Microsoft Entra ID",
-            "Configure cross-origin resource sharing (CORS) settings",
-            "Manage account keys by using Azure Key Vault",
-            "Implement customer-managed keys for encryption",
-            "Implement Always Encrypted"
-          ],
-          "Implement data movement for an Azure Cosmos DB solution": [
-            "Choose a data movement strategy",
-            "Move data by using client SDK bulk operations",
-            "Move data by using Azure Data Factory and Azure Synapse pipelines",
-            "Move data by using a Kafka connector",
-            "Move data by using Azure Stream Analytics",
-            "Move data by using the Azure Cosmos DB Spark connector",
-            "Configure Azure Cosmos DB as a custom endpoint for an Azure IoT Hub"
-          ],
-          "Implement a DevOps process for an Azure Cosmos DB solution": [
-            "Choose when to use declarative versus imperative operations",
-            "Provision and manage Azure Cosmos DB resources by using Azure Resource Manager templates",
-            "Migrate between standard and autoscale throughput by using PowerShell or Azure CLI",
-            "Initiate a regional failover by using PowerShell or Azure CLI",
-            "Maintain indexing policies in production by using Azure Resource Manager templates"
+          "Design and implement operational analytics on Azure Cosmos DB": [
+            "Choose between Azure Cosmos DB and Cosmos DB in Microsoft Fabric",
+            "Configure and monitor data mirroring into Microsoft Fabric",
+            "Query Azure Cosmos DB mirrored JSON data in Microsoft Fabric with T-SQL and Spark",
+            "Read and write data into Azure Cosmos DB from Microsoft Fabric with Cosmos DB Spark connector"
           ]
         }
       },
@@ -5206,30 +5104,22 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-02 19:59:00+00:00",
-      "git_commit_id": "473e0d367a1dc61613e9ef703a4a4d7019caf8f8",
-      "content_hash": "b0e828ac6c74a8ac",
-      "skills_date": "March 19, 2026",
+      "updated_at": "2026-09-09 21:48:00+00:00",
+      "git_commit_id": "774aab2c85882724bfd21714aa871b5af260f1ae",
+      "content_hash": "0b02734e134a29a0",
+      "skills_date": "October 16, 2026",
       "skills_at_a_glance": [
         {
-          "area": "Create a technical design",
-          "weight": "10-15%"
-        },
-        {
-          "area": "Build Power Platform solutions",
-          "weight": "10-15%"
-        },
-        {
-          "area": "Implement Power Apps improvements",
-          "weight": "10-15%"
+          "area": "Build Microsoft Power Platform solutions",
+          "weight": "15-20%"
         },
         {
           "area": "Extend the user experience",
-          "weight": "10-15%"
+          "weight": "25-30%"
         },
         {
-          "area": "Extend the platform",
-          "weight": "30-35%"
+          "area": "Extend Microsoft Power Platform",
+          "weight": "35-40%"
         },
         {
           "area": "Develop integrations",
@@ -5237,109 +5127,108 @@
         }
       ],
       "skills_detailed": {
-        "Create a technical design (10–15%)": {
-          "Design technical architecture": [
+        "Build Microsoft Power Platform solutions (15–20%)": {
+          "Design the technical architecture": [
             "Analyze the technical architecture to identify solution components and their implementation approach",
-            "Design the authentication and authorization strategy for solution components",
+            "Design authentication and authorization for solution components",
             "Determine whether requirements can be met with out-of-the-box functionality",
-            "Determine where to implement business logic including cloud computing, client-side processing, business rules, plug-ins, and Power Automate",
+            "Determine where to implement business logic including cloud services, client-side processing, business rules, plug-ins, and automation",
             "Determine when to use standard tables, virtual tables, elastic tables, or connectors",
-            "Assess the impact of Microsoft Power Platform security features on solution components including data loss prevention (DLP) policies, security roles, teams, business units, and row sharing"
+            "Assess the impact of Microsoft Power Platform security features on solution components, including managed environments, data policies, security roles, teams, business units, and row sharing",
+            "Determine when to use deterministic or non-deterministic methods to implement business logic",
+            "Determine when to use code apps, generative pages, Power Apps component frameworks (PCFs), web resources, interactive agents, and Model Context Protocol (MCP) app widgets to implement the user experience",
+            "Determine when to use Microsoft Foundry or Microsoft Copilot Studio to build agents"
           ],
           "Design solution components": [
-            "Design Power Apps reusable components including canvas components, code components (Power Apps component framework), and client scripting",
-            "Design custom connectors",
-            "Design Dataverse code components including Power Fx functions, plug-ins, and custom APIs",
-            "Design automations including Power Automate cloud flows",
-            "Design inbound and outbound integrations using Dataverse and Azure"
-          ]
-        },
-        "Build Power Platform Solutions (10–15%)": {
-          "Configure and troubleshoot Microsoft Power Platform": [
-            "Troubleshoot operational security issues",
-            "Configure Dataverse security roles to support code components including the principle of least privilege",
-            "Manage Microsoft Power Platform environments for development"
+            "Design Power Apps reusable components including generative pages, code components (PCF), and client scripting",
+            "Design custom connectors and MCP servers for use with Microsoft Power Platform solutions",
+            "Design Dataverse code components, including plug-ins and custom APIs",
+            "Design automations, including Power Automate cloud flows and Copilot Studio workflows",
+            "Design inbound and outbound integrations using Dataverse and Microsoft Azure",
+            "Design custom interfaces by using Power Apps code apps",
+            "Design custom agents that integrate with Microsoft Power Platform",
+            "Design monitoring and alerting, including Azure Monitor Application Insights and Microsoft Power Platform monitor alerts"
           ],
           "Implement application lifecycle management (ALM)": [
             "Manage solution dependencies",
             "Create and use environment variables",
             "Manage solution layers",
-            "Implement and extend Power Platform Pipelines",
-            "Create Continuous Integration/Continuous Deployment (CI/CD) automations using Power Platform Build Tools"
+            "Implement and extend Microsoft Power Platform Pipelines",
+            "Create Continuous Integration/Continuous Deployment (CI/CD) automations using Microsoft Power Platform Build Tools"
           ]
         },
-        "Implement Power Apps improvements (10–15%)": {
-          "Implement advanced canvas apps features": [
-            "Implement complex Power Fx formulas and functions",
-            "Build reusable component libraries",
-            "Utilize Power Automate cloud flows to implement business logic from a canvas app"
-          ],
-          "Optimize and troubleshoot apps": [
-            "Troubleshoot canvas and model-driven app issues by using Monitor and other browser-based debugging tools",
-            "Optimize canvas app performance including pre-loading data and query delegation",
-            "Optimize model-driven app performance including forms and views"
-          ]
-        },
-        "Extend the user experience (10–15%)": {
-          "Apply business logic in model-driven apps using client scripting": [
-            "Build JavaScript code that targets the Client API object model",
-            "Determine event handler registration approach",
+        "Extend the user experience (25–30%)": {
+          "Apply business logic in model-driven apps by using client scripting": [
+            "Build code that targets the Client API object model",
+            "Determine an event handler registration approach",
             "Create client scripting that targets the Dataverse Web API",
-            "Configure commands and buttons using Power Fx and JavaScript",
-            "Implement navigation to custom pages using the Client API"
+            "Configure commands and buttons by using Power Fx and JavaScript",
+            "Implement navigation, dialogs, and notifications by using the Client API"
           ],
-          "Create a Power Apps component framework (PCF) code component": [
+          "Create PCF code components": [
             "Demonstrate the use of the different lifecycle events",
             "Configure a code component manifest",
             "Implement component interfaces",
             "Package, deploy, and consume a component",
             "Configure and use Device, Utility, and Web API features in component logic"
+          ],
+          "Build Power Apps code apps": [
+            "Configure code apps to use Microsoft Power Platform connections",
+            "Configure code apps to use Dataverse tables",
+            "Perform table and metadata operations on Dataverse data",
+            "Perform Dataverse actions and functions",
+            "Configure code apps to use Power Automate cloud flows",
+            "Configure code apps to use agents built in Copilot Studio",
+            "Configure code apps to use environment variables"
+          ],
+          "Deploy and manage Power Apps code apps": [
+            "Configure Content Security Policy (CSP) settings",
+            "Implement monitoring by using Azure Application Insights",
+            "Package, deploy, and share code apps",
+            "Troubleshoot code apps by using Monitor and other browser-based debugging tools",
+            "Optimize code app performance and resource usage"
           ]
         },
-        "Extend the platform (30–35%)": {
+        "Extend Microsoft Power Platform (35–40%)": {
           "Create a Dataverse plug-in": [
             "Demonstrate the use of the different event execution pipeline stages",
             "Develop a plug-in that uses the execution context",
             "Develop a plug-in that implements business logic",
-            "Implement Pre Images and Post Images to support plug-in logic",
+            "Implement images to support plug-in logic",
             "Perform operations in plug-ins by using the Organization service",
             "Optimize plug-in performance",
             "Configure a Dataverse custom API message",
             "Register plug-in components by using the Plug-in Registration Tool",
             "Develop a plug-in that implements a custom API",
-            "Configure Dataverse business events"
+            "Configure Dataverse business events",
+            "Configure Microsoft Power Platform managed identity for plug-ins"
           ],
-          "Create custom connectors": [
-            "Create an Open API definition for an existing REST API",
-            "Implement authentication for custom connectors",
-            "Configure policy templates to modify connector behavior at runtime",
-            "Import definitions from existing APIs including Open API definitions, Azure services, and GitHub",
-            "Create a custom connector for an Azure service",
-            "Develop an Azure Function to be used in a custom connector",
-            "Extend the Open API definition for a custom connector",
-            "Develop code for a custom connector to transform data"
-          ],
-          "Use platform APIs": [
-            "Perform operations with the Dataverse Web API",
-            "Perform operations with the Organization service",
+          "Perform operations by using platform APIs": [
+            "Perform operations by using the Dataverse Web API",
+            "Perform operations by using the Organization service",
             "Implement API limit retry policies",
-            "Optimize for performance, concurrency, transactions, and bulk operations",
-            "Perform authentication by using OAuth"
+            "Optimize solution components for performance, concurrency, transactions, and bulk operations",
+            "Implement and troubleshoot authentication by using OAuth",
+            "Perform asynchronous logic by using background operations",
+            "Perform operations by using Dataverse SDKs for .NET and Python"
           ],
-          "Process workloads by using Azure Functions": [
+          "Process workloads by using Microsoft Azure Functions": [
             "Process long-running operations by using Azure Functions for Microsoft Power Platform solutions",
             "Implement scheduled and event-driven triggers in Azure Functions for Microsoft Power Platform solutions",
             "Authenticate to Microsoft Power Platform by using managed identities"
           ],
-          "Configure Power Automate cloud flows": [
-            "Configure Dataverse connector actions and triggers",
+          "Configure Power Automate cloud flows and Copilot Studio workflows": [
             "Implement complex expressions in flow steps",
-            "Manage sensitive input and output parameters",
-            "Utilize Azure Key Vault",
             "Implement flow control actions including error handling",
             "Configure trigger filter and retry policies",
             "Develop reuseable logic by using child flows",
-            "Implement Microsoft Entra ID service principles"
+            "Implement authentication for the Dataverse connector by using service principals"
+          ],
+          "Build Microsoft Foundry agents by using code that integrates with the Microsoft Power Platform": [
+            "Integrate custom agents by using Microsoft Power Platform MCP servers",
+            "Connect custom agents to Copilot Studio agents",
+            "Integrate custom agents with Dataverse data by using Work IQ",
+            "Consume Copilot Studio agents by using the Copilot Studio client library"
           ]
         },
         "Develop integrations (10–15%)": {
@@ -5349,10 +5238,19 @@
             "Register service endpoints including webhooks, Azure Service Bus, and Azure Event Hub",
             "Recommend options for listening to Dataverse events"
           ],
-          "Implement data synchronization with Dataverse": [
+          "Implement synchronization for Dataverse data": [
             "Perform data synchronization by using change tracking",
-            "Develop code that utilizes alternate keys",
-            "Utilize the UpsertRequest message to synchronize data"
+            "Develop code that uses alternate keys",
+            "Synchronize data by using the UpsertRequest message"
+          ],
+          "Create custom connectors": [
+            "Implement authentication for custom connectors",
+            "Configure policy templates to modify connector behavior at runtime",
+            "Import definitions from existing APIs including Open API definitions, Azure services, and GitHub",
+            "Create a custom connector for an Azure service",
+            "Develop an Azure Function to be used in a custom connector",
+            "Extend the Open API definition for a custom connector",
+            "Develop code for a custom connector to transform data"
           ]
         }
       },
