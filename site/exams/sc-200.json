@@ -108,7 +108,51 @@
     }
   },
   "change_log_official": [],
-  "change_history": [],
+  "change_history": [
+    {
+      "code": "SC-200",
+      "title": "Microsoft Security Operations Analyst",
+      "detected_at": "2026-09-14T00:10:05Z",
+      "previous_skills_date": "April 16, 2026",
+      "current_skills_date": "July 28, 2026",
+      "summary": "3 added, 3 removed",
+      "added_count": 3,
+      "removed_count": 3,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Respond to security incidents (35–40%) > Investigate Microsoft 365 activities to identify threats",
+          "items": [
+            "Investigate threats by using Content search in Microsoft Purview eDiscovery",
+            "Investigate threats by using Microsoft Purview Audit"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Respond to security incidents (35–40%) > Investigate Microsoft 365 activities to identify threats",
+          "items": [
+            "Investigate threats by using Audit from Microsoft Purview",
+            "Investigate threats by using Content Search in Microsoft Purview"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Respond to security incidents (35–40%) > Respond to alerts and incidents in Microsoft Defender XDR",
+          "items": [
+            "Investigate incidents by using agentic AI, including embedded Microsoft Security Copilot"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Respond to security incidents (35–40%) > Respond to alerts and incidents in Microsoft Defender XDR",
+          "items": [
+            "Investigate incidents by using agentic AI, including embedded Copilot for Security"
+          ]
+        }
+      ]
+    }
+  ],
   "related_exams": [
     {
       "code": "SC-300",
@@ -133,6 +177,6 @@
     }
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-200/",
-  "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-200",
+  "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-200",
   "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-200/practice/assessment?assessment-type=practice"
 }

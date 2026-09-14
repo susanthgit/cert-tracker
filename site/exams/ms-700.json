@@ -163,7 +163,57 @@
     }
   },
   "change_log_official": [],
-  "change_history": [],
+  "change_history": [
+    {
+      "code": "MS-700",
+      "title": "Managing Microsoft Teams",
+      "detected_at": "2026-09-14T00:10:05Z",
+      "previous_skills_date": "April 28, 2026",
+      "current_skills_date": "July 29, 2026",
+      "summary": "6 added, 6 removed",
+      "added_count": 6,
+      "removed_count": 6,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Configure and manage a Teams environment (40–45%) > Manage security and compliance settings for Teams",
+          "items": [
+            "Identify appropriate use cases for Microsoft Purview Communication Compliance and Microsoft Purview Insider Risk Management",
+            "Plan and configure threat policies in Microsoft Defender for Office 365",
+            "Specify Microsoft Purview Data Loss Prevention (DLP) policies",
+            "Specify Microsoft Purview Information Barriers policies",
+            "Specify sensitivity labels and publishing policies, including for Teams meetings"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Configure and manage a Teams environment (40–45%) > Manage security and compliance settings for Teams",
+          "items": [
+            "Identify appropriate use cases for communication compliance and insider risk management",
+            "Plan and configure threat policies in Microsoft Defender XDR",
+            "Specify data loss prevention (DLP) policies",
+            "Specify information barrier (IB) policies",
+            "Specify sensitivity labels and publishing policies, including Teams meeting policies"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage meetings and calling (15–20%) > Manage meetings and events",
+          "items": [
+            "Recommend meeting types based on business requirements, including Appointments with Microsoft Teams, webinars, Teams town halls, and meetings"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage meetings and calling (15–20%) > Manage meetings and events",
+          "items": [
+            "Recommend meeting types based on business requirements, including Virtual appointments, Webinars, Teams town halls, and meetings"
+          ]
+        }
+      ]
+    }
+  ],
   "related_exams": [
     {
       "code": "MS-102",
@@ -181,6 +231,6 @@
     }
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-700/",
-  "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ms-700",
+  "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-700",
   "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-700/practice/assessment?assessment-type=practice"
 }

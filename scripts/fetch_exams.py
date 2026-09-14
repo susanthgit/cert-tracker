@@ -23,7 +23,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SITE_DIR = os.path.join(os.path.dirname(SCRIPT_DIR), "site")
 EXAMS_CONFIG = os.path.join(SCRIPT_DIR, "exams.json")
 
-STUDY_GUIDE_URL = "https://learn.microsoft.com/en-us/certifications/resources/study-guides/{code}"
+STUDY_GUIDE_URL = "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/{code}"
 EXAM_PAGE_URL = "https://learn.microsoft.com/en-us/credentials/certifications/exams/{code_lower}/"
 
 # Polite delay between requests (seconds)

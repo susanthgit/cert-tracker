@@ -1,11 +1,7 @@
 {
-  "fetched_at": "2026-09-13T10:03:16Z",
-  "exam_count": 52,
-  "errors": [
-    "DP-600",
-    "DP-700",
-    "MB-820"
-  ],
+  "fetched_at": "2026-09-14T00:09:45Z",
+  "exam_count": 55,
+  "errors": [],
   "exams": [
     {
       "code": "AZ-900",
@@ -132,7 +128,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-900",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-900/practice/assessment?assessment-type=practice"
     },
     {
@@ -303,7 +299,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-104",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-104",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104/practice/assessment?assessment-type=practice"
     },
     {
@@ -455,7 +451,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-120/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-120",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-120",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-120/practice/assessment?assessment-type=practice"
     },
     {
@@ -611,7 +607,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-140/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-140",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-140",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-140/practice/assessment?assessment-type=practice"
     },
     {
@@ -729,7 +725,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-204",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/practice/assessment?assessment-type=practice"
     },
     {
@@ -855,7 +851,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-305",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/practice/assessment?assessment-type=practice"
     },
     {
@@ -1033,7 +1029,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-400",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-400",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/practice/assessment?assessment-type=practice"
     },
     {
@@ -1188,7 +1184,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-500/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-500",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-500/practice/assessment?assessment-type=practice"
     },
     {
@@ -1415,7 +1411,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-700/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-700",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-700",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-700/practice/assessment?assessment-type=practice"
     },
     {
@@ -1608,7 +1604,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-800/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-800",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-800",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-800/practice/assessment?assessment-type=practice"
     },
     {
@@ -1821,7 +1817,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-801/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-801",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-801",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-801/practice/assessment?assessment-type=practice"
     },
     {
@@ -1841,15 +1837,210 @@
       "replaces": "AZ-800 + AZ-801",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-07-06 21:43:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
+      "content_hash": "9bd3ae6f121a5c77",
       "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "skills_at_a_glance": [
+        {
+          "area": "Deploy and manage AD DS",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Manage Windows Server instances and workloads in a hybrid environment",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Manage virtual machines",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Implement and manage an on-premises and hybrid networking infrastructure",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Manage storage and file services",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Secure Windows Server infrastructure",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Monitor and troubleshoot Windows Server environments",
+          "weight": "15-20%"
+        }
+      ],
+      "skills_detailed": {
+        "Deploy and manage AD DS (20–25%)": {
+          "Deploy and manage AD DS domain controllers": [
+            "Deploy and manage domain controllers locally",
+            "Deploy and manage domain controllers in Azure",
+            "Deploy Read-Only Domain Controllers (RODCs)",
+            "Manage account security on an RODC",
+            "Manage and troubleshoot Flexible Single-Master Operations (FSMO) roles"
+          ],
+          "Configure and manage multi-site, multi-domain, and multi-forest environments": [
+            "Configure domain and forest trust relationships",
+            "Configure and manage AD DS sites",
+            "Configure and manage AD DS replication"
+          ],
+          "Create and manage AD DS security principals": [
+            "Create and manage AD DS users and groups",
+            "Manage users and groups in multi-domain or multi-forest environments",
+            "Select and manage service accounts"
+          ],
+          "Manage Windows Server by using domain-based Group Policies": [
+            "Implement Group Policy",
+            "Implement Group Policy preferences"
+          ]
+        },
+        "Manage Windows Server instances and workloads in a hybrid environment (10–15%)": {
+          "Configure remote management for Windows Server instances in a hybrid environment": [
+            "Deploy and manage Windows Admin Center on-premises and in the Azure portal",
+            "Configure remote management by using PowerShell, including double-hop and Just Enough Administration (JEA)",
+            "Configure and manage remote Secure Shell (SSH)",
+            "Configure and manage remote desktop access"
+          ],
+          "Manage Windows Server instances and workloads by using Azure services in a hybrid environment": [
+            "Implement Azure Arc–enabled Windows Server instances",
+            "Implement device configuration by using Azure Arc",
+            "Deploy Azure services with virtual machine (VM) extensions on non–Azure machines",
+            "Manage updates by using Azure Update Manager",
+            "Create and run Azure Automation runbooks"
+          ]
+        },
+        "Manage VMs (10–15%)": {
+          "Manage Hyper-V and guest VM": [
+            "Enable Enhanced Session Mode",
+            "Manage VMs remotely by using PowerShell, PowerShell Direct, and SSH Direct for Linux guests",
+            "Enable nested virtualization",
+            "Configure VM memory settings",
+            "Configure integration services",
+            "Configure device assignment",
+            "Configure GPU partitioning",
+            "Manage VM checkpoints",
+            "Implement high availability for Hyper-V VMs",
+            "Manage Hyper-V virtual hard disks",
+            "Configure Hyper-V network adapter",
+            "Configure network interface card (NIC) teaming on the Hyper-V host and VM",
+            "Configure Hyper-V Virtual Switch",
+            "Configure Hyper-V Replica"
+          ],
+          "Manage Windows Server VMs in Azure": [
+            "Manage storage for Windows Server VMs in Azure",
+            "Manage capacity, including resizing and VM scale sets",
+            "Manage availability sets and zones",
+            "Manage just-in-time (JIT) VM access and Azure Bastion",
+            "Manage Azure Virtual Machines network configuration"
+          ]
+        },
+        "Implement and manage an on-premises and hybrid networking infrastructure (10–15%)": {
+          "Implement on-premises and hybrid name resolution": [
+            "Integrate domain name system (DNS) with AD DS",
+            "Create and manage DNS zones and records",
+            "Configure DNS forwarding and conditional forwarding",
+            "Configure DNS name resolution in a hybrid environment",
+            "Implement DNS policies",
+            "Implement DNS security extensions (DNSSEC)"
+          ],
+          "Manage IP addressing in on-premises and hybrid scenarios": [
+            "Implement and configure the Dynamic Host Configuration Protocol (DHCP) server role",
+            "Troubleshoot IP addressing in hybrid environments",
+            "Create and manage DHCP scopes",
+            "Create IP reservations",
+            "Implement high availability for DHCP"
+          ]
+        },
+        "Manage storage and file services (15–20%)": {
+          "Configure and manage Azure Files": [
+            "Create and manage Azure file shares",
+            "Manage permissions for Azure file shares",
+            "Configure and manage Azure File Sync",
+            "Monitor Azure File Sync",
+            "Migrate Distributed File System (DFS) to Azure File Sync",
+            "Migrate from file shares to Azure Files"
+          ],
+          "Configure and manage Windows Server file shares": [
+            "Configure access to Windows Server file shares",
+            "Configure File Server Resource Manager (FSRM)",
+            "Implement and configure DFS",
+            "Configure Server Message Block (SMB) over QUIC",
+            "Configure SMB settings and management"
+          ],
+          "Configure Windows Server storage": [
+            "Configure disks and volumes",
+            "Configure and manage Storage Spaces",
+            "Implement and manage Storage Spaces Direct",
+            "Configure and manage Storage Replica",
+            "Configure Data Deduplication",
+            "Configure SMB direct (SMB over Remote Direct Memory Access [RDMA])",
+            "Configure Storage QoS",
+            "Select and configure file systems, including NTFS and ReFS",
+            "Configure and manage iSCSI",
+            "Manage BitLocker Drive Encryption",
+            "Manage and recover encrypted volumes"
+          ]
+        },
+        "Secure Windows Server infrastructure (10–15%)": {
+          "Secure Windows Server operating system": [
+            "Configure and manage exploit protection",
+            "Configure and manage Application Control for Windows",
+            "Configure and manage Credential Guard",
+            "Configure Microsoft Defender SmartScreen",
+            "Implement operating system security by using Group Policies",
+            "Manage Windows Server security baseline by using OSConfig",
+            "Implement Windows Local Administrator Password Solution",
+            "Configure and manage Defender for Servers",
+            "Manage Windows Firewall, including connection security rules"
+          ],
+          "Secure AD DS": [
+            "Configure password policies",
+            "Implement Microsoft Entra Password Protection for AD DS",
+            "Manage protected users",
+            "Harden domain controllers",
+            "Restrict access to domain controllers",
+            "Configure security options for user accounts",
+            "Configure security options for built-in administrative groups",
+            "Manage AD delegation",
+            "Manage authentication protocols and methods for AD DS"
+          ]
+        },
+        "Monitor and troubleshoot Windows Server environments (15–20%)": {
+          "Monitor by using Windows Server tools and Azure services": [
+            "Monitor by using Performance Monitor",
+            "Create and configure data collector sets",
+            "Monitor servers and configure alerts by using Windows Admin Center",
+            "Analyze by using the System Insights feature of Windows Server",
+            "Manage event logs",
+            "Configure data collection rules for Azure Monitor",
+            "Create alerts",
+            "Monitor Azure Virtual Machines performance by using VM Insights"
+          ],
+          "Troubleshoot Windows Server issues": [
+            "Troubleshoot connectivity issues",
+            "Troubleshoot name resolution",
+            "Troubleshoot Windows Update",
+            "Troubleshoot Time service",
+            "Troubleshoot performance issues",
+            "Troubleshoot VM and Azure Arc extension issues",
+            "Troubleshoot disk encryption issues",
+            "Troubleshoot storage issues"
+          ],
+          "Troubleshoot Active Directory": [
+            "Restore objects from AD Recycle Bin",
+            "Recover AD database by using Directory Services Restore Mode",
+            "Recover SYSVOL",
+            "Troubleshoot AD replication",
+            "Troubleshoot on-premises AD",
+            "Troubleshoot Kerberos and authentication issues",
+            "Troubleshoot secure channel and computer account trust issues"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-802/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-802",
       "practice_assessment_url": ""
     },
     {
@@ -1971,7 +2162,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-900/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ai-900",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-900/practice/assessment?assessment-type=practice"
     },
     {
@@ -2176,7 +2367,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ai-102",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-102/practice/assessment?assessment-type=practice"
     },
     {
@@ -2191,21 +2382,78 @@
         "azure"
       ],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-04",
-      "replaces": "AI-900",
-      "replacement": "",
+      "status": "active",
       "retirement_date": "",
-      "updated_at": "",
-      "git_commit_id": "",
-      "content_hash": "",
-      "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "replacement": "",
+      "replaces": "AI-900",
+      "beta_since": "",
+      "updated_at": "2026-07-14 21:04:00+00:00",
+      "git_commit_id": "a0e377e0bffdd9b10100819899af46008884b6a6",
+      "content_hash": "2bdd85df2e2f6dd6",
+      "skills_date": "April 15, 2026",
+      "skills_at_a_glance": [
+        {
+          "area": "Identify AI concepts and capabilities",
+          "weight": "40-45%"
+        },
+        {
+          "area": "Implement AI solutions by using Microsoft Foundry",
+          "weight": "55-60%"
+        }
+      ],
+      "skills_detailed": {
+        "Identify AI concepts and capabilities (40–45%)": {
+          "Describe principles of responsible AI": [
+            "Describe considerations for fairness in an AI solution",
+            "Describe considerations for reliability and safety in an AI solution",
+            "Describe considerations for privacy and security in an AI solution",
+            "Describe considerations for inclusiveness in an AI solution",
+            "Describe considerations for transparency in an AI solution",
+            "Describe considerations for accountability in an AI solution"
+          ],
+          "Identify AI model components and configurations": [
+            "Describe how generative AI models work",
+            "Identify an appropriate AI model, based on capabilities",
+            "Identify appropriate model deployment options and configuration parameters"
+          ],
+          "Identify AI workloads": [
+            "Identify scenarios for common AI workloads, including generative and agentic AI, text analysis, speech, computer vision, and information extraction",
+            "Describe common text analysis techniques, including keyword extraction, entity detection, sentiment analysis, and summarization",
+            "Identify features and capabilities of speech recognition and speech synthesis",
+            "Identify features and capabilities of computer vision and image-generation models",
+            "Identify techniques to extract information from text, images, audio, and videos"
+          ]
+        },
+        "Implement AI solutions by using Microsoft Foundry (55–60%)": {
+          "Implement generative AI apps and agents by using Foundry": [
+            "Create effective system and user prompts for generative AI models",
+            "Deploy a model and interact with it in the Foundry portal",
+            "Create a lightweight chat client application by using the Foundry SDK",
+            "Create and test a single-agent solution in the Foundry portal",
+            "Create a lightweight client application for an agent"
+          ],
+          "Implement AI solutions for text and speech by using Foundry": [
+            "Build a lightweight application that includes text analysis",
+            "Respond to spoken prompts by using a deployed multimodal model",
+            "Build a lightweight application by using Azure Speech in Foundry Tools"
+          ],
+          "Implement AI solutions with computer vision and image-generation capabilities by using Foundry": [
+            "Interpret visual input in prompts by using a deployed multimodal model",
+            "Create new visual outputs by using generative models",
+            "Build a lightweight application that includes vision capabilities"
+          ],
+          "Implement AI solutions for information extraction by using Foundry": [
+            "Extract information from documents and forms by using Azure Content Understanding in Foundry Tools",
+            "Extract information from images by using Content Understanding",
+            "Extract information from audio and video by using Content Understanding",
+            "Build a lightweight application with information extraction capabilities by using Content Understanding"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/",
-      "study_guide_url": "",
-      "practice_assessment_url": ""
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-901",
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/practice/assessment?assessment-type=practice"
     },
     {
       "code": "AI-103",
@@ -2224,15 +2472,139 @@
       "replaces": "AI-102",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-07-07 18:58:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
-      "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "content_hash": "21a24ec33c0344be",
+      "skills_date": "April 16, 2026",
+      "skills_at_a_glance": [
+        {
+          "area": "Plan and manage an Azure AI solution",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Implement generative AI and agentic solutions",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Implement computer vision solutions",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Implement text analysis solutions",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Implement information extraction solutions",
+          "weight": "10-15%"
+        }
+      ],
+      "skills_detailed": {
+        "Plan and manage an Azure AI solution (25–30%)": {
+          "Choose the appropriate Foundry services for generative AI and agents": [
+            "Choose an appropriate model for each task, including large language models (LLMs), small language models, multimodal models, and Foundry Tools",
+            "Choose the appropriate Foundry services for generative tasks, grounding, vector search, agent workflows, or multimodal processing",
+            "Choose an appropriate method for retrieval and indexing",
+            "Choose appropriate memory, tool, and knowledge integration services for agent solutions"
+          ],
+          "Set up AI solutions in Foundry": [
+            "Design Azure infrastructure for AI apps and agent-based solutions",
+            "Choose appropriate deployment options",
+            "Configure model and agent deployments",
+            "Integrate Foundry projects with continuous integration and continuous deployment (CI/CD) pipelines"
+          ],
+          "Manage, monitor, and secure AI systems": [
+            "Manage quotas, scaling, rate limits, and cost footprints for model and agent workloads",
+            "Monitor model performance, drift, safety events, and grounding quality",
+            "Monitor data ingestion quality, search index health, and relevance performance",
+            "Configure security, including managed identity, private networking, keyless credentials, and role policies"
+          ],
+          "Implement responsible AI across generative AI and agentic systems": [
+            "Configure safety filters, guardrails, risk detection, and content moderation",
+            "Apply responsible AI instrumentation, including evaluators, safety evaluations, and explanation tooling",
+            "Implement auditing through trace logging, provenance metadata, and approval workflows",
+            "Govern agent behavior with oversight modes, constraints, and tool-access controls"
+          ]
+        },
+        "Implement generative AI and agentic solutions (30–35%)": {
+          "Build generative applications by using Foundry": [
+            "Deploy and consume LLMs, small models, code models, and multimodal models",
+            "Implement retrieval-augmented generation (RAG) in an application",
+            "Design workflows, tool-augmented flows, and multistep reasoning pipelines",
+            "Evaluate models and apps, including detecting fabrications, relevance, quality, and safety",
+            "Integrate generative workflows into applications by using Foundry SDKs and connectors",
+            "Configure an application to connect to a Foundry project"
+          ],
+          "Build agents by using Foundry": [
+            "Define agent roles, goals, conversation-tracking approach, and tool schemas",
+            "Build agents that integrate retrieval, function-calling, and conversation memory",
+            "Integrate agent tools, including APIs, knowledge stores, search, content understanding, and custom functions",
+            "Implement orchestrated multi-agent solutions",
+            "Build autonomous or semiautonomous workflows with safeguards and approval flow controls",
+            "Integrate monitoring into deployed agents, evaluate agent behavior, and perform error analysis"
+          ],
+          "Optimize and operationalize generative AI systems": [
+            "Tune generation behavior, such as prompt engineering and adjusting model parameters",
+            "Implement model reflection, chain-of-thought evaluations, and self-critique loops",
+            "Set up observability by implementing tracing, token analytics, safety signals, and latency breakdowns",
+            "Orchestrate multiple models, flows, or hybrid LLM and rules engines"
+          ]
+        },
+        "Implement computer vision solutions (10–15%)": {
+          "Design and implement image- and video-generation solutions": [
+            "Implement a solution that generates images from text prompts and reference media",
+            "Implement a solution that generates videos from text prompts and reference media",
+            "Configure image-editing workflows, including inpainting, mask‑based edits, and prompt‑driven modifications",
+            "Implement workflows to edit generated videos",
+            "Select and apply appropriate generation and editing controls provided by the platform"
+          ],
+          "Design and implement multimodal understanding workflows": [
+            "Build a solution that analyzes visual context by using multimodal models",
+            "Configure apps to produce concise or detailed captions for single or multiple images",
+            "Implement a solution that enables question‑answering grounded in visual evidence",
+            "Configure generation of alt‑text and extended image descriptions aligned to accessibility guidelines",
+            "Implement visual understanding by configuring Azure Content Understanding in Foundry Tools to extract visual characteristics",
+            "Implement video analysis workflows to process and interpret video segments",
+            "Configure single‑task and pro‑mode Content Understanding pipelines",
+            "Implement solutions that identify objects, components, or regions within images or video"
+          ],
+          "Implement responsible AI for multimodal content": [
+            "Implement filters to classify unsafe or disallowed visual content",
+            "Detect and mitigate indirect prompt injection by using embedded text in images",
+            "Enforce visual policy rules, such as applying watermarks, flagging prohibited symbols, upholding brand usage requirements, and detecting potentially inappropriate content"
+          ]
+        },
+        "Implement text analysis solutions (10–15%)": {
+          "Apply language model text analysis": [
+            "Implement solutions to extract entities, topics, summaries, and structured JSON outputs by using generative prompting and Foundry Tools",
+            "Configure detection of sentiment, tone, safety issues, and sensitive content",
+            "Build solutions that translate text by using Azure Translator in Foundry Tools or LLM‑powered translation flows",
+            "Customize language model outputs for domain tasks, such as compliance summarization and domain extraction"
+          ],
+          "Implement speech solutions": [
+            "Implement workflows to convert speech to text and text to speech for agentic interactions",
+            "Integrate speech as an agent modality, including custom speech models",
+            "Enable multimodal reasoning from audio inputs",
+            "Translate speech into other languages by using language models and Foundry Tools"
+          ]
+        },
+        "Implement information extraction solutions (10–15%)": {
+          "Build retrieval and grounding pipelines": [
+            "Ingest and index content, such as documents, images, audio, and video",
+            "Configure semantic search, hybrid search, and vector search for grounding",
+            "Implement enrichment by using custom or built-in skills for text, images, and layout",
+            "Configure RAG ingestion flow, including documents and using optical character recognition (OCR)",
+            "Connect retrieval pipelines directly to workflows and agent tools"
+          ],
+          "Extract content from documents": [
+            "Extract information by using multimodal pipelines that combine OCR, layout analysis, and field extraction",
+            "Produce clean, grounded representations to use with agents and RAG by using Content Understanding",
+            "Implement analyzers for generating structured or markdown outputs for downstream reasoning by using Content Understanding"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
       "practice_assessment_url": ""
     },
     {
@@ -2252,15 +2624,86 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-05-05 15:02:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
+      "content_hash": "55c7b75fd2e4c679",
       "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "skills_at_a_glance": [
+        {
+          "area": "Develop containerized solutions on Azure",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Develop AI solutions by using Azure data management services",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Connect to and consume Azure services",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Secure, monitor, troubleshoot Azure solutions",
+          "weight": "20-25%"
+        }
+      ],
+      "skills_detailed": {
+        "Develop containerized solutions on Azure (20–25%)": {
+          "Implement container application hosting": [
+            "Build, store, version, and manage container images by using Azure Container Registry",
+            "Build and run images by using Azure Container Registry Tasks",
+            "Deploy containers to Azure App Service, including configuring App Service to supply environment variables and secrets"
+          ],
+          "Implement container-orchestrated solutions": [
+            "Deploy applications to Azure Container Apps, including environment configuration and revision management",
+            "Implement event-driven scaling by using Kubernetes Event‑driven Autoscaling (KEDA) in Container Apps",
+            "Deploy and manage applications to Azure Kubernetes Service (AKS) by using manifest files",
+            "Monitor and troubleshoot solutions on AKS and Container Apps by inspecting logs, events, and end-to-end connectivity"
+          ]
+        },
+        "Develop AI solutions by using Azure data management services (25–30%)": {
+          "Develop AI solutions by using Azure Cosmos DB for NoSQL": [
+            "Connect to Azure Cosmos DB for NoSQL by using the SDK and run queries",
+            "Optimize query performance and Request Units (RUs) consumption by using indexing policies and consistency levels",
+            "Store and retrieve embeddings and execute vector similarity search for semantic retrieval",
+            "Implement a change feed processor to detect and handle new or updated items"
+          ],
+          "Develop AI solutions by using Azure Database for PostgreSQL": [
+            "Connect and query Azure Database for PostgreSQL by using SDKs",
+            "Model schemas and implement indexing strategies, including designing tables and choosing appropriate data types",
+            "Implement indexing strategies, including optimizing query latency and reducing pgvector compute overhead",
+            "Configure compute, memory, and storage resources to support vector workloads",
+            "Run vector similarity search, including storing embeddings, semantic retrieval, and implementing retrieval-augmented generation (RAG) patterns by using metadata filter",
+            "Implement connection optimization to improve throughput and minimize latency"
+          ],
+          "Integrate Azure Managed Redis in AI solutions": [
+            "Implement Azure Managed Redis data operations, including caching, expiration, and invalidation",
+            "Implement vector indexing to enable similarity search"
+          ]
+        },
+        "Connect to and consume Azure services (20–25%)": {
+          "Develop event- and message-based AI solutions": [
+            "Queue and process back-end operations by using Azure Service Bus, including dead-letter queue handling, messages, topics, and subscriptions",
+            "Implement event-driven workflows by using Azure Event Grid, including filters, custom events, and retries"
+          ],
+          "Develop and implement Azure Functions": [
+            "Build serverless APIs, including implementing triggers and bindings",
+            "Configure and deploy function apps"
+          ]
+        },
+        "Secure, monitor, and troubleshoot Azure solutions (20–25%)": {
+          "Implement secure Azure solutions": [
+            "Secure secrets by using Azure Key Vault, including rotation and retrieval",
+            "Store and retrieve app configuration information by using Azure App Configuration"
+          ],
+          "Monitor and troubleshoot Azure solutions": [
+            "Trace distributed systems by using OpenTelemetry SDKs",
+            "Write KQL queries to analyze logs and metrics"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
       "practice_assessment_url": ""
     },
     {
@@ -2280,15 +2723,133 @@
       "replaces": "DP-100",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-03-05 17:45:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
+      "content_hash": "e87a9399e91d74c5",
       "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "skills_at_a_glance": [
+        {
+          "area": "Design and implement an MLOps infrastructure",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Implement machine learning model lifecycle and operations",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Design and implement a GenAIOps infrastructure",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Implement generative AI quality assurance and observability",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Optimize generative AI systems and model performance",
+          "weight": "10-15%"
+        }
+      ],
+      "skills_detailed": {
+        "Design and implement an MLOps infrastructure (15–20%)": {
+          "Create and manage resources in a Machine Learning workspace": [
+            "Create and manage a workspace",
+            "Create and manage datastores",
+            "Create and manage compute targets",
+            "Configure identity and access management for workspaces"
+          ],
+          "Create and manage assets in a Machine Learning workspace": [
+            "Create and manage data assets",
+            "Create and manage environments",
+            "Create and manage components",
+            "Share assets across workspaces by using registries"
+          ],
+          "Implement IaC for Machine Learning": [
+            "Configure GitHub integration with Machine Learning to enable secure access",
+            "Deploy Machine Learning workspaces and resources by using Bicep and Azure CLI",
+            "Automate resource provisioning by using GitHub Actions workflows",
+            "Restrict network access to Machine Learning workspaces",
+            "Manage source control for machine learning projects by using Git"
+          ]
+        },
+        "Implement machine learning model lifecycle and operations (25–30%)": {
+          "Orchestrate model training": [
+            "Configure experiment tracking with MLflow",
+            "Use automated machine learning to explore optimal models",
+            "Use notebooks for experimentation and exploration",
+            "Automate hyperparameter tuning",
+            "Run model training scripts",
+            "Manage distributed training for large and deep learning models",
+            "Implement training pipelines",
+            "Compare model performance across jobs"
+          ],
+          "Implement model registration and versioning": [
+            "Package a feature retrieval specification with the model artifact",
+            "Register an MLflow model",
+            "Evaluate a model by using responsible AI principles",
+            "Manage model lifecycle, including archiving models"
+          ],
+          "Deploy machine learning models for production environments": [
+            "Deploy models as real-time or batch endpoints with managed inference options",
+            "Test and troubleshoot model endpoints",
+            "Implement progressive rollout and safe rollback strategies"
+          ],
+          "Monitor and maintain machine learning models in production": [
+            "Detect and analyze data drift",
+            "Monitor performance metrics of models deployed to production",
+            "Configure retraining or alert triggers when thresholds are exceeded"
+          ]
+        },
+        "Design and implement a GenAIOps infrastructure (20–25%)": {
+          "Implement Foundry environments and platform configuration": [
+            "Create and configure Foundry resources and project environments",
+            "Configure identity and access management with managed identities and role-based access control (RBAC)",
+            "Implement network security and private networking configurations",
+            "Deploy infrastructure using Bicep templates and Azure CLI"
+          ],
+          "Deploy and manage foundation models for production workloads": [
+            "Deploy foundation models by using serverless API endpoints and managed compute options",
+            "Select appropriate models for specific use cases",
+            "Implement model versioning and production deployment strategies",
+            "Configure provisioned throughput units for high-volume workloads"
+          ],
+          "Implement prompt versioning and management with source control": [
+            "Design and develop prompts",
+            "Create prompt variants and compare performance across different prompts",
+            "Implement version control for prompts by using Git repositories"
+          ]
+        },
+        "Implement generative AI quality assurance and observability (10–15%)": {
+          "Configure evaluation and validation for generative AI applications and agents": [
+            "Create test datasets and data mapping for comprehensive model evaluation",
+            "Implement AI quality metrics, including groundedness, relevance, coherence, and fluency",
+            "Configure risk and safety evaluations for harmful content detection",
+            "Set up automated evaluation workflows by using built-in and custom evaluation metrics"
+          ],
+          "Implement observability for generative AI applications and agents": [
+            "Examine continuous monitoring in Foundry",
+            "Monitor performance metrics, including latency, throughput, and response times",
+            "Track and optimize cost metrics, including token consumption and resource usage",
+            "Configure detailed logging, tracing, and debugging capabilities for production troubleshooting"
+          ]
+        },
+        "Optimize generative AI systems and model performance (10–15%)": {
+          "Optimize retrieval-augmented generation (RAG) performance and accuracy": [
+            "Optimize retrieval performance by tuning similarity thresholds, chunk sizes, and retrieval strategies",
+            "Select and fine-tune embedding models for domain-specific use cases and accuracy improvements",
+            "Implement and optimize hybrid search approaches combining semantic and keyword-based retrieval",
+            "Evaluate and improve RAG system performance by using relevance metrics and A/B testing frameworks"
+          ],
+          "Implement advanced fine-tuning and model customization": [
+            "Design and implement advanced fine-tuning methods",
+            "Create and manage synthetic data for fine-tuning",
+            "Monitor and optimize fine-tuned model performance",
+            "Manage a fine-tuned model from development through production deployment"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
       "practice_assessment_url": ""
     },
     {
@@ -2394,7 +2955,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-900/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/dp-900",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-900/practice/assessment?assessment-type=practice"
     },
     {
@@ -2539,7 +3100,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-100/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/dp-100",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-100",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-100/practice/assessment?assessment-type=practice"
     },
     {
@@ -2722,7 +3283,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-300/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/dp-300",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-300",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-300/practice/assessment?assessment-type=practice"
     },
     {
@@ -2850,8 +3411,232 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-420/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/dp-420",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-420",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-420/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "DP-600",
+      "title": "Implementing Analytics Solutions Using Microsoft Fabric",
+      "level": "intermediate",
+      "roles": [
+        "data-analyst",
+        "data-engineer"
+      ],
+      "products": [
+        "fabric"
+      ],
+      "category": "Data",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
+      "updated_at": "2026-06-22 23:35:00+00:00",
+      "git_commit_id": "9b0f4baff8f80d235ab219ff0951130be7d848cd",
+      "content_hash": "75e33b8d4174b49e",
+      "skills_date": "July 21, 2026",
+      "skills_at_a_glance": [
+        {
+          "area": "Maintain a data analytics solution",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Prepare data",
+          "weight": "45-50%"
+        },
+        {
+          "area": "Implement and manage semantic models",
+          "weight": "25-30%"
+        }
+      ],
+      "skills_detailed": {
+        "Maintain a data analytics solution (25–30%)": {
+          "Implement security and governance": [
+            "Implement workspace-level access controls",
+            "Implement item-level access controls",
+            "Implement row-level, column-level, object-level, and file-level access control",
+            "Apply sensitivity labels to items",
+            "Endorse items"
+          ],
+          "Maintain the analytics development lifecycle": [
+            "Configure version control for a workspace",
+            "Create and manage a Power BI Desktop project (.pbip)",
+            "Create and configure deployment pipelines",
+            "Perform impact analysis of downstream dependencies from lakehouses, warehouses, dataflows, and semantic models",
+            "Deploy and manage semantic models by using the XMLA endpoint",
+            "Create and update reusable assets, including Power BI template (.pbit) files, Power BI data source (.pbids) files, and shared semantic models"
+          ]
+        },
+        "Prepare data (45–50%)": {
+          "Get data": [
+            "Create a data connection",
+            "Discover data by using OneLake catalog and Real-Time hub",
+            "Ingest or access data as needed",
+            "Choose between different data stores",
+            "Implement OneLake integration for Eventhouse and semantic models"
+          ],
+          "Transform data": [
+            "Create views, functions, and stored procedures",
+            "Enrich data by adding new columns or tables",
+            "Implement a star schema for a lakehouse or warehouse",
+            "Denormalize data",
+            "Aggregate data",
+            "Merge or join data",
+            "Identify and resolve duplicate data, missing data, or null values",
+            "Convert column data types",
+            "Filter data"
+          ],
+          "Query and analyze data": [
+            "Select, filter, and aggregate data by using the Visual Query Editor",
+            "Select, filter, and aggregate data by using SQL",
+            "Select, filter, and aggregate data by using KQL",
+            "Select, filter, and aggregate data by using DAX"
+          ]
+        },
+        "Implement and manage semantic models (25–30%)": {
+          "Design and build semantic models": [
+            "Choose a storage mode",
+            "Implement a star schema for a semantic model",
+            "Implement relationships, such as bridge tables and many-to-many relationships",
+            "Write calculations that use DAX variables and functions, such as iterators, table filtering, windowing, and information functions",
+            "Implement calculation groups, dynamic format strings, and field parameters",
+            "Identify use cases for and configure large semantic model storage format",
+            "Design and build composite models"
+          ],
+          "Optimize enterprise-scale semantic models": [
+            "Implement performance improvements in queries and report visuals",
+            "Improve DAX performance",
+            "Configure Direct Lake, including default fallback and refresh behavior",
+            "Choose between Direct Lake on OneLake and Direct Lake on SQL analytics endpoint",
+            "Implement incremental refresh for semantic models"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-600/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600",
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-600/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "DP-700",
+      "title": "Implementing Data Engineering Solutions Using Microsoft Fabric",
+      "level": "intermediate",
+      "roles": [
+        "data-engineer"
+      ],
+      "products": [
+        "fabric"
+      ],
+      "category": "Data",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
+      "updated_at": "2026-06-23 18:41:00+00:00",
+      "git_commit_id": "bce821454a66e496b7f79818018569e778447b3f",
+      "content_hash": "7e86dc6cf5008359",
+      "skills_date": "July 21, 2026",
+      "skills_at_a_glance": [
+        {
+          "area": "Implement and manage an analytics solution",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Ingest and transform data",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Monitor and optimize an analytics solution",
+          "weight": "30-35%"
+        }
+      ],
+      "skills_detailed": {
+        "Implement and manage an analytics solution (30–35%)": {
+          "Configure Microsoft Fabric workspace settings": [
+            "Configure Spark workspace settings",
+            "Configure domain workspace settings",
+            "Configure OneLake workspace settings",
+            "Configure Apache Airflow workspace settings"
+          ],
+          "Implement lifecycle management in Fabric": [
+            "Configure version control",
+            "Implement database projects",
+            "Create and configure deployment pipelines"
+          ],
+          "Configure security and governance": [
+            "Implement workspace-level access controls",
+            "Implement item-level access controls",
+            "Implement row-level, column-level, object-level, and folder/file-level access controls",
+            "Implement dynamic data masking",
+            "Apply sensitivity labels to items",
+            "Endorse items",
+            "Implement and use Microsoft Fabric audit logs",
+            "Configure and implement OneLake security"
+          ],
+          "Orchestrate processes": [
+            "Choose between Dataflow gen 2, a pipeline and a notebook",
+            "Design and implement schedules and event-based triggers",
+            "Implement orchestration patterns with notebooks and pipelines, including parameters and dynamic expressions"
+          ]
+        },
+        "Ingest and transform data (30–35%)": {
+          "Design and implement loading patterns": [
+            "Design and implement full and incremental data loads",
+            "Prepare data for loading into a dimensional model",
+            "Design and implement a loading pattern for streaming data"
+          ],
+          "Ingest and transform batch data": [
+            "Choose an appropriate data store",
+            "Choose between Dataflows Gen2, notebooks, KQL, and T-SQL for data transformation",
+            "Create and manage OneLake shortcuts",
+            "Implement mirroring",
+            "Ingest data by using pipelines",
+            "Transform data by using PySpark, SQL, and KQL",
+            "Denormalize data",
+            "Group and aggregate data",
+            "Handle duplicate, missing, and late-arriving data"
+          ],
+          "Ingest and transform streaming data": [
+            "Choose an appropriate streaming engine",
+            "Choose between native tables and OneLake shortcuts in Real-Time Intelligence",
+            "Choose between Query acceleration for OneLake shortcuts and standard OneLake shortcuts in Real-Time Intelligence",
+            "Process data by using Eventstreams",
+            "Process data by using Spark structured streaming",
+            "Process data by using KQL",
+            "Create windowing functions"
+          ]
+        },
+        "Monitor and optimize an analytics solution (30–35%)": {
+          "Monitor Fabric items": [
+            "Monitor data ingestion",
+            "Monitor data transformation",
+            "Monitor semantic model refresh",
+            "Configure alerts"
+          ],
+          "Identify and resolve errors": [
+            "Identify and resolve pipeline errors",
+            "Identify and resolve Dataflow Gen2 errors",
+            "Identify and resolve notebook errors",
+            "Identify and resolve Eventhouse errors",
+            "Identify and resolve Eventstream errors",
+            "Identify and resolve T-SQL errors",
+            "Identify and resolve OneLake shortcut errors"
+          ],
+          "Optimize performance": [
+            "Optimize a Lakehouse table",
+            "Optimize a pipeline",
+            "Optimize a data warehouse",
+            "Optimize Eventstreams and Eventhouses",
+            "Optimize Spark performance",
+            "Optimize query performance"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-700/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700",
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-700/practice/assessment?assessment-type=practice"
     },
     {
       "code": "DP-750",
@@ -2869,15 +3654,142 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-07-14 21:04:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
-      "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "content_hash": "11f4f9593a99c8cf",
+      "skills_date": "March 11, 2026",
+      "skills_at_a_glance": [
+        {
+          "area": "Set up and configure an Azure Databricks environment",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Secure and govern Unity Catalog objects",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Prepare and process data",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Deploy and maintain data pipelines and workloads",
+          "weight": "30-35%"
+        }
+      ],
+      "skills_detailed": {
+        "Set up and configure an Azure Databricks environment (15–20%)": {
+          "Select and configure compute in a workspace": [
+            "Choose an appropriate compute type, including job compute, serverless, warehouse, classic compute, and shared compute",
+            "Configure compute performance settings, including CPU, node count, autoscaling, termination, node type, cluster size, and pooling",
+            "Configure compute feature settings, including Photon acceleration, Azure Databricks runtime/Spark version, and machine learning",
+            "Install libraries for a compute resource",
+            "Configure access permissions to a compute resource"
+          ],
+          "Create and organize objects in Unity Catalog": [
+            "Apply naming conventions based on requirements, including isolation, development environment, and external sharing",
+            "Create a catalog based on requirements",
+            "Create a schema based on requirements",
+            "Create volumes based on requirements",
+            "Create tables, views, and materialized views",
+            "Implement a foreign catalog by configuring connections",
+            "Implement data definition language (DDL) operations on managed and external tables",
+            "Configure AI/BI Genie instructions for data discovery"
+          ]
+        },
+        "Secure and govern Unity Catalog objects (15–20%)": {
+          "Secure Unity Catalog objects": [
+            "Grant privileges to a principal (user, service principal, or group) for securable objects in Unity Catalog",
+            "Implement table- and column-level access control and row-level security",
+            "Access Azure Key Vault secrets from within Azure Databricks",
+            "Authenticate data access by using service principals",
+            "Authenticate resource access by using managed identities"
+          ],
+          "Govern Unity Catalog objects": [
+            "Create, implement, and preserve table and column definitions and descriptions for data discovery",
+            "Configure attribute-based access control (ABAC) by using tags and policies",
+            "Configure row filters and column masks",
+            "Apply data retention policies",
+            "Set up and manage data lineage tracking by using Catalog Explorer, including owner, history, dependencies, and lineage",
+            "Configure audit logging",
+            "Design and implement a secure strategy for Delta Sharing"
+          ]
+        },
+        "Prepare and process data (30–35%)": {
+          "Design and implement data modeling in Unity Catalog": [
+            "Design logic for data ingestion and data source configuration, including extraction type and file type",
+            "Choose an appropriate data ingestion tool, including Lakeflow Connect, notebooks, and Azure Data Factory",
+            "Choose a data loading method, including batch and streaming",
+            "Choose a data table format, such as Parquet, Delta, CSV, JSON, or Iceberg",
+            "Design and implement a data partitioning scheme",
+            "Choose a slowly changing dimension (SCD) type",
+            "Choose granularity on a column or table based on requirements",
+            "Design and implement a temporal (history) table to record changes over time",
+            "Design and implement a clustering strategy, including liquid clustering, Z-ordering, and deletion vectors",
+            "Choose between managed and unmanaged tables"
+          ],
+          "Ingest data into Unity Catalog": [
+            "Ingest data by using Lakeflow Connect, including batch and streaming",
+            "Ingest data by using notebooks, including batch and streaming",
+            "Ingest data by using SQL methods, including CREATE TABLE … AS (CTAS), CREATE OR REPLACE TABLE, and COPY INTO",
+            "Ingest data by using a change data capture (CDC) feed",
+            "Ingest data by using Spark Structured Streaming",
+            "Ingest streaming data from Azure Event Hubs",
+            "Ingest data by using Lakeflow Spark Declarative Pipelines, including Auto Loader"
+          ],
+          "Cleanse, transform, and load data into Unity Catalog": [
+            "Profile data to generate summary statistics and assess data distributions",
+            "Choose appropriate column data types",
+            "Identify and resolve duplicate, missing, and null values",
+            "Transform data, including filtering, grouping, and aggregating data",
+            "Transform data by using join, union, intersect, and except operators",
+            "Transform data by denormalizing, pivoting, and unpivoting data",
+            "Load data by using merge, insert, and append operations"
+          ],
+          "Implement and manage data quality constraints in Unity Catalog": [
+            "Implement validation checks, including nullability, data cardinality, and range checking",
+            "Implement data type checks",
+            "Implement schema enforcement and manage schema drift",
+            "Manage data quality with pipeline expectations in Lakeflow Spark Declarative Pipelines"
+          ]
+        },
+        "Deploy and maintain data pipelines and workloads (30–35%)": {
+          "Design and implement data pipelines": [
+            "Design order of operations for a data pipeline",
+            "Choose between notebook and Lakeflow Spark Declarative Pipelines",
+            "Design task logic for Lakeflow Jobs",
+            "Design and implement error handling in data pipelines, notebooks, and jobs",
+            "Create a data pipeline by using a notebook, including precedence constraints",
+            "Create a data pipeline by using Lakeflow Spark Declarative Pipelines"
+          ],
+          "Implement Lakeflow Jobs": [
+            "Create a job, including setup and configuration",
+            "Configure job triggers",
+            "Schedule a job",
+            "Configure alerts for a job",
+            "Configure automatic restarts for a job or a data pipeline"
+          ],
+          "Implement development lifecycle processes in Azure Databricks": [
+            "Apply version control best practices using Git",
+            "Manage branching, pull requests, and conflict resolution",
+            "Implement a testing strategy, including unit tests, integration tests, end-to-end tests, and user acceptance testing (UAT)",
+            "Configure and package Databricks Asset Bundles",
+            "Deploy a bundle by using the Azure Databricks command-line interface (CLI)",
+            "Deploy a bundle by using REST APIs"
+          ],
+          "Monitor, troubleshoot, and optimize workloads in Azure Databricks": [
+            "Monitor and manage cluster consumption to optimize performance and cost",
+            "Troubleshoot and repair issues in Lakeflow Jobs, including repair, restart, stop, and run functions",
+            "Troubleshoot and repair issues in Apache Spark jobs and notebooks, including performance tuning, resolving resource bottlenecks, and cluster restart",
+            "Investigate and resolve caching, skewing, spilling, and shuffle issues by using a Directed Acyclic Graph (DAG), the Spark UI, and query profile",
+            "Optimize Delta tables for performance and cost, including OPTIMIZE and VACUUM commands",
+            "Implement log streaming by using Log Analytics in Azure Monitor",
+            "Configure alerts by using Azure Monitor"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-750/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-750",
       "practice_assessment_url": ""
     },
     {
@@ -2897,15 +3809,130 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-08-20 22:22:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
-      "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "content_hash": "60149a8ff986af0b",
+      "skills_date": "March 12, 2026",
+      "skills_at_a_glance": [
+        {
+          "area": "Design and develop database solutions",
+          "weight": "35-40%"
+        },
+        {
+          "area": "Secure, optimize, and deploy database solutions",
+          "weight": "35-40%"
+        },
+        {
+          "area": "Implement AI capabilities in database solutions",
+          "weight": "25-30%"
+        }
+      ],
+      "skills_detailed": {
+        "Design and develop database solutions (35–40%)": {
+          "Design and implement database objects": [
+            "Design and implement tables, including data types, size, columns, indexes, and column store indexes",
+            "Design and implement specialized tables, including in-memory, temporal, external, ledger, and graph",
+            "Design and implement JSON columns and indexes",
+            "Design and implement database constraints, including PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and DEFAULT",
+            "Design and implement SEQUENCES",
+            "Design and implement partitioning for tables and indexes"
+          ],
+          "Implement programmability objects": [
+            "Create views",
+            "Create scalar functions",
+            "Create table-valued functions",
+            "Create stored procedures",
+            "Create triggers"
+          ],
+          "Write advanced T-SQL code": [
+            "Write common table expressions (CTEs)",
+            "Write queries that include window functions",
+            "Write queries that include JSON functions, such as JSON\\_OBJECT, JSON\\_ARRAY, JSON\\_ARRAYAGG, JSON\\_CONTAINS, OPENJSON, and JSON\\_VALUE",
+            "Write queries that include regular expressions, such as REGEXP\\_LIKE, REGEXP\\_REPLACE, REGEXP\\_SUBSTR, REGEXP\\_INSTR, REGEXP\\_COUNT, REGEXP\\_MATCHES, and REGEXP\\_SPLIT\\_TO\\_TABLE",
+            "Write queries that include fuzzy string matching functions, such as EDIT\\_DISTANCE, EDIT\\_DISTANCE\\_SIMILARITY, and JARO\\_WINKLER\\_DISTANCE",
+            "Write graph queries that use the MATCH operator",
+            "Write correlated queries",
+            "Implement error handling"
+          ],
+          "Design and implement SQL solutions by using AI-assisted tools": [
+            "Interpret security impact of using AI-assisted tools",
+            "Enable GitHub Copilot and Microsoft Copilot in Fabric",
+            "Configure model and Model Context Protocol (MCP) tool options in a GitHub Copilot or Copilot in Fabric chat session",
+            "Create and configure GitHub Copilot instruction files",
+            "Connect to MCP server endpoints, including Microsoft SQL Server and Fabric lakehouse"
+          ]
+        },
+        "Secure, optimize, and deploy database solutions (35–40%)": {
+          "Implement data security and compliance": [
+            "Design and implement data encryption, including Always Encrypted and column-level encryption",
+            "Design and implement Dynamic Data Masking",
+            "Design and implement Row-Level Security (RLS)",
+            "Design and implement object-level permissions",
+            "Implement secure database access, including passwordless",
+            "Implement auditing",
+            "Secure model endpoints, including Managed Identity",
+            "Secure GraphQL, REST, and MCP endpoints"
+          ],
+          "Optimize database performance": [
+            "Recommend database configurations",
+            "Preserve data integrity and consistency by using transaction isolation levels and concurrency controls",
+            "Evaluate query performance by using query execution plans, dynamic management views (DMVs), Query Store, and Query Performance Insight",
+            "Identify and resolve query performance issues, including blocking and deadlocks"
+          ],
+          "Implement CI/CD by using SQL Database Projects": [
+            "Design and implement a testing strategy, including unit tests and integration tests",
+            "Create and manage reference/static data in source control",
+            "Create, build, and validate database models by using SQL Database Projects, including SDK-style models",
+            "Configure source control for SQL Database Projects",
+            "Manage branching, pull requests, and conflict resolution",
+            "Implement secrets management",
+            "Detect schema drift by using SQL Database Projects",
+            "Update an SQL database project and deploy changes",
+            "Design and implement controls for deployment pipelines, including branching policies, triggers in approvals, authentication tables, and code owners"
+          ],
+          "Integrate SQL solutions with Azure services": [
+            "Create configuration files for Data API builder (DAB)",
+            "Configure entities for REST and GraphQL, including data caching, pagination, searching, and filtering",
+            "Configure REST or GraphQL endpoints",
+            "Expose database objects, stored procedures, and views, including GraphQL relationships",
+            "Configure and implement DAB deployment",
+            "Recommend Azure Monitor configurations, including Application Insights and Log Analytics",
+            "Handle changes by using change event streaming (CES), change data capture (CDC), Change Tracking, Azure Functions with SQL trigger binding, or Azure Logic Apps"
+          ]
+        },
+        "Implement AI capabilities in database solutions (25–30%)": {
+          "Design and implement models and embeddings": [
+            "Evaluate external models, including multimodal, multilanguage, sizes, and structured output",
+            "Create and manage external models",
+            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, CES, and Microsoft Foundry",
+            "Identify which columns to include in embeddings",
+            "Design and implement chunks for embeddings",
+            "Generate embeddings"
+          ],
+          "Design and implement intelligent search": [
+            "Choose from full-text, semantic vector, and hybrid search",
+            "Implement full-text search",
+            "Design for vector data, including vector data type, vector indexes, and size",
+            "Identify when to use vector-related types and functions for semantic searching, including VECTOR\\_NORMALIZE, VECTOR\\_DISTANCE, VECTORPROPERTY, and VECTOR\\_SEARCH",
+            "Choose between using ANN and ENN for vector search",
+            "Evaluate vector index types and metrics",
+            "Implement vector search",
+            "Implement hybrid search",
+            "Implement reciprocal rank fusion (RRF)",
+            "Evaluate performance of vector and hybrid search"
+          ],
+          "Design and implement retrieval-augmented generation (RAG)": [
+            "Identify use cases for RAG",
+            "Create a prompt by using the sp\\_invoke\\_external\\_rest\\_endpoint stored procedure",
+            "Convert structured data to JSON for language model processing",
+            "Send results to language model",
+            "Extract language model responses"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-800/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-800",
       "practice_assessment_url": ""
     },
     {
@@ -3046,7 +4073,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-900",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-900",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900/practice/assessment?assessment-type=practice"
     },
     {
@@ -3210,7 +4237,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-100",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-100",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/practice/assessment?assessment-type=practice"
     },
     {
@@ -3330,7 +4357,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-200/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-200",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-200",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-200/practice/assessment?assessment-type=practice"
     },
     {
@@ -3514,7 +4541,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-300/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-300",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-300",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-300/practice/assessment?assessment-type=practice"
     },
     {
@@ -3773,7 +4800,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-400/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/sc-400",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-400/practice/assessment?assessment-type=practice"
     },
     {
@@ -3793,15 +4820,152 @@
       "replaces": "AZ-500",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-07-31 19:59:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
+      "content_hash": "8c0f40e621fc1819",
       "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "skills_at_a_glance": [
+        {
+          "area": "Manage identity, access, and governance",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Secure storage, databases, and networking",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Secure compute",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Manage and monitor security posture",
+          "weight": "20-25%"
+        }
+      ],
+      "skills_detailed": {
+        "Manage identity, access, and governance (20–25%)": {
+          "Secure access to resources by using Microsoft Entra ID": [
+            "Implement and configure Privileged Identity Management (PIM)",
+            "Implement conditional access policies",
+            "Implement and configure authentication methods, including multifactor authentication (MFA) and passwordless",
+            "Implement and configure identity for applications, including enterprise applications and app registrations",
+            "Manage OAuth permission grants and consent settings",
+            "Implement and configure managed identities for Azure resources"
+          ],
+          "Secure secrets and keys by using Azure Key Vault": [
+            "Deploy Key Vault",
+            "Configure Key Vault settings",
+            "Configure access to Key Vault",
+            "Configure firewall settings on Key Vault",
+            "Manage keys, secrets, and certificates",
+            "Scan for secrets by using Defender Cloud Security Posture Management (Defender CSPM)",
+            "Implement Defender for Key Vault"
+          ],
+          "Implement governance to enforce security and regulatory compliance": [
+            "Implement and configure security controls by using Azure Policy, including built-in and custom policy definitions",
+            "Evaluate regulatory compliance by using Microsoft Defender for Cloud",
+            "Implement and configure security controls in Defender for Cloud, including security standards and recommendations",
+            "Implement resource locks",
+            "Manage Azure built-in role assignments",
+            "Manage custom roles, including Azure roles and Microsoft Entra roles",
+            "Evaluate and remediate overprivileged access assignments by using Azure role-based access control (RBAC)",
+            "Configure security controls for backup protection by using Azure Backup security features",
+            "Implement and configure security controls by using infrastructure as code"
+          ]
+        },
+        "Secure storage, databases, and networking (25–30%)": {
+          "Implement security for storage accounts": [
+            "Implement and configure security for storage accounts",
+            "Configure Azure Storage firewall rules",
+            "Implement Defender for Storage threat protection configurations",
+            "Manage access to storage, including access policies"
+          ],
+          "Implement security for databases": [
+            "Implement platform-level security configurations in Azure SQL",
+            "Configure database auditing for Azure SQL Database and Azure SQL Managed Instance",
+            "Configure Defender for Databases protection across Azure database services"
+          ],
+          "Implement security for Azure network services": [
+            "Implement and manage network security groups (NSGs) and application security groups (ASGs)",
+            "Implement and configure network access policies by using Azure Virtual Network Manager",
+            "Configure security for an Azure Virtual WAN",
+            "Implement and configure security for virtual private network (VPN) connections",
+            "Implement and configure Microsoft Entra Private Access",
+            "Configure Azure private endpoints to secure access to Azure platform as a service (PaaS) resources",
+            "Configure Azure Private Link services to secure access to network resources",
+            "Implement and configure Azure Firewall",
+            "Evaluate effective security rules by using Azure Network Watcher diagnostics"
+          ]
+        },
+        "Secure compute (20–25%)": {
+          "Implement security for AI": [
+            "Identify overexposure of data in SharePoint",
+            "Identify risks related to Microsoft Copilot and AI apps by using Microsoft Purview Data Security Posture Management (DSPM)",
+            "Enable and configure real-time protection for Microsoft Copilot Studio agents",
+            "Implement conditional access for Microsoft Entra Agent ID",
+            "Analyze blast radius for security risks related to Entra Agent ID by using Defender XDR",
+            "Manage Entra Agent ID access",
+            "Configure and deploy AI Gateway in Azure API Management for Microsoft Foundry",
+            "Enable Defender for AI Service in Cloud Workload Protection in Defender for Cloud",
+            "Configure guardrails for agent security in Foundry",
+            "Monitor AI security by using the Data and AI security dashboard in Defender for Cloud",
+            "Manage agents in Microsoft 365 admin center"
+          ],
+          "Implement security for servers and virtual machines (VMs)": [
+            "Implement and configure disk encryption",
+            "Plan and implement Azure Bastion",
+            "Enable and enforce use of just-in-time (JIT) VM access",
+            "Extend security controls to hybrid and multicloud servers by using Azure Arc",
+            "Onboard servers to Defender for Servers in Defender for Cloud, including hybrid and multicloud scenarios",
+            "Configure Defender for Servers settings, including vulnerability scanning, and endpoint detection and response (EDR)",
+            "Implement and manage agentless scanning for VMs in Defender for Servers",
+            "Configure security features on a VM, including secure boot, virtual Trusted Platform Module (vTPM), integrity monitoring, and security type",
+            "Enforce security configuration of Azure-managed servers by using Azure Machine Configuration"
+          ],
+          "Implement security for application platform services": [
+            "Detect misconfigurations and runtime risks in container workloads by using Defender for Containers",
+            "Implement and configure security controls for Azure Kubernetes Service (AKS)",
+            "Implement and configure security controls for Azure Container Registry",
+            "Implement and configure security controls for Azure Container Instances and Azure Container Apps",
+            "Implement and configure security controls for Azure Functions, including authentication and network access",
+            "Implement and configure security controls for Azure Logic Apps",
+            "Implement and configure security controls for Azure App Service",
+            "Implement and configure Azure Web Application Firewall",
+            "Implement security policies for back-end API protection by using API Management"
+          ]
+        },
+        "Manage and monitor security posture (20–25%)": {
+          "Manage security posture by using Defender for Cloud": [
+            "Identify security risks by using Defender CSPM",
+            "Evaluate compliance against security frameworks by using Defender for Cloud",
+            "Enable and configure Defender for Cloud workload protection plans",
+            "Connect hybrid cloud and multicloud environments to Defender for Cloud, including Amazon Web Services (AWS) and Google Cloud Platform (GCP)",
+            "Configure Microsoft Defender Vulnerability Management settings for Azure VMs",
+            "Discover unprotected assets and vulnerabilities by using Microsoft Defender External Attack Surface Management (EASM)"
+          ],
+          "Implement activity and event collection in Microsoft Sentinel": [
+            "Create and connect workspaces in Microsoft Sentinel",
+            "Assign roles in Microsoft Sentinel",
+            "Implement and use content hub solutions",
+            "Configure and use Microsoft data connectors for Azure resources",
+            "Implement and configure syslog and Common Event Format (CEF) event collections",
+            "Implement and configure collection of Windows Security events by using data collection rules, including Windows Event Forwarding (WEF)",
+            "Create custom log tables in the workspace to store ingested data",
+            "Implement automation rules and playbooks in Microsoft Sentinel",
+            "Implement data retention in Microsoft Sentinel data stores",
+            "Query Microsoft Purview Audit in Defender XDR"
+          ],
+          "Implement Microsoft Security Copilot": [
+            "Configure workspaces for Security Copilot",
+            "Manage permissions and roles in Security Copilot",
+            "Enable and configure plugins",
+            "Enable and configure Microsoft agents and Security Store agents"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
       "practice_assessment_url": ""
     },
     {
@@ -3820,15 +4984,103 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "",
+      "updated_at": "2026-07-09 18:04:00+00:00",
       "git_commit_id": "",
-      "content_hash": "",
+      "content_hash": "8481759fce98a6f0",
       "skills_date": null,
-      "skills_at_a_glance": [],
-      "skills_detailed": {},
+      "skills_at_a_glance": [
+        {
+          "area": "Understand cybersecurity concepts",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Understand cybersecurity risks and threats",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Apply basic security policies to protect the organization",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Report and respond to security incidents",
+          "weight": "10-15%"
+        }
+      ],
+      "skills_detailed": {
+        "Understand cybersecurity concepts (25–30%)": {
+          "Explain roles and responsibilities in cybersecurity": [
+            "Explain the cybersecurity shared responsibility model",
+            "Identify activities that demonstrate employee participation in security awareness initiatives within an organization",
+            "Describe accountability practices",
+            "Identify activities that enhance security"
+          ],
+          "Apply simple organizational policies and data-handling standards": [
+            "Understand security and privacy policies applicable to work tasks",
+            "Identify types of data that shouldn’t be shared with AI tools",
+            "Describe the benefits of using a password manager to protect credentials"
+          ],
+          "Describe security benefits and risk awareness": [
+            "Describe the security benefits of using multifactor authentication",
+            "Identify business processes that may be targeted or infiltrated by threat actors",
+            "Describe the risks of working in a remote environment",
+            "Understand the importance of required software updates and security patches",
+            "Describe the impact of security events, such as ransomware"
+          ],
+          "Define cybersecurity concepts and emerging threats": [
+            "Define the terms vulnerability, threat, risk, encryption, and exploit",
+            "Describe what deepfakes are"
+          ]
+        },
+        "Understand cybersecurity risks and threats (30–35%)": {
+          "Identify common cybersecurity risks": [
+            "Describe the risks associated with using public Wi-Fi networks",
+            "Describe psychological social engineering techniques, such as phishing, pretexting, and baiting"
+          ],
+          "Detect indicators of malicious activity": [
+            "Identify indicators of malware",
+            "Identify potential indicators of insider threats",
+            "Describe abnormal system behavior or infection symptoms"
+          ],
+          "Evaluate and verify digital communications": [
+            "Identify suspicious emails, malicious links, and unexpected attachments",
+            "Identify potential privacy and security risks",
+            "Verify the legitimacy of requests for access, payments, or sensitive data",
+            "Identify appropriate controls to limit access to systems and data"
+          ]
+        },
+        "Apply basic security practices to protect the organization (25–30%)": {
+          "Understand the basics of securing devices, accounts, and workspaces": [
+            "Understand the basics of securing remote and mobile devices and workspaces, including using strong passwords, multifactor authentication, and other essential security practices"
+          ],
+          "Understand how to protect sensitive and proprietary data": [
+            "Recognize and classify sensitive data",
+            "Understand the different types of document sensitivity labeling and when to apply each",
+            "Understand rights management"
+          ],
+          "Understand safe internet and data-handling practices": [
+            "Apply proper data-handling techniques",
+            "Understand how to collect, use, transfer, store, retain, and destroy data"
+          ],
+          "Understand backup and recovery measures": [
+            "Understand how to help ensure that data is backed up to support recovery from incidents",
+            "Identify and follow basic recovery measures for data loss or system issues"
+          ]
+        },
+        "Report and respond to security incidents (10–15%)": {
+          "Report on security incidents and policy violations": [
+            "Identify situations that require reporting (for example, a phishing attempt, a lost device, or unauthorized access)",
+            "Select the correct information to include in a report (for example, the date, type of incident, and affected data)",
+            "Choose the appropriate reporting channel (for example, email, help desk, or incident form)"
+          ],
+          "Take appropriate action during data breaches": [
+            "Follow basic steps when a breach occurs (for example, stop sharing data, disconnect devices, and notify IT)",
+            "Recognize when escalation is required (for example, sensitive data exposure or a ransomware incident)"
+          ]
+        }
+      },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-730/",
-      "study_guide_url": "",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-730",
       "practice_assessment_url": ""
     },
     {
@@ -3959,7 +5211,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-102/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ms-102",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-102",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-102/practice/assessment?assessment-type=practice"
     },
     {
@@ -4134,7 +5386,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-700/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ms-700",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-700",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-700/practice/assessment?assessment-type=practice"
     },
     {
@@ -4399,7 +5651,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-721/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ms-721",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-721",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-721/practice/assessment?assessment-type=practice"
     },
     {
@@ -4517,7 +5769,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-900/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/ms-900",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ms-900",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ms-900/practice/assessment?assessment-type=practice"
     },
     {
@@ -4686,7 +5938,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/md-102/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/md-102",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/md-102",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/md-102/practice/assessment?assessment-type=practice"
     },
     {
@@ -4800,7 +6052,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-900/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-900",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-900",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-900/practice/assessment?assessment-type=practice"
     },
     {
@@ -4933,7 +6185,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-200/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-200",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-200",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-200/practice/assessment?assessment-type=practice"
     },
     {
@@ -5085,7 +6337,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-300/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-300",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-300",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-300/practice/assessment?assessment-type=practice"
     },
     {
@@ -5256,7 +6508,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-400/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-400",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-400",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-400/practice/assessment?assessment-type=practice"
     },
     {
@@ -5523,7 +6775,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-500/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-500",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-500",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-500/practice/assessment?assessment-type=practice"
     },
     {
@@ -5738,7 +6990,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-600/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-600",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-600",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-600/practice/assessment?assessment-type=practice"
     },
     {
@@ -5982,7 +7234,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-210/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-210",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-210",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-210/practice/assessment?assessment-type=practice"
     },
     {
@@ -6379,7 +7631,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-220/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-220",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-220",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-220/practice/assessment?assessment-type=practice"
     },
     {
@@ -6496,7 +7748,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-230/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-230",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-230",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-230/practice/assessment?assessment-type=practice"
     },
     {
@@ -6700,7 +7952,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-240/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-240",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-240",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-240/practice/assessment?assessment-type=practice"
     },
     {
@@ -6887,7 +8139,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-310/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-310",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-310",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-310/practice/assessment?assessment-type=practice"
     },
     {
@@ -7081,7 +8333,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-330/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-330",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-330",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-330/practice/assessment?assessment-type=practice"
     },
     {
@@ -7283,7 +8535,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-500/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-500",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-500",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-500/practice/assessment?assessment-type=practice"
     },
     {
@@ -7503,8 +8755,182 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-800/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-800",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-800",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-800/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "MB-820",
+      "title": "Microsoft Dynamics 365 Business Central Developer",
+      "level": "intermediate",
+      "roles": [
+        "developer"
+      ],
+      "products": [
+        "dynamics-365"
+      ],
+      "category": "Dynamics 365",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
+      "updated_at": "2025-12-05 03:46:00+00:00",
+      "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
+      "content_hash": "ea4bed68c877c1a1",
+      "skills_date": "June 10, 2025",
+      "skills_at_a_glance": [
+        {
+          "area": "Describe Business Central",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Install, develop, and deploy for Business Central",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Develop by using AL objects",
+          "weight": "35-40%"
+        },
+        {
+          "area": "Develop by using AL",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Work with development tools",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Integrate Business Central with other applications",
+          "weight": "10-15%"
+        }
+      ],
+      "skills_detailed": {
+        "Describe Business Central (10–15%)": {
+          "Describe the Business Central architecture": [
+            "Describe the components and capabilities of Business Central",
+            "Describe the core solution and extensions approach for Business Central",
+            "Describe the update lifecycle for customizations of Business Central",
+            "Differentiate Business Central online and Business Central on-premises features"
+          ],
+          "Describe Business Central apps": [
+            "Differentiate between the base app and the system app",
+            "Describe the functionality of apps",
+            "Describe the process of bringing an app to AppSource"
+          ]
+        },
+        "Install, develop, and deploy for Business Central (10–15%)": {
+          "Install and configure a Business Central development environment": [
+            "Describe the development environment for Business Central",
+            "Install and configure the development environment",
+            "Manage configuration files for an AL extension",
+            "Manage multiple AL extensions in one workspace"
+          ],
+          "Create, debug, and deploy an extension in Business Central": [
+            "Debug an extension with Visual Studio Code",
+            "Deploy an extension",
+            "Create or modify a Business Central extension in Visual Studio Code",
+            "Manage multilanguage development",
+            "Maintain extensions"
+          ]
+        },
+        "Develop by using AL objects (35–40%)": {
+          "Build and extend tables and pages in Business Central": [
+            "Develop Role Center pages",
+            "Identify different page types",
+            "Build and extend page objects",
+            "Build and extend tables",
+            "Build and extend enums"
+          ],
+          "Build and extend reports": [
+            "Substitute a report",
+            "Create a report layout",
+            "Create document reports",
+            "Design the data model of a report",
+            "Implement multilanguage in reports",
+            "Use report triggers, functions, and processing-only reports",
+            "Develop the report request page"
+          ],
+          "Design and create an XMLport": [
+            "Configure different XMLport properties",
+            "Configure nodes and their properties",
+            "Use XMLports in AL code"
+          ],
+          "Develop codeunits": [
+            "Create and access codeunits",
+            "Use events and triggers",
+            "Implement interfaces",
+            "Create installation and upgrade codeunits"
+          ],
+          "Create entitlement and permission set objects": [
+            "Create and extend permission sets",
+            "Override entitlements with inherent permissions",
+            "Troubleshoot permission sets"
+          ],
+          "Create queries in Business Central": [
+            "Link and join data items",
+            "Apply filters in query objects",
+            "Use queries instead of record variables",
+            "Aggregate data in query objects",
+            "Use a query to create a report"
+          ]
+        },
+        "Develop by using AL (15–20%)": {
+          "Customize the UI experience, and implement onboarding techniques": [
+            "Create profiles in AL",
+            "Use and create views in AL",
+            "Develop the UI by using the user assistance model",
+            "Integrate assisted setup",
+            "Create teaching tips and in-app tours to onboard users",
+            "Create an onboarding checklist"
+          ],
+          "Describe the essential development standards": [
+            "Implement the data process model in Business Central",
+            "Define the different functional table types and characteristics",
+            "Use document standards in Business Central",
+            "Implement master data standards and design patterns"
+          ],
+          "Use AL to extend Business Central": [
+            "Create custom procedures",
+            "Use data types in code",
+            "Manage files",
+            "Manipulate data by using code",
+            "Describe the basics of the AL",
+            "Use the different types of expressions",
+            "Use AL built-in functions and AL statements",
+            "Work with variables and define them in AL code",
+            "Manage errors",
+            "Use access modifiers to limit access"
+          ]
+        },
+        "Work with development tools (10–15%)": {
+          "Implement semiautomated test processes, and run standard Business Central tests": [
+            "Test applications in Business Central",
+            "Install and run the Test Toolkit",
+            "Develop test codeunits and procedures"
+          ],
+          "Manage and analyze telemetry": [
+            "Monitor and analyze telemetry",
+            "Configure telemetry",
+            "Create custom telemetry signals"
+          ]
+        },
+        "Integrate Business Central with other applications (10–15%)": {
+          "Access Representational State Transfer (REST) services from within Business Central": [
+            "Use the different HTTP classes and their functions",
+            "Get data from and send data to an external REST service",
+            "Use and read JSON"
+          ],
+          "Implement APIs": [
+            "Create and work with APIs",
+            "Create and manage OData bound and unbound actions",
+            "Use Read Scale-Out to improve performance"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-820/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-820",
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-820/practice/assessment?assessment-type=practice"
     },
     {
       "code": "MB-910",
@@ -7635,7 +9061,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-910/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-910",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-910",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-910/practice/assessment?assessment-type=practice"
     },
     {
@@ -7763,7 +9189,7 @@
       },
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-920/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/certifications/resources/study-guides/mb-920",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-920",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-920/practice/assessment?assessment-type=practice"
     }
   ]

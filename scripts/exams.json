@@ -149,8 +149,7 @@
       "roles": ["ai-engineer", "data-scientist"],
       "products": ["azure"],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-04",
+      "status": "active",
       "replaces": "AI-900"
     },
     {
