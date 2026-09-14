@@ -83,7 +83,7 @@ def generate_skills_markdown(exam: dict) -> str:
         beta_since = exam.get("beta_since", "")
         replaces = exam.get("replaces", "")
         lines.append(f'<div class="cert-status-banner cert-status-beta">')
-        lines.append(f'🧪 <strong>This exam is currently in beta</strong>{(" since " + beta_since) if beta_since else ""}. Beta exams are typically offered at 80% discount. {("Replaces: <strong>" + replaces + "</strong>") if replaces else ""}')
+        lines.append(f'🧪 <strong>This exam is currently in beta</strong>{(" since " + beta_since) if beta_since else ""}. Beta exams are not scored immediately; results follow once the beta review period closes. {("Replaces: <strong>" + replaces + "</strong>") if replaces else ""}')
         lines.append(f'</div>')
         lines.append("")
 

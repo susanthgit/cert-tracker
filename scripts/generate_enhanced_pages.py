@@ -203,7 +203,7 @@ def generate_page(exam, related_map=None, all_exams=None):
         lines.append(f'<div class="cert-status-banner cert-status-beta">')
         since_text = f" since {beta_since}" if beta_since else ""
         repl_text = f" Replaces: <strong>{replaces}</strong>" if replaces else ""
-        lines.append(f'This exam is currently in beta{since_text}. Beta exams are typically offered at 80% discount.{repl_text}')
+        lines.append(f'This exam is currently in beta{since_text}. Beta exams are not scored immediately; results follow once the beta review period closes.{repl_text}')
         lines.append(f'</div>')
         lines.append("")
 
