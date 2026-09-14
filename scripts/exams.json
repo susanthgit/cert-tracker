@@ -116,8 +116,7 @@
       "roles": ["administrator"],
       "products": ["azure", "windows-server"],
       "category": "Azure",
-      "status": "beta",
-      "beta_since": "2026-06",
+      "status": "active",
       "replaces": "AZ-800 + AZ-801"
     },
     {
@@ -159,8 +158,7 @@
       "roles": ["ai-engineer", "developer"],
       "products": ["azure"],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-04",
+      "status": "active",
       "replaces": "AI-102"
     },
     {
@@ -170,8 +168,7 @@
       "roles": ["developer", "ai-engineer"],
       "products": ["azure"],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-05"
+      "status": "active"
     },
     {
       "code": "AI-300",
@@ -180,8 +177,7 @@
       "roles": ["ai-engineer", "devops-engineer"],
       "products": ["azure"],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-03",
+      "status": "active",
       "replaces": "DP-100"
     },
     {
@@ -323,7 +319,8 @@
       "roles": ["administrator"],
       "products": ["m365"],
       "category": "Security",
-      "status": "beta",
+      "status": "retired",
+      "replacement": "SC-900",
       "beta_since": "2026-04"
     },
     {
@@ -535,6 +532,44 @@
       "status": "retired",
       "retirement_date": "2025-12-31",
       "replacement": "Role-based D365 certs"
+    },
+    {
+      "code": "AI-500",
+      "title": "Designing and Implementing Multi-Agent AI Solutions",
+      "level": "expert",
+      "roles": ["ai-engineer"],
+      "products": ["azure"],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": ""
+    },
+    {
+      "code": "AB-210",
+      "title": "Dynamics 365 Sales AI Consultant Associate",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365",
+      "status": "beta",
+      "beta_since": ""
+    },
+    {
+      "code": "AB-650",
+      "title": "Administering Microsoft 365 and AI Services",
+      "level": "intermediate",
+      "roles": ["administrator"],
+      "products": ["m365"],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-08"
+    },
+    {
+      "code": "AB-620",
+      "title": "Designing and Building Integrated AI Solutions in Copilot Studio",
+      "level": "intermediate",
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-04"
     }
   ]
 }
