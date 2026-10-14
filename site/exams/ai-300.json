@@ -326,13 +326,6 @@
       "category": "AI"
     },
     {
-      "code": "DP-100",
-      "title": "Designing and Implementing a Data Science Solution on Azure",
-      "level": "intermediate",
-      "status": "retired",
-      "category": "Data"
-    },
-    {
       "code": "AI-103",
       "title": "Azure AI App and Agent Developer Associate",
       "level": "intermediate",

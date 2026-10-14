@@ -136,13 +136,6 @@
       "level": "intermediate",
       "status": "active",
       "category": "Power Platform"
-    },
-    {
-      "code": "PL-600",
-      "title": "Microsoft Power Platform Solution Architect",
-      "level": "advanced",
-      "status": "retired",
-      "category": "Power Platform"
     }
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/pl-200/",

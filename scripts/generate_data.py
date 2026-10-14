@@ -103,6 +103,9 @@ def generate_exam_detail(exam: dict, changelog: dict, related_map: dict = None, 
         for rc in related_map[code]:
             if rc in all_exams:
                 re = all_exams[rc]
+                # Never suggest a retired exam as "What to Study Next"
+                if re.get("status", "active") == "retired":
+                    continue
                 related.append({
                     "code": rc,
                     "title": re.get("title", ""),

@@ -189,13 +189,6 @@
       "category": "Azure"
     },
     {
-      "code": "AI-900",
-      "title": "Microsoft Azure AI Fundamentals",
-      "level": "beginner",
-      "status": "retired",
-      "category": "AI"
-    },
-    {
       "code": "DP-900",
       "title": "Microsoft Azure Data Fundamentals",
       "level": "beginner",

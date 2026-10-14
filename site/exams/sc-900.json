@@ -216,13 +216,6 @@
       "level": "beginner",
       "status": "active",
       "category": "Azure"
-    },
-    {
-      "code": "MS-900",
-      "title": "Microsoft 365 Fundamentals",
-      "level": "beginner",
-      "status": "retired",
-      "category": "Microsoft 365"
     }
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-900/",

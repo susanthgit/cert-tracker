@@ -315,13 +315,6 @@
       "level": "beginner",
       "status": "active",
       "category": "Data"
-    },
-    {
-      "code": "AI-102",
-      "title": "Designing and Implementing a Microsoft Azure AI Solution",
-      "level": "intermediate",
-      "status": "retired",
-      "category": "AI"
     }
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-800/",

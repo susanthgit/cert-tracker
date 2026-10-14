@@ -253,13 +253,6 @@
       "level": "advanced",
       "status": "active",
       "category": "Azure"
-    },
-    {
-      "code": "AZ-204",
-      "title": "Developing Solutions for Microsoft Azure",
-      "level": "intermediate",
-      "status": "retired",
-      "category": "Azure"
     }
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/",
