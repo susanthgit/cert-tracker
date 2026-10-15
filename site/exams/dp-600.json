@@ -11,8 +11,8 @@
   ],
   "category": "Data",
   "status": "active",
-  "updated_at": "2026-06-22 23:35:00+00:00",
-  "skills_date": "July 21, 2026",
+  "updated_at": "2026-09-18 21:09:00+00:00",
+  "skills_date": "October 19, 2026",
   "skills_at_a_glance": [
     {
       "area": "Maintain a data analytics solution",
@@ -65,7 +65,7 @@
         "Filter data"
       ],
       "Query and analyze data": [
-        "Select, filter, and aggregate data by using the Visual Query Editor",
+        "Select, filter, and aggregate data by using the Visual query editor",
         "Select, filter, and aggregate data by using SQL",
         "Select, filter, and aggregate data by using KQL",
         "Select, filter, and aggregate data by using DAX"
@@ -91,7 +91,35 @@
     }
   },
   "change_log_official": [],
-  "change_history": [],
+  "change_history": [
+    {
+      "code": "DP-600",
+      "title": "Implementing Analytics Solutions Using Microsoft Fabric",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 21, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "1 added, 1 removed",
+      "added_count": 1,
+      "removed_count": 1,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Prepare data (45–50%) > Query and analyze data",
+          "items": [
+            "Select, filter, and aggregate data by using the Visual query editor"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Prepare data (45–50%) > Query and analyze data",
+          "items": [
+            "Select, filter, and aggregate data by using the Visual Query Editor"
+          ]
+        }
+      ]
+    }
+  ],
   "related_exams": [],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-600/",
   "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600",

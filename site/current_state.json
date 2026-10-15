@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-14T00:09:45Z",
-  "exam_count": 55,
+  "fetched_at": "2026-10-15T19:21:11Z",
+  "exam_count": 59,
   "errors": [],
   "exams": [
     {
@@ -1431,8 +1431,8 @@
       "replacement": "AZ-802",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-04-02 15:58:00+00:00",
-      "git_commit_id": "7f65140654bfa353bfe77431661a62899e16d223",
+      "updated_at": "2026-09-30 20:12:00+00:00",
+      "git_commit_id": "3935f1ad4392d479f57cc01cc0bc25695cf96643",
       "content_hash": "3d09a61e449ca6d5",
       "skills_date": "January 21, 2026",
       "skills_at_a_glance": [
@@ -1624,8 +1624,8 @@
       "replacement": "AZ-802",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-04-02 15:58:00+00:00",
-      "git_commit_id": "7f65140654bfa353bfe77431661a62899e16d223",
+      "updated_at": "2026-09-30 20:12:00+00:00",
+      "git_commit_id": "3935f1ad4392d479f57cc01cc0bc25695cf96643",
       "content_hash": "6316bb393cbbdc24",
       "skills_date": "October 6, 2025",
       "skills_at_a_glance": [
@@ -1832,13 +1832,13 @@
         "windows-server"
       ],
       "category": "Azure",
-      "status": "beta",
-      "beta_since": "2026-06",
-      "replaces": "AZ-800 + AZ-801",
-      "replacement": "",
+      "status": "active",
       "retirement_date": "",
-      "updated_at": "2026-07-06 21:43:00+00:00",
-      "git_commit_id": "",
+      "replacement": "",
+      "replaces": "AZ-800 + AZ-801",
+      "beta_since": "",
+      "updated_at": "2026-10-02 23:05:00+00:00",
+      "git_commit_id": "eaf46d0c7dbd30f7ddb11b2ea09d862ade24909e",
       "content_hash": "9bd3ae6f121a5c77",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -2041,7 +2041,7 @@
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-802/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-802",
-      "practice_assessment_url": ""
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-802/practice/assessment?assessment-type=practice"
     },
     {
       "code": "AI-900",
@@ -2467,13 +2467,13 @@
         "azure"
       ],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-04",
-      "replaces": "AI-102",
-      "replacement": "",
+      "status": "active",
       "retirement_date": "",
+      "replacement": "",
+      "replaces": "AI-102",
+      "beta_since": "",
       "updated_at": "2026-07-07 18:58:00+00:00",
-      "git_commit_id": "",
+      "git_commit_id": "8e58c0d8ae6c45036c55fcad803041c7dd7782a9",
       "content_hash": "21a24ec33c0344be",
       "skills_date": "April 16, 2026",
       "skills_at_a_glance": [
@@ -2605,7 +2605,7 @@
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
-      "practice_assessment_url": ""
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-103/practice/assessment?assessment-type=practice"
     },
     {
       "code": "AI-200",
@@ -2619,13 +2619,13 @@
         "azure"
       ],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-05",
-      "replaces": "",
-      "replacement": "",
+      "status": "active",
       "retirement_date": "",
+      "replacement": "",
+      "replaces": "",
+      "beta_since": "",
       "updated_at": "2026-05-05 15:02:00+00:00",
-      "git_commit_id": "",
+      "git_commit_id": "aaf16829c9c6b4e83b5dc4d2aff83c49002bbc3e",
       "content_hash": "55c7b75fd2e4c679",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -2704,7 +2704,7 @@
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-200",
-      "practice_assessment_url": ""
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/practice/assessment?assessment-type=practice"
     },
     {
       "code": "AI-300",
@@ -2718,13 +2718,13 @@
         "azure"
       ],
       "category": "AI",
-      "status": "beta",
-      "beta_since": "2026-03",
-      "replaces": "DP-100",
-      "replacement": "",
+      "status": "active",
       "retirement_date": "",
+      "replacement": "",
+      "replaces": "DP-100",
+      "beta_since": "",
       "updated_at": "2026-03-05 17:45:00+00:00",
-      "git_commit_id": "",
+      "git_commit_id": "435326301d2dc381e7384208603b03b38184daad",
       "content_hash": "e87a9399e91d74c5",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -2850,7 +2850,7 @@
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300",
-      "practice_assessment_url": ""
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-300/practice/assessment?assessment-type=practice"
     },
     {
       "code": "DP-900",
@@ -3119,10 +3119,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-26 06:04:00+00:00",
-      "git_commit_id": "812c74c495627a042098ff05b4a5a4c1d695c7d5",
-      "content_hash": "d311586ab47e123c",
-      "skills_date": "April 24, 2026",
+      "updated_at": "2026-09-25 22:18:00+00:00",
+      "git_commit_id": "6c72c141b4ec3a91383944a9dfe2c03ea2b84a80",
+      "content_hash": "b20bbab1ce3ec20d",
+      "skills_date": "October 27, 2026",
       "skills_at_a_glance": [
         {
           "area": "Plan and implement data platform resources",
@@ -3192,7 +3192,7 @@
             "Implement object-level encryption",
             "Configure server- and database-level firewall rules",
             "Implement Always Encrypted",
-            "Implement Always Encrypted with VBS enclaves",
+            "Implement Always Encrypted with secure enclaves",
             "Configure private links and service endpoints"
           ],
           "Implement compliance controls for sensitive data": [
@@ -3303,8 +3303,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-09 21:48:00+00:00",
-      "git_commit_id": "774aab2c85882724bfd21714aa871b5af260f1ae",
+      "updated_at": "2026-09-16 17:28:00+00:00",
+      "git_commit_id": "0c16e80d930c0add6223e03a755cea320972de20",
       "content_hash": "dfed46882cb4e446",
       "skills_date": "October 6, 2026",
       "skills_at_a_glance": [
@@ -3431,10 +3431,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-22 23:35:00+00:00",
-      "git_commit_id": "9b0f4baff8f80d235ab219ff0951130be7d848cd",
-      "content_hash": "75e33b8d4174b49e",
-      "skills_date": "July 21, 2026",
+      "updated_at": "2026-09-18 21:09:00+00:00",
+      "git_commit_id": "b1597b276fbb60bdf9b34a7a14301e5ca98ef4bb",
+      "content_hash": "f9ee6b7e2d47b4ad",
+      "skills_date": "October 19, 2026",
       "skills_at_a_glance": [
         {
           "area": "Maintain a data analytics solution",
@@ -3487,7 +3487,7 @@
             "Filter data"
           ],
           "Query and analyze data": [
-            "Select, filter, and aggregate data by using the Visual Query Editor",
+            "Select, filter, and aggregate data by using the Visual query editor",
             "Select, filter, and aggregate data by using SQL",
             "Select, filter, and aggregate data by using KQL",
             "Select, filter, and aggregate data by using DAX"
@@ -3533,10 +3533,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-23 18:41:00+00:00",
-      "git_commit_id": "bce821454a66e496b7f79818018569e778447b3f",
-      "content_hash": "7e86dc6cf5008359",
-      "skills_date": "July 21, 2026",
+      "updated_at": "2026-09-18 21:09:00+00:00",
+      "git_commit_id": "b1597b276fbb60bdf9b34a7a14301e5ca98ef4bb",
+      "content_hash": "2f394af665fdec8f",
+      "skills_date": "October 19, 2026",
       "skills_at_a_glance": [
         {
           "area": "Implement and manage an analytics solution",
@@ -3601,7 +3601,7 @@
             "Choose an appropriate streaming engine",
             "Choose between native tables and OneLake shortcuts in Real-Time Intelligence",
             "Choose between Query acceleration for OneLake shortcuts and standard OneLake shortcuts in Real-Time Intelligence",
-            "Process data by using Eventstreams",
+            "Process data by using Eventstream",
             "Process data by using Spark structured streaming",
             "Process data by using KQL",
             "Create windowing functions"
@@ -3627,7 +3627,7 @@
             "Optimize a Lakehouse table",
             "Optimize a pipeline",
             "Optimize a data warehouse",
-            "Optimize Eventstreams and Eventhouses",
+            "Optimize Eventstream and Eventhouse",
             "Optimize Spark performance",
             "Optimize query performance"
           ]
@@ -3654,10 +3654,10 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-07-14 21:04:00+00:00",
+      "updated_at": "2026-09-18 21:09:00+00:00",
       "git_commit_id": "",
-      "content_hash": "11f4f9593a99c8cf",
-      "skills_date": "March 11, 2026",
+      "content_hash": "0ac3247c64eff7c8",
+      "skills_date": "October 19, 2026",
       "skills_at_a_glance": [
         {
           "area": "Set up and configure an Azure Databricks environment",
@@ -3724,7 +3724,7 @@
             "Choose a slowly changing dimension (SCD) type",
             "Choose granularity on a column or table based on requirements",
             "Design and implement a temporal (history) table to record changes over time",
-            "Design and implement a clustering strategy, including liquid clustering, Z-ordering, and deletion vectors",
+            "Design and implement a clustering strategy, including liquid clustering and Z-ordering",
             "Choose between managed and unmanaged tables"
           ],
           "Ingest data into Unity Catalog": [
@@ -3772,8 +3772,8 @@
             "Apply version control best practices using Git",
             "Manage branching, pull requests, and conflict resolution",
             "Implement a testing strategy, including unit tests, integration tests, end-to-end tests, and user acceptance testing (UAT)",
-            "Configure and package Databricks Asset Bundles",
-            "Deploy a bundle by using the Azure Databricks command-line interface (CLI)",
+            "Configure and package Declarative Automation Bundles",
+            "Deploy a bundle by using the Databricks CLI",
             "Deploy a bundle by using REST APIs"
           ],
           "Monitor, troubleshoot, and optimize workloads in Azure Databricks": [
@@ -3809,10 +3809,10 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-08-20 22:22:00+00:00",
+      "updated_at": "2026-09-18 21:09:00+00:00",
       "git_commit_id": "",
-      "content_hash": "60149a8ff986af0b",
-      "skills_date": "March 12, 2026",
+      "content_hash": "5d59aeecb1350cec",
+      "skills_date": "October 19, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design and develop database solutions",
@@ -3830,7 +3830,7 @@
       "skills_detailed": {
         "Design and develop database solutions (35–40%)": {
           "Design and implement database objects": [
-            "Design and implement tables, including data types, size, columns, indexes, and column store indexes",
+            "Design and implement tables, including data types, size, columns, indexes, and columnstore indexes",
             "Design and implement specialized tables, including in-memory, temporal, external, ledger, and graph",
             "Design and implement JSON columns and indexes",
             "Design and implement database constraints, including PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and DEFAULT",
@@ -3856,7 +3856,7 @@
           ],
           "Design and implement SQL solutions by using AI-assisted tools": [
             "Interpret security impact of using AI-assisted tools",
-            "Enable GitHub Copilot and Microsoft Copilot in Fabric",
+            "Enable GitHub Copilot and Copilot in Fabric",
             "Configure model and Model Context Protocol (MCP) tool options in a GitHub Copilot or Copilot in Fabric chat session",
             "Create and configure GitHub Copilot instruction files",
             "Connect to MCP server endpoints, including Microsoft SQL Server and Fabric lakehouse"
@@ -3904,7 +3904,7 @@
           "Design and implement models and embeddings": [
             "Evaluate external models, including multimodal, multilanguage, sizes, and structured output",
             "Create and manage external models",
-            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, CES, and Microsoft Foundry",
+            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, and Microsoft Foundry",
             "Identify which columns to include in embeddings",
             "Design and implement chunks for embeddings",
             "Generate embeddings"
@@ -3914,7 +3914,7 @@
             "Implement full-text search",
             "Design for vector data, including vector data type, vector indexes, and size",
             "Identify when to use vector-related types and functions for semantic searching, including VECTOR\\_NORMALIZE, VECTOR\\_DISTANCE, VECTORPROPERTY, and VECTOR\\_SEARCH",
-            "Choose between using ANN and ENN for vector search",
+            "Choose between using ANN and KNN for vector search",
             "Evaluate vector index types and metrics",
             "Implement vector search",
             "Implement hybrid search",
@@ -3953,10 +3953,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-26 19:26:00+00:00",
-      "git_commit_id": "c9bf397dd57a8921046818266f784cb53c9c88d3",
-      "content_hash": "cdeec39a1922042f",
-      "skills_date": "July 28, 2026",
+      "updated_at": "2026-09-21 20:22:00+00:00",
+      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "content_hash": "4a0c8abdc9ab6539",
+      "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
         {
           "area": "Describe the concepts of security, compliance, and identity",
@@ -3996,7 +3996,7 @@
         "Describe the capabilities of Microsoft Entra (25–30%)": {
           "Describe function and identity types of Microsoft Entra ID": [
             "Describe Microsoft Entra ID",
-            "Describe types of identities, including agent ID",
+            "Describe types of identities, including workload identities",
             "Describe hybrid identity"
           ],
           "Describe authentication capabilities of Microsoft Entra ID": [
@@ -4042,7 +4042,7 @@
             "Describe Microsoft Defender for Cloud Apps",
             "Describe Microsoft Defender for Identity",
             "Describe Microsoft Defender Vulnerability Management",
-            "Describe Microsoft Defender Threat Intelligence (Defender TI)",
+            "Describe Microsoft Threat Intelligence",
             "Describe the Microsoft Defender portal"
           ]
         },
@@ -4094,10 +4094,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-29 23:01:00+00:00",
-      "git_commit_id": "259b665e1e98ebe7648567d318741c9566aad64f",
-      "content_hash": "b02072d3c2d8b395",
-      "skills_date": "July 28, 2026",
+      "updated_at": "2026-09-21 20:22:00+00:00",
+      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "content_hash": "24c9a800f6f969f0",
+      "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design solutions that align with security best practices and priorities",
@@ -4143,7 +4143,7 @@
             "Design a solution for detection and response that includes extended detection and response (XDR) and security information and event management (SIEM)",
             "Design a solution for centralized logging and auditing, including Microsoft Purview Audit",
             "Design monitoring to support hybrid and multicloud environments",
-            "Design a solution for security orchestration and automated response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR",
+            "Design a solution for security orchestration, automation, and response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR",
             "Design and evaluate security workflows, including incident response, threat hunting, and incident management",
             "Design and evaluate threat detection coverage by using MITRE ATT&CK matrices, including Enterprise, Mobile, and industrial control systems (ICS)"
           ],
@@ -4212,7 +4212,7 @@
             "Evaluate solutions that include Microsoft Defender for Office 365 and Microsoft Defender for Cloud Apps",
             "Evaluate device management solutions that include Microsoft Intune",
             "Evaluate solutions for securing data in Microsoft 365 by using Microsoft Purview",
-            "Evaluate data security and compliance controls in Microsoft Copilot for Microsoft 365 services"
+            "Evaluate data security and compliance controls in Microsoft 365 Copilot"
           ],
           "Design solutions for securing applications": [
             "Evaluate the security posture of existing application portfolios",
@@ -4257,10 +4257,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-26 19:26:00+00:00",
-      "git_commit_id": "c9bf397dd57a8921046818266f784cb53c9c88d3",
-      "content_hash": "fcbc2d7fb4a16a1f",
-      "skills_date": "July 28, 2026",
+      "updated_at": "2026-09-21 20:22:00+00:00",
+      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "content_hash": "feafffd3556c0d28",
+      "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
         {
           "area": "Manage a security operations environment",
@@ -4301,7 +4301,7 @@
             "Configure collection of Windows Security events by using Windows Security Events via AMA, including data collection rules",
             "Plan and configure collection of Windows Security events by using Windows Event Forwarding (WEF)",
             "Plan and configure Syslog via AMA and Common Event Format (CEF) via AMA connectors",
-            "Configure collection of Azure activities by using Azure Policy and resource diagnostic settings",
+            "Configure collection of Azure activity logs by using Azure Policy and resource diagnostic settings",
             "Ingest threat indicators into Microsoft Sentinel",
             "Create custom log tables in the workspace to store ingested data"
           ],
@@ -4377,10 +4377,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-27 23:35:00+00:00",
-      "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
-      "content_hash": "c84dae548d1c51ac",
-      "skills_date": "April 27, 2026",
+      "updated_at": "2026-09-28 23:35:00+00:00",
+      "git_commit_id": "2d66e51704d1b4491b26e22cee3520215abdb066",
+      "content_hash": "fd1b9e4e2d59df16",
+      "skills_date": "October 28, 2026",
       "skills_at_a_glance": [
         {
           "area": "Implement and manage user identities",
@@ -4439,7 +4439,7 @@
         "Implement authentication and access management (20–25%)": {
           "Plan, implement, and manage Microsoft Entra user authentication": [
             "Plan for authentication",
-            "Implement and manage authentication methods, including certificate-based authentication, Temporary Access Pass, OAuth 2.0 tokens, Microsoft Authenticator, and passkeys (FIDO2)",
+            "Implement and manage authentication methods, including certificate-based authentication, Temporary Access Pass, Microsoft Authenticator, and passkeys (FIDO2)",
             "Implement and manage tenant-wide multifactor authentication (MFA) settings",
             "Configure and deploy self-service password reset (SSPR)",
             "Implement and manage Windows Hello for Business",
@@ -4468,9 +4468,9 @@
           ],
           "Implement Global Secure Access": [
             "Deploy Global Secure Access clients",
-            "Deploy and manage Private Access",
-            "Deploy and manage Internet Access",
-            "Deploy and manage Internet Access for Microsoft 365"
+            "Deploy and manage Microsoft Entra Private Access",
+            "Deploy and manage Microsoft Entra Internet Access",
+            "Deploy and manage the Microsoft traffic profile for Microsoft 365"
           ]
         },
         "Plan and implement workload identities (20–25%)": {
@@ -4528,7 +4528,7 @@
             "Plan and configure PIM for Groups",
             "Manage the PIM request and approval process",
             "Analyze PIM audit history and reports",
-            "Create and manage break-glass accounts"
+            "Create and manage emergency access accounts"
           ],
           "Monitor identity activity by using logs, workbooks, and reports": [
             "Review and analyze sign-in, audit, and provisioning logs by using the Microsoft Entra admin center",
@@ -4979,13 +4979,13 @@
         "m365"
       ],
       "category": "Security",
-      "status": "beta",
-      "beta_since": "2026-04",
-      "replaces": "",
-      "replacement": "",
+      "status": "retired",
       "retirement_date": "",
+      "replacement": "SC-900",
+      "replaces": "",
+      "beta_since": "2026-04",
       "updated_at": "2026-07-09 18:04:00+00:00",
-      "git_commit_id": "",
+      "git_commit_id": "4580b2cb122a32c5495049adaa5566a76e74496d",
       "content_hash": "8481759fce98a6f0",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -5081,7 +5081,7 @@
       "change_log": [],
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-730/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-730",
-      "practice_assessment_url": ""
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-730/practice/assessment?assessment-type=practice"
     },
     {
       "code": "MS-102",
@@ -5231,10 +5231,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-29 18:17:00+00:00",
-      "git_commit_id": "e86d396bf99842652342797a730cf39ece5ce134",
-      "content_hash": "ada5d9d80867486c",
-      "skills_date": "July 29, 2026",
+      "updated_at": "2026-09-25 22:18:00+00:00",
+      "git_commit_id": "6c72c141b4ec3a91383944a9dfe2c03ea2b84a80",
+      "content_hash": "294a1784f55c7a58",
+      "skills_date": "October 27, 2026",
       "skills_at_a_glance": [
         {
           "area": "Configure and manage a Teams environment",
@@ -5257,7 +5257,7 @@
         "Configure and manage a Teams environment (40–45%)": {
           "Plan network settings for Teams": [
             "Calculate network bandwidth capacity for Teams voice, video, meetings, and events",
-            "Analyze network impact by using Network planner",
+            "Analyze network impact by using Teams Network planner",
             "Specify network ports and protocols used by Teams",
             "Assess network readiness and connectivity by using the Microsoft Teams Network Assessment Tool and Microsoft 365 network connectivity test tool"
           ],
@@ -5290,10 +5290,10 @@
           "Configure and manage external collaboration": [
             "Identify licensing requirements for external collaboration",
             "Configure SharePoint Online and OneDrive external sharing settings",
-            "Configure External access in the Microsoft Teams admin center",
+            "Configure External access in the Teams admin center",
             "Control External Access by Domain for Specific Users and Groups",
             "Configure External collaboration settings in Microsoft Entra ID for guest access",
-            "Configure guest access and sharing in the Microsoft Teams admin center, Microsoft 365 admin center, Microsoft Entra admin center, or the SharePoint admin center",
+            "Configure guest access and sharing in the Teams admin center, Microsoft 365 admin center, Microsoft Entra admin center, or the SharePoint admin center",
             "Control guest access to a specific team by using Microsoft Purview and Microsoft Entra ID",
             "Remove guests from Teams, including from a team or a tenant",
             "Configure shared channels for external access",
@@ -5313,13 +5313,13 @@
         },
         "Manage teams, channels, chats, and apps (20–25%)": {
           "Create and manage teams": [
-            "Plan for a Teams rollout by using Advisor for Teams",
-            "Create a team by using the Microsoft Teams admin center, Teams client, the Teams PowerShell module, or Microsoft Graph",
+            "Plan for a Teams rollout by using Teams Advisor",
+            "Create a team by using the Teams admin center, Teams client, the Teams PowerShell module, or Microsoft Graph",
             "Create a team from an existing Microsoft 365 group, SharePoint site, or team",
             "Create a team from a template",
             "Create and manage templates and template policies for teams",
             "Manage the membership and roles for a team",
-            "Manage a team in the Microsoft Teams admin center",
+            "Manage a team in the Teams admin center",
             "Manage Teams environment settings",
             "Configure privacy and sensitivity settings for a team",
             "Create and manage frontline teams and experiences"
@@ -5333,7 +5333,7 @@
             "Create and manage messaging policies"
           ],
           "Manage apps for Teams": [
-            "Manage Org-wide app settings in the Microsoft Teams admin center",
+            "Manage Org-wide app settings in the Teams admin center",
             "Create and manage app assignments and app setup policies",
             "Manage permissions and consent for apps, including blocking apps",
             "Recommend appropriate extensibility options, including apps, tabs, meetings, messaging extensions, and workflows",
@@ -5377,7 +5377,7 @@
             "Clear the Teams client cache",
             "Troubleshoot issues by using self-help diagnostics for Teams",
             "Troubleshoot Teams client installation and update issues",
-            "Troubleshoot Teams client health and issues in the Microsoft Teams admin center",
+            "Troubleshoot Teams client health and issues in the Teams admin center",
             "Troubleshoot sign-in issues to Teams",
             "Troubleshoot Microsoft 365 Copilot and AI experiences in Teams",
             "Troubleshoot issues with joining meetings and accessing features in meetings"
@@ -5406,10 +5406,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-27 23:35:00+00:00",
-      "git_commit_id": "b5b8f4c34f96c111ee100349bf662b21d44dc325",
-      "content_hash": "ec03f27a96626a87",
-      "skills_date": "April 28, 2026",
+      "updated_at": "2026-09-28 23:35:00+00:00",
+      "git_commit_id": "2d66e51704d1b4491b26e22cee3520215abdb066",
+      "content_hash": "ea1b621b276f9329",
+      "skills_date": "October 29, 2026",
       "skills_at_a_glance": [
         {
           "area": "Plan and design collaboration communications systems",
@@ -5434,8 +5434,8 @@
             "Plan for Teams meetings, webinars, and town halls",
             "Plan and design Teams meeting policies and settings",
             "Plan for PSTN audio conferencing",
-            "Recommend when to use Teams Premium, including Microsoft 365 Copilot",
-            "Recommend meeting types based on business requirements, including virtual appointments, webinars, town halls, and meetings",
+            "Recommend when to use Teams Premium and Microsoft 365 Copilot",
+            "Recommend meeting types based on business requirements, including appointments with Microsoft Teams, webinars, town halls, and meetings",
             "Recommend methods for assigning policies",
             "Plan and design Teams policy packages"
           ],
@@ -5570,7 +5570,7 @@
             "Assign phone numbers in bulk by using PowerShell",
             "Assign Teams Phone policies to a specific user",
             "Create and assign policy packages",
-            "Configure and assign Teams Phone policies by using group policy"
+            "Configure and assign Teams Phone policies by using group policy assignment"
           ],
           "Configure and manage calling features for Teams Phone": [
             "Configure Cloud Voicemail",
@@ -5789,10 +5789,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-07-27 23:48:00+00:00",
-      "git_commit_id": "65fbbdab96079e917c6d6a73863a3230a205643b",
-      "content_hash": "4c665157c0f35c11",
-      "skills_date": "July 24, 2026",
+      "updated_at": "2026-09-25 22:18:00+00:00",
+      "git_commit_id": "6c72c141b4ec3a91383944a9dfe2c03ea2b84a80",
+      "content_hash": "d80a0a80c71235b4",
+      "skills_date": "October 27, 2026",
       "skills_at_a_glance": [
         {
           "area": "Prepare infrastructure for devices",
@@ -5827,9 +5827,9 @@
             "Configure enrollment settings in Microsoft Intune",
             "Configure automatic enrollment for Windows",
             "Configure personal enrollment for macOS, iOS, iPadOS",
-            "Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate owned, work profile, enrollment restrictions and troubleshooting enrollment failures",
+            "Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate-owned devices with a work profile, enrollment restrictions and troubleshooting enrollment failures",
             "Configure corporate enrollment for macOS and iOS devices by integrating Intune with Apple Business Manager",
-            "Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google Zero Touch"
+            "Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google zero-touch enrollment"
           ],
           "Implement identity and compliance": [
             "Manage built-in and custom roles for Intune and Windows 365, including role assignments",
@@ -5851,14 +5851,14 @@
             "Create an Enrollment Status Page (ESP)",
             "Plan and implement device upgrades for Windows 11 by using Intune",
             "Provision and configure Windows 365 Cloud PCs by using Intune, including provisioning policies, network connections, and image management",
-            "Implement Windows Backup and Restore by using Intune"
+            "Implement Windows Backup by using Intune"
           ],
           "Plan and implement device configuration profiles": [
             "Create device configuration profiles for Windows devices, including importing ADMX files and using Group Policy analytics",
             "Create device configuration profiles for Android devices",
             "Create device configuration profiles for iOS/iPadOS devices",
             "Create device configuration profiles for macOS devices",
-            "Create device configuration profiles for specialty devices, including Teams Rooms, HoloLens 2, and Zebra",
+            "Create device configuration profiles for specialty devices, including Microsoft Teams Rooms, HoloLens 2, and Zebra",
             "Target a profile by using assignment filters and enrollment time grouping"
           ],
           "Implement Intune Suite add-on capabilities": [
@@ -5866,7 +5866,7 @@
             "Manage applications by using the Enterprise App Catalog",
             "Configure Microsoft Intune Remote Help",
             "Plan and implement Microsoft Cloud PKI, including setting up cloud-based PKI, automating certificate issuance, and monitoring certificate health",
-            "Implement Microsoft Tunnel for Mobile Application Management, including configuring Tunnel Gateway, extending support to MAM devices, and monitoring tunnel connections",
+            "Implement Microsoft Tunnel for Mobile Application Management, including configuring the Microsoft Tunnel VPN Gateway, extending support to MAM devices, and monitoring tunnel connections",
             "Implement Microsoft Intune Advanced Analytics, including anomaly detection, proactive insights, and risk-based policy recommendations"
           ],
           "Perform remote actions on devices": [
@@ -5874,7 +5874,7 @@
             "Perform bulk remote actions",
             "Update Microsoft Defender Antivirus security intelligence",
             "Rotate BitLocker recovery keys",
-            "Rotate locate administrator passwords",
+            "Rotate local administrator passwords",
             "Run a device query by using KQL",
             "Collect device diagnostics and logs by using Microsoft Intune, including using the Troubleshooting blade for user-based diagnostics"
           ]
@@ -5906,10 +5906,10 @@
             "Deploy apps by using Intune, including Win32 apps, line-of-business (LOB) apps, and Microsoft Store apps",
             "Configure Quiet Time policies for Android and iOS apps",
             "Deploy Microsoft 365 Apps by using Intune",
-            "Configure policies for Office apps by using Microsoft Intune or the Microsoft 365 Apps admin center",
+            "Configure policies for Microsoft 365 apps by using Microsoft Intune or the Microsoft 365 Apps admin center",
             "Deploy Microsoft 365 Apps as part of a Windows Autopilot deployment, including using the Office Deployment Tool (ODT) or Microsoft Intune",
             "Manage Microsoft 365 Apps by using the Microsoft 365 Apps admin center",
-            "Deploy apps from platform-specific app stores by using Intune, including Apple Volume Purchase Program and Google Play",
+            "Deploy apps from platform-specific app stores by using Intune, including Apple Business Manager and Managed Google Play",
             "Monitor app deployment status and troubleshoot installation failures by using Microsoft Intune"
           ],
           "Plan and implement app protection and app configuration policies": [
@@ -5928,8 +5928,8 @@
           ],
           "Monitor and optimize health": [
             "Implement reporting and data visibility in Microsoft Intune, including customizing reports and filters, using workbooks and dashboards, and exporting reporting data",
-            "Monitor endpoint performance by using Endpoint Analytics, including proactive remediations, device health scores, and app startup performance",
-            "Configure and manage proactive remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs",
+            "Monitor endpoint performance by using Endpoint Analytics, including Remediations, device health scores, and app startup performance",
+            "Configure and manage remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs",
             "Analyze endpoint reliability and user experience scores, including startup performance, restart frequency, and application reliability metrics",
             "Monitor tenant health and Intune service communications, including reviewing service health dashboards, message center notifications, and establishing operational baselines",
             "Configure alerts and notifications for policy and compliance changes, including setting up alert rules for compliance drift, enrollment failures, and configuration conflicts"
@@ -6356,8 +6356,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-09 21:48:00+00:00",
-      "git_commit_id": "774aab2c85882724bfd21714aa871b5af260f1ae",
+      "updated_at": "2026-09-16 17:28:00+00:00",
+      "git_commit_id": "0c16e80d930c0add6223e03a755cea320972de20",
       "content_hash": "0b02734e134a29a0",
       "skills_date": "October 16, 2026",
       "skills_at_a_glance": [
@@ -8158,10 +8158,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-05 03:46:00+00:00",
-      "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
-      "content_hash": "d8769014dbd80e74",
-      "skills_date": "June 20, 2025",
+      "updated_at": "2026-09-21 20:22:00+00:00",
+      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "content_hash": "ea81e87128380183",
+      "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
         {
           "area": "Implement product information management",
@@ -8215,12 +8215,12 @@
         },
         "Implement inventory and asset management (20–25%)": {
           "Manage and process inventory activities": [
-            "Create and process journals, including BOMs, item arrival, output order, transfer, movement, inventory adjustment, and counting journals",
+            "Create and process journals, including BOM, item arrival, transfer, movement, inventory adjustment, and counting journals",
             "Create and process transfer orders",
             "Configure and manage the inventory closing and adjustment process",
             "Apply and remove inventory blocking manually",
             "Create batch disposition codes",
-            "Configure and run inventory reports including ABC classification"
+            "Configure and run inventory reports, including ABC classification"
           ],
           "Manage quality": [
             "Configure and process nonconformances",
@@ -8261,9 +8261,9 @@
           ],
           "Implement landed cost": [
             "Configure landed cost parameters and voyage statuses",
-            "Create and process voyage with purchase orders or transfer orders",
+            "Create and process voyages with purchase orders or transfer orders",
             "Configure cost estimations, tracking control center, over/under tolerance setup, and journey templates",
-            "Configure cost type codes and auto-costs",
+            "Configure cost type codes and auto costs",
             "Track inbound voyages and shipping container journeys"
           ],
           "Implement common sales and marketing features": [
@@ -8273,7 +8273,7 @@
             "Configure sales groups and commissions",
             "Configure and process intercompany orders",
             "Configure and process customer rebates",
-            "Configure and manage delivery schedule, available-to-promise (ATP), and capable-to-promise (CTP)",
+            "Configure and manage delivery schedules, available-to-promise (ATP), and capable-to-promise (CTP)",
             "Configure and use product bundles"
           ]
         },
@@ -8291,7 +8291,7 @@
           ],
           "Perform warehouse management processes": [
             "Configure and process replenishment",
-            "Manage inbound and outbound load planning workbench",
+            "Manage inbound and outbound load planning workbenches",
             "Configure and process inventory movements via warehouse work",
             "Create cycle counting work and perform cycle counting",
             "Process inbound and outbound orders by using the Warehouse Management mobile app",
@@ -8323,9 +8323,9 @@
             "Configure period templates"
           ],
           "Manage master plans": [
-            "Run master planning and analyze the results",
+            "Run Planning Optimization and analyze the results",
             "Evaluate and process planned purchase and transfer orders",
-            "Set up and use the Supply Schedule form",
+            "Set up and use the Supply schedule page",
             "Configure safety margins",
             "Configure and process safety stock journals"
           ]
@@ -9191,6 +9191,501 @@
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-920/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/mb-920",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/mb-920/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "AI-500",
+      "title": "Designing and Implementing Multi-Agent AI Solutions",
+      "level": "expert",
+      "roles": [
+        "ai-engineer"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "2026-07-16 18:23:00+00:00",
+      "git_commit_id": "",
+      "content_hash": "5d927a4936e758ee",
+      "skills_date": null,
+      "skills_at_a_glance": [
+        {
+          "area": "Architect multi-agent solutions",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Develop multi-agent solutions in Azure",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Evaluate, optimize, and monitor multi-agent solutions",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Secure, govern, and deploy multi-agent solutions",
+          "weight": "20-25%"
+        }
+      ],
+      "skills_detailed": {
+        "Architect multi-agent solutions (15–20%)": {
+          "Design logical architecture for multi-agent solutions": [
+            "Decompose goals and objectives into workflows, agents, and tools",
+            "Design workflows, including agents, subagents, control loops, and human-in-the-loop",
+            "Specify agent personas, scopes, boundaries, autonomy levels, and behavioral guidelines",
+            "Specify tool scopes, permission boundaries, and authentication methods",
+            "Specify appropriate protocols for communication, including between multiple agents and between agents and other components",
+            "Design controls and functionality to support human-AI experience (HAX) and to adhere to responsible AI principles",
+            "Design short-term and long-term memory architectures, including context sharing",
+            "Match task demands to model family capacities"
+          ],
+          "Specify technology components to include in a multi-agent solution": [
+            "Specify integration components to coordinate agent-to-agent communication, agent-to-tool interactions, and agent-to-knowledge-source routing across a multi-agent production system",
+            "Specify components for Zero Trust multi-agent solutions, including per-agent identity scoping, lateral movement prevention, and compliance control mapping for regulated deployments",
+            "Specify multi-tier state persistence components that address session state, shared team state, and long-term semantic memory with lifecycle and tenant-isolation policies",
+            "Specify compute components for multi-agent solutions that meet scalability, reliability, operational efficiency, security, and cost requirements",
+            "Specify observability components, including cross-service trace correlation, structured logging of agent reasoning paths, and agent replay capture for reproducible debugging",
+            "Specify monitoring components, including cross-agent coordination tracking, behavioral drift and quality regression detection, and automated remediation for agent failure patterns",
+            "Specify developer tools and environment to support the Software Development Lifecycle (SDLC), including dev containers, Visual Studio Code extensions, command-line interface (CLI), dependency management, and AI instructions"
+          ]
+        },
+        "Develop multi-agent solutions in Azure (30–35%)": {
+          "Design and implement advanced prompt engineering strategies in multi-agent solutions": [
+            "Design and implement advanced prompt engineering techniques, including examples, dynamic context injection, defensive guidelines, and prompt lifecycle management",
+            "Design and implement context-aware multi-agent behaviors",
+            "Design and implement a strategy for fine-tuning agents and models, including data and frequency"
+          ],
+          "Design and implement agent memory, context management, and knowledge integration": [
+            "Design and implement context management in single agents and between agents, including context accumulation, retrieval, injection, and compaction",
+            "Design and implement single-agent and multi-agent memory strategies, including security, compliance, lifecycle, storage, and session management",
+            "Design and implement a multi-agent RAG architecture, including chunking, embedding quality, and retrieval precision",
+            "Design and implement knowledge integration for multi-agent consumption, including search, RAG, MCP-available sources, and semantic search"
+          ],
+          "Build and integrate tool ecosystems": [
+            "Integrate external resources, including function calling, specified tool use, and dynamic tool use",
+            "Design and build MCP servers and clients, including Azure Functions, Azure Logic Apps, and Azure API Management",
+            "Design tool error-handling and fallback mechanisms",
+            "Implement tool result validation and quality checks"
+          ],
+          "Implement multi-agent orchestration": [
+            "Implement multi-agent orchestration patterns, including hub-and-spoke, sequential, parallel, peer-to-peer, and orchestrator-subagent",
+            "Implement human-in-the-loop processes, including approval workflows, overrides, and edge case handling",
+            "Design and implement a caching strategy, including prompt caching, semantic caching, and response caching",
+            "Implement scaling and control of multi-agent spawning, batching, and concurrent execution",
+            "Integrate existing agents into a multi-agent solution securely by using Agent2Agent (A2A) and/or MCP",
+            "Implement multi-agent orchestration frameworks, including Agent Framework, LangChain, and LangGraph",
+            "Implement advanced multi-agent capabilities by using Hugging Face Transformers",
+            "Design middleware for reusable capabilities across the solution, including logging, authorization, and exception handling"
+          ]
+        },
+        "Evaluate, optimize, and monitor multi-agent solutions (20–25%)": {
+          "Design and implement evaluation and validation strategies for multi-agent solutions": [
+            "Design and implement a human review process to evaluate solutions in Foundry",
+            "Design and implement evaluations for memory, knowledge, tools, and prompts"
+          ],
+          "Optimize prompt and model performance for multi-agent solutions": [
+            "Optimize task duration, including parallelism and rate limits",
+            "Diagnose context window issues, including sliding-window amnesia, summary drift, vector-only recall, and entity continuity issues",
+            "Design and implement continuous improvement, including large language model–as-a-judge (LLM-as-a-judge) frameworks, synthetic data generation, semantic optimization loops, and user feedback loops"
+          ],
+          "Design and implement observability and monitoring for multi-agent solutions": [
+            "Design a strategy for monitoring reliability, including agent health, workflow failures, trace correlation, drift detection, quality regression, and remediation",
+            "Design a strategy for monitoring solution and platform availability, performance, reliability, and service-level agreement adherence",
+            "Design and implement a strategy for optimizing token usage, including token limits, loop controls, and tool calls",
+            "Design a strategy for monitoring and managing cost, including usage, quotas, allocations, and chargebacks",
+            "Implement tracing in Foundry, including tokens, prompts, correlation IDs, alerting, and execution tracking"
+          ]
+        },
+        "Secure, govern, and deploy multi-agent solutions (20–25%)": {
+          "Design and implement security for multi-agent solutions": [
+            "Specify and implement resource access, including identity-based access, network boundaries, access control policies, and role-based access control (RBAC)",
+            "Design and implement authentication flows in a multi-agent solution, including user impersonation, on-behalf-of, API keys, and OAuth 2.0",
+            "Design the secrets management and retrieval approach for multi-agent solutions by using Azure Key Vault, including secrets, certificates, key rotation, role-based access to secrets, and encryption",
+            "Implement shift-left security principles, including the AI Red Teaming Agent in Foundry"
+          ],
+          "Design and implement guardrails for multi-agent solutions": [
+            "Design and implement a multi-intervention guardrail strategy covering user inputs, tool calls, tool responses, and outputs",
+            "Design and implement custom guardrails for domain-specific constraints",
+            "Design guardrail testing and validation, including using synthetic data"
+          ],
+          "Deploy multi-agent solutions to Azure": [
+            "Choose a release methodology, including Development-Test-Acceptance-Production (DTAP), blue/green, and canary",
+            "Design and implement multi-environment release strategies, including rollback strategies, release management, and rollout",
+            "Design and implement a strategy for testing, including unit tests, regression tests, integration tests, and automated evaluations",
+            "Specify continuous integration and continuous deployment (CI/CD) requirements for integration and release, including infrastructure-as-code deployments and testing"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-500/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-500",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "AB-210",
+      "title": "Dynamics 365 Sales AI Consultant Associate",
+      "level": "intermediate",
+      "roles": [
+        "functional-consultant"
+      ],
+      "products": [
+        "dynamics-365"
+      ],
+      "category": "Dynamics 365",
+      "status": "beta",
+      "beta_since": "",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "2026-10-14 20:34:00+00:00",
+      "git_commit_id": "",
+      "content_hash": "48cf84674a390339",
+      "skills_date": null,
+      "skills_at_a_glance": [
+        {
+          "area": "Configure Dynamics 365 Sales core features for AI",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Optimize AI-driven sales",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Qualify and prioritize leads by using AI",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Develop deals by using intelligent opportunity research",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Extend and enhance Sales",
+          "weight": "10-15%"
+        }
+      ],
+      "skills_detailed": {
+        "Configure Dynamics 365 Sales core features for AI (15–20%)": {
+          "Configure Sales": [
+            "Evaluate prerequisites for deploying Sales",
+            "Configure mailboxes",
+            "Set up and configure business process flows",
+            "Configure the timeline",
+            "Evaluate options for importing and exporting data",
+            "Examine the Sales security model",
+            "Configure Microsoft 365 functionality, including Microsoft Teams, SharePoint, Outlook, and OneDrive"
+          ],
+          "Create and manage the product catalog": [
+            "Configure products and product families",
+            "Create and manage price lists, including currencies"
+          ]
+        },
+        "Optimize AI-driven sales (20–25%)": {
+          "Design an AI-first sales strategy": [
+            "Augment seller workflows by using Copilot and agents",
+            "Design the sales data model in Dataverse",
+            "Evaluate options for reporting and visualization",
+            "Differentiate features in Sales plans"
+          ],
+          "Prepare to deploy agents": [
+            "Configure prerequisites for deploying agents",
+            "Configure capacity, billing, and credits"
+          ],
+          "Configure AI-powered intelligence and insights features": [
+            "Configure the Sales accelerator",
+            "Configure work assignment and distribution",
+            "Set up conversational intelligence",
+            "Configure predictive scoring",
+            "Set up relationship intelligence",
+            "Configure Copilot features, including record summarization",
+            "Configure and use forecasts to help improve sales performance",
+            "Set up goals and goal metrics"
+          ]
+        },
+        "Qualify and prioritize leads by using AI (15–20%)": {
+          "Generate and nurture leads": [
+            "Configure the lead and opportunity experience",
+            "Fine-tune the predictive scoring model"
+          ],
+          "Automate lead qualification by using the Sales Qualification Agent": [
+            "Evaluate use cases for Research-only mode configuration versus Research and engage mode configuration",
+            "Configure the Sales Qualification Agent",
+            "Interpret the actions of the Sales Qualification Agent",
+            "Monitor the Sales Qualification Agent"
+          ]
+        },
+        "Develop deals by using intelligent opportunity research (25–30%)": {
+          "Optimize opportunity management": [
+            "Coordinate opportunity management with the Sales Close Agent",
+            "Add Opportunity Products, and configure pricing",
+            "Configure the opportunity pipeline view",
+            "Set up and configure the Sales Opportunity Agent"
+          ],
+          "Automate deal closing by using the Sales Close Agent": [
+            "Set up and configure the Sales Close Agent",
+            "Interpret the actions of the Sales Close Agent",
+            "Monitor the Sales Close Agent",
+            "Collaborate with the Sales Close Agent"
+          ],
+          "Gather intelligence on sales deals by using the Sales Research Agent": [
+            "Evaluate use cases for the Sales Research Agent",
+            "Configure the Sales Research Agent",
+            "Analyze sales performance by using research canvas"
+          ]
+        },
+        "Extend and enhance Sales (10–15%)": {
+          "Configure supporting apps and services": [
+            "Deploy and configure the Sales mobile app",
+            "Set up Teams calling",
+            "Configure an SMS channel"
+          ],
+          "Expand the sales footprint by using Microsoft Power Platform": [
+            "Create Power Automate flows",
+            "Embed Power Apps components and controls",
+            "Embed Power BI reports"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-210/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-210",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "AB-650",
+      "title": "Administering Microsoft 365 and AI Services",
+      "level": "intermediate",
+      "roles": [
+        "administrator"
+      ],
+      "products": [
+        "m365"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-08",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "2026-07-27 21:34:00+00:00",
+      "git_commit_id": "",
+      "content_hash": "39dea50701ff2302",
+      "skills_date": null,
+      "skills_at_a_glance": [
+        {
+          "area": "Configure and manage Microsoft 365 tenants and workloads",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Govern and secure Microsoft 365 tenants and workloads",
+          "weight": "40-45%"
+        },
+        {
+          "area": "Manage and secure AI services in Microsoft 365",
+          "weight": "35-40%"
+        }
+      ],
+      "skills_detailed": {
+        "Configure and manage Microsoft 365 tenants and workloads (20–25%)": {
+          "Configure and manage a Microsoft 365 tenant": [
+            "Configure branding in a Microsoft 365 tenant, including logo, company URL, themes, and backgrounds",
+            "Implement and manage domains",
+            "Configure and manage organizational settings, including security and privacy settings and the organization profile",
+            "Manage and monitor Microsoft 365 licenses, including group-based licensing and pay-as-you-go",
+            "Manage and monitor licenses for AI services, including Microsoft 365 Copilot, Microsoft Agent 365, and Microsoft Copilot Studio",
+            "Configure and use Microsoft 365 Backup, including setup, restore, and monitor",
+            "Configure and review network connectivity insights",
+            "Monitor the health of Microsoft 365 services by using Service health, including notification configuration"
+          ],
+          "Manage Microsoft 365 workloads": [
+            "Create and manage mailboxes, including shared mailboxes",
+            "Create and manage teams in Microsoft Teams, including channels, owners, and members",
+            "Configure settings for Copilot in Teams meetings, including transcription",
+            "Create and manage SharePoint sites, including permissions",
+            "Configure SharePoint and OneDrive for Copilot, including SharePoint Advanced Management, Microsoft Search in SharePoint, and site exclusions"
+          ]
+        },
+        "Govern and secure Microsoft 365 tenants and workloads (40–45%)": {
+          "Manage identities in Microsoft Entra": [
+            "Create and manage Microsoft 365 users",
+            "Manage guest users and external access settings",
+            "Create and manage groups, including Microsoft 365 groups",
+            "Manage roles for Microsoft 365, including Microsoft Entra Privileged Identity Management (PIM)",
+            "Create and manage administrative units",
+            "Create and manage contacts",
+            "Perform bulk management, including Microsoft Graph PowerShell"
+          ],
+          "Implement and manage authentication and access in Microsoft Entra": [
+            "Configure and manage authentication methods",
+            "Implement and manage Microsoft Entra Password Protection",
+            "Configure self-service password reset (SSPR)",
+            "Investigate and resolve authentication issues",
+            "Implement and manage Microsoft Entra Conditional Access policies, including Microsoft Entra ID Protection and multifactor authentication"
+          ],
+          "Secure Microsoft 365 workloads": [
+            "Manage alerts in Microsoft Defender for Office 365",
+            "Configure threat policies and rules in Defender for Office 365",
+            "Investigate and respond to email and collaboration threats by using Defender for Office 365",
+            "Configure and manage attack simulations, including training campaigns"
+          ],
+          "Protect data in Microsoft 365 by using Microsoft Purview": [
+            "Identify requirements for Microsoft Purview Data Loss Prevention (DLP) policies, including those for Exchange, SharePoint, OneDrive, Teams, endpoints, and Copilot",
+            "Identify requirements for information protection, including sensitive information types, sensitivity labels, and sensitivity label policies",
+            "Identify requirements for data lifecycle management, including retention labels, retention label policies, and retention policies",
+            "Review and respond to DLP alerts for Microsoft 365 and AI services",
+            "Monitor and secure AI activity by using Microsoft Purview Data Security Posture Management (DSPM)"
+          ]
+        },
+        "Manage and secure AI services in Microsoft 365 (35–40%)": {
+          "Enable and manage Microsoft 365 Copilot": [
+            "Assess tenant readiness for Copilot, including in-app experiences",
+            "Identify and resolve data readiness issues for Copilot, including data leaks, data oversharing, and data compliance",
+            "Manage web search for Copilot and Microsoft 365 Copilot Chat",
+            "Configure Microsoft 365 Copilot Search",
+            "Configure Copilot settings for a tenant, including self-service purchases, Copilot in admin centers, release preferences, AI disclaimer, and video and image generation",
+            "Manage Copilot user experiences",
+            "Manage Microsoft 365 Copilot Cowork",
+            "Manage third-party AI providers",
+            "Configure Copilot connectors"
+          ],
+          "Implement and manage agents in Microsoft 365 and Agent 365": [
+            "Manage the lifecycle workflows for agent identities by using Microsoft Entra Agent ID",
+            "Secure agent access, including access packages and conditional access",
+            "Manage agent owners",
+            "Configure agent settings, including allowed agent types, sharing, templates, and user access",
+            "Discover and manage Microsoft and third-party agents in the agent registry",
+            "Review requests and publish or reject agents in the agent registry",
+            "Install, block, or control access to agents in the agent registry, including uploading custom agents",
+            "Manage tools in Agent 365"
+          ],
+          "Secure and govern agents by using Agent 365": [
+            "Monitor agent activity by using Agent 365",
+            "Protect sensitive data by using Agent 365",
+            "Evaluate compliance gaps by using Agent 365"
+          ],
+          "Monitor AI services in Microsoft 365": [
+            "Manage and monitor costs for AI services in Microsoft 365",
+            "Monitor usage reports for Copilot in the Microsoft 365 admin center, including workload-level adoption details",
+            "Monitor usage and adoption for AI services in Microsoft 365 by using the Copilot Control System",
+            "Monitor service health by using the Copilot Control System"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-650/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-650",
+      "practice_assessment_url": ""
+    },
+    {
+      "code": "AB-620",
+      "title": "Designing and Building Integrated AI Solutions in Copilot Studio",
+      "level": "intermediate",
+      "roles": [
+        "developer"
+      ],
+      "products": [
+        "power-platform"
+      ],
+      "category": "AI",
+      "status": "beta",
+      "beta_since": "2026-04",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "2026-10-14 20:34:00+00:00",
+      "git_commit_id": "",
+      "content_hash": "cc20df0afa8f54c5",
+      "skills_date": null,
+      "skills_at_a_glance": [
+        {
+          "area": "Plan and configure agent solutions",
+          "weight": "30-35%"
+        },
+        {
+          "area": "Integrate and extend agents in Copilot Studio",
+          "weight": "40-45%"
+        },
+        {
+          "area": "Test and manage agents",
+          "weight": "20-25%"
+        }
+      ],
+      "skills_detailed": {
+        "Plan and configure agent solutions (30–35%)": {
+          "Plan an agent solution": [
+            "Plan integration with enterprise systems",
+            "Plan identity strategy",
+            "Plan channels and deployment",
+            "Plan responsible AI strategy",
+            "Evaluate security and governance considerations",
+            "Plan reuseable agent components",
+            "Design agents for internal or external audiences"
+          ],
+          "Create and monitor agent flows in Copilot Studio": [
+            "Create an agent flow",
+            "Create a human-in-the-loop agent flow",
+            "Configure actions and connectors",
+            "Monitor agent flows",
+            "Add input and output parameters",
+            "Implement error handling in agent flows"
+          ],
+          "Configure topics": [
+            "Add agent flows to a topic",
+            "Configure agent response formatting",
+            "Add tools to a topic",
+            "Configure advanced agent responses with custom prompts",
+            "Configure advanced agent responses with custom knowledge sources",
+            "Configure advanced agent responses with API and Send HTTP requests",
+            "Configure generative answers node",
+            "Configure adaptive cards",
+            "Manage variables"
+          ]
+        },
+        "Integrate and extend agents in Copilot Studio (40–45%)": {
+          "Connect to enterprise knowledge sources": [
+            "Connect to Copilot connectors",
+            "Connect to Microsoft Power Platform connectors",
+            "Connect to Azure AI Search"
+          ],
+          "Add tools to agents": [
+            "Configure and monitor computer use for an agent",
+            "Configure MCP tools",
+            "Add a tool by using an existing custom connector",
+            "Add REST APIs to an agent"
+          ],
+          "Configure multi-agent collaboration from Copilot Studio": [
+            "Design multi-agent solutions in Copilot Studio",
+            "Integrate a Foundry agent",
+            "Integrate an existing agent in Copilot Studio",
+            "Integrate a Fabric data agent",
+            "Create a multi-agent solution by using A2A protocol"
+          ],
+          "Integrate agents with Azure": [
+            "Configure generative answers by using Azure AI Search with Foundry",
+            "Configure custom prompts to use the Foundry model catalog",
+            "Monitor agents by using Application Insights"
+          ]
+        },
+        "Test and manage agents (20–25%)": {
+          "Evaluate agent performance": [
+            "Create a test set",
+            "Choose an evaluation method",
+            "Review test results"
+          ],
+          "Implement application lifecycle management (ALM) for agents in Copilot Studio": [
+            "Create a solution",
+            "Add existing agents to a solution",
+            "Create and use environment variables",
+            "Implement and extend Microsoft Power Platform Pipelines"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ab-620/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-620",
+      "practice_assessment_url": ""
     }
   ]
 }

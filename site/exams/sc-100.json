@@ -12,8 +12,8 @@
   ],
   "category": "Security",
   "status": "active",
-  "updated_at": "2026-06-29 23:01:00+00:00",
-  "skills_date": "July 28, 2026",
+  "updated_at": "2026-09-21 20:22:00+00:00",
+  "skills_date": "October 21, 2026",
   "skills_at_a_glance": [
     {
       "area": "Design solutions that align with security best practices and priorities",
@@ -59,7 +59,7 @@
         "Design a solution for detection and response that includes extended detection and response (XDR) and security information and event management (SIEM)",
         "Design a solution for centralized logging and auditing, including Microsoft Purview Audit",
         "Design monitoring to support hybrid and multicloud environments",
-        "Design a solution for security orchestration and automated response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR",
+        "Design a solution for security orchestration, automation, and response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR",
         "Design and evaluate security workflows, including incident response, threat hunting, and incident management",
         "Design and evaluate threat detection coverage by using MITRE ATT&CK matrices, including Enterprise, Mobile, and industrial control systems (ICS)"
       ],
@@ -128,7 +128,7 @@
         "Evaluate solutions that include Microsoft Defender for Office 365 and Microsoft Defender for Cloud Apps",
         "Evaluate device management solutions that include Microsoft Intune",
         "Evaluate solutions for securing data in Microsoft 365 by using Microsoft Purview",
-        "Evaluate data security and compliance controls in Microsoft Copilot for Microsoft 365 services"
+        "Evaluate data security and compliance controls in Microsoft 365 Copilot"
       ],
       "Design solutions for securing applications": [
         "Evaluate the security posture of existing application portfolios",
@@ -153,6 +153,47 @@
   },
   "change_log_official": [],
   "change_history": [
+    {
+      "code": "SC-100",
+      "title": "Microsoft Cybersecurity Architect",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 28, 2026",
+      "current_skills_date": "October 21, 2026",
+      "summary": "2 added, 2 removed",
+      "added_count": 2,
+      "removed_count": 2,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Design security operations, identity, and compliance capabilities (25–30%) > Design solutions for security operations",
+          "items": [
+            "Design a solution for security orchestration, automation, and response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Design security operations, identity, and compliance capabilities (25–30%) > Design solutions for security operations",
+          "items": [
+            "Design a solution for security orchestration and automated response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Design security solutions for applications and data (20–25%) > Evaluate solutions for securing Microsoft 365",
+          "items": [
+            "Evaluate data security and compliance controls in Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Design security solutions for applications and data (20–25%) > Evaluate solutions for securing Microsoft 365",
+          "items": [
+            "Evaluate data security and compliance controls in Microsoft Copilot for Microsoft 365 services"
+          ]
+        }
+      ]
+    },
     {
       "code": "SC-100",
       "title": "Microsoft Cybersecurity Architect",

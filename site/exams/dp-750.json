@@ -10,8 +10,8 @@
   ],
   "category": "Data",
   "status": "beta",
-  "updated_at": "2026-07-14 21:04:00+00:00",
-  "skills_date": "March 11, 2026",
+  "updated_at": "2026-09-18 21:09:00+00:00",
+  "skills_date": "October 19, 2026",
   "skills_at_a_glance": [
     {
       "area": "Set up and configure an Azure Databricks environment",
@@ -78,7 +78,7 @@
         "Choose a slowly changing dimension (SCD) type",
         "Choose granularity on a column or table based on requirements",
         "Design and implement a temporal (history) table to record changes over time",
-        "Design and implement a clustering strategy, including liquid clustering, Z-ordering, and deletion vectors",
+        "Design and implement a clustering strategy, including liquid clustering and Z-ordering",
         "Choose between managed and unmanaged tables"
       ],
       "Ingest data into Unity Catalog": [
@@ -126,8 +126,8 @@
         "Apply version control best practices using Git",
         "Manage branching, pull requests, and conflict resolution",
         "Implement a testing strategy, including unit tests, integration tests, end-to-end tests, and user acceptance testing (UAT)",
-        "Configure and package Databricks Asset Bundles",
-        "Deploy a bundle by using the Azure Databricks command-line interface (CLI)",
+        "Configure and package Declarative Automation Bundles",
+        "Deploy a bundle by using the Databricks CLI",
         "Deploy a bundle by using REST APIs"
       ],
       "Monitor, troubleshoot, and optimize workloads in Azure Databricks": [
@@ -143,6 +143,49 @@
   },
   "change_log_official": [],
   "change_history": [
+    {
+      "code": "DP-750",
+      "title": "Azure Databricks Data Engineer Associate",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "March 11, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "3 added, 3 removed",
+      "added_count": 3,
+      "removed_count": 3,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Deploy and maintain data pipelines and workloads (30–35%) > Implement development lifecycle processes in Azure Databricks",
+          "items": [
+            "Configure and package Declarative Automation Bundles",
+            "Deploy a bundle by using the Databricks CLI"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Deploy and maintain data pipelines and workloads (30–35%) > Implement development lifecycle processes in Azure Databricks",
+          "items": [
+            "Configure and package Databricks Asset Bundles",
+            "Deploy a bundle by using the Azure Databricks command-line interface (CLI)"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Prepare and process data (30–35%) > Design and implement data modeling in Unity Catalog",
+          "items": [
+            "Design and implement a clustering strategy, including liquid clustering and Z-ordering"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Prepare and process data (30–35%) > Design and implement data modeling in Unity Catalog",
+          "items": [
+            "Design and implement a clustering strategy, including liquid clustering, Z-ordering, and deletion vectors"
+          ]
+        }
+      ]
+    },
     {
       "code": "DP-750",
       "title": "Azure Databricks Data Engineer Associate",

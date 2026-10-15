@@ -4297,8 +4297,721 @@
           ]
         }
       ]
+    },
+    {
+      "code": "DP-300",
+      "title": "Administering Microsoft Azure SQL Solutions",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "April 24, 2026",
+      "current_skills_date": "October 27, 2026",
+      "summary": "1 added, 1 removed",
+      "added_count": 1,
+      "removed_count": 1,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Implement a secure environment (20–25%) > Implement security for data at rest and data in transit",
+          "items": [
+            "Implement Always Encrypted with secure enclaves"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement a secure environment (20–25%) > Implement security for data at rest and data in transit",
+          "items": [
+            "Implement Always Encrypted with VBS enclaves"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DP-600",
+      "title": "Implementing Analytics Solutions Using Microsoft Fabric",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 21, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "1 added, 1 removed",
+      "added_count": 1,
+      "removed_count": 1,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Prepare data (45–50%) > Query and analyze data",
+          "items": [
+            "Select, filter, and aggregate data by using the Visual query editor"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Prepare data (45–50%) > Query and analyze data",
+          "items": [
+            "Select, filter, and aggregate data by using the Visual Query Editor"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DP-700",
+      "title": "Implementing Data Engineering Solutions Using Microsoft Fabric",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 21, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "2 added, 2 removed",
+      "added_count": 2,
+      "removed_count": 2,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Ingest and transform data (30–35%) > Ingest and transform streaming data",
+          "items": [
+            "Process data by using Eventstream"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Ingest and transform data (30–35%) > Ingest and transform streaming data",
+          "items": [
+            "Process data by using Eventstreams"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Monitor and optimize an analytics solution (30–35%) > Optimize performance",
+          "items": [
+            "Optimize Eventstream and Eventhouse"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Monitor and optimize an analytics solution (30–35%) > Optimize performance",
+          "items": [
+            "Optimize Eventstreams and Eventhouses"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DP-750",
+      "title": "Azure Databricks Data Engineer Associate",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "March 11, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "3 added, 3 removed",
+      "added_count": 3,
+      "removed_count": 3,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Deploy and maintain data pipelines and workloads (30–35%) > Implement development lifecycle processes in Azure Databricks",
+          "items": [
+            "Configure and package Declarative Automation Bundles",
+            "Deploy a bundle by using the Databricks CLI"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Deploy and maintain data pipelines and workloads (30–35%) > Implement development lifecycle processes in Azure Databricks",
+          "items": [
+            "Configure and package Databricks Asset Bundles",
+            "Deploy a bundle by using the Azure Databricks command-line interface (CLI)"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Prepare and process data (30–35%) > Design and implement data modeling in Unity Catalog",
+          "items": [
+            "Design and implement a clustering strategy, including liquid clustering and Z-ordering"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Prepare and process data (30–35%) > Design and implement data modeling in Unity Catalog",
+          "items": [
+            "Design and implement a clustering strategy, including liquid clustering, Z-ordering, and deletion vectors"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DP-800",
+      "title": "SQL AI Developer Associate",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "March 12, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "4 added, 4 removed",
+      "added_count": 4,
+      "removed_count": 4,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Design and develop database solutions (35–40%) > Design and implement SQL solutions by using AI-assisted tools",
+          "items": [
+            "Enable GitHub Copilot and Copilot in Fabric"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Design and develop database solutions (35–40%) > Design and implement SQL solutions by using AI-assisted tools",
+          "items": [
+            "Enable GitHub Copilot and Microsoft Copilot in Fabric"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Design and develop database solutions (35–40%) > Design and implement database objects",
+          "items": [
+            "Design and implement tables, including data types, size, columns, indexes, and columnstore indexes"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Design and develop database solutions (35–40%) > Design and implement database objects",
+          "items": [
+            "Design and implement tables, including data types, size, columns, indexes, and column store indexes"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement AI capabilities in database solutions (25–30%) > Design and implement intelligent search",
+          "items": [
+            "Choose between using ANN and KNN for vector search"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement AI capabilities in database solutions (25–30%) > Design and implement intelligent search",
+          "items": [
+            "Choose between using ANN and ENN for vector search"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement AI capabilities in database solutions (25–30%) > Design and implement models and embeddings",
+          "items": [
+            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, and Microsoft Foundry"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement AI capabilities in database solutions (25–30%) > Design and implement models and embeddings",
+          "items": [
+            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, CES, and Microsoft Foundry"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SC-900",
+      "title": "Microsoft Security, Compliance, and Identity Fundamentals",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 28, 2026",
+      "current_skills_date": "October 21, 2026",
+      "summary": "2 added, 2 removed",
+      "added_count": 2,
+      "removed_count": 2,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Describe the capabilities of Microsoft Entra (25–30%) > Describe function and identity types of Microsoft Entra ID",
+          "items": [
+            "Describe types of identities, including workload identities"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Describe the capabilities of Microsoft Entra (25–30%) > Describe function and identity types of Microsoft Entra ID",
+          "items": [
+            "Describe types of identities, including agent ID"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Describe the capabilities of Microsoft security solutions (35–40%) > Describe threat protection with Microsoft Defender XDR",
+          "items": [
+            "Describe Microsoft Threat Intelligence"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Describe the capabilities of Microsoft security solutions (35–40%) > Describe threat protection with Microsoft Defender XDR",
+          "items": [
+            "Describe Microsoft Defender Threat Intelligence (Defender TI)"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SC-100",
+      "title": "Microsoft Cybersecurity Architect",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 28, 2026",
+      "current_skills_date": "October 21, 2026",
+      "summary": "2 added, 2 removed",
+      "added_count": 2,
+      "removed_count": 2,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Design security operations, identity, and compliance capabilities (25–30%) > Design solutions for security operations",
+          "items": [
+            "Design a solution for security orchestration, automation, and response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Design security operations, identity, and compliance capabilities (25–30%) > Design solutions for security operations",
+          "items": [
+            "Design a solution for security orchestration and automated response (SOAR), including Microsoft Sentinel and Microsoft Defender XDR"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Design security solutions for applications and data (20–25%) > Evaluate solutions for securing Microsoft 365",
+          "items": [
+            "Evaluate data security and compliance controls in Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Design security solutions for applications and data (20–25%) > Evaluate solutions for securing Microsoft 365",
+          "items": [
+            "Evaluate data security and compliance controls in Microsoft Copilot for Microsoft 365 services"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SC-200",
+      "title": "Microsoft Security Operations Analyst",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 28, 2026",
+      "current_skills_date": "October 21, 2026",
+      "summary": "1 added, 1 removed",
+      "added_count": 1,
+      "removed_count": 1,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Manage a security operations environment (40–45%) > Ingest data into the Microsoft Sentinel SIEM and platform",
+          "items": [
+            "Configure collection of Azure activity logs by using Azure Policy and resource diagnostic settings"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage a security operations environment (40–45%) > Ingest data into the Microsoft Sentinel SIEM and platform",
+          "items": [
+            "Configure collection of Azure activities by using Azure Policy and resource diagnostic settings"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SC-300",
+      "title": "Microsoft Identity and Access Administrator",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "April 27, 2026",
+      "current_skills_date": "October 28, 2026",
+      "summary": "5 added, 5 removed",
+      "added_count": 5,
+      "removed_count": 5,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Implement authentication and access management (20–25%) > Implement Global Secure Access",
+          "items": [
+            "Deploy and manage Microsoft Entra Internet Access",
+            "Deploy and manage Microsoft Entra Private Access",
+            "Deploy and manage the Microsoft traffic profile for Microsoft 365"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement authentication and access management (20–25%) > Implement Global Secure Access",
+          "items": [
+            "Deploy and manage Internet Access",
+            "Deploy and manage Internet Access for Microsoft 365",
+            "Deploy and manage Private Access"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement authentication and access management (20–25%) > Plan, implement, and manage Microsoft Entra user authentication",
+          "items": [
+            "Implement and manage authentication methods, including certificate-based authentication, Temporary Access Pass, Microsoft Authenticator, and passkeys (FIDO2)"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement authentication and access management (20–25%) > Plan, implement, and manage Microsoft Entra user authentication",
+          "items": [
+            "Implement and manage authentication methods, including certificate-based authentication, Temporary Access Pass, OAuth 2.0 tokens, Microsoft Authenticator, and passkeys (FIDO2)"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Plan and automate identity governance (20–25%) > Plan and implement privileged access",
+          "items": [
+            "Create and manage emergency access accounts"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Plan and automate identity governance (20–25%) > Plan and implement privileged access",
+          "items": [
+            "Create and manage break-glass accounts"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MS-700",
+      "title": "Managing Microsoft Teams",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 29, 2026",
+      "current_skills_date": "October 27, 2026",
+      "summary": "8 added, 8 removed",
+      "added_count": 8,
+      "removed_count": 8,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Configure and manage a Teams environment (40–45%) > Configure and manage external collaboration",
+          "items": [
+            "Configure External access in the Teams admin center",
+            "Configure guest access and sharing in the Teams admin center, Microsoft 365 admin center, Microsoft Entra admin center, or the SharePoint admin center"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Configure and manage a Teams environment (40–45%) > Configure and manage external collaboration",
+          "items": [
+            "Configure External access in the Microsoft Teams admin center",
+            "Configure guest access and sharing in the Microsoft Teams admin center, Microsoft 365 admin center, Microsoft Entra admin center, or the SharePoint admin center"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Configure and manage a Teams environment (40–45%) > Plan network settings for Teams",
+          "items": [
+            "Analyze network impact by using Teams Network planner"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Configure and manage a Teams environment (40–45%) > Plan network settings for Teams",
+          "items": [
+            "Analyze network impact by using Network planner"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage teams, channels, chats, and apps (20–25%) > Create and manage teams",
+          "items": [
+            "Create a team by using the Teams admin center, Teams client, the Teams PowerShell module, or Microsoft Graph",
+            "Manage a team in the Teams admin center",
+            "Plan for a Teams rollout by using Teams Advisor"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage teams, channels, chats, and apps (20–25%) > Create and manage teams",
+          "items": [
+            "Create a team by using the Microsoft Teams admin center, Teams client, the Teams PowerShell module, or Microsoft Graph",
+            "Manage a team in the Microsoft Teams admin center",
+            "Plan for a Teams rollout by using Advisor for Teams"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage teams, channels, chats, and apps (20–25%) > Manage apps for Teams",
+          "items": [
+            "Manage Org-wide app settings in the Teams admin center"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage teams, channels, chats, and apps (20–25%) > Manage apps for Teams",
+          "items": [
+            "Manage Org-wide app settings in the Microsoft Teams admin center"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Monitor, report on, and troubleshoot Teams (15–20%) > Troubleshoot audio, video, and client issues",
+          "items": [
+            "Troubleshoot Teams client health and issues in the Teams admin center"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Monitor, report on, and troubleshoot Teams (15–20%) > Troubleshoot audio, video, and client issues",
+          "items": [
+            "Troubleshoot Teams client health and issues in the Microsoft Teams admin center"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MS-721",
+      "title": "Collaboration Communications Systems Engineer",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "April 28, 2026",
+      "current_skills_date": "October 29, 2026",
+      "summary": "3 added, 3 removed",
+      "added_count": 3,
+      "removed_count": 3,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Implement and configure Teams Phone (30–35%) > Assign Teams Phone licenses, phone numbers, and policies",
+          "items": [
+            "Configure and assign Teams Phone policies by using group policy assignment"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement and configure Teams Phone (30–35%) > Assign Teams Phone licenses, phone numbers, and policies",
+          "items": [
+            "Configure and assign Teams Phone policies by using group policy"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Plan and design collaboration communications systems (20–25%) > Plan and design Teams meetings",
+          "items": [
+            "Recommend meeting types based on business requirements, including appointments with Microsoft Teams, webinars, town halls, and meetings",
+            "Recommend when to use Teams Premium and Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Plan and design collaboration communications systems (20–25%) > Plan and design Teams meetings",
+          "items": [
+            "Recommend meeting types based on business requirements, including virtual appointments, webinars, town halls, and meetings",
+            "Recommend when to use Teams Premium, including Microsoft 365 Copilot"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MD-102",
+      "title": "Microsoft 365 Endpoint Administrator",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 24, 2026",
+      "current_skills_date": "October 27, 2026",
+      "summary": "10 added, 10 removed",
+      "added_count": 10,
+      "removed_count": 10,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Manage and maintain devices (25–30%) > Deploy and upgrade Windows clients by using cloud-based tools",
+          "items": [
+            "Implement Windows Backup by using Intune"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage and maintain devices (25–30%) > Deploy and upgrade Windows clients by using cloud-based tools",
+          "items": [
+            "Implement Windows Backup and Restore by using Intune"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage and maintain devices (25–30%) > Implement Intune Suite add-on capabilities",
+          "items": [
+            "Implement Microsoft Tunnel for Mobile Application Management, including configuring the Microsoft Tunnel VPN Gateway, extending support to MAM devices, and monitoring tunnel connections"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage and maintain devices (25–30%) > Implement Intune Suite add-on capabilities",
+          "items": [
+            "Implement Microsoft Tunnel for Mobile Application Management, including configuring Tunnel Gateway, extending support to MAM devices, and monitoring tunnel connections"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage and maintain devices (25–30%) > Perform remote actions on devices",
+          "items": [
+            "Rotate local administrator passwords"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage and maintain devices (25–30%) > Perform remote actions on devices",
+          "items": [
+            "Rotate locate administrator passwords"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage and maintain devices (25–30%) > Plan and implement device configuration profiles",
+          "items": [
+            "Create device configuration profiles for specialty devices, including Microsoft Teams Rooms, HoloLens 2, and Zebra"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage and maintain devices (25–30%) > Plan and implement device configuration profiles",
+          "items": [
+            "Create device configuration profiles for specialty devices, including Teams Rooms, HoloLens 2, and Zebra"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Manage and secure applications (15–20%) > Deploy and update apps",
+          "items": [
+            "Configure policies for Microsoft 365 apps by using Microsoft Intune or the Microsoft 365 Apps admin center",
+            "Deploy apps from platform-specific app stores by using Intune, including Apple Business Manager and Managed Google Play"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Manage and secure applications (15–20%) > Deploy and update apps",
+          "items": [
+            "Configure policies for Office apps by using Microsoft Intune or the Microsoft 365 Apps admin center",
+            "Deploy apps from platform-specific app stores by using Intune, including Apple Volume Purchase Program and Google Play"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Optimize endpoint operations by using automation, monitoring, and reporting (10–15%) > Monitor and optimize health",
+          "items": [
+            "Configure and manage remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs",
+            "Monitor endpoint performance by using Endpoint Analytics, including Remediations, device health scores, and app startup performance"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Optimize endpoint operations by using automation, monitoring, and reporting (10–15%) > Monitor and optimize health",
+          "items": [
+            "Configure and manage proactive remediation scripts, including detecting and fixing common device issues, and scheduling remediation runs",
+            "Monitor endpoint performance by using Endpoint Analytics, including proactive remediations, device health scores, and app startup performance"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Prepare infrastructure for devices (20–25%) > Enroll devices to Microsoft Intune",
+          "items": [
+            "Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google zero-touch enrollment",
+            "Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate-owned devices with a work profile, enrollment restrictions and troubleshooting enrollment failures"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Prepare infrastructure for devices (20–25%) > Enroll devices to Microsoft Intune",
+          "items": [
+            "Configure enrollment for Android devices by integrating Intune with Samsung Knox Mobile Enrollment or Google Zero Touch",
+            "Configure enrollment profiles for Android devices, including fully managed, dedicated, corporate owned, work profile, enrollment restrictions and troubleshooting enrollment failures"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MB-330",
+      "title": "Microsoft Dynamics 365 Supply Chain Management Functional Consultant",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "June 20, 2025",
+      "current_skills_date": "October 21, 2026",
+      "summary": "8 added, 8 removed",
+      "added_count": 8,
+      "removed_count": 8,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Implement and manage supply chain processes (15–20%) > Implement common sales and marketing features",
+          "items": [
+            "Configure and manage delivery schedules, available-to-promise (ATP), and capable-to-promise (CTP)"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement and manage supply chain processes (15–20%) > Implement common sales and marketing features",
+          "items": [
+            "Configure and manage delivery schedule, available-to-promise (ATP), and capable-to-promise (CTP)"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement and manage supply chain processes (15–20%) > Implement landed cost",
+          "items": [
+            "Configure cost type codes and auto costs",
+            "Create and process voyages with purchase orders or transfer orders"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement and manage supply chain processes (15–20%) > Implement landed cost",
+          "items": [
+            "Configure cost type codes and auto-costs",
+            "Create and process voyage with purchase orders or transfer orders"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement inventory and asset management (20–25%) > Manage and process inventory activities",
+          "items": [
+            "Configure and run inventory reports, including ABC classification",
+            "Create and process journals, including BOM, item arrival, transfer, movement, inventory adjustment, and counting journals"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement inventory and asset management (20–25%) > Manage and process inventory activities",
+          "items": [
+            "Configure and run inventory reports including ABC classification",
+            "Create and process journals, including BOMs, item arrival, output order, transfer, movement, inventory adjustment, and counting journals"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement master planning (10–15%) > Manage master plans",
+          "items": [
+            "Run Planning Optimization and analyze the results",
+            "Set up and use the Supply schedule page"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement master planning (10–15%) > Manage master plans",
+          "items": [
+            "Run master planning and analyze the results",
+            "Set up and use the Supply Schedule form"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Implement warehouse management and transportation management (20–25%) > Perform warehouse management processes",
+          "items": [
+            "Manage inbound and outbound load planning workbenches"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Implement warehouse management and transportation management (20–25%) > Perform warehouse management processes",
+          "items": [
+            "Manage inbound and outbound load planning workbench"
+          ]
+        }
+      ]
     }
   ],
-  "last_checked": "2026-09-14T00:10:05Z",
-  "total_entries": 24
+  "last_checked": "2026-10-15T19:21:11Z",
+  "total_entries": 37
 }

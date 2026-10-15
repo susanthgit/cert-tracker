@@ -10,8 +10,8 @@
     "windows-server"
   ],
   "category": "Azure",
-  "status": "beta",
-  "updated_at": "2026-07-06 21:43:00+00:00",
+  "status": "active",
+  "updated_at": "2026-10-02 23:05:00+00:00",
   "skills_date": null,
   "skills_at_a_glance": [
     {
@@ -496,5 +496,5 @@
   ],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-802/",
   "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-802",
-  "practice_assessment_url": ""
+  "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-802/practice/assessment?assessment-type=practice"
 }

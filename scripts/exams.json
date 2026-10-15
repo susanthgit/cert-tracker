@@ -567,6 +567,12 @@
       "code": "AB-620",
       "title": "Designing and Building Integrated AI Solutions in Copilot Studio",
       "level": "intermediate",
+      "roles": [
+        "developer"
+      ],
+      "products": [
+        "power-platform"
+      ],
       "category": "AI",
       "status": "beta",
       "beta_since": "2026-04"

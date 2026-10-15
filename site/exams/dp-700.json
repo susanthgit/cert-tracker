@@ -10,8 +10,8 @@
   ],
   "category": "Data",
   "status": "active",
-  "updated_at": "2026-06-23 18:41:00+00:00",
-  "skills_date": "July 21, 2026",
+  "updated_at": "2026-09-18 21:09:00+00:00",
+  "skills_date": "October 19, 2026",
   "skills_at_a_glance": [
     {
       "area": "Implement and manage an analytics solution",
@@ -76,7 +76,7 @@
         "Choose an appropriate streaming engine",
         "Choose between native tables and OneLake shortcuts in Real-Time Intelligence",
         "Choose between Query acceleration for OneLake shortcuts and standard OneLake shortcuts in Real-Time Intelligence",
-        "Process data by using Eventstreams",
+        "Process data by using Eventstream",
         "Process data by using Spark structured streaming",
         "Process data by using KQL",
         "Create windowing functions"
@@ -102,14 +102,56 @@
         "Optimize a Lakehouse table",
         "Optimize a pipeline",
         "Optimize a data warehouse",
-        "Optimize Eventstreams and Eventhouses",
+        "Optimize Eventstream and Eventhouse",
         "Optimize Spark performance",
         "Optimize query performance"
       ]
     }
   },
   "change_log_official": [],
-  "change_history": [],
+  "change_history": [
+    {
+      "code": "DP-700",
+      "title": "Implementing Data Engineering Solutions Using Microsoft Fabric",
+      "detected_at": "2026-10-15T19:21:11Z",
+      "previous_skills_date": "July 21, 2026",
+      "current_skills_date": "October 19, 2026",
+      "summary": "2 added, 2 removed",
+      "added_count": 2,
+      "removed_count": 2,
+      "weight_changes": [],
+      "changes": [
+        {
+          "type": "objectives_added",
+          "area": "Ingest and transform data (30–35%) > Ingest and transform streaming data",
+          "items": [
+            "Process data by using Eventstream"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Ingest and transform data (30–35%) > Ingest and transform streaming data",
+          "items": [
+            "Process data by using Eventstreams"
+          ]
+        },
+        {
+          "type": "objectives_added",
+          "area": "Monitor and optimize an analytics solution (30–35%) > Optimize performance",
+          "items": [
+            "Optimize Eventstream and Eventhouse"
+          ]
+        },
+        {
+          "type": "objectives_removed",
+          "area": "Monitor and optimize an analytics solution (30–35%) > Optimize performance",
+          "items": [
+            "Optimize Eventstreams and Eventhouses"
+          ]
+        }
+      ]
+    }
+  ],
   "related_exams": [],
   "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-700/",
   "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700",

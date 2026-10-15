@@ -7,6 +7,206 @@
     <language>en-us</language>
     <ns0:link href="https://www.aguidetocloud.com/cert-tracker/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DP-300 exam updated: 1 added, 1 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/dp-300/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/dp-300/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;DP-300: Administering Microsoft Azure SQL Solutions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1 added, 1 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Implement a secure environment (20–25%) &gt; Implement security for data at rest and data in transit (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement a secure environment (20–25%) &gt; Implement security for data at rest and data in transit (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>DP-600 exam updated: 1 added, 1 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/dp-600/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/dp-600/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;DP-600: Implementing Analytics Solutions Using Microsoft Fabric&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1 added, 1 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Prepare data (45–50%) &gt; Query and analyze data (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Prepare data (45–50%) &gt; Query and analyze data (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>DP-700 exam updated: 2 added, 2 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/dp-700/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/dp-700/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;DP-700: Implementing Data Engineering Solutions Using Microsoft Fabric&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2 added, 2 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Ingest and transform data (30–35%) &gt; Ingest and transform streaming data (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Ingest and transform data (30–35%) &gt; Ingest and transform streaming data (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Monitor and optimize an analytics solution (30–35%) &gt; Optimize performance (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Monitor and optimize an analytics solution (30–35%) &gt; Optimize performance (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>DP-750 exam updated: 3 added, 3 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/dp-750/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/dp-750/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;DP-750: Azure Databricks Data Engineer Associate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3 added, 3 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Deploy and maintain data pipelines and workloads (30–35%) &gt; Implement development lifecycle processes in Azure Databricks (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Deploy and maintain data pipelines and workloads (30–35%) &gt; Implement development lifecycle processes in Azure Databricks (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Prepare and process data (30–35%) &gt; Design and implement data modeling in Unity Catalog (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Prepare and process data (30–35%) &gt; Design and implement data modeling in Unity Catalog (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>DP-800 exam updated: 4 added, 4 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/dp-800/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/dp-800/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;DP-800: SQL AI Developer Associate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;4 added, 4 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Design and develop database solutions (35–40%) &gt; Design and implement SQL solutions by using AI-assisted tools (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Design and develop database solutions (35–40%) &gt; Design and implement SQL solutions by using AI-assisted tools (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Design and develop database solutions (35–40%) &gt; Design and implement database objects (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Design and develop database solutions (35–40%) &gt; Design and implement database objects (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement AI capabilities in database solutions (25–30%) &gt; Design and implement intelligent search (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement AI capabilities in database solutions (25–30%) &gt; Design and implement intelligent search (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement AI capabilities in database solutions (25–30%) &gt; Design and implement models and embeddings (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement AI capabilities in database solutions (25–30%) &gt; Design and implement models and embeddings (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>SC-900 exam updated: 2 added, 2 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/sc-900/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/sc-900/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SC-900: Microsoft Security, Compliance, and Identity Fundamentals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2 added, 2 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Describe the capabilities of Microsoft Entra (25–30%) &gt; Describe function and identity types of Microsoft Entra ID (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Describe the capabilities of Microsoft Entra (25–30%) &gt; Describe function and identity types of Microsoft Entra ID (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Describe the capabilities of Microsoft security solutions (35–40%) &gt; Describe threat protection with Microsoft Defender XDR (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Describe the capabilities of Microsoft security solutions (35–40%) &gt; Describe threat protection with Microsoft Defender XDR (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>SC-100 exam updated: 2 added, 2 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/sc-100/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/sc-100/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SC-100: Microsoft Cybersecurity Architect&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2 added, 2 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Design security operations, identity, and compliance capabilities (25–30%) &gt; Design solutions for security operations (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Design security operations, identity, and compliance capabilities (25–30%) &gt; Design solutions for security operations (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Design security solutions for applications and data (20–25%) &gt; Evaluate solutions for securing Microsoft 365 (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Design security solutions for applications and data (20–25%) &gt; Evaluate solutions for securing Microsoft 365 (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>SC-200 exam updated: 1 added, 1 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/sc-200/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/sc-200/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SC-200: Microsoft Security Operations Analyst&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1 added, 1 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Manage a security operations environment (40–45%) &gt; Ingest data into the Microsoft Sentinel SIEM and platform (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage a security operations environment (40–45%) &gt; Ingest data into the Microsoft Sentinel SIEM and platform (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>SC-300 exam updated: 5 added, 5 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/sc-300/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/sc-300/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SC-300: Microsoft Identity and Access Administrator&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;5 added, 5 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Implement authentication and access management (20–25%) &gt; Implement Global Secure Access (3 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement authentication and access management (20–25%) &gt; Implement Global Secure Access (3 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement authentication and access management (20–25%) &gt; Plan, implement, and manage Microsoft Entra user authentication (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement authentication and access management (20–25%) &gt; Plan, implement, and manage Microsoft Entra user authentication (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Plan and automate identity governance (20–25%) &gt; Plan and implement privileged access (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Plan and automate identity governance (20–25%) &gt; Plan and implement privileged access (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>MS-700 exam updated: 8 added, 8 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/ms-700/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/ms-700/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;MS-700: Managing Microsoft Teams&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;8 added, 8 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Configure and manage a Teams environment (40–45%) &gt; Configure and manage external collaboration (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Configure and manage a Teams environment (40–45%) &gt; Configure and manage external collaboration (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Configure and manage a Teams environment (40–45%) &gt; Plan network settings for Teams (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Configure and manage a Teams environment (40–45%) &gt; Plan network settings for Teams (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Manage teams, channels, chats, and apps (20–25%) &gt; Create and manage teams (3 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage teams, channels, chats, and apps (20–25%) &gt; Create and manage teams (3 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Manage teams, channels, chats, and apps (20–25%) &gt; Manage apps for Teams (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage teams, channels, chats, and apps (20–25%) &gt; Manage apps for Teams (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Monitor, report on, and troubleshoot Teams (15–20%) &gt; Troubleshoot audio, video, and client issues (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Monitor, report on, and troubleshoot Teams (15–20%) &gt; Troubleshoot audio, video, and client issues (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>MS-721 exam updated: 3 added, 3 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/ms-721/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/ms-721/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;MS-721: Collaboration Communications Systems Engineer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3 added, 3 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Implement and configure Teams Phone (30–35%) &gt; Assign Teams Phone licenses, phone numbers, and policies (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement and configure Teams Phone (30–35%) &gt; Assign Teams Phone licenses, phone numbers, and policies (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Plan and design collaboration communications systems (20–25%) &gt; Plan and design Teams meetings (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Plan and design collaboration communications systems (20–25%) &gt; Plan and design Teams meetings (2 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>MD-102 exam updated: 10 added, 10 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/md-102/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/md-102/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;MD-102: Microsoft 365 Endpoint Administrator&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;10 added, 10 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Manage and maintain devices (25–30%) &gt; Deploy and upgrade Windows clients by using cloud-based tools (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage and maintain devices (25–30%) &gt; Deploy and upgrade Windows clients by using cloud-based tools (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Manage and maintain devices (25–30%) &gt; Implement Intune Suite add-on capabilities (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage and maintain devices (25–30%) &gt; Implement Intune Suite add-on capabilities (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Manage and maintain devices (25–30%) &gt; Perform remote actions on devices (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage and maintain devices (25–30%) &gt; Perform remote actions on devices (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Manage and maintain devices (25–30%) &gt; Plan and implement device configuration profiles (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage and maintain devices (25–30%) &gt; Plan and implement device configuration profiles (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Manage and secure applications (15–20%) &gt; Deploy and update apps (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Manage and secure applications (15–20%) &gt; Deploy and update apps (2 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>MB-330 exam updated: 8 added, 8 removed</title>
+      <link>https://www.aguidetocloud.com/cert-tracker/mb-330/</link>
+      <guid>https://www.aguidetocloud.com/cert-tracker/mb-330/#2026-10-15T19:21:11Z</guid>
+      <description>&lt;p&gt;&lt;strong&gt;MB-330: Microsoft Dynamics 365 Supply Chain Management Functional Consultant&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;8 added, 8 removed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objectives_added: Implement and manage supply chain processes (15–20%) &gt; Implement common sales and marketing features (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement and manage supply chain processes (15–20%) &gt; Implement common sales and marketing features (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement and manage supply chain processes (15–20%) &gt; Implement landed cost (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement and manage supply chain processes (15–20%) &gt; Implement landed cost (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement inventory and asset management (20–25%) &gt; Manage and process inventory activities (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement inventory and asset management (20–25%) &gt; Manage and process inventory activities (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement master planning (10–15%) &gt; Manage master plans (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement master planning (10–15%) &gt; Manage master plans (2 items)&lt;/li&gt;
+&lt;li&gt;objectives_added: Implement warehouse management and transportation management (20–25%) &gt; Perform warehouse management processes (1 items)&lt;/li&gt;
+&lt;li&gt;objectives_removed: Implement warehouse management and transportation management (20–25%) &gt; Perform warehouse management processes (1 items)&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 19:21:11 +0000</pubDate>
+    </item>
+    <item>
       <title>AZ-900 exam updated: 3 added, 3 removed</title>
       <link>https://www.aguidetocloud.com/cert-tracker/az-900/</link>
       <guid>https://www.aguidetocloud.com/cert-tracker/az-900/#2026-09-14T00:10:05Z</guid>

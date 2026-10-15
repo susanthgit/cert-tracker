@@ -175,21 +175,21 @@
       "code": "AI-103",
       "title": "Azure AI App and Agent Developer Associate",
       "level": "intermediate",
-      "status": "beta",
+      "status": "active",
       "category": "AI"
     },
     {
       "code": "AI-200",
       "title": "Azure AI Cloud Developer Associate",
       "level": "intermediate",
-      "status": "beta",
+      "status": "active",
       "category": "AI"
     },
     {
       "code": "AI-300",
       "title": "Machine Learning Operations (MLOps) Engineer Associate",
       "level": "intermediate",
-      "status": "beta",
+      "status": "active",
       "category": "AI"
     }
   ],

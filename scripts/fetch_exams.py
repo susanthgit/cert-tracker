@@ -39,7 +39,14 @@ HEADERS = {
 def load_exam_config():
     with open(EXAMS_CONFIG, "r", encoding="utf-8") as f:
         data = json.load(f)
-    return data["exams"]
+    exams = data["exams"]
+    # One incomplete entry (AB-620 lacked roles/products) must not abort the whole weekly run
+    for exam in exams:
+        for key, default in (("roles", []), ("products", [])):
+            if key not in exam:
+                print(f"⚠️ {exam.get('code', '?')}: exams.json entry missing '{key}' - defaulting to empty")
+                exam[key] = default
+    return exams
 
 
 def fetch_study_guide_markdown(code: str) -> str | None:
