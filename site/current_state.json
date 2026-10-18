@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T19:24:13Z",
+  "fetched_at": "2026-10-18T09:22:56Z",
   "exam_count": 59,
   "errors": [],
   "exams": [
@@ -1837,8 +1837,8 @@
       "replacement": "",
       "replaces": "AZ-800 + AZ-801",
       "beta_since": "",
-      "updated_at": "2026-10-02 23:05:00+00:00",
-      "git_commit_id": "eaf46d0c7dbd30f7ddb11b2ea09d862ade24909e",
+      "updated_at": "2026-10-17 09:25:00+00:00",
+      "git_commit_id": "659fa75a1b8efa623e4ea751de0ceaf24fe414f1",
       "content_hash": "9bd3ae6f121a5c77",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -2472,8 +2472,8 @@
       "replacement": "",
       "replaces": "AI-102",
       "beta_since": "",
-      "updated_at": "2026-07-07 18:58:00+00:00",
-      "git_commit_id": "8e58c0d8ae6c45036c55fcad803041c7dd7782a9",
+      "updated_at": "2026-10-15 23:49:00+00:00",
+      "git_commit_id": "3ef953ce3dc226404276adda39f75159a4cf2983",
       "content_hash": "21a24ec33c0344be",
       "skills_date": "April 16, 2026",
       "skills_at_a_glance": [
@@ -2624,10 +2624,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-05-05 15:02:00+00:00",
-      "git_commit_id": "aaf16829c9c6b4e83b5dc4d2aff83c49002bbc3e",
+      "updated_at": "2026-10-16 20:09:00+00:00",
+      "git_commit_id": "c8ee90f819d8ece3bd6556ca20efdcaaa8d00926",
       "content_hash": "55c7b75fd2e4c679",
-      "skills_date": null,
+      "skills_date": "October 7, 2026",
       "skills_at_a_glance": [
         {
           "area": "Develop containerized solutions on Azure",
@@ -2635,7 +2635,7 @@
         },
         {
           "area": "Develop AI solutions by using Azure data management services",
-          "weight": "25-30%"
+          "weight": "30-35%"
         },
         {
           "area": "Connect to and consume Azure services",
@@ -2723,8 +2723,8 @@
       "replacement": "",
       "replaces": "DP-100",
       "beta_since": "",
-      "updated_at": "2026-03-05 17:45:00+00:00",
-      "git_commit_id": "435326301d2dc381e7384208603b03b38184daad",
+      "updated_at": "2026-10-15 23:49:00+00:00",
+      "git_commit_id": "3ef953ce3dc226404276adda39f75159a4cf2983",
       "content_hash": "e87a9399e91d74c5",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -9340,7 +9340,7 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-14 20:34:00+00:00",
+      "updated_at": "2026-10-16 17:47:00+00:00",
       "git_commit_id": "",
       "content_hash": "48cf84674a390339",
       "skills_date": null,
@@ -9594,7 +9594,7 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-14 20:34:00+00:00",
+      "updated_at": "2026-10-16 17:47:00+00:00",
       "git_commit_id": "",
       "content_hash": "cc20df0afa8f54c5",
       "skills_date": null,
