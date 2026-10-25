@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T09:22:56Z",
+  "fetched_at": "2026-10-25T09:37:45Z",
   "exam_count": 59,
   "errors": [],
   "exams": [
@@ -1837,8 +1837,8 @@
       "replacement": "",
       "replaces": "AZ-800 + AZ-801",
       "beta_since": "",
-      "updated_at": "2026-10-17 09:25:00+00:00",
-      "git_commit_id": "659fa75a1b8efa623e4ea751de0ceaf24fe414f1",
+      "updated_at": "2026-10-21 22:54:00+00:00",
+      "git_commit_id": "aefbfc9595db410eb66bf85260919487393e6ecc",
       "content_hash": "9bd3ae6f121a5c77",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -2624,8 +2624,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-10-16 20:09:00+00:00",
-      "git_commit_id": "c8ee90f819d8ece3bd6556ca20efdcaaa8d00926",
+      "updated_at": "2026-10-21 22:54:00+00:00",
+      "git_commit_id": "04f44185ec14b1960f042a26fdff8ab8e8d0480b",
       "content_hash": "55c7b75fd2e4c679",
       "skills_date": "October 7, 2026",
       "skills_at_a_glance": [
@@ -9340,7 +9340,7 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-16 17:47:00+00:00",
+      "updated_at": "2026-10-21 22:54:00+00:00",
       "git_commit_id": "",
       "content_hash": "48cf84674a390339",
       "skills_date": null,
@@ -9594,7 +9594,7 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-16 17:47:00+00:00",
+      "updated_at": "2026-10-21 22:54:00+00:00",
       "git_commit_id": "",
       "content_hash": "cc20df0afa8f54c5",
       "skills_date": null,
