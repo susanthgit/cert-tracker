@@ -595,6 +595,16 @@
       "category": "GitHub",
       "status": "beta",
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-professional/"
+    },
+    {
+      "code": "AB-330",
+      "title": "Implementing AI-Powered Supply Chain Operations with Dynamics 365 Supply Chain Management",
+      "level": "intermediate",
+      "roles": ["functional-consultant"],
+      "products": ["dynamics-365"],
+      "category": "Dynamics 365",
+      "status": "beta",
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/supply-chain-management-ai-consultant-associate/"
     }
   ]
 }
