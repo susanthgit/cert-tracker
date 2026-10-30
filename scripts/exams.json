@@ -68,6 +68,15 @@
       "status": "active"
     },
     {
+      "code": "AZ-401",
+      "title": "Designing and Implementing Microsoft Agentic DevOps Solutions",
+      "level": "advanced",
+      "roles": ["devops-engineer"],
+      "products": ["azure", "azure-devops", "github"],
+      "category": "Azure",
+      "status": "beta"
+    },
+    {
       "code": "AZ-500",
       "title": "Microsoft Azure Security Technologies",
       "level": "intermediate",
