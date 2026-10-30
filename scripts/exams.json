@@ -585,6 +585,16 @@
       "category": "AI",
       "status": "beta",
       "beta_since": "2026-04"
+    },
+    {
+      "code": "GH-700",
+      "title": "GitHub Certified: Agentic AI Business Professional",
+      "level": "intermediate",
+      "roles": ["business-user"],
+      "products": ["github"],
+      "category": "GitHub",
+      "status": "beta",
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-professional/"
     }
   ]
 }

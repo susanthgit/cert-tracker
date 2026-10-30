@@ -247,6 +247,7 @@ def main():
     for i, exam in enumerate(exams_config):
         code = exam["code"]
         status = exam.get("status", "active")
+        exam_url = exam.get("exam_url", EXAM_PAGE_URL.format(code_lower=code.lower()))
         print(f"\n[{i+1}/{len(exams_config)}] {code}: {exam['title']} [{status}]")
 
         # Beta/upcoming exams won't have study guide pages — create stub record
@@ -271,7 +272,7 @@ def main():
                 "skills_at_a_glance": [],
                 "skills_detailed": {},
                 "change_log": [],
-                "exam_url": EXAM_PAGE_URL.format(code_lower=code.lower()),
+                "exam_url": exam_url,
                 "study_guide_url": "",
                 "practice_assessment_url": ""
             }
@@ -311,7 +312,7 @@ def main():
                     "updated_at": "", "git_commit_id": "", "content_hash": "",
                     "skills_date": None, "skills_at_a_glance": [],
                     "skills_detailed": {}, "change_log": [],
-                    "exam_url": EXAM_PAGE_URL.format(code_lower=code.lower()),
+                    "exam_url": exam_url,
                     "study_guide_url": "", "practice_assessment_url": ""
                 })
             else:
@@ -364,7 +365,7 @@ def main():
             "skills_at_a_glance": skills["skills_at_a_glance"],
             "skills_detailed": skills["skills_detailed"],
             "change_log": change_log,
-            "exam_url": EXAM_PAGE_URL.format(code_lower=code.lower()),
+            "exam_url": exam_url,
             "study_guide_url": STUDY_GUIDE_URL.format(code=code.lower()),
             "practice_assessment_url": f"https://learn.microsoft.com/en-us/credentials/certifications/exams/{code.lower()}/practice/assessment?assessment-type=practice"
         }
