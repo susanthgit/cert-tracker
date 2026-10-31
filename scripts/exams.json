@@ -83,8 +83,8 @@
       "roles": ["security-engineer"],
       "products": ["azure"],
       "category": "Azure",
-      "status": "retiring",
-      "retirement_date": "2026-09-30",
+      "status": "retired",
+      "retirement_date": "2026-08-31",
       "replacement": "SC-500"
     },
     {
@@ -317,8 +317,8 @@
       "roles": ["security-engineer"],
       "products": ["azure", "m365"],
       "category": "Security",
-      "status": "beta",
-      "beta_since": "2026-05",
+      "status": "active",
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/",
       "replaces": "AZ-500"
     },
     {

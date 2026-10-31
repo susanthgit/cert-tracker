@@ -1043,8 +1043,8 @@
         "azure"
       ],
       "category": "Azure",
-      "status": "retiring",
-      "retirement_date": "2026-09-30",
+      "status": "retired",
+      "retirement_date": "2026-08-31",
       "replacement": "SC-500",
       "replaces": "",
       "beta_since": "",
@@ -4815,13 +4815,13 @@
         "m365"
       ],
       "category": "Security",
-      "status": "beta",
-      "beta_since": "2026-05",
-      "replaces": "AZ-500",
-      "replacement": "",
+      "status": "active",
       "retirement_date": "",
+      "replacement": "",
+      "replaces": "AZ-500",
+      "beta_since": "",
       "updated_at": "2026-07-31 19:59:00+00:00",
-      "git_commit_id": "",
+      "git_commit_id": "d6217921a64c7c6fb4d7e02fb930891fbf89a320",
       "content_hash": "8c0f40e621fc1819",
       "skills_date": null,
       "skills_at_a_glance": [
@@ -4964,9 +4964,9 @@
         }
       },
       "change_log": [],
-      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/",
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500",
-      "practice_assessment_url": ""
+      "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-500/practice/assessment?assessment-type=practice"
     },
     {
       "code": "SC-730",
