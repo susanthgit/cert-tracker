@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-10-31T04:45:04Z",
-  "exam_count": 61,
+  "generated_at": "2026-11-01T11:44:15Z",
+  "exam_count": 62,
   "categories": [
     "AI",
     "Azure",
     "Data",
     "Dynamics 365",
+    "GitHub",
     "Microsoft 365",
     "Power Platform",
     "Security"
@@ -65,7 +66,7 @@
       "replacement": "",
       "replaces": "AI-102",
       "beta_since": "",
-      "updated_at": "2026-10-15 23:49:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "April 16, 2026",
       "skill_areas": 5,
       "total_objectives": 64,
@@ -112,8 +113,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-10-21 22:54:00+00:00",
-      "skills_date": "October 7, 2026",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "skills_date": null,
       "skill_areas": 4,
       "total_objectives": 27,
       "skills_at_a_glance": [
@@ -123,7 +124,7 @@
         },
         {
           "area": "Develop AI solutions by using Azure data management services",
-          "weight": "30-35%"
+          "weight": "25-30%"
         },
         {
           "area": "Connect to and consume Azure services",
@@ -241,10 +242,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-19 18:11:00+00:00",
-      "skills_date": "April 17, 2026",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "skills_date": "October 26, 2023",
       "skill_areas": 5,
-      "total_objectives": 82,
+      "total_objectives": 167,
       "skills_at_a_glance": [
         {
           "area": "Manage Azure identities and governance",
@@ -330,7 +331,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-29 23:01:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "July 27, 2026",
       "skill_areas": 5,
       "total_objectives": 136,
@@ -474,7 +475,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-19 18:11:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "April 17, 2026",
       "skill_areas": 4,
       "total_objectives": 49,
@@ -517,7 +518,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-26 19:26:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "July 27, 2026",
       "skill_areas": 5,
       "total_objectives": 86,
@@ -606,7 +607,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-25 22:18:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "October 27, 2026",
       "skill_areas": 5,
       "total_objectives": 94,
@@ -692,22 +693,26 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-18 21:09:00+00:00",
-      "skills_date": "October 19, 2026",
-      "skill_areas": 3,
-      "total_objectives": 41,
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "skills_date": null,
+      "skill_areas": 4,
+      "total_objectives": 57,
       "skills_at_a_glance": [
         {
-          "area": "Maintain a data analytics solution",
-          "weight": "25-30%"
+          "area": "Plan, implement, and manage a solution for data analytics",
+          "weight": "10-15%"
         },
         {
-          "area": "Prepare data",
-          "weight": "45-50%"
+          "area": "Prepare and serve data",
+          "weight": "40-45%"
         },
         {
           "area": "Implement and manage semantic models",
-          "weight": "25-30%"
+          "weight": "20-25%"
+        },
+        {
+          "area": "Explore and analyze data",
+          "weight": "20-25%"
         }
       ],
       "has_changes": true,
@@ -730,10 +735,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-18 21:09:00+00:00",
-      "skills_date": "October 19, 2026",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "skills_date": null,
       "skill_areas": 3,
-      "total_objectives": 54,
+      "total_objectives": 49,
       "skills_at_a_glance": [
         {
           "area": "Implement and manage an analytics solution",
@@ -1395,7 +1400,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-20 17:49:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "April 20, 2026",
       "skill_areas": 4,
       "total_objectives": 78,
@@ -1437,7 +1442,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-16 17:28:00+00:00",
+      "updated_at": "2026-10-30 20:24:00+00:00",
       "skills_date": "October 16, 2026",
       "skill_areas": 4,
       "total_objectives": 88,
@@ -1524,7 +1529,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-21 20:22:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "October 21, 2026",
       "skill_areas": 3,
       "total_objectives": 54,
@@ -1563,7 +1568,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-28 23:35:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "October 28, 2026",
       "skill_areas": 4,
       "total_objectives": 98,
@@ -1615,6 +1620,49 @@
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-400"
     },
     {
+      "code": "SC-500",
+      "title": "Cloud and AI Security Engineer Associate",
+      "level": "intermediate",
+      "roles": [
+        "security-engineer"
+      ],
+      "products": [
+        "azure",
+        "m365"
+      ],
+      "category": "Security",
+      "status": "active",
+      "retirement_date": "",
+      "replacement": "",
+      "replaces": "AZ-500",
+      "beta_since": "",
+      "updated_at": "2026-07-31 19:59:00+00:00",
+      "skills_date": null,
+      "skill_areas": 4,
+      "total_objectives": 87,
+      "skills_at_a_glance": [
+        {
+          "area": "Manage identity, access, and governance",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Secure storage, databases, and networking",
+          "weight": "25-30%"
+        },
+        {
+          "area": "Secure compute",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Manage and monitor security posture",
+          "weight": "20-25%"
+        }
+      ],
+      "has_changes": true,
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500"
+    },
+    {
       "code": "SC-100",
       "title": "Microsoft Cybersecurity Architect",
       "level": "advanced",
@@ -1632,7 +1680,7 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-21 20:22:00+00:00",
+      "updated_at": "2026-10-31 01:16:00+00:00",
       "skills_date": "October 21, 2026",
       "skill_areas": 4,
       "total_objectives": 81,
@@ -1657,48 +1705,6 @@
       "has_changes": true,
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/sc-100/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-100"
-    },
-    {
-      "code": "AZ-500",
-      "title": "Microsoft Azure Security Technologies",
-      "level": "intermediate",
-      "roles": [
-        "security-engineer"
-      ],
-      "products": [
-        "azure"
-      ],
-      "category": "Azure",
-      "status": "retired",
-      "retirement_date": "2026-08-31",
-      "replacement": "SC-500",
-      "replaces": "",
-      "beta_since": "",
-      "updated_at": "2026-08-31 19:51:00+00:00",
-      "skills_date": "January 22, 2026",
-      "skill_areas": 4,
-      "total_objectives": 78,
-      "skills_at_a_glance": [
-        {
-          "area": "Secure identity and access",
-          "weight": "15-20%"
-        },
-        {
-          "area": "Secure networking",
-          "weight": "20-25%"
-        },
-        {
-          "area": "Secure compute, storage, and databases",
-          "weight": "20-25%"
-        },
-        {
-          "area": "Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel",
-          "weight": "30-35%"
-        }
-      ],
-      "has_changes": false,
-      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-500/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500"
     },
     {
       "code": "AZ-800",
@@ -1976,8 +1982,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "2026-03",
-      "updated_at": "2026-09-18 21:09:00+00:00",
-      "skills_date": "October 19, 2026",
+      "updated_at": "2026-10-28 19:18:00+00:00",
+      "skills_date": "March 11, 2026",
       "skill_areas": 4,
       "total_objectives": 77,
       "skills_at_a_glance": [
@@ -2019,8 +2025,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "2026-03",
-      "updated_at": "2026-09-18 21:09:00+00:00",
-      "skills_date": "October 19, 2026",
+      "updated_at": "2026-10-28 19:18:00+00:00",
+      "skills_date": "March 12, 2026",
       "skill_areas": 3,
       "total_objectives": 73,
       "skills_at_a_glance": [
@@ -2138,47 +2144,46 @@
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-330"
     },
     {
-      "code": "SC-500",
-      "title": "Cloud and AI Security Engineer Associate",
+      "code": "GH-700",
+      "title": "GitHub Certified: Agentic AI Business Professional",
       "level": "intermediate",
       "roles": [
-        "security-engineer"
+        "business-user"
       ],
       "products": [
-        "azure",
-        "m365"
+        "github"
       ],
-      "category": "Security",
-      "status": "active",
+      "category": "GitHub",
+      "status": "beta",
       "retirement_date": "",
       "replacement": "",
-      "replaces": "AZ-500",
+      "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-07-31 19:59:00+00:00",
+      "updated_at": "2026-10-13 21:27:00+00:00",
       "skills_date": null,
       "skill_areas": 4,
-      "total_objectives": 87,
+      "total_objectives": 60,
       "skills_at_a_glance": [
         {
-          "area": "Manage identity, access, and governance",
+          "area": "Use GitHub platform features",
           "weight": "20-25%"
         },
         {
-          "area": "Secure storage, databases, and networking",
+          "area": "Enhance productivity by using GitHub Copilot",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Design and implement agentic workflows and automations",
           "weight": "25-30%"
         },
         {
-          "area": "Secure compute",
-          "weight": "20-25%"
-        },
-        {
-          "area": "Manage and monitor security posture",
+          "area": "Perform human-in-the-loop tasks for agentic workflows",
           "weight": "20-25%"
         }
       ],
-      "has_changes": true,
-      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/cloud-and-ai-security-engineer-associate/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/sc-500"
+      "has_changes": false,
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-professional/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-700"
     },
     {
       "code": "AI-900",
@@ -2322,6 +2327,48 @@
       "has_changes": false,
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204"
+    },
+    {
+      "code": "AZ-500",
+      "title": "Microsoft Azure Security Technologies",
+      "level": "intermediate",
+      "roles": [
+        "security-engineer"
+      ],
+      "products": [
+        "azure"
+      ],
+      "category": "Azure",
+      "status": "retired",
+      "retirement_date": "2026-08-31",
+      "replacement": "SC-500",
+      "replaces": "",
+      "beta_since": "",
+      "updated_at": "2026-08-31 19:51:00+00:00",
+      "skills_date": "January 22, 2026",
+      "skill_areas": 4,
+      "total_objectives": 78,
+      "skills_at_a_glance": [
+        {
+          "area": "Secure identity and access",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Secure networking",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Secure compute, storage, and databases",
+          "weight": "20-25%"
+        },
+        {
+          "area": "Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel",
+          "weight": "30-35%"
+        }
+      ],
+      "has_changes": false,
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-500/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500"
     },
     {
       "code": "DP-100",

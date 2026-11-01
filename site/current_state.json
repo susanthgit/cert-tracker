@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-25T09:37:45Z",
-  "exam_count": 61,
+  "fetched_at": "2026-11-01T11:44:15Z",
+  "exam_count": 62,
   "errors": [],
   "exams": [
     {
@@ -147,10 +147,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-19 18:11:00+00:00",
-      "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
-      "content_hash": "04485d1aeb4c794c",
-      "skills_date": "April 17, 2026",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
+      "content_hash": "ad2f817a8c462a8d",
+      "skills_date": "October 26, 2023",
       "skills_at_a_glance": [
         {
           "area": "Manage Azure identities and governance",
@@ -185,6 +185,9 @@
           "Manage access to Azure resources": [
             "Manage built-in Azure roles",
             "Assign roles at different scopes",
+            "Interpret access assignments",
+            "Manage built-in Azure roles",
+            "Assign roles at different scopes",
             "Interpret access assignments"
           ],
           "Manage Azure subscriptions and governance": [
@@ -194,11 +197,30 @@
             "Manage resource groups",
             "Manage subscriptions",
             "Manage costs by using alerts, budgets, and Azure Advisor recommendations",
+            "Configure management groups",
+            "Implement and manage Azure Policy",
+            "Configure resource locks",
+            "Apply and manage tags on resources",
+            "Manage resource groups",
+            "Manage subscriptions",
+            "Manage costs by using alerts, budgets, and Azure Advisor recommendations",
             "Configure management groups"
+          ],
+          "Manage Azure AD users and groups": [
+            "Create users and groups",
+            "Manage user and group properties",
+            "Manage licenses in Azure AD",
+            "Manage external users",
+            "Configure self-service password reset (SSPR)"
           ]
         },
         "Implement and manage storage (15–20%)": {
           "Configure access to storage": [
+            "Configure Azure Storage firewalls and virtual networks",
+            "Create and use shared access signature (SAS) tokens",
+            "Configure stored access policies",
+            "Manage access keys",
+            "Configure identity-based access for Azure Files",
             "Configure Azure Storage firewalls and virtual networks",
             "Create and use shared access signature (SAS) tokens",
             "Configure stored access policies",
@@ -210,13 +232,23 @@
             "Configure Azure Storage redundancy",
             "Configure object replication",
             "Configure storage account encryption",
+            "Manage data by using Azure Storage Explorer and AzCopy",
+            "Create and configure storage accounts",
+            "Configure Azure Storage redundancy",
+            "Configure object replication",
+            "Configure storage account encryption",
             "Manage data by using Azure Storage Explorer and AzCopy"
           ],
           "Configure Azure Files and Azure Blob Storage": [
-            "Create and configure a file share in Azure Files",
-            "Create and configure a container in Azure Blob Storage",
+            "Create and configure a file share in Azure Storage",
+            "Create and configure a container in Blob Storage",
             "Configure storage tiers",
-            "Configure soft delete for blobs and containers",
+            "Configure snapshots and soft delete for Azure Files",
+            "Configure blob lifecycle management",
+            "Configure blob versioning",
+            "Create and configure a file share in Azure Storage",
+            "Create and configure a container in Blob Storage",
+            "Configure storage tiers",
             "Configure snapshots and soft delete for Azure Files",
             "Configure blob lifecycle management",
             "Configure blob versioning"
@@ -228,11 +260,23 @@
             "Modify an existing Azure Resource Manager template",
             "Modify an existing Bicep file",
             "Deploy resources by using an Azure Resource Manager template or a Bicep file",
-            "Export a deployment as an Azure Resource Manager template or convert an Azure Resource Manager template to a Bicep file"
+            "Export a deployment as an Azure Resource Manager template or convert an Azure Resource Manager template to a Bicep file",
+            "Interpret an ARM template or a Bicep file",
+            "Modify an existing ARM template",
+            "Modify an existing Bicep file",
+            "Deploy resources by using an ARM template or a Bicep file",
+            "Export a deployment as an ARM template or compile a deployment as a Bicep file"
           ],
           "Create and configure virtual machines": [
             "Create a virtual machine",
-            "Configure encryption at host for Azure virtual machines",
+            "Configure Azure Disk Encryption",
+            "Move a virtual machine to another resource group, subscription, or region",
+            "Manage virtual machine sizes",
+            "Manage virtual machine disks",
+            "Deploy virtual machines to availability zones and availability sets",
+            "Deploy and configure an Azure Virtual Machine Scale Sets",
+            "Create a virtual machine",
+            "Configure Azure Disk Encryption",
             "Move a virtual machine to another resource group, subscription, or region",
             "Manage virtual machine sizes",
             "Manage virtual machine disks",
@@ -240,7 +284,11 @@
             "Deploy and configure an Azure Virtual Machine Scale Sets"
           ],
           "Provision and manage containers in the Azure portal": [
-            "Create and manage an Azure Container Registry",
+            "Create and manage an Azure container registry",
+            "Provision a container by using Azure Container Instances",
+            "Provision a container by using Azure Container Apps",
+            "Manage sizing and scaling for containers, including Azure Container Instances and Azure Container Apps",
+            "Create and manage an Azure container registry",
             "Provision a container by using Azure Container Instances",
             "Provision a container by using Azure Container Apps",
             "Manage sizing and scaling for containers, including Azure Container Instances and Azure Container Apps"
@@ -253,6 +301,14 @@
             "Map an existing custom DNS name to an App Service",
             "Configure backup for an App Service",
             "Configure networking settings for an App Service",
+            "Configure deployment slots for an App Service",
+            "Provision an App Service plan",
+            "Configure scaling for an App Service plan",
+            "Create an App Service",
+            "Configure certificates and TLS for an App Service",
+            "Map an existing custom DNS name to an App Service",
+            "Configure backup for an App Service",
+            "Configure networking settings for an App Service",
             "Configure deployment slots for an App Service"
           ]
         },
@@ -261,7 +317,12 @@
             "Create and configure virtual networks and subnets",
             "Create and configure virtual network peering",
             "Configure public IP addresses",
-            "Configure user-defined routes",
+            "Configure user-defined network routes",
+            "Troubleshoot network connectivity",
+            "Create and configure virtual networks and subnets",
+            "Create and configure virtual network peering",
+            "Configure public IP addresses",
+            "Configure user-defined network routes",
             "Troubleshoot network connectivity"
           ],
           "Configure secure access to virtual networks": [
@@ -269,9 +330,17 @@
             "Evaluate effective security rules in NSGs",
             "Implement Azure Bastion",
             "Configure service endpoints for Azure platform as a service (PaaS)",
+            "Configure private endpoints for Azure PaaS",
+            "Create and configure network security groups (NSGs) and application security groups",
+            "Evaluate effective security rules in NSGs",
+            "Implement Azure Bastion",
+            "Configure service endpoints for Azure platform as a service (PaaS)",
             "Configure private endpoints for Azure PaaS"
           ],
           "Configure name resolution and load balancing": [
+            "Configure Azure DNS",
+            "Configure an internal or public load balancer",
+            "Troubleshoot load balancing",
             "Configure Azure DNS",
             "Configure an internal or public load balancer",
             "Troubleshoot load balancing"
@@ -284,9 +353,27 @@
             "Query and analyze logs in Azure Monitor",
             "Set up alert rules, action groups, and alert processing rules in Azure Monitor",
             "Configure and interpret monitoring of virtual machines, storage accounts, and networks by using Azure Monitor Insights",
-            "Use Azure Network Watcher and Connection monitor"
+            "Use Azure Network Watcher and Connection Monitor",
+            "Interpret metrics in Azure Monitor",
+            "Configure log settings in Azure Monitor",
+            "Query and analyze logs in Azure Monitor",
+            "Set up alert rules, action groups, and alert processing rules in Azure Monitor",
+            "Configure and interpret monitoring of virtual machines, storage accounts, and networks by using Azure Monitor Insights",
+            "Use Azure Network Watcher and Connection Monitor"
           ],
           "Implement backup and recovery": [
+            "Create a Recovery Services vault",
+            "Create an Azure Backup vault",
+            "Create and configure a backup policy",
+            "Perform backup and restore operations by using Azure Backup",
+            "Configure Azure Site Recovery for Azure resources",
+            "Perform a failover to a secondary region by using Site Recovery",
+            "Configure and interpret reports and alerts for backups",
+            "Manage Azure identities and governance (20–25%)",
+            "Implement and manage storage (15–20%)",
+            "Deploy and manage Azure compute resources (20–25%)",
+            "Implement and manage virtual networking (15–20%)",
+            "Monitor and maintain Azure resources (10–15%)",
             "Create a Recovery Services vault",
             "Create an Azure Backup vault",
             "Create and configure a backup policy",
@@ -744,8 +831,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-19 18:11:00+00:00",
-      "git_commit_id": "c5713289393650e759a90d705723329faa446a2e",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "17efd80ffd2a02b3",
       "skills_date": "April 17, 2026",
       "skills_at_a_glance": [
@@ -871,8 +958,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-26 19:26:00+00:00",
-      "git_commit_id": "c9bf397dd57a8921046818266f784cb53c9c88d3",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "f9f8e40754f670b8",
       "skills_date": "July 27, 2026",
       "skills_at_a_glance": [
@@ -1031,6 +1118,177 @@
       "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/",
       "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-400",
       "practice_assessment_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/practice/assessment?assessment-type=practice"
+    },
+    {
+      "code": "AZ-401",
+      "title": "Designing and Implementing Microsoft Agentic DevOps Solutions",
+      "level": "advanced",
+      "roles": [
+        "devops-engineer"
+      ],
+      "products": [
+        "azure",
+        "azure-devops",
+        "github"
+      ],
+      "category": "Azure",
+      "status": "beta",
+      "beta_since": "",
+      "replaces": "",
+      "replacement": "",
+      "retirement_date": "",
+      "updated_at": "2026-10-13 19:39:00+00:00",
+      "git_commit_id": "",
+      "content_hash": "13f417583134a0ad",
+      "skills_date": null,
+      "skills_at_a_glance": [
+        {
+          "area": "Design and implement processes and communications",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Design and implement a source control strategy",
+          "weight": "10-15%"
+        },
+        {
+          "area": "Design and implement build and release pipelines",
+          "weight": "35-40%"
+        },
+        {
+          "area": "Design and implement a security and compliance plan",
+          "weight": "15-20%"
+        },
+        {
+          "area": "Implement an instrumentation strategy",
+          "weight": "15-20%"
+        }
+      ],
+      "skills_detailed": {
+        "Design and implement processes and communications (15–20%)": {
+          "Design traceability and flow of work": [
+            "Design a structure for the flow of work, including plan, build, deploy, and operate phases",
+            "Design a strategy for feedback cycles, including notifications",
+            "Design a strategy for tracking work using Azure Boards",
+            "Design traceability, including repositories, bugs, and quality"
+          ],
+          "Design and implement success metrics for DevOps": [
+            "Translate business KPIs into success metrics and standards for project planning, development, testing, delivery, operations, and security",
+            "Implement queries to evaluate success metrics for DevOps by using AI-assisted tools"
+          ],
+          "Configure collaboration and communication": [
+            "Document a project, including wikis, readmes, change logs, releases, licenses, code owners, and process diagrams, by using AI-assisted tools",
+            "Specify requirements and restrictions for agentic development, including agents, skills, and loops",
+            "Configure MCP servers, including Azure DevOps MCP server and GitHub MCP server",
+            "Configure integration by using webhooks, MCP servers, and skills",
+            "Configure integration between Azure Boards and GitHub repositories by using MCP"
+          ]
+        },
+        "Design and implement a source control strategy (10–15%)": {
+          "Design and implement branching strategies for Azure DevOps and GitHub": [
+            "Design a branch strategy, including trunk-based, feature branch, release branch, Git Worktree, Git flow, and GitHub flow",
+            "Design and implement pull request workflows by using branch policies and branch protection rules",
+            "Implement branch merging restrictions by using branch policies and branch protection rules",
+            "Implement branch policies and branch protection rules for GitHub Copilot"
+          ],
+          "Configure and manage repositories for Azure DevOps and GitHub": [
+            "Configure permissions",
+            "Configure tags",
+            "Implement traceability in repositories, including code quality, code coverage, and deep links to the work item or issue",
+            "Create and configure Git hooks that automatically check code",
+            "Perform a repository-to-repository migration from Azure DevOps to GitHub",
+            "Recover or remove specific data by using Git commands"
+          ]
+        },
+        "Design and implement build and release pipelines (35–40%)": {
+          "Design and implement a package management strategy": [
+            "Recommend package management tools including Azure Artifacts and GitHub Packages",
+            "Design and implement package feeds and views for local and upstream sources",
+            "Design and implement a dependency versioning strategy for code assets and packages, including semantic versioning (SemVer) and date-based (CalVer)",
+            "Design and implement a versioning strategy for pipeline artifacts"
+          ],
+          "Design and implement a testing strategy for Azure DevOps pipelines and GitHub Actions": [
+            "Design quality and release gates",
+            "Implement quality and release gates by using GitHub Copilot and MCP servers",
+            "Design a comprehensive testing strategy, including local tests, unit tests, integration tests, and load tests",
+            "Implement tests in a pipeline, including configuring test tasks, configuring test agents, and documenting test results, by using GitHub Copilot and MCP servers",
+            "Implement code coverage analysis by using GitHub Copilot and MCP servers"
+          ],
+          "Design and implement Azure DevOps pipelines and GitHub Actions": [
+            "Select a deployment automation solution, including Azure Pipelines and GitHub Actions",
+            "Design an Azure DevOps agent or GitHub runner infrastructure, including cost, tool selection, licenses, connectivity, and maintainability",
+            "Implement an Azure DevOps or GitHub runner agent infrastructure",
+            "Design and implement integration between Azure Pipelines and GitHub repositories",
+            "Develop pipelines in YAML by using GitHub Copilot",
+            "Develop and implement pipeline trigger rules",
+            "Design and implement a strategy for job execution order, including parallelism and multi-stage pipelines",
+            "Create reusable pipeline elements, including YAML templates, task groups, variables, and variable groups",
+            "Design and implement checks and approvals by using YAML-based environments",
+            "Design and implement GitHub Agentic Workflows"
+          ],
+          "Design and implement deployments": [
+            "Design a deployment strategy, including blue-green, canary, ring, progressive exposure, feature flags, and A/B testing",
+            "Design a pipeline to ensure that dependency deployments are reliably ordered",
+            "Plan for minimizing downtime during deployments by using load balancing, deployment slot usage and swap, and rolling deployments",
+            "Design a hotfix path plan for responding to high-priority code fixes",
+            "Design and implement a resiliency strategy for deployment",
+            "Implement deployment by using containers, binaries, scripts, and database tasks"
+          ],
+          "Design and implement infrastructure as code (IaC)": [
+            "Recommend a strategy for IaC and configuration management",
+            "Implement a configuration management strategy for application infrastructure"
+          ],
+          "Maintain Azure DevOps pipelines and GitHub Actions": [
+            "Monitor pipeline health, including failure rate, duration, and flaky tests",
+            "Optimize a pipeline for cost, time, performance, and reliability",
+            "Design and implement a retention strategy for pipeline artifacts and dependencies"
+          ]
+        },
+        "Design and implement a security and compliance plan (15–20%)": {
+          "Design and implement authentication and authorization methods": [
+            "Choose between Microsoft Entra service principals and managed identities for Azure resources",
+            "Implement and manage GitHub authentication, including GitHub Apps, GITHUB\\_TOKEN, and personal access tokens",
+            "Implement and manage secretless authentication in Azure Pipelines and GitHub Actions",
+            "Implement and manage Azure DevOps service connections and personal access tokens",
+            "Design and implement permissions and access levels in Azure DevOps and GitHub",
+            "Configure projects in Azure DevOps (ADO) and GitHub, including ADO teams"
+          ],
+          "Design and implement a strategy for managing sensitive information in automation": [
+            "Integrate Azure Key Vault into Azure Pipelines and GitHub Actions",
+            "Implement and manage secrets, keys, and certificates",
+            "Design and implement a strategy for managing sensitive information during deployment, including Azure Pipelines secure files and GitHub secrets",
+            "Design Azure Pipelines and GitHub Actions to prevent leakage of sensitive information"
+          ],
+          "Automate security and compliance scanning": [
+            "Design a strategy for security, vulnerability, and compliance scanning",
+            "Configure dependency scanning, code scanning, and secret scanning by using GitHub Advanced Security for Azure DevOps and GitHub Advanced Security",
+            "Connect Microsoft Defender for Cloud DevOps Security to other DevOps environments, including Azure DevOps and GitHub"
+          ]
+        },
+        "Implement an instrumentation strategy (15–20%)": {
+          "Configure monitoring for Azure DevOps and GitHub platforms": [
+            "Design dashboards, including flow of work, cycle time, time to recovery, and lead time",
+            "Configure Azure Monitor and Log Analytics to integrate with Azure DevOps and GitHub",
+            "Configure monitoring in GitHub, including enabling GitHub insights and creating and configuring charts",
+            "Configure alerts for events in Azure Pipelines and GitHub Actions"
+          ],
+          "Monitor Azure workloads by using AI agents": [
+            "Deploy and configure Azure Copilot Observability Agent",
+            "Deploy and configure Azure SRE Agent",
+            "Investigate and resolve issues raised by Azure SRE Agent"
+          ],
+          "Analyze metrics from instrumentation by using AI agents": [
+            "Analyze infrastructure performance indicators, including CPU, memory, disk, and network",
+            "Analyze application performance by using telemetry and instrumentation data",
+            "Analyze distributed tracing by using Azure Monitor Application Insights",
+            "Configure and collection and management GitHub Copilot agent logs",
+            "Interrogate logs by using natural language queries or basic Kusto Query Language (KQL) queries"
+          ]
+        }
+      },
+      "change_log": [],
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-401/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-401",
+      "practice_assessment_url": ""
     },
     {
       "code": "AZ-500",
@@ -1203,8 +1461,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-06-29 23:01:00+00:00",
-      "git_commit_id": "259b665e1e98ebe7648567d318741c9566aad64f",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "bdd1fc320f8de68a",
       "skills_date": "July 27, 2026",
       "skills_at_a_glance": [
@@ -2472,8 +2730,8 @@
       "replacement": "",
       "replaces": "AI-102",
       "beta_since": "",
-      "updated_at": "2026-10-15 23:49:00+00:00",
-      "git_commit_id": "3ef953ce3dc226404276adda39f75159a4cf2983",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "21a24ec33c0344be",
       "skills_date": "April 16, 2026",
       "skills_at_a_glance": [
@@ -2624,10 +2882,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-10-21 22:54:00+00:00",
-      "git_commit_id": "04f44185ec14b1960f042a26fdff8ab8e8d0480b",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "55c7b75fd2e4c679",
-      "skills_date": "October 7, 2026",
+      "skills_date": null,
       "skills_at_a_glance": [
         {
           "area": "Develop containerized solutions on Azure",
@@ -2635,7 +2893,7 @@
         },
         {
           "area": "Develop AI solutions by using Azure data management services",
-          "weight": "30-35%"
+          "weight": "25-30%"
         },
         {
           "area": "Connect to and consume Azure services",
@@ -3119,8 +3377,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-25 22:18:00+00:00",
-      "git_commit_id": "6c72c141b4ec3a91383944a9dfe2c03ea2b84a80",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "b20bbab1ce3ec20d",
       "skills_date": "October 27, 2026",
       "skills_at_a_glance": [
@@ -3431,84 +3689,114 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-18 21:09:00+00:00",
-      "git_commit_id": "b1597b276fbb60bdf9b34a7a14301e5ca98ef4bb",
-      "content_hash": "f9ee6b7e2d47b4ad",
-      "skills_date": "October 19, 2026",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
+      "content_hash": "da00a44360e832bd",
+      "skills_date": null,
       "skills_at_a_glance": [
         {
-          "area": "Maintain a data analytics solution",
-          "weight": "25-30%"
+          "area": "Plan, implement, and manage a solution for data analytics",
+          "weight": "10-15%"
         },
         {
-          "area": "Prepare data",
-          "weight": "45-50%"
+          "area": "Prepare and serve data",
+          "weight": "40-45%"
         },
         {
           "area": "Implement and manage semantic models",
-          "weight": "25-30%"
+          "weight": "20-25%"
+        },
+        {
+          "area": "Explore and analyze data",
+          "weight": "20-25%"
         }
       ],
       "skills_detailed": {
-        "Maintain a data analytics solution (25–30%)": {
-          "Implement security and governance": [
-            "Implement workspace-level access controls",
-            "Implement item-level access controls",
-            "Implement row-level, column-level, object-level, and file-level access control",
-            "Apply sensitivity labels to items",
-            "Endorse items"
+        "Plan, implement, and manage a solution for data analytics (10–15%)": {
+          "Plan a data analytics environment": [
+            "Identify requirements for a solution, including components, features, performance, and capacity stock-keeping units (SKUs)",
+            "Recommend settings in the Fabric admin portal",
+            "Choose a data gateway type",
+            "Create a custom Power BI report theme"
           ],
-          "Maintain the analytics development lifecycle": [
-            "Configure version control for a workspace",
+          "Implement and manage a data analytics environment": [
+            "Implement workspace and item-level access controls for Fabric items",
+            "Implement data sharing for workspaces, warehouses, and lakehouses",
+            "Manage sensitivity labels in semantic models and lakehouses",
+            "Configure Fabric-enabled workspace settings",
+            "Manage Fabric capacity"
+          ],
+          "Manage the analytics development lifecycle": [
+            "Implement version control for a workspace",
             "Create and manage a Power BI Desktop project (.pbip)",
-            "Create and configure deployment pipelines",
-            "Perform impact analysis of downstream dependencies from lakehouses, warehouses, dataflows, and semantic models",
+            "Plan and implement deployment solutions",
+            "Perform impact analysis of downstream dependencies from lakehouses, data warehouses, dataflows, and semantic models",
             "Deploy and manage semantic models by using the XMLA endpoint",
             "Create and update reusable assets, including Power BI template (.pbit) files, Power BI data source (.pbids) files, and shared semantic models"
           ]
         },
-        "Prepare data (45–50%)": {
-          "Get data": [
-            "Create a data connection",
-            "Discover data by using OneLake catalog and Real-Time hub",
-            "Ingest or access data as needed",
-            "Choose between different data stores",
-            "Implement OneLake integration for Eventhouse and semantic models"
+        "Prepare and serve data (40–45%)": {
+          "Create objects in a lakehouse or warehouse": [
+            "Ingest data by using a data pipeline, dataflow, or notebook",
+            "Create and manage shortcuts",
+            "Implement file partitioning for analytics workloads in a lakehouse",
+            "Create views, functions, and stored procedures",
+            "Enrich data by adding new columns or tables"
+          ],
+          "Copy data": [
+            "Choose an appropriate method for copying data from a Fabric data source to a lakehouse or warehouse",
+            "Copy data by using a data pipeline, dataflow, or notebook",
+            "Add stored procedures, notebooks, and dataflows to a data pipeline",
+            "Schedule data pipelines",
+            "Schedule dataflows and notebooks"
           ],
           "Transform data": [
-            "Create views, functions, and stored procedures",
-            "Enrich data by adding new columns or tables",
-            "Implement a star schema for a lakehouse or warehouse",
+            "Implement a data cleansing process",
+            "Implement a star schema for a lakehouse or warehouse, including Type 1 and Type 2 slowly changing dimensions",
+            "Implement bridge tables for a lakehouse or a warehouse",
             "Denormalize data",
-            "Aggregate data",
+            "Aggregate or de-aggregate data",
             "Merge or join data",
             "Identify and resolve duplicate data, missing data, or null values",
-            "Convert column data types",
+            "Convert data types by using SQL or PySpark",
             "Filter data"
           ],
-          "Query and analyze data": [
-            "Select, filter, and aggregate data by using the Visual query editor",
-            "Select, filter, and aggregate data by using SQL",
-            "Select, filter, and aggregate data by using KQL",
-            "Select, filter, and aggregate data by using DAX"
+          "Optimize performance": [
+            "Identify and resolve data loading performance bottlenecks in dataflows, notebooks, and SQL queries",
+            "Implement performance improvements in dataflows, notebooks, and SQL queries",
+            "Identify and resolve issues with Delta table file sizes"
           ]
         },
-        "Implement and manage semantic models (25–30%)": {
+        "Implement and manage semantic models (20–25%)": {
           "Design and build semantic models": [
-            "Choose a storage mode",
+            "Choose a storage mode, including Direct Lake",
+            "Identify use cases for DAX Studio and Tabular Editor 2",
             "Implement a star schema for a semantic model",
             "Implement relationships, such as bridge tables and many-to-many relationships",
             "Write calculations that use DAX variables and functions, such as iterators, table filtering, windowing, and information functions",
-            "Implement calculation groups, dynamic format strings, and field parameters",
-            "Identify use cases for and configure large semantic model storage format",
-            "Design and build composite models"
+            "Implement calculation groups, dynamic strings, and field parameters",
+            "Design and build a large format dataset",
+            "Design and build composite models that include aggregations",
+            "Implement dynamic row-level security and object-level security",
+            "Validate row-level security and object-level security"
           ],
           "Optimize enterprise-scale semantic models": [
             "Implement performance improvements in queries and report visuals",
-            "Improve DAX performance",
-            "Configure Direct Lake, including default fallback and refresh behavior",
-            "Choose between Direct Lake on OneLake and Direct Lake on SQL analytics endpoint",
-            "Implement incremental refresh for semantic models"
+            "Improve DAX performance by using DAX Studio",
+            "Optimize a semantic model by using Tabular Editor 2",
+            "Implement incremental refresh"
+          ]
+        },
+        "Explore and analyze data (20–25%)": {
+          "Perform exploratory analytics": [
+            "Implement descriptive and diagnostic analytics",
+            "Integrate prescriptive and predictive analytics into a visual or report",
+            "Profile data"
+          ],
+          "Query data by using SQL": [
+            "Query a lakehouse in Fabric by using SQL queries or the visual query editor",
+            "Query a warehouse in Fabric by using SQL queries or the visual query editor",
+            "Connect to and query datasets by using the XMLA endpoint"
           ]
         }
       },
@@ -3533,10 +3821,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-18 21:09:00+00:00",
-      "git_commit_id": "b1597b276fbb60bdf9b34a7a14301e5ca98ef4bb",
-      "content_hash": "2f394af665fdec8f",
-      "skills_date": "October 19, 2026",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
+      "content_hash": "2474b2c5669d6190",
+      "skills_date": null,
       "skills_at_a_glance": [
         {
           "area": "Implement and manage an analytics solution",
@@ -3552,12 +3840,13 @@
         }
       ],
       "skills_detailed": {
+        "Languages": {},
         "Implement and manage an analytics solution (30–35%)": {
           "Configure Microsoft Fabric workspace settings": [
             "Configure Spark workspace settings",
             "Configure domain workspace settings",
             "Configure OneLake workspace settings",
-            "Configure Apache Airflow workspace settings"
+            "Configure data workflow workspace settings"
           ],
           "Implement lifecycle management in Fabric": [
             "Configure version control",
@@ -3567,15 +3856,13 @@
           "Configure security and governance": [
             "Implement workspace-level access controls",
             "Implement item-level access controls",
-            "Implement row-level, column-level, object-level, and folder/file-level access controls",
+            "Implement row-level, column-level, object-level, and file-level access controls",
             "Implement dynamic data masking",
             "Apply sensitivity labels to items",
-            "Endorse items",
-            "Implement and use Microsoft Fabric audit logs",
-            "Configure and implement OneLake security"
+            "Endorse items"
           ],
           "Orchestrate processes": [
-            "Choose between Dataflow gen 2, a pipeline and a notebook",
+            "Choose between a pipeline and a notebook",
             "Design and implement schedules and event-based triggers",
             "Implement orchestration patterns with notebooks and pipelines, including parameters and dynamic expressions"
           ]
@@ -3588,8 +3875,8 @@
           ],
           "Ingest and transform batch data": [
             "Choose an appropriate data store",
-            "Choose between Dataflows Gen2, notebooks, KQL, and T-SQL for data transformation",
-            "Create and manage OneLake shortcuts",
+            "Choose between dataflows, notebooks, and T-SQL for data transformation",
+            "Create and manage shortcuts to data",
             "Implement mirroring",
             "Ingest data by using pipelines",
             "Transform data by using PySpark, SQL, and KQL",
@@ -3599,9 +3886,7 @@
           ],
           "Ingest and transform streaming data": [
             "Choose an appropriate streaming engine",
-            "Choose between native tables and OneLake shortcuts in Real-Time Intelligence",
-            "Choose between Query acceleration for OneLake shortcuts and standard OneLake shortcuts in Real-Time Intelligence",
-            "Process data by using Eventstream",
+            "Process data by using eventstreams",
             "Process data by using Spark structured streaming",
             "Process data by using KQL",
             "Create windowing functions"
@@ -3616,18 +3901,17 @@
           ],
           "Identify and resolve errors": [
             "Identify and resolve pipeline errors",
-            "Identify and resolve Dataflow Gen2 errors",
+            "Identify and resolve dataflow errors",
             "Identify and resolve notebook errors",
-            "Identify and resolve Eventhouse errors",
-            "Identify and resolve Eventstream errors",
-            "Identify and resolve T-SQL errors",
-            "Identify and resolve OneLake shortcut errors"
+            "Identify and resolve eventhouse errors",
+            "Identify and resolve eventstream errors",
+            "Identify and resolve T-SQL errors"
           ],
           "Optimize performance": [
-            "Optimize a Lakehouse table",
+            "Optimize a lakehouse table",
             "Optimize a pipeline",
             "Optimize a data warehouse",
-            "Optimize Eventstream and Eventhouse",
+            "Optimize eventstreams and eventhouses",
             "Optimize Spark performance",
             "Optimize query performance"
           ]
@@ -3654,10 +3938,10 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-09-18 21:09:00+00:00",
+      "updated_at": "2026-10-28 19:18:00+00:00",
       "git_commit_id": "",
-      "content_hash": "0ac3247c64eff7c8",
-      "skills_date": "October 19, 2026",
+      "content_hash": "11f4f9593a99c8cf",
+      "skills_date": "March 11, 2026",
       "skills_at_a_glance": [
         {
           "area": "Set up and configure an Azure Databricks environment",
@@ -3724,7 +4008,7 @@
             "Choose a slowly changing dimension (SCD) type",
             "Choose granularity on a column or table based on requirements",
             "Design and implement a temporal (history) table to record changes over time",
-            "Design and implement a clustering strategy, including liquid clustering and Z-ordering",
+            "Design and implement a clustering strategy, including liquid clustering, Z-ordering, and deletion vectors",
             "Choose between managed and unmanaged tables"
           ],
           "Ingest data into Unity Catalog": [
@@ -3772,8 +4056,8 @@
             "Apply version control best practices using Git",
             "Manage branching, pull requests, and conflict resolution",
             "Implement a testing strategy, including unit tests, integration tests, end-to-end tests, and user acceptance testing (UAT)",
-            "Configure and package Declarative Automation Bundles",
-            "Deploy a bundle by using the Databricks CLI",
+            "Configure and package Databricks Asset Bundles",
+            "Deploy a bundle by using the Azure Databricks command-line interface (CLI)",
             "Deploy a bundle by using REST APIs"
           ],
           "Monitor, troubleshoot, and optimize workloads in Azure Databricks": [
@@ -3809,10 +4093,10 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-09-18 21:09:00+00:00",
+      "updated_at": "2026-10-28 19:18:00+00:00",
       "git_commit_id": "",
-      "content_hash": "5d59aeecb1350cec",
-      "skills_date": "October 19, 2026",
+      "content_hash": "60149a8ff986af0b",
+      "skills_date": "March 12, 2026",
       "skills_at_a_glance": [
         {
           "area": "Design and develop database solutions",
@@ -3830,7 +4114,7 @@
       "skills_detailed": {
         "Design and develop database solutions (35–40%)": {
           "Design and implement database objects": [
-            "Design and implement tables, including data types, size, columns, indexes, and columnstore indexes",
+            "Design and implement tables, including data types, size, columns, indexes, and column store indexes",
             "Design and implement specialized tables, including in-memory, temporal, external, ledger, and graph",
             "Design and implement JSON columns and indexes",
             "Design and implement database constraints, including PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and DEFAULT",
@@ -3856,7 +4140,7 @@
           ],
           "Design and implement SQL solutions by using AI-assisted tools": [
             "Interpret security impact of using AI-assisted tools",
-            "Enable GitHub Copilot and Copilot in Fabric",
+            "Enable GitHub Copilot and Microsoft Copilot in Fabric",
             "Configure model and Model Context Protocol (MCP) tool options in a GitHub Copilot or Copilot in Fabric chat session",
             "Create and configure GitHub Copilot instruction files",
             "Connect to MCP server endpoints, including Microsoft SQL Server and Fabric lakehouse"
@@ -3904,7 +4188,7 @@
           "Design and implement models and embeddings": [
             "Evaluate external models, including multimodal, multilanguage, sizes, and structured output",
             "Create and manage external models",
-            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, and Microsoft Foundry",
+            "Choose an embedding maintenance method, including table triggers, Change Tracking, Azure Functions with SQL trigger binding, Azure Logic Apps, CDC, CES, and Microsoft Foundry",
             "Identify which columns to include in embeddings",
             "Design and implement chunks for embeddings",
             "Generate embeddings"
@@ -3914,7 +4198,7 @@
             "Implement full-text search",
             "Design for vector data, including vector data type, vector indexes, and size",
             "Identify when to use vector-related types and functions for semantic searching, including VECTOR\\_NORMALIZE, VECTOR\\_DISTANCE, VECTORPROPERTY, and VECTOR\\_SEARCH",
-            "Choose between using ANN and KNN for vector search",
+            "Choose between using ANN and ENN for vector search",
             "Evaluate vector index types and metrics",
             "Implement vector search",
             "Implement hybrid search",
@@ -4094,8 +4378,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-21 20:22:00+00:00",
-      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "24c9a800f6f969f0",
       "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
@@ -4257,8 +4541,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-21 20:22:00+00:00",
-      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "feafffd3556c0d28",
       "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
@@ -4377,8 +4661,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-28 23:35:00+00:00",
-      "git_commit_id": "2d66e51704d1b4491b26e22cee3520215abdb066",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "fd1b9e4e2d59df16",
       "skills_date": "October 28, 2026",
       "skills_at_a_glance": [
@@ -6204,8 +6488,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-03-20 17:49:00+00:00",
-      "git_commit_id": "99da86cb624284f69b90ab9806e12b0957fbae80",
+      "updated_at": "2026-10-31 01:16:00+00:00",
+      "git_commit_id": "9768d3885d49d6cb48f5fce0b9055e4c920c3d81",
       "content_hash": "a1e056ff4ec769ff",
       "skills_date": "April 20, 2026",
       "skills_at_a_glance": [
@@ -6356,8 +6640,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-16 17:28:00+00:00",
-      "git_commit_id": "0c16e80d930c0add6223e03a755cea320972de20",
+      "updated_at": "2026-10-30 20:24:00+00:00",
+      "git_commit_id": "53533c9fd49855bcbdf7730db93cce31f9293a3b",
       "content_hash": "0b02734e134a29a0",
       "skills_date": "October 16, 2026",
       "skills_at_a_glance": [
@@ -9688,174 +9972,142 @@
       "practice_assessment_url": ""
     },
     {
-      "code": "AZ-401",
-      "title": "Designing and Implementing Microsoft Agentic DevOps Solutions",
-      "level": "advanced",
+      "code": "GH-700",
+      "title": "GitHub Certified: Agentic AI Business Professional",
+      "level": "intermediate",
       "roles": [
-        "devops-engineer"
+        "business-user"
       ],
       "products": [
-        "azure",
-        "azure-devops",
         "github"
       ],
-      "category": "Azure",
+      "category": "GitHub",
       "status": "beta",
       "beta_since": "",
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-13 19:39:00+00:00",
+      "updated_at": "2026-10-13 21:27:00+00:00",
       "git_commit_id": "",
-      "content_hash": "13f417583134a0ad",
+      "content_hash": "98acedc3f5f3db70",
       "skills_date": null,
       "skills_at_a_glance": [
         {
-          "area": "Design and implement processes and communications",
-          "weight": "15-20%"
+          "area": "Use GitHub platform features",
+          "weight": "20-25%"
         },
         {
-          "area": "Design and implement a source control strategy",
-          "weight": "10-15%"
+          "area": "Enhance productivity by using GitHub Copilot",
+          "weight": "20-25%"
         },
         {
-          "area": "Design and implement build and release pipelines",
-          "weight": "35-40%"
+          "area": "Design and implement agentic workflows and automations",
+          "weight": "25-30%"
         },
         {
-          "area": "Design and implement a security and compliance plan",
-          "weight": "15-20%"
-        },
-        {
-          "area": "Implement an instrumentation strategy",
-          "weight": "15-20%"
+          "area": "Perform human-in-the-loop tasks for agentic workflows",
+          "weight": "20-25%"
         }
       ],
       "skills_detailed": {
-        "Design and implement processes and communications (15–20%)": {
-          "Design traceability and flow of work": [
-            "Design a structure for the flow of work, including plan, build, deploy, and operate phases",
-            "Design a strategy for feedback cycles, including notifications",
-            "Design a strategy for tracking work using Azure Boards",
-            "Design traceability, including repositories, bugs, and quality"
+        "Use GitHub platform features (20–25%)": {
+          "Apply GitHub management best practices and policies": [
+            "Evaluate budget guardrails",
+            "Evaluate token usage",
+            "Adhere to organizational standards",
+            "Understand considerations for secrets management",
+            "Evaluate governance, privacy, usage, and risk controls",
+            "Apply Responsible AI principles",
+            "Recommend branch strategies and policies",
+            "Identify how different models affect model output and explainability",
+            "Recognize considerations for choosing between models, including unique strengths of each mode",
+            "Identify the characteristics of skills, prompts, and instructions",
+            "Recommend when to use Model Context Protocol (MCP) servers"
           ],
-          "Design and implement success metrics for DevOps": [
-            "Translate business KPIs into success metrics and standards for project planning, development, testing, delivery, operations, and security",
-            "Implement queries to evaluate success metrics for DevOps by using AI-assisted tools"
+          "Plan and manage work": [
+            "Create projects, including selecting an appropriate template",
+            "Manage and customize views, including columns, automation, and custom fields",
+            "Configure access to GitHub projects",
+            "Manage issues, including creating, assigning, linking, and tagging",
+            "Utilize the GitHub platform for collaboration"
           ],
-          "Configure collaboration and communication": [
-            "Document a project, including wikis, readmes, change logs, releases, licenses, code owners, and process diagrams, by using AI-assisted tools",
-            "Specify requirements and restrictions for agentic development, including agents, skills, and loops",
-            "Configure MCP servers, including Azure DevOps MCP server and GitHub MCP server",
-            "Configure integration by using webhooks, MCP servers, and skills",
-            "Configure integration between Azure Boards and GitHub repositories by using MCP"
+          "Track and capture work": [
+            "Create pull requests",
+            "Assign pull requests",
+            "Link pull requests",
+            "Link project items",
+            "Create and update wikis"
           ]
         },
-        "Design and implement a source control strategy (10–15%)": {
-          "Design and implement branching strategies for Azure DevOps and GitHub": [
-            "Design a branch strategy, including trunk-based, feature branch, release branch, Git Worktree, Git flow, and GitHub flow",
-            "Design and implement pull request workflows by using branch policies and branch protection rules",
-            "Implement branch merging restrictions by using branch policies and branch protection rules",
-            "Implement branch policies and branch protection rules for GitHub Copilot"
+        "Enhance productivity by using GitHub Copilot (20–25%)": {
+          "Chat with GitHub Copilot": [
+            "Choose an appropriate model for business purpose or task",
+            "Manage sessions, including starting, resuming, renaming, pinning, and archiving",
+            "Select an agent",
+            "Use @ mentions to attach content including tools, files, and issues",
+            "Use slash commands, including /explain, /fix, /tests, /doc, /clear, /delete, and /chronicle"
           ],
-          "Configure and manage repositories for Azure DevOps and GitHub": [
-            "Configure permissions",
-            "Configure tags",
-            "Implement traceability in repositories, including code quality, code coverage, and deep links to the work item or issue",
-            "Create and configure Git hooks that automatically check code",
-            "Perform a repository-to-repository migration from Azure DevOps to GitHub",
-            "Recover or remove specific data by using Git commands"
+          "Write instructions and prompts that produce reliable outputs": [
+            "Define information to be included in the response, such as sentiment, coherence, and creativity",
+            "Define the data to be acted on and input variables",
+            "Specify structure of the response, such as table format or maximum length",
+            "Revert changes by using checkpoints"
+          ],
+          "Create and manage custom agents": [
+            "Create a custom agent by adding web search to instructions or prompts",
+            "Save an agent to a GitHub project",
+            "Implement agent guardrails",
+            "Review custom agent activities"
           ]
         },
-        "Design and implement build and release pipelines (35–40%)": {
-          "Design and implement a package management strategy": [
-            "Recommend package management tools including Azure Artifacts and GitHub Packages",
-            "Design and implement package feeds and views for local and upstream sources",
-            "Design and implement a dependency versioning strategy for code assets and packages, including semantic versioning (SemVer) and date-based (CalVer)",
-            "Design and implement a versioning strategy for pipeline artifacts"
+        "Design and implement agentic workflows and automations (25–30%)": {
+          "Design agentic workflows and automations": [
+            "Identify use cases that can be optimized by agentic workflows or automations",
+            "Decompose use cases into processes and tasks",
+            "Specify decision-making criteria",
+            "Align agentic workflows with common design patterns"
           ],
-          "Design and implement a testing strategy for Azure DevOps pipelines and GitHub Actions": [
-            "Design quality and release gates",
-            "Implement quality and release gates by using GitHub Copilot and MCP servers",
-            "Design a comprehensive testing strategy, including local tests, unit tests, integration tests, and load tests",
-            "Implement tests in a pipeline, including configuring test tasks, configuring test agents, and documenting test results, by using GitHub Copilot and MCP servers",
-            "Implement code coverage analysis by using GitHub Copilot and MCP servers"
+          "Implement agentic workflows": [
+            "Create agentic workflow files",
+            "Configure workflow, schedule, permissions, and output",
+            "Configure folder structure for an agentic workflow",
+            "Create agentic workflow instructions",
+            "Configure self-critique loops"
           ],
-          "Design and implement Azure DevOps pipelines and GitHub Actions": [
-            "Select a deployment automation solution, including Azure Pipelines and GitHub Actions",
-            "Design an Azure DevOps agent or GitHub runner infrastructure, including cost, tool selection, licenses, connectivity, and maintainability",
-            "Implement an Azure DevOps or GitHub runner agent infrastructure",
-            "Design and implement integration between Azure Pipelines and GitHub repositories",
-            "Develop pipelines in YAML by using GitHub Copilot",
-            "Develop and implement pipeline trigger rules",
-            "Design and implement a strategy for job execution order, including parallelism and multi-stage pipelines",
-            "Create reusable pipeline elements, including YAML templates, task groups, variables, and variable groups",
-            "Design and implement checks and approvals by using YAML-based environments",
-            "Design and implement GitHub Agentic Workflows"
+          "Implement automations": [
+            "Select and configure triggers",
+            "Configure prompts and models",
+            "Select and configure tools within automations"
           ],
-          "Design and implement deployments": [
-            "Design a deployment strategy, including blue-green, canary, ring, progressive exposure, feature flags, and A/B testing",
-            "Design a pipeline to ensure that dependency deployments are reliably ordered",
-            "Plan for minimizing downtime during deployments by using load balancing, deployment slot usage and swap, and rolling deployments",
-            "Design a hotfix path plan for responding to high-priority code fixes",
-            "Design and implement a resiliency strategy for deployment",
-            "Implement deployment by using containers, binaries, scripts, and database tasks"
-          ],
-          "Design and implement infrastructure as code (IaC)": [
-            "Recommend a strategy for IaC and configuration management",
-            "Implement a configuration management strategy for application infrastructure"
-          ],
-          "Maintain Azure DevOps pipelines and GitHub Actions": [
-            "Monitor pipeline health, including failure rate, duration, and flaky tests",
-            "Optimize a pipeline for cost, time, performance, and reliability",
-            "Design and implement a retention strategy for pipeline artifacts and dependencies"
+          "Integrate skills and MCP servers": [
+            "Install external skills",
+            "Create custom skills",
+            "Call skills",
+            "Connect agentic workflows to MCP servers to improve context"
           ]
         },
-        "Design and implement a security and compliance plan (15–20%)": {
-          "Design and implement authentication and authorization methods": [
-            "Choose between Microsoft Entra service principals and managed identities for Azure resources",
-            "Implement and manage GitHub authentication, including GitHub Apps, GITHUB\\_TOKEN, and personal access tokens",
-            "Implement and manage secretless authentication in Azure Pipelines and GitHub Actions",
-            "Implement and manage Azure DevOps service connections and personal access tokens",
-            "Design and implement permissions and access levels in Azure DevOps and GitHub",
-            "Configure projects in Azure DevOps (ADO) and GitHub, including ADO teams"
+        "Perform human-in-the-loop tasks for agentic workflows (20–25%)": {
+          "Design human review and validation practices": [
+            "Identify critical decision points where human judgment is required",
+            "Choose how the agent will perform work, including interactive, plan, and autopilot modes",
+            "Design and configure escalation paths based on tool usage"
           ],
-          "Design and implement a strategy for managing sensitive information in automation": [
-            "Integrate Azure Key Vault into Azure Pipelines and GitHub Actions",
-            "Implement and manage secrets, keys, and certificates",
-            "Design and implement a strategy for managing sensitive information during deployment, including Azure Pipelines secure files and GitHub secrets",
-            "Design Azure Pipelines and GitHub Actions to prevent leakage of sensitive information"
+          "Interact with agentic workflows": [
+            "Respond to requests for interaction from agentic workflows, including approvals, rejections, or revisions",
+            "Interact with an agentic workflow while it is running",
+            "Interact with agentic workflows to resolve failures",
+            "Stop an agentic workflow that is running"
           ],
-          "Automate security and compliance scanning": [
-            "Design a strategy for security, vulnerability, and compliance scanning",
-            "Configure dependency scanning, code scanning, and secret scanning by using GitHub Advanced Security for Azure DevOps and GitHub Advanced Security",
-            "Connect Microsoft Defender for Cloud DevOps Security to other DevOps environments, including Azure DevOps and GitHub"
-          ]
-        },
-        "Implement an instrumentation strategy (15–20%)": {
-          "Configure monitoring for Azure DevOps and GitHub platforms": [
-            "Design dashboards, including flow of work, cycle time, time to recovery, and lead time",
-            "Configure Azure Monitor and Log Analytics to integrate with Azure DevOps and GitHub",
-            "Configure monitoring in GitHub, including enabling GitHub insights and creating and configuring charts",
-            "Configure alerts for events in Azure Pipelines and GitHub Actions"
-          ],
-          "Monitor Azure workloads by using AI agents": [
-            "Deploy and configure Azure Copilot Observability Agent",
-            "Deploy and configure Azure SRE Agent",
-            "Investigate and resolve issues raised by Azure SRE Agent"
-          ],
-          "Analyze metrics from instrumentation by using AI agents": [
-            "Analyze infrastructure performance indicators, including CPU, memory, disk, and network",
-            "Analyze application performance by using telemetry and instrumentation data",
-            "Analyze distributed tracing by using Azure Monitor Application Insights",
-            "Configure and collection and management GitHub Copilot agent logs",
-            "Interrogate logs by using natural language queries or basic Kusto Query Language (KQL) queries"
+          "Supervise and monitor agentic workflows": [
+            "Ensure that agentic workflows meet requirements",
+            "Review agentic workflow outputs",
+            "Monitor agentic workflow runs"
           ]
         }
       },
       "change_log": [],
-      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/exams/az-401/",
-      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-401",
+      "exam_url": "https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-business-professional/",
+      "study_guide_url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-700",
       "practice_assessment_url": ""
     },
     {
