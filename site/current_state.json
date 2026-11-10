@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T11:46:36Z",
+  "fetched_at": "2026-11-10T02:51:37Z",
   "exam_count": 62,
   "errors": [],
   "exams": [
@@ -1684,7 +1684,7 @@
         "windows-server"
       ],
       "category": "Azure",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-09-30",
       "replacement": "AZ-802",
       "replaces": "",
@@ -1877,7 +1877,7 @@
         "windows-server"
       ],
       "category": "Azure",
-      "status": "retiring",
+      "status": "retired",
       "retirement_date": "2026-09-30",
       "replacement": "AZ-802",
       "replaces": "",
