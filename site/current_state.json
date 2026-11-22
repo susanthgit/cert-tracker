@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T12:33:32Z",
+  "fetched_at": "2026-11-22T13:07:32Z",
   "exam_count": 62,
   "errors": [],
   "exams": [
@@ -958,8 +958,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-11-05 22:08:00+00:00",
-      "git_commit_id": "f443a368528dc3b16b6496319af301ffd4b04bca",
+      "updated_at": "2026-11-16 23:28:00+00:00",
+      "git_commit_id": "a305d592f8ed24cf42d37dc15ea22e193d126353",
       "content_hash": "f9f8e40754f670b8",
       "skills_date": "July 27, 2026",
       "skills_at_a_glance": [
@@ -3689,114 +3689,84 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-11-05 22:08:00+00:00",
-      "git_commit_id": "f443a368528dc3b16b6496319af301ffd4b04bca",
-      "content_hash": "da00a44360e832bd",
-      "skills_date": null,
+      "updated_at": "2026-11-17 14:52:00+00:00",
+      "git_commit_id": "3d8f0482ef02716300f7552fbca95418ad9ebb92",
+      "content_hash": "f9ee6b7e2d47b4ad",
+      "skills_date": "October 19, 2026",
       "skills_at_a_glance": [
         {
-          "area": "Plan, implement, and manage a solution for data analytics",
-          "weight": "10-15%"
+          "area": "Maintain a data analytics solution",
+          "weight": "25-30%"
         },
         {
-          "area": "Prepare and serve data",
-          "weight": "40-45%"
+          "area": "Prepare data",
+          "weight": "45-50%"
         },
         {
           "area": "Implement and manage semantic models",
-          "weight": "20-25%"
-        },
-        {
-          "area": "Explore and analyze data",
-          "weight": "20-25%"
+          "weight": "25-30%"
         }
       ],
       "skills_detailed": {
-        "Plan, implement, and manage a solution for data analytics (10–15%)": {
-          "Plan a data analytics environment": [
-            "Identify requirements for a solution, including components, features, performance, and capacity stock-keeping units (SKUs)",
-            "Recommend settings in the Fabric admin portal",
-            "Choose a data gateway type",
-            "Create a custom Power BI report theme"
+        "Maintain a data analytics solution (25–30%)": {
+          "Implement security and governance": [
+            "Implement workspace-level access controls",
+            "Implement item-level access controls",
+            "Implement row-level, column-level, object-level, and file-level access control",
+            "Apply sensitivity labels to items",
+            "Endorse items"
           ],
-          "Implement and manage a data analytics environment": [
-            "Implement workspace and item-level access controls for Fabric items",
-            "Implement data sharing for workspaces, warehouses, and lakehouses",
-            "Manage sensitivity labels in semantic models and lakehouses",
-            "Configure Fabric-enabled workspace settings",
-            "Manage Fabric capacity"
-          ],
-          "Manage the analytics development lifecycle": [
-            "Implement version control for a workspace",
+          "Maintain the analytics development lifecycle": [
+            "Configure version control for a workspace",
             "Create and manage a Power BI Desktop project (.pbip)",
-            "Plan and implement deployment solutions",
-            "Perform impact analysis of downstream dependencies from lakehouses, data warehouses, dataflows, and semantic models",
+            "Create and configure deployment pipelines",
+            "Perform impact analysis of downstream dependencies from lakehouses, warehouses, dataflows, and semantic models",
             "Deploy and manage semantic models by using the XMLA endpoint",
             "Create and update reusable assets, including Power BI template (.pbit) files, Power BI data source (.pbids) files, and shared semantic models"
           ]
         },
-        "Prepare and serve data (40–45%)": {
-          "Create objects in a lakehouse or warehouse": [
-            "Ingest data by using a data pipeline, dataflow, or notebook",
-            "Create and manage shortcuts",
-            "Implement file partitioning for analytics workloads in a lakehouse",
-            "Create views, functions, and stored procedures",
-            "Enrich data by adding new columns or tables"
-          ],
-          "Copy data": [
-            "Choose an appropriate method for copying data from a Fabric data source to a lakehouse or warehouse",
-            "Copy data by using a data pipeline, dataflow, or notebook",
-            "Add stored procedures, notebooks, and dataflows to a data pipeline",
-            "Schedule data pipelines",
-            "Schedule dataflows and notebooks"
+        "Prepare data (45–50%)": {
+          "Get data": [
+            "Create a data connection",
+            "Discover data by using OneLake catalog and Real-Time hub",
+            "Ingest or access data as needed",
+            "Choose between different data stores",
+            "Implement OneLake integration for Eventhouse and semantic models"
           ],
           "Transform data": [
-            "Implement a data cleansing process",
-            "Implement a star schema for a lakehouse or warehouse, including Type 1 and Type 2 slowly changing dimensions",
-            "Implement bridge tables for a lakehouse or a warehouse",
+            "Create views, functions, and stored procedures",
+            "Enrich data by adding new columns or tables",
+            "Implement a star schema for a lakehouse or warehouse",
             "Denormalize data",
-            "Aggregate or de-aggregate data",
+            "Aggregate data",
             "Merge or join data",
             "Identify and resolve duplicate data, missing data, or null values",
-            "Convert data types by using SQL or PySpark",
+            "Convert column data types",
             "Filter data"
           ],
-          "Optimize performance": [
-            "Identify and resolve data loading performance bottlenecks in dataflows, notebooks, and SQL queries",
-            "Implement performance improvements in dataflows, notebooks, and SQL queries",
-            "Identify and resolve issues with Delta table file sizes"
+          "Query and analyze data": [
+            "Select, filter, and aggregate data by using the Visual query editor",
+            "Select, filter, and aggregate data by using SQL",
+            "Select, filter, and aggregate data by using KQL",
+            "Select, filter, and aggregate data by using DAX"
           ]
         },
-        "Implement and manage semantic models (20–25%)": {
+        "Implement and manage semantic models (25–30%)": {
           "Design and build semantic models": [
-            "Choose a storage mode, including Direct Lake",
-            "Identify use cases for DAX Studio and Tabular Editor 2",
+            "Choose a storage mode",
             "Implement a star schema for a semantic model",
             "Implement relationships, such as bridge tables and many-to-many relationships",
             "Write calculations that use DAX variables and functions, such as iterators, table filtering, windowing, and information functions",
-            "Implement calculation groups, dynamic strings, and field parameters",
-            "Design and build a large format dataset",
-            "Design and build composite models that include aggregations",
-            "Implement dynamic row-level security and object-level security",
-            "Validate row-level security and object-level security"
+            "Implement calculation groups, dynamic format strings, and field parameters",
+            "Identify use cases for and configure large semantic model storage format",
+            "Design and build composite models"
           ],
           "Optimize enterprise-scale semantic models": [
             "Implement performance improvements in queries and report visuals",
-            "Improve DAX performance by using DAX Studio",
-            "Optimize a semantic model by using Tabular Editor 2",
-            "Implement incremental refresh"
-          ]
-        },
-        "Explore and analyze data (20–25%)": {
-          "Perform exploratory analytics": [
-            "Implement descriptive and diagnostic analytics",
-            "Integrate prescriptive and predictive analytics into a visual or report",
-            "Profile data"
-          ],
-          "Query data by using SQL": [
-            "Query a lakehouse in Fabric by using SQL queries or the visual query editor",
-            "Query a warehouse in Fabric by using SQL queries or the visual query editor",
-            "Connect to and query datasets by using the XMLA endpoint"
+            "Improve DAX performance",
+            "Configure Direct Lake, including default fallback and refresh behavior",
+            "Choose between Direct Lake on OneLake and Direct Lake on SQL analytics endpoint",
+            "Implement incremental refresh for semantic models"
           ]
         }
       },
@@ -4237,8 +4207,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-21 20:22:00+00:00",
-      "git_commit_id": "18335edb9c10d0d679143c6601a74c907bbad77f",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "4a0c8abdc9ab6539",
       "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
@@ -5383,8 +5353,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-08-14 19:42:00+00:00",
-      "git_commit_id": "dd3b05dfc9122af4eac06cf40248063711720b06",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "d67302414001563d",
       "skills_date": "April 28, 2026",
       "skills_at_a_glance": [
@@ -5515,8 +5485,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-25 22:18:00+00:00",
-      "git_commit_id": "6c72c141b4ec3a91383944a9dfe2c03ea2b84a80",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "294a1784f55c7a58",
       "skills_date": "October 27, 2026",
       "skills_at_a_glance": [
@@ -5690,8 +5660,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-28 23:35:00+00:00",
-      "git_commit_id": "2d66e51704d1b4491b26e22cee3520215abdb066",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "ea1b621b276f9329",
       "skills_date": "October 29, 2026",
       "skills_at_a_glance": [
@@ -6073,8 +6043,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-09-25 22:18:00+00:00",
-      "git_commit_id": "6c72c141b4ec3a91383944a9dfe2c03ea2b84a80",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "d80a0a80c71235b4",
       "skills_date": "October 27, 2026",
       "skills_at_a_glance": [
@@ -6241,8 +6211,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-07-24 20:27:00+00:00",
-      "git_commit_id": "9975aaa647f8c62cd6d63bfc599562723018958a",
+      "updated_at": "2026-11-19 02:08:00+00:00",
+      "git_commit_id": "a5e68eda449a517e39f4e2404413f35e6b97e468",
       "content_hash": "416ca8e63b5891d5",
       "skills_date": "July 24, 2026",
       "skills_at_a_glance": [
@@ -7934,8 +7904,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-02-09 23:06:00+00:00",
-      "git_commit_id": "fda10a6309160662a12df7aba1ed32c26ebb9494",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "3e2faf7ddd8c3bd9",
       "skills_date": "March 11, 2026",
       "skills_at_a_glance": [
@@ -8255,14 +8225,14 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-08-26 22:01:00+00:00",
-      "git_commit_id": "66abbf6b1fe394b9518881ea360080533e30b1b2",
-      "content_hash": "20887790997a4d74",
-      "skills_date": "August 14, 2026",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
+      "content_hash": "19f6c0cc9f5c5279",
+      "skills_date": "July 25, 2025",
       "skills_at_a_glance": [
         {
           "area": "Implement financial management",
-          "weight": "35-40%"
+          "weight": "40-45%"
         },
         {
           "area": "Implement accounts receivable, credit, collections, and subscription billing",
@@ -8282,32 +8252,30 @@
         }
       ],
       "skills_detailed": {
-        "Implement financial management (35–40%)": {
-          "Design and configure the chart of accounts and financial dimensions": [
+        "Implement financial management (40–45%)": {
+          "Design and configure the chart of accounts": [
             "Design and configure financial dimensions",
             "Design and configure the chart of accounts and main accounts",
-            "Configure main account categories, ledger account aliases, and balance control accounts",
+            "Configure main accounts categories, ledger account aliases, and balance control accounts",
             "Configure legal entity overrides for financial dimensions and main accounts",
             "Configure and manage account structures and advanced rules",
-            "Design and configure financial tags",
-            "Configure derived dimensions and financial dimension default templates"
+            "Design and configure financial tags"
           ],
           "Configure ledgers and currencies": [
             "Configure currency exchange types and rates",
             "Configure a currency revaluation posting profile",
-            "Configure accounting and reporting currencies",
-            "Configure ledger calendar and fiscal calendar",
-            "Configure posting layers for ledger transactions",
-            "Configure and process ledger allocation rules"
+            "Configure accounting and reporting currencies"
           ],
           "Implement and manage journals": [
             "Configure journal names and vouchers",
             "Configure journal controls and posting restriction rules",
-            "Configure and process periodic journals",
+            "Implement journal approvals, including workflows",
+            "Configure and use periodic journals",
             "Configure intercompany accounting",
-            "Create and modify templates to edit journals in Microsoft Excel",
+            "Create templates to edit journals in Microsoft Excel",
             "Reverse financial transaction entries",
-            "Create, validate, and post journal entries manually and by using Microsoft Excel",
+            "Configure default descriptions",
+            "Create and use journal entries, including validation and posting manually and by using Microsoft Excel",
             "Configure batch processing of journals"
           ],
           "Implement and manage cash and bank": [
@@ -8322,70 +8290,85 @@
           ],
           "Perform periodic processes": [
             "Design and configure periodic closing processes and end-of-year processes, including main accounts, reports, and templates",
-            "Perform financial consolidation and elimination processes",
+            "Perform financial consolidation and elimination processes by using Consolidation online",
+            "Create and manage financial reports, including modifying row, column, and report definitions, and reporting trees",
             "Design and configure financial period workspaces and closing schedules",
             "Design and configure legal entity for consolidation and elimination by using Consolidation online",
-            "Configure and process ledger settlements"
+            "Design consolidation and elimination by using financial reports",
+            "Configure and process ledger settlements",
+            "Perform general ledger foreign currency revaluation",
+            "Manage the ledger calendar"
           ],
           "Configure, collect, and report taxes": [
-            "Configure sales tax groups, item sales tax groups, tax codes, settlement periods, authorities, and tax exemptions",
+            "Configure tax groups, tax codes, settlement periods, and authorities",
             "Configure tax ledger posting groups",
             "Settle and post sales tax",
             "Configure withholding tax groups, tax codes, and authorities",
             "Calculate and adjust sales tax"
+          ],
+          "Implement cost management": [
+            "Configure cost groups",
+            "Configure inventory costing versions",
+            "Differentiate between inventory costing methodologies",
+            "Configure item model groups",
+            "Configure item groups and inventory posting profiles",
+            "Perform inventory recalculation, closing, and adjustment processes"
           ]
         },
         "Implement accounts receivable, credit, collections, and subscription billing (15–20%)": {
           "Implement and manage accounts receivable": [
             "Configure customers and customer groups, including configuring shared customers",
             "Configure and process free text invoices, including recurring free text invoices",
-            "Process sales order invoices and credit memos, including prepayments",
+            "Process sales order invoices and credit memos",
             "Configure customer payment methods",
             "Configure accounts receivable charges and apply changes to an invoice",
+            "Manage customer holds",
             "Configure customer posting profiles",
             "Process customer payments",
+            "Configure customer change approvals",
             "Perform accounts receivable foreign currency revaluation",
-            "Configure billing classification",
-            "Configure bank accounts for customers",
-            "Process intercompany invoices"
+            "Configure and use billing classification",
+            "Configure batch processing of free text and sales order invoicing",
+            "Configure bank accounts for customers"
           ],
           "Manage credit and collections": [
             "Configure credit management processes",
             "Configure collections management processes, including collection activities",
             "Manage delinquent customers",
+            "Prepare and send customer account statements",
             "Configure and process collection letters",
             "Configure aging definitions and process aged balances",
             "Process and manage credit holds",
-            "Configure and process customer write-offs",
+            "Configure and use customer write-offs",
             "Configure and process interest notes"
           ],
           "Configure and manage subscription billing": [
             "Generate sales documents by using billing schedules",
             "Manage billing schedules, including price update and hold termination",
             "Configure contract billing, including billing schedule group, item group, and milestone setup",
-            "Configure and process revenue deferrals and recognition, including charges",
-            "Configure and process expense deferrals and recognition",
-            "Process and manage revenue and expense recognition schedules",
-            "Configure deferral defaults and items deferred by default"
+            "Configure and use revenue deferrals and recognition, including for charges, deferral defaults, and items deferred by default",
+            "Configure and use expense deferrals and recognition",
+            "Process and manage revenue and expense recognition schedules"
           ]
         },
         "Implement and manage accounts payable and expenses (10–15%)": {
           "Implement and manage accounts payable": [
             "Configure invoice validation policies and invoice matching setup",
             "Configure vendor groups, vendors, and vendor posting profiles, including configuring shared vendors",
-            "Process invoices and credit memos, with and without associated purchase orders, including prepayments",
+            "Process purchase order invoices and credit memos, including prepayments",
             "Configure vendor payment methods",
             "Configure accounts payable charges, and apply changes to an invoice",
-            "Configure vendor bank accounts",
+            "Configure bank accounts and bank account approvals for vendors",
+            "Configure vendor change approvals",
             "Perform accounts payable foreign currency revaluation",
-            "Process the vendor invoice journal",
-            "Configure and process recurring vendor invoices",
-            "Process and generate vendor payments, centralized payments, and prepayments",
-            "Process intercompany vendor invoices"
+            "Configure vendor invoice automation",
+            "Process the vendor invoice journal including voyage cost",
+            "Configure and use recurring vendor invoices",
+            "Process and generate vendor payments, centralized payments, and prepayments"
           ],
-          "Configure expense management": [
+          "Configure and use expense management": [
             "Configure expense management including categories, per diem options, mileage expenses, intercompany expenses, and personal expenses",
-            "Create and manage expense reports, including expense report policies"
+            "Create and manage expense reports"
           ]
         },
         "Manage budgeting (10–15%)": {
@@ -8396,18 +8379,15 @@
           ],
           "Configure and manage budget controls": [
             "Configure budget controls including budget parameters, budget fund availability options, budget control rules and groups, and over-budget permissions",
-            "Validate budget control on transactions"
-          ],
-          "Configure and manage budget planning": [
-            "Create and manage budget plans, including scenarios and allocations",
-            "Configure budget planning process, including organization hierarchy"
+            "Activate or deactivate budget control configurations"
           ]
         },
         "Manage fixed assets (10–15%)": {
           "Implement and manage fixed assets": [
             "Create and manage fixed asset groups and other fixed asset attributes",
             "Configure fixed asset posting profiles",
-            "Configure fixed asset books, including derived books",
+            "Configure fixed asset parameters",
+            "Configure fixed asset books",
             "Configure depreciation profiles",
             "Create and manage fixed assets",
             "Configure mapping for fixed asset groups and books"
@@ -8416,8 +8396,10 @@
             "Process fixed asset disposal (sales) by using free text invoices",
             "Process fixed asset acquisitions by using purchase orders, journals, inventory journals, and projects",
             "Create fixed asset budgets and transfer the budgets to the budgeting module",
-            "Process fixed asset depreciation, including multi-company",
-            "Process fixed asset split, reclassification, transfer, disposals and other transactions by using the fixed asset journal"
+            "Process fixed asset depreciation",
+            "Process fixed asset disposals and other transactions by using the fixed asset journal",
+            "Process fixed asset split, reclassification, and transfer",
+            "Process acquisition and depreciation for derived books"
           ]
         }
       },
@@ -8442,8 +8424,8 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-11-13 22:38:00+00:00",
-      "git_commit_id": "dd29a2448403e2c460490de3f4fafc446440b072",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
       "content_hash": "ea81e87128380183",
       "skills_date": "October 21, 2026",
       "skills_at_a_glance": [
@@ -8636,22 +8618,22 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-31 16:52:00+00:00",
-      "git_commit_id": "c8775e614b225ff244f0ca306c3ee126fb6de908",
-      "content_hash": "9075558972919feb",
-      "skills_date": "January 30, 2026",
+      "updated_at": "2026-11-19 02:08:00+00:00",
+      "git_commit_id": "a5e68eda449a517e39f4e2404413f35e6b97e468",
+      "content_hash": "f7f9bf82e522f36b",
+      "skills_date": "December 18, 2026",
       "skills_at_a_glance": [
         {
           "area": "Plan the architecture and solution design",
-          "weight": "5-10%"
+          "weight": "10-15%"
         },
         {
           "area": "Apply developer tools",
-          "weight": "5-10%"
+          "weight": "10-15%"
         },
         {
           "area": "Design and develop AOT elements",
-          "weight": "15-20%"
+          "weight": "10-15%"
         },
         {
           "area": "Develop and test code",
@@ -8659,7 +8641,7 @@
         },
         {
           "area": "Implement reporting",
-          "weight": "10-15%"
+          "weight": "5-10%"
         },
         {
           "area": "Integrate and manage data solutions",
@@ -8671,81 +8653,80 @@
         }
       ],
       "skills_detailed": {
-        "Plan the architecture and solution design (5–10%)": {
+        "Plan the architecture and solution design (10–15%)": {
           "Plan for the major components of finance and operations apps": [
             "Differentiate between the cloud and on-premises versions of finance and operations apps",
-            "Extend the functionality of finance and operations apps into the Microsoft ecosystem"
+            "Differentiate AI development tools used to extend finance and operations apps"
           ],
           "Implement application lifecycle management (ALM)": [
             "Manage environments by using Lifecycle Services tools and components",
-            "Research and resolve issues by using Issue Search",
             "Perform activities that require asset libraries",
             "Manage package deployments between environments",
-            "Manage Unified Developer Experience (UDE) developer environments in Power Platform admin center",
-            "Manage environments by using the Implementation portal"
+            "Manage UDE developer environments in Power Platform admin center",
+            "Manage environments by using the Implementation Portal"
           ]
         },
-        "Apply developer tools (5–10%)": {
+        "Apply developer tools (10–15%)": {
           "Customize finance and operations apps by using Visual Studio": [
             "Create and manage extension models",
             "Manage metadata by using Application Explorer",
-            "Synchronize data dictionary changes with the application database",
+            "Synchronize and troubleshoot data dictionary changes with the application database",
             "Create elements by using element designers",
             "Perform debugging activities"
           ],
-          "Manage source code and artifacts by using Microsoft Azure DevOps version control": [
+          "Manage source code and artifacts by using Microsoft Azure DevOps and GitHub version control": [
             "Create, check out, review, and check in code",
             "Maintain project artifacts",
-            "Branch and merge code",
-            "Compare code and resolve version conflicts",
-            "Choose a version control system",
-            "Implement continuous integration and continuous delivery (CI/CD)"
+            "Compare code and resolve version conflicts"
           ]
         },
-        "Design and develop AOT elements (15–20%)": {
+        "Design and develop AOT elements (10–15%)": {
           "Create and extend UI elements": [
             "Create and extend forms",
             "Create and extend menus and menu items",
-            "Create and use label files"
+            "Create and use label files",
+            "Create custom controls and style sheets",
+            "Create and extend operational workspaces"
           ],
           "Create and extend the data model": [
             "Create and extend tables",
             "Create and extend views, queries, and maps",
-            "Create and extend data entities"
-          ],
-          "Create classes and extend AOT elements": [
-            "Create and extend classes",
-            "Add event handler methods to a class",
-            "Add attributes or modifiers to a class"
+            "Create and extend data entities",
+            "Differentiate between tables, maps, views, queries, and data entities"
           ]
         },
         "Develop and test code (20–25%)": {
           "Develop X++ code": [
             "Implement common structured programming constructs of X++",
             "Create, read, update, and delete (CRUD) data",
+            "Implement transaction scope, including by using exception handling",
             "Implement global functions in X++",
-            "Resolve best practice warnings"
+            "Resolve best practice warnings",
+            "Assess the extensibility of code and apply design patterns"
           ],
-          "Develop object-oriented code": [
+          "Develop object-oriented code and implement code extensions": [
+            "Create and extend classes",
+            "Add methods to a class",
+            "Add attributes or modifiers to a class",
             "Implement variable scoping",
             "Implement inheritance and abstraction concept",
-            "Implement query objects and the QueryBuilder class",
             "Implement attribute classes",
             "Implement Chain of Command (CoC)",
-            "Assess the extensibility of code and avoid breaking changes",
             "Implement event handler classes and delegates"
           ],
           "Implement finance and operations app framework functionality": [
             "Implement the SysOperation framework",
-            "Implement the workflow framework",
-            "Implement the SysExtensionSerializer framework"
+            "Implement the SysExtensionSerializer framework",
+            "Implement query objects and the QueryBuilder class",
+            "Implement the batch framework",
+            "Implement the workflow framework"
           ],
           "Perform testing": [
             "Create unit tests by using the SysTest framework and Task recorder",
             "Run unit tests in Test Explorer"
           ]
         },
-        "Implement reporting (10–15%)": {
+        "Implement reporting (5–10%)": {
           "Select reporting tools in finance and operations apps": [
             "Create and modify report data sources and supporting classes",
             "Implement reporting security requirements",
@@ -8754,14 +8735,7 @@
           "Design, create, and revise Dynamics 365 reports": [
             "Determine when to use a specific reporting tool or platform",
             "Create, modify, and deploy reports in finance and operations apps by using SSRS",
-            "Create and modify finance and operations apps reports by using Power BI",
-            "Create and modify finance and operations apps reports by using Microsoft Excel",
-            "Create and modify finance and operations apps reports by using Electronic reporting"
-          ],
-          "Design, create, and revise Dynamics 365 workspaces": [
-            "Design and implement key performance indicators (KPIs)",
-            "Create drill-through workspace elements",
-            "Implement Power BI visualizations"
+            "Create and modify finance and operations apps reports by using Microsoft Excel"
           ]
         },
         "Integrate and manage data solutions (15–20%)": {
@@ -8772,32 +8746,30 @@
           ],
           "Implement data integration concepts and solutions": [
             "Consume external web services by using RESTful APIs and Simple Object Access Protocol (SOAP)",
-            "Implement Electronic reporting integrations",
             "Implement custom services",
             "Implement Batch OData API"
           ],
           "Implement data management": [
+            "Set up a data project, including entity sequencing and recurring data jobs",
+            "Generate and modify field mapping between source, staging, and target",
             "Import and export data using entities between finance and operations apps and other systems",
             "Import and export data using composite and aggregate data entities",
             "Monitor the status and availability of entities",
-            "Enable change tracking for entities",
-            "Set up a data project, including entity sequencing and recurring data jobs",
-            "Generate and modify field mapping between source, staging, and target"
+            "Enable change tracking for entities"
           ],
           "Integrate with Microsoft Power Platform, Microsoft 365, and Azure": [
             "Integrate Microsoft Dataverse with finance and operations apps by using dual-write",
             "Integrate Microsoft Dataverse with finance and operations apps by using virtual entities",
-            "Integrate Power Platform with finance and operations apps",
+            "Integrate Microsoft Power Platform with finance and operations apps",
             "Integrate finance and operations apps with Microsoft Excel by using OData",
-            "Implement business events",
             "Implement Azure Key Vault"
           ]
         },
         "Implement security and optimize performance (10–15%)": {
           "Implement security policies and requirements": [
-            "Create and extend duties and roles",
             "Create privileges and add permissions",
-            "Enforce security policies",
+            "Create and extend duties and roles",
+            "Implement security policies",
             "Implement Extensible Data Security (XDS) policies"
           ],
           "Apply fundamental performance optimization techniques": [
@@ -8805,15 +8777,13 @@
             "Implement global cache and singleton",
             "Create and modify temporary tables for optimization purposes",
             "Assess when to use set-based queries or row-based queries",
-            "Modify queries to optimize performance",
-            "Modify variable scope to optimize performance",
-            "Analyze and optimize concurrency"
+            "Modify queries to optimize performance"
           ],
           "Optimize performance": [
+            "Create and modify indexes for tables and views",
             "Capture traces, and analyze traces by using Trace Parser",
-            "Optimize performance for data entities, data source queries, batch processes, and reports",
-            "Implement Async and Sandbox frameworks",
-            "Create and modify indexes for tables and views"
+            "Optimize performance for data entities, data source queries, and reports",
+            "Implement Async and Sandbox frameworks"
           ]
         }
       },
@@ -8838,10 +8808,10 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2026-05-29 22:10:00+00:00",
-      "git_commit_id": "c5fa8b156c1532672e46bf44737d5b60549675f8",
-      "content_hash": "d5bef31b73cfe933",
-      "skills_date": "June 30, 2026",
+      "updated_at": "2026-11-19 02:08:00+00:00",
+      "git_commit_id": "a5e68eda449a517e39f4e2404413f35e6b97e468",
+      "content_hash": "3b9dad6dca7a7f26",
+      "skills_date": "December 18, 2026",
       "skills_at_a_glance": [
         {
           "area": "Set up Business Central",
@@ -9016,10 +8986,10 @@
             "Apply ledger entries and undo applied entries",
             "Reverse posted journals",
             "Perform bank account reconciliation",
-            "Process recurring transactions by using the recurring journals",
+            "Process recurring transactions by using recurring journals",
             "Use general ledger allocations",
             "Adjust currency exchange rates",
-            "Correct posted dimensions using the Dimension Correction Tool",
+            "Correct posted dimensions using the Dimension Correction feature",
             "Revalue general ledger account balances"
           ],
           "Process fixed asset transactions": [
@@ -9058,156 +9028,159 @@
       "replacement": "",
       "replaces": "",
       "beta_since": "",
-      "updated_at": "2025-12-05 03:46:00+00:00",
-      "git_commit_id": "0f1b515198f02ae8134e7523123581e05bc848c7",
-      "content_hash": "ea4bed68c877c1a1",
-      "skills_date": "June 10, 2025",
+      "updated_at": "2026-11-20 21:29:00+00:00",
+      "git_commit_id": "0928184c42a9d1bec12671c34351b62297ecd70c",
+      "content_hash": "03a2d99aa1ce9f4e",
+      "skills_date": "November 20, 2026",
       "skills_at_a_glance": [
         {
-          "area": "Describe Business Central",
-          "weight": "10-15%"
+          "area": "Design Business Central solutions",
+          "weight": "5-10%"
         },
         {
           "area": "Install, develop, and deploy for Business Central",
           "weight": "10-15%"
         },
         {
-          "area": "Develop by using AL objects",
-          "weight": "35-40%"
+          "area": "Develop objects by using AL",
+          "weight": "30-35%"
         },
         {
-          "area": "Develop by using AL",
+          "area": "Develop user experiences and logic by using AL",
           "weight": "15-20%"
         },
         {
-          "area": "Work with development tools",
+          "area": "Test and monitor AL code",
           "weight": "10-15%"
         },
         {
           "area": "Integrate Business Central with other applications",
-          "weight": "10-15%"
+          "weight": "15-20%"
         }
       ],
       "skills_detailed": {
-        "Describe Business Central (10–15%)": {
-          "Describe the Business Central architecture": [
-            "Describe the components and capabilities of Business Central",
-            "Describe the core solution and extensions approach for Business Central",
-            "Describe the update lifecycle for customizations of Business Central",
+        "Design Business Central solutions (5–10%)": {
+          "Assess the Business Central architecture": [
+            "Extend the Business Central core solution",
+            "Plan the update lifecycle for customizations of Business Central",
             "Differentiate Business Central online and Business Central on-premises features"
           ],
-          "Describe Business Central apps": [
-            "Differentiate between the base app and the system app",
-            "Describe the functionality of apps",
-            "Describe the process of bringing an app to AppSource"
+          "Analyze Business Central apps": [
+            "Differentiate between the base application and system applications",
+            "Differentiate between types of apps, including connect, add-on, library, and dependency applications",
+            "Validate an app for Microsoft Marketplace submission"
           ]
         },
         "Install, develop, and deploy for Business Central (10–15%)": {
-          "Install and configure a Business Central development environment": [
-            "Describe the development environment for Business Central",
+          "Configure and manage a Business Central development environment": [
             "Install and configure the development environment",
             "Manage configuration files for an AL extension",
-            "Manage multiple AL extensions in one workspace"
+            "Manage AL extensions within a workspace",
+            "Manage namespaces and cross-app dependencies",
+            "Enable code analysis"
           ],
-          "Create, debug, and deploy an extension in Business Central": [
-            "Debug an extension with Visual Studio Code",
+          "Create, debug, and deploy an extension": [
+            "Debug an extension by using Visual Studio Code",
             "Deploy an extension",
-            "Create or modify a Business Central extension in Visual Studio Code",
+            "Create or modify an extension",
             "Manage multilanguage development",
-            "Maintain extensions"
+            "Maintain extensions",
+            "Implement debug configuration, including snapshot and attach"
           ]
         },
-        "Develop by using AL objects (35–40%)": {
-          "Build and extend tables and pages in Business Central": [
+        "Develop objects by using AL (30–35%)": {
+          "Build and extend tables and pages": [
             "Develop Role Center pages",
-            "Identify different page types",
             "Build and extend page objects",
             "Build and extend tables",
-            "Build and extend enums"
+            "Build and extend enums",
+            "Develop control add-ins"
           ],
           "Build and extend reports": [
             "Substitute a report",
             "Create a report layout",
             "Create document reports",
             "Design the data model of a report",
-            "Implement multilanguage in reports",
-            "Use report triggers, functions, and processing-only reports",
-            "Develop the report request page"
-          ],
-          "Design and create an XMLport": [
-            "Configure different XMLport properties",
-            "Configure nodes and their properties",
-            "Use XMLports in AL code"
+            "Implement multilanguage reports",
+            "Create report triggers, functions, and processing-only reports",
+            "Develop the report request page",
+            "Extend reports by using report extension objects"
           ],
           "Develop codeunits": [
             "Create and access codeunits",
-            "Use events and triggers",
+            "Create events and triggers",
             "Implement interfaces",
-            "Create installation and upgrade codeunits"
+            "Create installation and upgrade codeunits",
+            "Create and manage scheduled tasks"
           ],
-          "Create entitlement and permission set objects": [
+          "Create and manage entitlement and permission set objects": [
             "Create and extend permission sets",
-            "Override entitlements with inherent permissions",
+            "Override entitlements by using inherent permissions",
             "Troubleshoot permission sets"
           ],
-          "Create queries in Business Central": [
+          "Create and manage queries": [
             "Link and join data items",
-            "Apply filters in query objects",
-            "Use queries instead of record variables",
-            "Aggregate data in query objects",
-            "Use a query to create a report"
+            "Apply filters to query objects",
+            "Retrieve data from multiple tables by using queries",
+            "Aggregate data by using query objects",
+            "Use a query to create a report",
+            "Create query objects"
           ]
         },
-        "Develop by using AL (15–20%)": {
+        "Develop user experiences and logic by using AL (15–20%)": {
           "Customize the UI experience, and implement onboarding techniques": [
-            "Create profiles in AL",
-            "Use and create views in AL",
+            "Create profiles",
+            "Use and create views",
             "Develop the UI by using the user assistance model",
-            "Integrate assisted setup",
-            "Create teaching tips and in-app tours to onboard users",
-            "Create an onboarding checklist"
+            "Integrate assisted setup"
           ],
-          "Describe the essential development standards": [
-            "Implement the data process model in Business Central",
-            "Define the different functional table types and characteristics",
-            "Use document standards in Business Central",
+          "Implement essential development standards": [
+            "Implement the data process model",
+            "Differentiate functional table types and characteristics",
+            "Apply document patterns",
             "Implement master data standards and design patterns"
           ],
-          "Use AL to extend Business Central": [
+          "Extend Business Central by using AL": [
             "Create custom procedures",
-            "Use data types in code",
+            "Declare data types",
             "Manage files",
             "Manipulate data by using code",
-            "Describe the basics of the AL",
-            "Use the different types of expressions",
-            "Use AL built-in functions and AL statements",
-            "Work with variables and define them in AL code",
+            "Implement the basics of AL programming",
+            "Implement built-in functions",
+            "Declare variables",
             "Manage errors",
-            "Use access modifiers to limit access"
+            "Limit access by using access modifiers",
+            "Implement statements"
           ]
         },
-        "Work with development tools (10–15%)": {
+        "Test and monitor AL code (10–15%)": {
           "Implement semiautomated test processes, and run standard Business Central tests": [
-            "Test applications in Business Central",
+            "Test applications",
             "Install and run the Test Toolkit",
             "Develop test codeunits and procedures"
           ],
           "Manage and analyze telemetry": [
             "Monitor and analyze telemetry",
             "Configure telemetry",
-            "Create custom telemetry signals"
+            "Create custom telemetry events"
           ]
         },
-        "Integrate Business Central with other applications (10–15%)": {
-          "Access Representational State Transfer (REST) services from within Business Central": [
-            "Use the different HTTP classes and their functions",
+        "Integrate Business Central with other applications (15–20%)": {
+          "Access external REST services": [
+            "Apply HTTP classes and their functions",
             "Get data from and send data to an external REST service",
-            "Use and read JSON"
+            "Create and parse JSON files"
           ],
-          "Implement APIs": [
-            "Create and work with APIs",
+          "Implement APIs by using AL": [
+            "Develop APIs",
             "Create and manage OData bound and unbound actions",
-            "Use Read Scale-Out to improve performance"
+            "Improve API performance by using Read Scale-Out",
+            "Protect sensitive data by using Isolated Storage"
+          ],
+          "Build Copilot capability by using AL": [
+            "Build Copilot capability",
+            "Build Copilot user experiences",
+            "Create agents"
           ]
         }
       },
@@ -9624,10 +9597,10 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-21 22:54:00+00:00",
+      "updated_at": "2026-11-19 02:08:00+00:00",
       "git_commit_id": "",
-      "content_hash": "48cf84674a390339",
-      "skills_date": null,
+      "content_hash": "344a9bafa205e75f",
+      "skills_date": "December 18, 2026",
       "skills_at_a_glance": [
         {
           "area": "Configure Dynamics 365 Sales core features for AI",
@@ -9635,7 +9608,7 @@
         },
         {
           "area": "Optimize AI-driven sales",
-          "weight": "20-25%"
+          "weight": "25-30%"
         },
         {
           "area": "Qualify and prioritize leads by using AI",
@@ -9643,11 +9616,11 @@
         },
         {
           "area": "Develop deals by using intelligent opportunity research",
-          "weight": "25-30%"
+          "weight": "15-20%"
         },
         {
           "area": "Extend and enhance Sales",
-          "weight": "10-15%"
+          "weight": "15-20%"
         }
       ],
       "skills_detailed": {
@@ -9659,14 +9632,14 @@
             "Configure the timeline",
             "Evaluate options for importing and exporting data",
             "Examine the Sales security model",
-            "Configure Microsoft 365 functionality, including Microsoft Teams, SharePoint, Outlook, and OneDrive"
+            "Configure Microsoft 365 functionality, including Microsoft Teams, SharePoint, OneNote, Outlook, and OneDrive"
           ],
           "Create and manage the product catalog": [
             "Configure products and product families",
             "Create and manage price lists, including currencies"
           ]
         },
-        "Optimize AI-driven sales (20–25%)": {
+        "Optimize AI-driven sales (25–30%)": {
           "Design an AI-first sales strategy": [
             "Augment seller workflows by using Copilot and agents",
             "Design the sales data model in Dataverse",
@@ -9679,8 +9652,8 @@
           ],
           "Configure AI-powered intelligence and insights features": [
             "Configure the Sales accelerator",
-            "Configure work assignment and distribution",
-            "Set up conversational intelligence",
+            "Configure work assignment",
+            "Set up Conversation Intelligence",
             "Configure predictive scoring",
             "Set up relationship intelligence",
             "Configure Copilot features, including record summarization",
@@ -9700,18 +9673,12 @@
             "Monitor the Sales Qualification Agent"
           ]
         },
-        "Develop deals by using intelligent opportunity research (25–30%)": {
+        "Develop deals by using intelligent opportunity research (15–20%)": {
           "Optimize opportunity management": [
-            "Coordinate opportunity management with the Sales Close Agent",
-            "Add Opportunity Products, and configure pricing",
+            "Coordinate sales outreach and prospect management with the Sales Development Agent",
+            "Add Opportunity Products and configure pricing",
             "Configure the opportunity pipeline view",
             "Set up and configure the Sales Opportunity Agent"
-          ],
-          "Automate deal closing by using the Sales Close Agent": [
-            "Set up and configure the Sales Close Agent",
-            "Interpret the actions of the Sales Close Agent",
-            "Monitor the Sales Close Agent",
-            "Collaborate with the Sales Close Agent"
           ],
           "Gather intelligence on sales deals by using the Sales Research Agent": [
             "Evaluate use cases for the Sales Research Agent",
@@ -9719,7 +9686,7 @@
             "Analyze sales performance by using research canvas"
           ]
         },
-        "Extend and enhance Sales (10–15%)": {
+        "Extend and enhance Sales (15–20%)": {
           "Configure supporting apps and services": [
             "Deploy and configure the Sales mobile app",
             "Set up Teams calling",
@@ -9878,91 +9845,81 @@
       "replaces": "",
       "replacement": "",
       "retirement_date": "",
-      "updated_at": "2026-10-21 22:54:00+00:00",
+      "updated_at": "2026-11-19 02:08:00+00:00",
       "git_commit_id": "",
-      "content_hash": "cc20df0afa8f54c5",
-      "skills_date": null,
+      "content_hash": "9e50a6b398980d62",
+      "skills_date": "December 18, 2026",
       "skills_at_a_glance": [
         {
           "area": "Plan and configure agent solutions",
-          "weight": "30-35%"
+          "weight": "50-55%"
         },
         {
           "area": "Integrate and extend agents in Copilot Studio",
-          "weight": "40-45%"
+          "weight": "20-25%"
         },
         {
           "area": "Test and manage agents",
-          "weight": "20-25%"
+          "weight": "25-30%"
         }
       ],
       "skills_detailed": {
-        "Plan and configure agent solutions (30–35%)": {
+        "Plan and configure agent solutions (50–55%)": {
           "Plan an agent solution": [
             "Plan integration with enterprise systems",
             "Plan identity strategy",
             "Plan channels and deployment",
             "Plan responsible AI strategy",
             "Evaluate security and governance considerations",
-            "Plan reuseable agent components",
+            "Plan reusable agent components",
             "Design agents for internal or external audiences"
           ],
-          "Create and monitor agent flows in Copilot Studio": [
-            "Create an agent flow",
-            "Create a human-in-the-loop agent flow",
+          "Create and configure workflows": [
+            "Create a workflow",
+            "Create a human-in-the-loop workflow",
             "Configure actions and connectors",
-            "Monitor agent flows",
+            "Monitor workflow runs",
             "Add input and output parameters",
-            "Implement error handling in agent flows"
+            "Implement error handling in workflows"
           ],
-          "Configure topics": [
-            "Add agent flows to a topic",
-            "Configure agent response formatting",
-            "Add tools to a topic",
-            "Configure advanced agent responses with custom prompts",
-            "Configure advanced agent responses with custom knowledge sources",
-            "Configure advanced agent responses with API and Send HTTP requests",
-            "Configure generative answers node",
-            "Configure adaptive cards",
-            "Manage variables"
+          "Create and manage skills": [
+            "Create a new skill",
+            "Upload a skill",
+            "Reference tools and connected agents from within skill instructions"
+          ],
+          "Configure agent identity, instructions, and behavior": [
+            "Reference skills, tools, and connected agents from within agent instructions",
+            "Configure safety and access settings",
+            "Enable and manage memory for user-specific context",
+            "Select and configure AI models"
           ]
         },
-        "Integrate and extend agents in Copilot Studio (40–45%)": {
-          "Connect to enterprise knowledge sources": [
+        "Integrate and extend agents in Copilot Studio (20–25%)": {
+          "Extend agents by using tools and enterprise data": [
             "Connect to Copilot connectors",
-            "Connect to Microsoft Power Platform connectors",
-            "Connect to Azure AI Search"
+            "Configure MCP servers as tools",
+            "Configure connectors as tools",
+            "Configure workflows as tools",
+            "Connect to Foundry IQ",
+            "Connect to Fabric IQ"
           ],
-          "Add tools to agents": [
-            "Configure and monitor computer use for an agent",
-            "Configure MCP tools",
-            "Add a tool by using an existing custom connector",
-            "Add REST APIs to an agent"
-          ],
-          "Configure multi-agent collaboration from Copilot Studio": [
+          "Configure multi-agent collaboration in Copilot Studio": [
             "Design multi-agent solutions in Copilot Studio",
-            "Integrate a Foundry agent",
-            "Integrate an existing agent in Copilot Studio",
-            "Integrate a Fabric data agent",
-            "Create a multi-agent solution by using A2A protocol"
-          ],
-          "Integrate agents with Azure": [
-            "Configure generative answers by using Azure AI Search with Foundry",
-            "Configure custom prompts to use the Foundry model catalog",
-            "Monitor agents by using Application Insights"
+            "Integrate an existing Copilot Studio agent"
           ]
         },
-        "Test and manage agents (20–25%)": {
+        "Test and manage agents (25–30%)": {
           "Evaluate agent performance": [
             "Create a test set",
             "Choose an evaluation method",
-            "Review test results"
+            "Review test results",
+            "Evaluate AI model candidates for an agent"
           ],
           "Implement application lifecycle management (ALM) for agents in Copilot Studio": [
             "Create a solution",
             "Add existing agents to a solution",
             "Create and use environment variables",
-            "Implement and extend Microsoft Power Platform Pipelines"
+            "Implement and extend Pipelines in Microsoft Power Platform"
           ]
         }
       },
